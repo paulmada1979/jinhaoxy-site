@@ -96,34 +96,7 @@ export default function Header() {
               Contact Us
             </Link>
           </div>
-          <div className="relative">
-            <button
-              onClick={() => setLangOpen(!langOpen)}
-              className="flex items-center gap-1.5 hover:text-orange-400 transition-colors"
-            >
-              <Globe size={12} />
-              <span>{currentLocale?.flag}</span>
-              <span>{currentLocale?.label}</span>
-              <ChevronDown size={12} />
-            </button>
-            {langOpen && (
-              <div className="absolute right-0 top-full mt-1 bg-white text-gray-800 border border-gray-200 rounded-md shadow-lg overflow-hidden min-w-[140px] z-50">
-                {LOCALES.map((l) => (
-                  <Link
-                    key={l.code}
-                    href={localePath(pathWithoutLocale, l.code)}
-                    onClick={() => setLangOpen(false)}
-                    className={`flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-50 ${
-                      l.code === locale ? "bg-orange-50 text-orange-600 font-medium" : ""
-                    }`}
-                  >
-                    <span>{l.flag}</span>
-                    <span>{l.label}</span>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
+          <span className="text-gray-400 hidden sm:block">Premium Packaging · Delivered Worldwide</span>
         </div>
       </div>
 
@@ -231,9 +204,43 @@ export default function Header() {
             >
               {t("certifications")}
             </Link>
+
+            {/* Language switcher */}
+            <div
+              className="relative ml-2"
+              onMouseEnter={() => setLangOpen(true)}
+              onMouseLeave={() => setLangOpen(false)}
+            >
+              <button className="flex items-center gap-1.5 px-3 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors">
+                <Globe size={14} />
+                <span>{currentLocale?.flag}</span>
+                <span className="hidden xl:inline">{currentLocale?.label}</span>
+                <ChevronDown size={12} />
+              </button>
+              {langOpen && (
+                <div className="absolute right-0 top-full pt-2 min-w-[160px]">
+                  <div className="bg-white border border-gray-200 rounded-md shadow-xl overflow-hidden">
+                    {LOCALES.map((l) => (
+                      <Link
+                        key={l.code}
+                        href={localePath(pathWithoutLocale, l.code)}
+                        onClick={() => setLangOpen(false)}
+                        className={`flex items-center gap-2 px-3 py-2 text-sm hover:bg-orange-50 transition-colors ${
+                          l.code === locale ? "bg-orange-50 text-orange-600 font-semibold" : "text-gray-700"
+                        }`}
+                      >
+                        <span className="text-base">{l.flag}</span>
+                        <span>{l.label}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             <Link
               href={`${prefix}/conctact-us`}
-              className="ml-2 px-5 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
+              className="ml-1 px-5 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
             >
               {t("contact")}
             </Link>
@@ -274,6 +281,28 @@ export default function Header() {
               ))}
               <Link href={`${prefix}/certifications`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md mt-2">{t("certifications")}</Link>
               <Link href={`${prefix}/conctact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("contact")}</Link>
+
+              {/* Language switcher in mobile menu */}
+              <div className="mt-4 pt-4 border-t border-gray-100">
+                <p className="px-3 pb-2 text-[10px] font-bold text-gray-500 uppercase tracking-wider">Language</p>
+                <div className="flex gap-2 px-3">
+                  {LOCALES.map((l) => (
+                    <Link
+                      key={l.code}
+                      href={localePath(pathWithoutLocale, l.code)}
+                      onClick={() => setMenuOpen(false)}
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium ${
+                        l.code === locale
+                          ? "bg-orange-500 text-white"
+                          : "bg-gray-100 text-gray-700"
+                      }`}
+                    >
+                      <span className="text-sm">{l.flag}</span>
+                      <span>{l.label}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </div>
           </nav>
         )}

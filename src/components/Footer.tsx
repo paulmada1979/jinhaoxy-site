@@ -1,5 +1,6 @@
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const t = useTranslations("nav");
@@ -25,12 +26,20 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300 mt-24">
       <div className="max-w-7xl mx-auto px-4 lg:px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="md:col-span-2">
-          <h3 className="text-white font-bold text-lg mb-3">Jinhao Xinyuan Group</h3>
+          <div className="bg-white/5 backdrop-blur rounded-lg p-3 inline-block mb-4">
+            <Image
+              src="/logo.webp"
+              alt="Jinhao XinYuan"
+              width={180}
+              height={50}
+              className="h-12 w-auto"
+            />
+          </div>
           <p className="text-sm text-gray-400 max-w-md">
-            FSC/ISO-certified printing & packaging manufacturer. Corrugated boxes,
+            FSC®/ISO-certified printing & packaging manufacturer. Corrugated boxes,
             folding cartons, rigid & gift boxes, labels and eco packaging.
           </p>
-          <p className="text-sm text-gray-500 mt-4">
+          <p className="text-sm text-orange-400 mt-4 font-semibold tracking-wide">
             Vietnam · China · Thailand
           </p>
         </div>
