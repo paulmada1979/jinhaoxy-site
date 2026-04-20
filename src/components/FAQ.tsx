@@ -2,13 +2,15 @@
 
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export interface FAQItem {
   q: string;
   a: string;
 }
 
-export default function FAQ({ items, heading = "Frequently Asked Questions" }: { items: FAQItem[]; heading?: string }) {
+export default function FAQ({ items, heading }: { items: FAQItem[]; heading?: string }) {
+  const t = useTranslations();
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
   if (!items || items.length === 0) return null;
@@ -17,9 +19,9 @@ export default function FAQ({ items, heading = "Frequently Asked Questions" }: {
     <section className="py-20 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 lg:px-6">
         <div className="text-center mb-12">
-          <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">Answers</span>
+          <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("faq.badge")}</span>
           <h2 className="text-3xl md:text-4xl font-bold text-[#0d2340] mt-2">
-            {heading}
+            {heading || t("faq.title")}
           </h2>
         </div>
 

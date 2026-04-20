@@ -36,22 +36,22 @@ function InstagramIcon() {
 }
 
 export default function Footer() {
-  const t = useTranslations("nav");
+  const t = useTranslations();
   const locale = useLocale();
   const prefix = locale === "en" ? "" : `/${locale}`;
 
   const productLinks = [
-    { href: "/folding-cartons", label: "Folding Cartons" },
-    { href: "/retail-packing", label: "Rigid & Gift Boxes" },
-    { href: "/cardboard-trays-inserts", label: "Corrugated Boxes" },
-    { href: "/stickers-labels", label: "Labels & Manuals" },
-    { href: "/shelf-ready-packaging", label: "Eco Packaging" },
+    { href: "/folding-cartons", label: t("home.catFoldingTitle") },
+    { href: "/retail-packing", label: t("home.catGiftTitle") },
+    { href: "/cardboard-trays-inserts", label: t("home.catCorrugatedTitle") },
+    { href: "/stickers-labels", label: t("home.catLabelsTitle") },
+    { href: "/shelf-ready-packaging", label: t("home.catEcoTitle") },
   ];
 
   const companyLinks = [
-    { href: "/about-us", label: t("about") },
-    { href: "/factories", label: t("factories") },
-    { href: "/certifications", label: t("certifications") },
+    { href: "/about-us", label: t("nav.about") },
+    { href: "/factories", label: t("nav.factories") },
+    { href: "/certifications", label: t("nav.certifications") },
   ];
 
   return (
@@ -70,8 +70,7 @@ export default function Footer() {
             />
             <h3 className="font-bold text-gray-900 text-base mb-3">Jinhao Xinyuan Group</h3>
             <p className="text-sm text-gray-600 leading-relaxed max-w-xs">
-              Premium packaging manufacturer in Vietnam & China.
-              Specialists in FSC® certified, sustainable packaging for global export.
+              {t("footer.tagline")}
             </p>
           </div>
 
@@ -81,7 +80,7 @@ export default function Footer() {
               <Phone size={16} />
             </div>
             <div className="text-sm">
-              <h4 className="font-semibold text-gray-900 mb-1.5">Phone</h4>
+              <h4 className="font-semibold text-gray-900 mb-1.5">{t("footer.phone")}</h4>
               <p className="text-gray-600 text-xs leading-relaxed">
                 Vietnam<br />
                 <a href="tel:+84907093845" className="hover:text-orange-600">+84-0907093845</a><br />
@@ -97,7 +96,7 @@ export default function Footer() {
               <Mail size={16} />
             </div>
             <div className="text-sm">
-              <h4 className="font-semibold text-gray-900 mb-1.5">Email</h4>
+              <h4 className="font-semibold text-gray-900 mb-1.5">{t("footer.email")}</h4>
               <a href="mailto:info@jinhaoxy.com" className="text-gray-600 hover:text-orange-600 text-xs">
                 info@jinhaoxy.com
               </a>
@@ -110,7 +109,7 @@ export default function Footer() {
               <MapPin size={16} />
             </div>
             <div className="text-sm">
-              <h4 className="font-semibold text-gray-900 mb-1.5">Headoffice</h4>
+              <h4 className="font-semibold text-gray-900 mb-1.5">{t("footer.headoffice")}</h4>
               <p className="text-gray-600 text-xs leading-relaxed">
                 Qifeng Industrial Zone B,<br />
                 Nankeng Management Area,<br />
@@ -124,7 +123,7 @@ export default function Footer() {
         {/* Bottom section: nav columns + social */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-10">
           <div>
-            <h4 className="font-bold text-gray-900 text-sm mb-4">Products</h4>
+            <h4 className="font-bold text-gray-900 text-sm mb-4">{t("footer.products")}</h4>
             <ul className="space-y-2.5 text-sm">
               {productLinks.map((l) => (
                 <li key={l.href}>
@@ -140,7 +139,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold text-gray-900 text-sm mb-4">Company</h4>
+            <h4 className="font-bold text-gray-900 text-sm mb-4">{t("footer.company")}</h4>
             <ul className="space-y-2.5 text-sm">
               {companyLinks.map((l) => (
                 <li key={l.href}>
@@ -156,21 +155,21 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold text-gray-900 text-sm mb-4">Support</h4>
+            <h4 className="font-bold text-gray-900 text-sm mb-4">{t("footer.support")}</h4>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <Link href={`${prefix}/conctact-us`} className="flex items-center gap-2 text-gray-600 hover:text-orange-600 transition-colors">
                   <span className="w-3 h-3 rounded-full border-2 border-orange-500 flex items-center justify-center shrink-0">
                     <span className="w-1 h-1 rounded-full bg-orange-500" />
                   </span>
-                  {t("contact")}
+                  {t("nav.contact")}
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-bold text-gray-900 text-sm mb-4">Follow us</h4>
+            <h4 className="font-bold text-gray-900 text-sm mb-4">{t("footer.followUs")}</h4>
             <div className="flex gap-2">
               <a href="#" aria-label="Facebook" className="w-10 h-10 rounded bg-[#1877f2] hover:opacity-90 text-white flex items-center justify-center transition-opacity">
                 <FacebookIcon />
@@ -191,11 +190,11 @@ export default function Footer() {
 
       <div className="border-t border-gray-200 py-5 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 text-xs text-gray-500 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>© {new Date().getFullYear()} Jinhao Xinyuan Group. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Jinhao Xinyuan Group. {t("footer.rights")}</span>
           <div className="flex gap-4">
-            <Link href={`${prefix}/privacy-policy`} className="hover:text-orange-600">Privacy</Link>
-            <Link href={`${prefix}/terms-of-use`} className="hover:text-orange-600">Terms</Link>
-            <Link href={`${prefix}/cookie-policy`} className="hover:text-orange-600">Cookies</Link>
+            <Link href={`${prefix}/privacy-policy`} className="hover:text-orange-600">{t("footer.privacy")}</Link>
+            <Link href={`${prefix}/terms-of-use`} className="hover:text-orange-600">{t("footer.terms")}</Link>
+            <Link href={`${prefix}/cookie-policy`} className="hover:text-orange-600">{t("footer.cookies")}</Link>
           </div>
         </div>
       </div>

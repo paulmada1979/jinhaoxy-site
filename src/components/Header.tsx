@@ -13,46 +13,48 @@ const LOCALES = [
   { code: "zh", label: "中文", flag: "🇨🇳" },
 ];
 
-const PACKAGING_SOLUTIONS = [
-  {
-    title: "Corrugated Packaging",
-    items: [
-      { href: "/shipping-boxes-export-cartons", label: "Shipping Boxes & Export Cartons" },
-      { href: "/e-commerce-mailer-boxes", label: "E-Commerce Mailer Boxes" },
-      { href: "/cardboard-trays-inserts", label: "Cardboard Trays & Inserts" },
-      { href: "/shelf-ready-packaging", label: "Shelf Ready Packaging" },
-      { href: "/trays", label: "Corrugated Trays & Inserts" },
-    ],
-  },
-  {
-    title: "Retail Packaging",
-    items: [
-      { href: "/retail-packing", label: "Retail Packaging" },
-      { href: "/consumer-packaging", label: "Consumer Packaging" },
-      { href: "/folding-cartons", label: "Folding Cartons" },
-    ],
-  },
-  {
-    title: "Rigid Gift Box Packaging",
-    items: [
-      { href: "/luxury-rigid-gift-boxes", label: "Luxury Rigid Gift Boxes" },
-      { href: "/custom-printed-gift-boxes", label: "Custom Printed Gift Boxes" },
-      { href: "/large-gift-boxes", label: "Large Gift Boxes" },
-      { href: "/custom-jewelry-gift-boxes", label: "Custom Jewelry Gift Boxes" },
-      { href: "/magnetic-closure-gift-boxes", label: "Magnetic Closure Gift Boxes" },
-      { href: "/collapsible-gift-boxes-for-e-commerce-retail", label: "Collapsible Gift Boxes" },
-      { href: "/cosmetic-gift-boxes", label: "Cosmetic Gift Boxes" },
-    ],
-  },
-  {
-    title: "Labels & Other",
-    items: [
-      { href: "/stickers-labels", label: "Adhesive Label & Sticker" },
-      { href: "/artificial-boxes", label: "Artificial Boxes" },
-      { href: "/instructions-manuals", label: "Instructions & Manuals" },
-    ],
-  },
-];
+function buildPackagingSolutions(t: (key: string) => string) {
+  return [
+    {
+      title: t("megamenu.corrugated"),
+      items: [
+        { href: "/shipping-boxes-export-cartons", label: "Shipping Boxes & Export Cartons" },
+        { href: "/e-commerce-mailer-boxes", label: "E-Commerce Mailer Boxes" },
+        { href: "/cardboard-trays-inserts", label: "Cardboard Trays & Inserts" },
+        { href: "/shelf-ready-packaging", label: "Shelf Ready Packaging" },
+        { href: "/trays", label: "Corrugated Trays & Inserts" },
+      ],
+    },
+    {
+      title: t("megamenu.retail"),
+      items: [
+        { href: "/retail-packing", label: "Retail Packaging" },
+        { href: "/consumer-packaging", label: "Consumer Packaging" },
+        { href: "/folding-cartons", label: "Folding Cartons" },
+      ],
+    },
+    {
+      title: t("megamenu.gift"),
+      items: [
+        { href: "/luxury-rigid-gift-boxes", label: "Luxury Rigid Gift Boxes" },
+        { href: "/custom-printed-gift-boxes", label: "Custom Printed Gift Boxes" },
+        { href: "/large-gift-boxes", label: "Large Gift Boxes" },
+        { href: "/custom-jewelry-gift-boxes", label: "Custom Jewelry Gift Boxes" },
+        { href: "/magnetic-closure-gift-boxes", label: "Magnetic Closure Gift Boxes" },
+        { href: "/collapsible-gift-boxes-for-e-commerce-retail", label: "Collapsible Gift Boxes" },
+        { href: "/cosmetic-gift-boxes", label: "Cosmetic Gift Boxes" },
+      ],
+    },
+    {
+      title: t("megamenu.labels"),
+      items: [
+        { href: "/stickers-labels", label: "Adhesive Label & Sticker" },
+        { href: "/artificial-boxes", label: "Artificial Boxes" },
+        { href: "/instructions-manuals", label: "Instructions & Manuals" },
+      ],
+    },
+  ];
+}
 
 const FACTORIES = [
   { href: "/hai-duong-factory", label: "XinYuan Packing Dongguan" },
@@ -62,13 +64,15 @@ const FACTORIES = [
 ];
 
 export default function Header() {
-  const t = useTranslations("nav");
+  const t = useTranslations();
   const locale = useLocale();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const [packagingOpen, setPackagingOpen] = useState(false);
   const [factoriesOpen, setFactoriesOpen] = useState(false);
+
+  const PACKAGING_SOLUTIONS = buildPackagingSolutions(t);
 
   const pathWithoutLocale = pathname.replace(new RegExp(`^/${locale}`), "") || "/";
   const prefix = locale === "en" ? "" : `/${locale}`;
@@ -86,17 +90,17 @@ export default function Header() {
       <div className="bg-[#0d2340] text-white text-xs border-b border-[#1a3659]">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-2 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <span className="hidden sm:inline text-gray-300">Require Consultation?</span>
+            <span className="hidden sm:inline text-gray-300">{t("topbar.consultation")}</span>
             <a href="mailto:info@jinhaoxy.com" className="flex items-center gap-1.5 hover:text-orange-400 transition-colors">
               <Mail size={12} />
               info@jinhaoxy.com
             </a>
             <Link href={`${prefix}/conctact-us`} className="hidden sm:flex items-center gap-1.5 hover:text-orange-400 transition-colors">
               <Phone size={12} />
-              Contact Us
+              {t("topbar.contactUs")}
             </Link>
           </div>
-          <span className="text-gray-400 hidden sm:block">Premium Packaging · Delivered Worldwide</span>
+          <span className="text-gray-400 hidden sm:block">{t("topbar.tagline")}</span>
         </div>
       </div>
 
@@ -122,13 +126,13 @@ export default function Header() {
               href={`${prefix}/`}
               className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors"
             >
-              {t("home")}
+              {t("nav.home")}
             </Link>
             <Link
               href={`${prefix}/about-us`}
               className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors"
             >
-              {t("about")}
+              {t("nav.about")}
             </Link>
 
             {/* Packaging Solutions mega menu */}
@@ -138,7 +142,7 @@ export default function Header() {
               onMouseLeave={() => setPackagingOpen(false)}
             >
               <button className="flex items-center gap-1 px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors">
-                Packaging solutions
+                {t("nav.products")}
                 <ChevronDown size={14} />
               </button>
               {packagingOpen && (
@@ -156,16 +160,16 @@ export default function Header() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#0d2340] via-[#0d2340]/60 to-transparent" />
                         <div className="relative p-6 flex flex-col h-full justify-end text-white min-h-[380px]">
-                          <span className="text-[10px] font-bold uppercase tracking-widest text-orange-400 mb-2">Featured</span>
-                          <h3 className="text-xl font-bold mb-2 leading-tight">Premium Packaging Solutions</h3>
+                          <span className="text-[10px] font-bold uppercase tracking-widest text-orange-400 mb-2">{t("megamenu.featured")}</span>
+                          <h3 className="text-xl font-bold mb-2 leading-tight">{t("megamenu.featuredTitle")}</h3>
                           <p className="text-xs text-gray-200 mb-4 leading-relaxed">
-                            End-to-end packaging from corrugated to luxury rigid gift boxes. FSC® and ISO certified.
+                            {t("megamenu.featuredDesc")}
                           </p>
                           <Link
                             href={`${prefix}/products`}
                             className="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400 hover:text-orange-300"
                           >
-                            Explore all products
+                            {t("megamenu.exploreAll")}
                             <ChevronDown size={12} className="-rotate-90" />
                           </Link>
                         </div>
@@ -206,7 +210,7 @@ export default function Header() {
               onMouseLeave={() => setFactoriesOpen(false)}
             >
               <button className="flex items-center gap-1 px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors">
-                {t("factories")}
+                {t("nav.factories")}
                 <ChevronDown size={14} />
               </button>
               {factoriesOpen && (
@@ -233,7 +237,7 @@ export default function Header() {
               href={`${prefix}/certifications`}
               className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors"
             >
-              {t("certifications")}
+              {t("nav.certifications")}
             </Link>
 
             {/* Language switcher */}
@@ -273,7 +277,7 @@ export default function Header() {
               href={`${prefix}/conctact-us`}
               className="ml-1 px-5 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
             >
-              {t("contact")}
+              {t("nav.contact")}
             </Link>
           </nav>
 
@@ -289,8 +293,8 @@ export default function Header() {
         {menuOpen && (
           <nav className="lg:hidden border-t border-gray-100 bg-white max-h-[80vh] overflow-y-auto">
             <div className="px-4 py-3 space-y-1">
-              <Link href={`${prefix}/`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("home")}</Link>
-              <Link href={`${prefix}/about-us`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("about")}</Link>
+              <Link href={`${prefix}/`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("nav.home")}</Link>
+              <Link href={`${prefix}/about-us`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("nav.about")}</Link>
               {PACKAGING_SOLUTIONS.map((group) => (
                 <div key={group.title} className="py-1">
                   <p className="px-3 py-1 text-[10px] font-bold text-orange-600 uppercase tracking-wider">{group.title}</p>
@@ -310,8 +314,8 @@ export default function Header() {
               {FACTORIES.map((f) => (
                 <Link key={f.href} href={`${prefix}${f.href}`} onClick={() => setMenuOpen(false)} className="block pl-5 pr-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 rounded-md">{f.label}</Link>
               ))}
-              <Link href={`${prefix}/certifications`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md mt-2">{t("certifications")}</Link>
-              <Link href={`${prefix}/conctact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("contact")}</Link>
+              <Link href={`${prefix}/certifications`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md mt-2">{t("nav.certifications")}</Link>
+              <Link href={`${prefix}/conctact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("nav.contact")}</Link>
 
               {/* Language switcher in mobile menu */}
               <div className="mt-4 pt-4 border-t border-gray-100">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import {
   Package,
   Gift,
@@ -15,32 +15,33 @@ import {
 import type { PageData } from "./PageRenderer";
 import FAQ from "./FAQ";
 
-const PRODUCT_CATEGORIES = [
-  { href: "/cardboard-trays-inserts", icon: Package, title: "Corrugated Boxes", desc: "Export cartons, shipping boxes, trays" },
-  { href: "/retail-packing", icon: Gift, title: "Rigid & Gift Boxes", desc: "Luxury, magnetic, collapsible gift packaging" },
-  { href: "/folding-cartons", icon: Layers, title: "Folding Cartons", desc: "Consumer, retail, product packaging" },
-  { href: "/stickers-labels", icon: Tag, title: "Labels & Manuals", desc: "Adhesive labels, stickers, inserts" },
-  { href: "/shelf-ready-packaging", icon: Leaf, title: "Eco Packaging", desc: "Shelf-ready, sustainable solutions" },
-];
-
-const FACTORIES = [
-  { href: "/hai-duong-factory", title: "XinYuan Dongguan", country: "China", img: "/media/Jinhaoxi-logo-02-scaled.png" },
-  { href: "/vietnam-xinyuanjia", title: "Vietnam Xinyuanjia", country: "Vietnam", img: "/media/Jinhaoxi-logo-04.png" },
-  { href: "/dongguan-xinyuan-printing-factory", title: "Dongguan Printing", country: "China", img: "/media/New-logo.webp" },
-];
-
-const STATS = [
-  { icon: Factory, value: "4+", label: "Factories Across Asia" },
-  { icon: Award, value: "FSC® + ISO", label: "Certified Manufacturer" },
-  { icon: Globe2, value: "25K+", label: "Brands Served Worldwide" },
-];
-
 export default function HomePage({ page }: { page: PageData }) {
+  const t = useTranslations();
   const locale = useLocale();
   const prefix = locale === "en" ? "" : `/${locale}`;
 
+  const PRODUCT_CATEGORIES = [
+    { href: "/cardboard-trays-inserts", icon: Package, title: t("home.catCorrugatedTitle"), desc: t("home.catCorrugatedDesc") },
+    { href: "/retail-packing", icon: Gift, title: t("home.catGiftTitle"), desc: t("home.catGiftDesc") },
+    { href: "/folding-cartons", icon: Layers, title: t("home.catFoldingTitle"), desc: t("home.catFoldingDesc") },
+    { href: "/stickers-labels", icon: Tag, title: t("home.catLabelsTitle"), desc: t("home.catLabelsDesc") },
+    { href: "/shelf-ready-packaging", icon: Leaf, title: t("home.catEcoTitle"), desc: t("home.catEcoDesc") },
+  ];
+
+  const FACTORIES = [
+    { href: "/hai-duong-factory", title: "XinYuan Dongguan", country: "China", img: "/media/Jinhaoxi-logo-02-scaled.png" },
+    { href: "/vietnam-xinyuanjia", title: "Vietnam Xinyuanjia", country: "Vietnam", img: "/media/Jinhaoxi-logo-04.png" },
+    { href: "/dongguan-xinyuan-printing-factory", title: "Dongguan Printing", country: "China", img: "/media/New-logo.webp" },
+  ];
+
+  const STATS = [
+    { icon: Factory, value: "4+", label: t("home.statsFactories") },
+    { icon: Award, value: "FSC® + ISO", label: t("home.statsCertified") },
+    { icon: Globe2, value: "25K+", label: t("home.statsBrands") },
+  ];
+
   // Find hero content from extracted blocks
-  const heroBadge = page.blocks.find((b) => b.type === "heading" && b.level === 6)?.text || "Xinyuan Group";
+  const heroBadge = page.blocks.find((b) => b.type === "heading" && b.level === 6)?.text || t("home.heroBadge");
   const heroTitle = page.blocks.find((b) => b.type === "heading" && b.level === 1)?.text || page.title;
   const heroSubtitle = page.blocks.find((b) => b.type === "text")?.text || "";
 
@@ -100,13 +101,13 @@ export default function HomePage({ page }: { page: PageData }) {
                 href={`${prefix}/about-us`}
                 className="px-6 py-3 bg-white/10 backdrop-blur border border-white/30 hover:bg-white/20 text-white rounded-md text-sm font-semibold transition-colors"
               >
-                Discover More
+                {t("home.heroCtaDiscover")}
               </Link>
               <Link
                 href={`${prefix}/conctact-us`}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
               >
-                Request a Quote
+                {t("home.heroCtaQuote")}
                 <ArrowRight size={16} />
               </Link>
             </div>
@@ -136,20 +137,20 @@ export default function HomePage({ page }: { page: PageData }) {
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">About Us</span>
+              <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("home.aboutBadge")}</span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">
                 {whoWeAre.heading}
               </h2>
-              {whoWeAre.texts.map((t, i) => (
+              {whoWeAre.texts.map((text, i) => (
                 <p key={i} className="text-gray-600 text-base leading-relaxed mb-4">
-                  {t}
+                  {text}
                 </p>
               ))}
               <Link
                 href={`${prefix}/about-us`}
                 className="inline-flex items-center gap-2 mt-4 text-orange-600 hover:text-orange-700 text-sm font-semibold"
               >
-                Learn more about us
+                {t("home.aboutLearnMore")}
                 <ArrowRight size={14} />
               </Link>
             </div>
@@ -170,12 +171,12 @@ export default function HomePage({ page }: { page: PageData }) {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 lg:px-6">
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">Our Products</span>
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("home.productsBadge")}</span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
-              Our Main Product Lines
+              {t("home.productsTitle")}
             </h2>
             <p className="text-gray-600 mt-4">
-              End-to-end packaging solutions for global brands — manufactured across Vietnam, China & Thailand.
+              {t("home.productsDesc")}
             </p>
           </div>
 
@@ -192,7 +193,7 @@ export default function HomePage({ page }: { page: PageData }) {
                 <h3 className="font-semibold text-gray-900 mb-2 text-sm">{cat.title}</h3>
                 <p className="text-xs text-gray-600 leading-relaxed flex-1">{cat.desc}</p>
                 <span className="inline-flex items-center gap-1 text-xs text-orange-600 font-semibold mt-4 group-hover:gap-2 transition-all">
-                  Explore
+                  {t("home.productsExplore")}
                   <ArrowRight size={12} />
                 </span>
               </Link>
@@ -206,7 +207,7 @@ export default function HomePage({ page }: { page: PageData }) {
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 lg:px-6">
             <div className="text-center max-w-2xl mx-auto mb-12">
-              <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">Global Reach</span>
+              <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("home.networkBadge")}</span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
                 {globalNetwork.heading}
               </h2>
@@ -249,17 +250,17 @@ export default function HomePage({ page }: { page: PageData }) {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h2 className="text-2xl md:text-3xl font-bold mb-2">
-              Ready to bring your packaging to life?
+              {t("home.ctaTitle")}
             </h2>
             <p className="text-gray-300">
-              Get a tailored quote for your corrugated, rigid, or folding packaging needs.
+              {t("home.ctaDesc")}
             </p>
           </div>
           <Link
             href={`${prefix}/conctact-us`}
             className="inline-flex items-center gap-2 px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold shrink-0 transition-colors"
           >
-            Request a Quote
+            {t("home.heroCtaQuote")}
             <ArrowRight size={16} />
           </Link>
         </div>
