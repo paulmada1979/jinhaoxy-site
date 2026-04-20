@@ -142,27 +142,58 @@ export default function Header() {
                 <ChevronDown size={14} />
               </button>
               {packagingOpen && (
-                <div className="absolute right-0 top-full pt-2 w-[900px]">
-                  <div className="bg-white border border-gray-200 rounded-lg shadow-xl p-6 grid grid-cols-4 gap-6">
-                    {PACKAGING_SOLUTIONS.map((group) => (
-                      <div key={group.title}>
-                        <h4 className="text-xs font-bold text-orange-600 uppercase tracking-wider mb-3 border-b border-gray-200 pb-2">
-                          {group.title}
-                        </h4>
-                        <ul className="space-y-2">
-                          {group.items.map((item) => (
-                            <li key={item.href}>
-                              <Link
-                                href={`${prefix}${item.href}`}
-                                className="text-sm text-gray-700 hover:text-orange-600 transition-colors block leading-snug"
-                              >
-                                {item.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
+                <div className="absolute right-0 top-full pt-2 w-[1100px]">
+                  <div className="bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden">
+                    <div className="grid grid-cols-[1fr_2.5fr]">
+                      {/* Featured image panel */}
+                      <div className="relative bg-[#0d2340] overflow-hidden min-h-[380px]">
+                        <Image
+                          src="/media/man-in-casual-clothes-is-holding-cake-that-are-in-2025-03-18-19-49-15-utc.webp"
+                          alt="Premium Packaging"
+                          fill
+                          className="object-cover opacity-70"
+                          sizes="300px"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0d2340] via-[#0d2340]/60 to-transparent" />
+                        <div className="relative p-6 flex flex-col h-full justify-end text-white min-h-[380px]">
+                          <span className="text-[10px] font-bold uppercase tracking-widest text-orange-400 mb-2">Featured</span>
+                          <h3 className="text-xl font-bold mb-2 leading-tight">Premium Packaging Solutions</h3>
+                          <p className="text-xs text-gray-200 mb-4 leading-relaxed">
+                            End-to-end packaging from corrugated to luxury rigid gift boxes. FSC® and ISO certified.
+                          </p>
+                          <Link
+                            href={`${prefix}/products`}
+                            className="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400 hover:text-orange-300"
+                          >
+                            Explore all products
+                            <ChevronDown size={12} className="-rotate-90" />
+                          </Link>
+                        </div>
                       </div>
-                    ))}
+
+                      {/* Categories grid */}
+                      <div className="p-6 grid grid-cols-2 gap-6">
+                        {PACKAGING_SOLUTIONS.map((group) => (
+                          <div key={group.title}>
+                            <h4 className="text-[10px] font-bold text-orange-600 uppercase tracking-widest mb-3 pb-2 border-b border-gray-100">
+                              {group.title}
+                            </h4>
+                            <ul className="space-y-1.5">
+                              {group.items.map((item) => (
+                                <li key={item.href}>
+                                  <Link
+                                    href={`${prefix}${item.href}`}
+                                    className="text-sm text-gray-700 hover:text-orange-600 transition-colors block leading-snug py-0.5"
+                                  >
+                                    {item.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               )}
