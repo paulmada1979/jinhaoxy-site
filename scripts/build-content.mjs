@@ -149,18 +149,37 @@ for (const page of pages) {
     continue;
   }
 
-  const enData = { slug: page.slug, title, parent: page.parent, menu_order: page.menu_order, blocks };
+  // Detect FAQ section: bare text (question) followed by <p>...</p> (answer)
+  // These arrive as consecutive text blocks where odd items end with "?"
+  const faqs = [];
+  if (page.content && page.content.includes("Frequently Asked")) {
+    // Parse raw HTML: find "Frequently Asked" then alternating question/answer pattern
+    const faqHtml = page.content.slice(page.content.indexOf("Frequently Asked"));
+    // Match: whitespace + question text ending in ? + <p>answer</p>
+    const faqRegex = /\s{2,}([^<\n]{10,200}\?)\s*<p>([\s\S]+?)<\/p>/g;
+    let m;
+    while ((m = faqRegex.exec(faqHtml)) !== null) {
+      faqs.push({
+        q: decodeEntities(m[1]),
+        a: decodeEntities(m[2].replace(/<[^>]+>/g, " ")),
+      });
+    }
+  }
+
+  const enData = { slug: page.slug, title, parent: page.parent, menu_order: page.menu_order, blocks, faqs };
 
   // Create translated versions
   const viData = {
     ...enData,
     title: viDict[title] || title,
     blocks: blocks.map((b) => translateBlock(b, viDict)),
+    faqs: faqs.map((f) => ({ q: viDict[f.q] || f.q, a: viDict[f.a] || f.a })),
   };
   const zhData = {
     ...enData,
     title: zhDict[title] || title,
     blocks: blocks.map((b) => translateBlock(b, zhDict)),
+    faqs: faqs.map((f) => ({ q: zhDict[f.q] || f.q, a: zhDict[f.a] || f.a })),
   };
 
   await fs.writeFile(

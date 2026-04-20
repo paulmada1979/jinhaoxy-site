@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import PageRenderer, { type PageData } from "@/components/PageRenderer";
+import ContactPage from "@/components/ContactPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -51,5 +52,7 @@ export default async function Page({
   const { locale, slug } = await params;
   const page = await loadPage(locale, slug);
   if (!page) notFound();
+
+  if (slug === "conctact-us") return <ContactPage page={page} />;
   return <PageRenderer page={page} />;
 }

@@ -13,6 +13,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import type { PageData } from "./PageRenderer";
+import FAQ from "./FAQ";
 
 const PRODUCT_CATEGORIES = [
   { href: "/cardboard-trays-inserts", icon: Package, title: "Corrugated Boxes", desc: "Export cartons, shipping boxes, trays" },
@@ -239,6 +240,9 @@ export default function HomePage({ page }: { page: PageData }) {
           </div>
         </section>
       )}
+
+      {/* FAQ */}
+      {page.faqs && page.faqs.length > 0 && <FAQ items={page.faqs} />}
 
       {/* CTA band */}
       <section className="py-16 bg-gradient-to-r from-[#0d2340] to-[#1a3659] text-white">

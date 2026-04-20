@@ -10,10 +10,16 @@ export interface Block {
   height?: number;
 }
 
+export interface FAQItem {
+  q: string;
+  a: string;
+}
+
 export interface PageData {
   slug: string;
   title: string;
   blocks: Block[];
+  faqs?: FAQItem[];
 }
 
 function Heading({ level, text }: { level: number; text: string }) {
@@ -48,7 +54,6 @@ function TextBlock({ text }: { text: string }) {
 function ImageBlock({ src, alt, width, height }: { src: string; alt: string; width?: number; height?: number }) {
   const w = width || 1200;
   const h = height || 800;
-  const aspectRatio = h / w;
 
   return (
     <figure className="my-8 rounded-xl overflow-hidden bg-gray-100">

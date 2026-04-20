@@ -191,5 +191,75 @@
       "type": "text",
       "text": "Please provide: ① Box dimensions (L×W×H) ② Material and finish requirements ③ Design artwork (if available) ④ Target quantity. Our team will respond within 24 hours with a competitive quote for 1,000+ units, including material and finish recommendations."
     }
+  ],
+  "faqs": [
+    {
+      "q": "Where are your factories located, and what production facilities do you have?",
+      "a": "We operate modern factories in Changping, Dongguan, China (20,000 sqm) and Bac Ninh, Vietnam (8 dedicated lines), equipped with fully and semi-automatic lines for both mass-printed cartons and precision handmade gift boxes."
+    },
+    {
+      "q": "What international certifications do you hold? Are you approved to supply global brands?",
+      "a": "We hold FSC, SMETA, CAPR, and ISO9001 certifications — fully meeting supplier approval standards for global brands such as L&#8217;Oréal and complying with EU/US environmental and ethical regulations."
+    },
+    {
+      "q": "Can you produce both handmade gift boxes and automated bulk cartons?",
+      "a": "Yes. Our Dongguan factory combines automated precision grooving and die-cutting with skilled manual wrapping teams. Both modes run simultaneously, covering everything from high-volume cartons to artisan-finish gift boxes."
+    },
+    {
+      "q": "What types of packaging products do you manufacture?",
+      "a": "We specialize in four core categories: ① Premium handmade rigid gift boxes ② High-end folding cartons ③ Corrugated shipping boxes ④ Paper-plastic composite packaging — serving cosmetics, electronics, food, and luxury goods industries."
+    },
+    {
+      "q": "What printing and surface finishing options do you offer?",
+      "a": "We support offset printing, UV printing, hot foil stamping (gold/silver), embossing/debossing, matte/gloss lamination, and spot UV — fully customizable to your brand identity for maximum shelf impact."
+    },
+    {
+      "q": "Do you offer eco-friendly packaging solutions?",
+      "a": "Yes. Our FSC certification guarantees sustainably sourced paper. We also offer biodegradable materials and plastic-reduction solutions, helping brands comply with EU PPWR and North American EPR packaging regulations."
+    },
+    {
+      "q": "Can you work with paper-plastic composites or other special materials?",
+      "a": "Yes. We have proven expertise in composite material processing, integrating PET, PP, and other plastics with paper substrates to achieve specialized protection and premium aesthetics."
+    },
+    {
+      "q": "What is the minimum order quantity (MOQ) for custom packaging?",
+      "a": "Our MOQ is 1,000 units, which includes professional design support, material consulting, high-precision mass production, and full quality inspection — structured to maximize cost efficiency on our automated lines."
+    },
+    {
+      "q": "Do you provide packaging design and sample prototyping services?",
+      "a": "Yes. Our in-house design team assists with structural engineering, dieline creation, and visual artwork. Upon confirming a 1,000+ unit production intent, we produce physical samples to validate all craft details before full production."
+    },
+    {
+      "q": "What artwork file formats do you accept?",
+      "a": "We accept Adobe Illustrator (.AI), print-ready PDF (300 DPI minimum), and CDR formats. If you don&#8217;t have final artwork, our design team can create it from scratch based on your brand guidelines."
+    },
+    {
+      "q": "How do you ensure consistent quality in mass production?",
+      "a": "We run a full-cycle QC system: Incoming Quality Control (IQC) → In-Process Quality Control (IPQC) → Outgoing Quality Control (OQC), combining automated vision inspection with manual sampling to achieve 99%+ pass rate. Third-party inspection support is available upon request."
+    },
+    {
+      "q": "How do you maintain color consistency across production batches?",
+      "a": "We use a standardized Color Management System (CMS) with spectrophotometer-based Delta-E measurement, keeping color deviation within international tolerance standards across all repeat orders."
+    },
+    {
+      "q": "What practical value does FSC certification offer for EU/US buyers?",
+      "a": "FSC certification proves your packaging uses materials from certified sustainable forests — directly supporting your brand&#8217;s ESG reports and EU sustainability declarations. It also meets mandatory or recommended requirements from major retailers like Amazon and Target."
+    },
+    {
+      "q": "What is the typical production lead time for bulk orders?",
+      "a": "Standard folding carton orders of 1,000+ units: 15–20 business days. Handmade rigid gift boxes: approx. 25 business days. Samples: 5–7 business days. We recommend placing orders 4–6 weeks in advance during peak season."
+    },
+    {
+      "q": "What are the advantages of manufacturing and exporting from Bac Ninh, Vietnam?",
+      "a": "Bac Ninh offers proximity to Noi Bai International Airport and Hai Phong Port. Vietnam&#8217;s FTAs — including EVFTA (EU) and UKVFTA (UK) — significantly reduce export tariffs, providing stronger supply chain resilience in today&#8217;s global trade environment."
+    },
+    {
+      "q": "What trade terms and shipping options do you support?",
+      "a": "We support FOB, CIF, and DDP trade terms, with the option for split shipments from either our China or Vietnam facilities. We also assist with connecting you to international freight forwarders."
+    },
+    {
+      "q": "How can I get a formal quote quickly?",
+      "a": "Please provide: ① Box dimensions (L×W×H) ② Material and finish requirements ③ Design artwork (if available) ④ Target quantity. Our team will respond within 24 hours with a competitive quote for 1,000+ units, including material and finish recommendations."
+    }
   ]
 }
