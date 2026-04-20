@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "factories": "Factories",
+    "certifications": "Certifications",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "FSC/ISO-certified printing & packaging manufacturer",
+    "hero_subtitle": "Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "cookie-policy",
+  "title": "Cookie Policy",
+  "parent": 0,
+  "menu_order": 0,
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cookie Policy"
+    },
+    {
+      "type": "text",
+      "text": "Our website uses cookies to enhance your browsing experience and provide personalized content. Cookies are small text files stored on your device that help us analyze web traffic and improve our services. By continuing to use this website, you agree to our use of cookies. You may choose to disable cookies in your browser settings, but please note that some features of the website may not function properly without them."
+    }
+  ]
+}

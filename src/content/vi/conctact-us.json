@@ -1,0 +1,73 @@
+{
+  "slug": "conctact-us",
+  "title": "Conctact us",
+  "parent": 0,
+  "menu_order": 0,
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Contact us"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Contact Jinhao Xinyuan Group"
+    },
+    {
+      "type": "text",
+      "text": "Your global packaging manufacturing partner is just one message away.With production hubs in Vietnam, China, and Thailand, our multilingual export team is ready to support your next packaging project — from quotation and sampling to full-scale production."
+    },
+    {
+      "type": "text",
+      "text": "Whether you’re sourcing new suppliers, expanding your packaging range, or looking for certified manufacturing capacity, we’ll help you get the answers fast."
+    },
+    {
+      "type": "text",
+      "text": "Zone B, Qifeng lndustrial Park, Qishi Town, Dongguan City, Guangdong Province, China"
+    },
+    {
+      "type": "text",
+      "text": "1 My Thien residential group, Nhon Town, Viet YenDistrict, Bac Giang Province, Vietnam (opposite to Van Trung 1), Vietnam"
+    },
+    {
+      "type": "text",
+      "text": "info@jinhaoxy.com"
+    },
+    {
+      "type": "text",
+      "text": "Phone : +84-0907093845"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "Send us a message"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Feel Free to Reach Out for Further Details."
+    },
+    {
+      "type": "text",
+      "text": "Need samples, a quotation, or technical consultation?Please complete the form below, and our regional export coordinator will reply within one business day.For urgent inquiries, reach us directly by phone or email listed above."
+    },
+    {
+      "type": "image",
+      "src": "/media/qr-150x150.jpg",
+      "alt": "",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Contact us on Whatsapp"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Fill this form"
+    }
+  ]
+}

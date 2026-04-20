@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "factories": "Nhà máy",
+    "certifications": "Chứng nhận",
+    "products": "Sản phẩm",
+    "contact": "Liên hệ"
+  },
+  "home": {
+    "hero_title": "Nhà sản xuất in ấn & bao bì đạt chứng nhận FSC/ISO",
+    "hero_subtitle": "Hộp carton sóng, hộp carton gấp, hộp cứng & hộp quà, nhãn mác và bao bì sinh thái"
+  }
+}

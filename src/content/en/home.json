@@ -1,0 +1,195 @@
+{
+  "slug": "home",
+  "title": "Home",
+  "parent": 0,
+  "menu_order": 0,
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "Xinyuan Group"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Premium Packaging Manufacturer in Vietnam"
+    },
+    {
+      "type": "text",
+      "text": "End-to-End Packaging Solutions for Global Brands"
+    },
+    {
+      "type": "text",
+      "text": "As an FSC® and ISO-certified manufacturer, Jinhao Group delivers corrugated, rigid, and folding boxes from Vietnam, China & Thailand."
+    },
+    {
+      "type": "text",
+      "text": "Beyond Borders, Precision in Every Print™ – delivering standardized packaging solutions through regional hubs for global brands."
+    },
+    {
+      "type": "text",
+      "text": "To empower global brands with sustainable packaging and printing ecosystems — merging Asian manufacturing efficiency with global standards."
+    },
+    {
+      "type": "text",
+      "text": "Printing Without Borders — blending global standards with local expertise to deliver consistency and quality worldwide."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who We Are"
+    },
+    {
+      "type": "text",
+      "text": "Jinhao Xinyuan Group is one of Asia’s leading packaging manufacturers, integrating design, R&D, printing, and assembly. Our dual-hub network in Vietnam and China ensures speed, capacity, and precision for export packaging worldwide."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Our Global Network"
+    },
+    {
+      "type": "text",
+      "text": "“With production bases in Bac Ninh (Vietnam), Dongguan (China), and Saraburi (Thailand), we deliver consistent quality, fast turnaround, and competitive production capacity across Asia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Our Main Product Lines"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Corrugated Boxes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Rigid & Gift Boxes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Folding Cartons"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Labels & Manuals"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Eco Packaging"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Comprehensive Packaging Capabilities"
+    },
+    {
+      "type": "text",
+      "text": "“From concept to delivery, our teams manage every stage — design, printing, lamination, die-cutting, folding, gluing, and final assembly. Our facilities in Hai Duong, Bac Ninh, and Dongguan feature Heidelberg and KBA offset presses, automated corrugation lines, and precision finishing tools ensuring consistent quality and rapid turnaround."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trusted by Global Brands"
+    },
+    {
+      "type": "text",
+      "text": "We serve retail, electronics, food & beverage, and cosmetics brands worldwide, with reliable logistics for export. With OEM & ODM experience and certifications including GMI, SMETA-4P, and ISTA, we ensure compliance, durability, and premium visual results."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Certified Quality & Sustainable Materials"
+    },
+    {
+      "type": "text",
+      "text": "We believe packaging should safeguard your product and the planet. All materials are FSC®-certified, recyclable, and responsibly sourced. We invest in eco-friendly inks, water-based coatings, and recyclable paperboard to help partners achieve their sustainability goals."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partner With Us"
+    },
+    {
+      "type": "text",
+      "text": "Looking for a reliable packaging manufacturer in Vietnam? Our export team is ready to help with samples, design mock-ups, and fast production."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "text",
+      "text": "We operate modern factories in Changping, Dongguan, China (20,000 sqm) and Bac Ninh, Vietnam (8 dedicated lines), equipped with fully and semi-automatic lines for both mass-printed cartons and precision handmade gift boxes."
+    },
+    {
+      "type": "text",
+      "text": "We hold FSC, SMETA, CAPR, and ISO9001 certifications — fully meeting supplier approval standards for global brands such as L’Oréal and complying with EU/US environmental and ethical regulations."
+    },
+    {
+      "type": "text",
+      "text": "Yes. Our Dongguan factory combines automated precision grooving and die-cutting with skilled manual wrapping teams. Both modes run simultaneously, covering everything from high-volume cartons to artisan-finish gift boxes."
+    },
+    {
+      "type": "text",
+      "text": "We specialize in four core categories: ① Premium handmade rigid gift boxes ② High-end folding cartons ③ Corrugated shipping boxes ④ Paper-plastic composite packaging — serving cosmetics, electronics, food, and luxury goods industries."
+    },
+    {
+      "type": "text",
+      "text": "We support offset printing, UV printing, hot foil stamping (gold/silver), embossing/debossing, matte/gloss lamination, and spot UV — fully customizable to your brand identity for maximum shelf impact."
+    },
+    {
+      "type": "text",
+      "text": "Yes. Our FSC certification guarantees sustainably sourced paper. We also offer biodegradable materials and plastic-reduction solutions, helping brands comply with EU PPWR and North American EPR packaging regulations."
+    },
+    {
+      "type": "text",
+      "text": "Yes. We have proven expertise in composite material processing, integrating PET, PP, and other plastics with paper substrates to achieve specialized protection and premium aesthetics."
+    },
+    {
+      "type": "text",
+      "text": "Our MOQ is 1,000 units, which includes professional design support, material consulting, high-precision mass production, and full quality inspection — structured to maximize cost efficiency on our automated lines."
+    },
+    {
+      "type": "text",
+      "text": "Yes. Our in-house design team assists with structural engineering, dieline creation, and visual artwork. Upon confirming a 1,000+ unit production intent, we produce physical samples to validate all craft details before full production."
+    },
+    {
+      "type": "text",
+      "text": "We accept Adobe Illustrator (.AI), print-ready PDF (300 DPI minimum), and CDR formats. If you don’t have final artwork, our design team can create it from scratch based on your brand guidelines."
+    },
+    {
+      "type": "text",
+      "text": "We run a full-cycle QC system: Incoming Quality Control (IQC) → In-Process Quality Control (IPQC) → Outgoing Quality Control (OQC), combining automated vision inspection with manual sampling to achieve 99%+ pass rate. Third-party inspection support is available upon request."
+    },
+    {
+      "type": "text",
+      "text": "We use a standardized Color Management System (CMS) with spectrophotometer-based Delta-E measurement, keeping color deviation within international tolerance standards across all repeat orders."
+    },
+    {
+      "type": "text",
+      "text": "FSC certification proves your packaging uses materials from certified sustainable forests — directly supporting your brand’s ESG reports and EU sustainability declarations. It also meets mandatory or recommended requirements from major retailers like Amazon and Target."
+    },
+    {
+      "type": "text",
+      "text": "Standard folding carton orders of 1,000+ units: 15–20 business days. Handmade rigid gift boxes: approx. 25 business days. Samples: 5–7 business days. We recommend placing orders 4–6 weeks in advance during peak season."
+    },
+    {
+      "type": "text",
+      "text": "Bac Ninh offers proximity to Noi Bai International Airport and Hai Phong Port. Vietnam’s FTAs — including EVFTA (EU) and UKVFTA (UK) — significantly reduce export tariffs, providing stronger supply chain resilience in today’s global trade environment."
+    },
+    {
+      "type": "text",
+      "text": "We support FOB, CIF, and DDP trade terms, with the option for split shipments from either our China or Vietnam facilities. We also assist with connecting you to international freight forwarders."
+    },
+    {
+      "type": "text",
+      "text": "Please provide: ① Box dimensions (L×W×H) ② Material and finish requirements ③ Design artwork (if available) ④ Target quantity. Our team will respond within 24 hours with a competitive quote for 1,000+ units, including material and finish recommendations."
+    }
+  ]
+}

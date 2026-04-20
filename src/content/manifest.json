@@ -1,0 +1,473 @@
+{
+  "en": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "blocks": 43
+    },
+    {
+      "slug": "about-us",
+      "title": "About us",
+      "blocks": 30
+    },
+    {
+      "slug": "conctact-us",
+      "title": "Conctact us",
+      "blocks": 14
+    },
+    {
+      "slug": "certifications",
+      "title": "Certifications",
+      "blocks": 27
+    },
+    {
+      "slug": "hai-duong-factory",
+      "title": "XinYuan Packing Donguan",
+      "blocks": 6
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "title": "Vietnam Xinyuanjia",
+      "blocks": 70
+    },
+    {
+      "slug": "factories",
+      "title": "Factories",
+      "blocks": 51
+    },
+    {
+      "slug": "products",
+      "title": "Packaging Solutions",
+      "blocks": 27
+    },
+    {
+      "slug": "folding-cartons",
+      "title": "Folding cartons​",
+      "blocks": 40
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "title": "Cardboard, Trays & inserts",
+      "blocks": 34
+    },
+    {
+      "slug": "retail-packing",
+      "title": "Retail packaging",
+      "blocks": 23
+    },
+    {
+      "slug": "shelf-ready-packaging",
+      "title": "Shelf Ready Packaging",
+      "blocks": 57
+    },
+    {
+      "slug": "consumer-packaging",
+      "title": "Consumer Packaging",
+      "blocks": 10
+    },
+    {
+      "slug": "trays",
+      "title": "CORRUGATED TRAYS & INSERTS",
+      "blocks": 70
+    },
+    {
+      "slug": "cookie-policy",
+      "title": "Cookie Policy",
+      "blocks": 2
+    },
+    {
+      "slug": "stickers-labels",
+      "title": "Stickers & Labels",
+      "blocks": 34
+    },
+    {
+      "slug": "artificial-boxes",
+      "title": "Artificial Boxes",
+      "blocks": 42
+    },
+    {
+      "slug": "instructions-manuals",
+      "title": "Instructions & Manuals",
+      "blocks": 39
+    },
+    {
+      "slug": "terms-of-use",
+      "title": "Terms of Use",
+      "blocks": 36
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "blocks": 53
+    },
+    {
+      "slug": "dongguan-xinyuan-printing-factory",
+      "title": "Dongguan Xinyuan Printing Factory",
+      "blocks": 75
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "title": "Corrugated Packaging Box Manufacturer in Vietnam – Jinhao Xinyuan Group",
+      "blocks": 114
+    },
+    {
+      "slug": "shipping-boxes-export-cartons",
+      "title": "Shipping Boxes & Export Cartons",
+      "blocks": 117
+    },
+    {
+      "slug": "e-commerce-mailer-boxes",
+      "title": "E-COMMERCE MAILER BOXES",
+      "blocks": 101
+    },
+    {
+      "slug": "large-gift-boxes",
+      "title": "Large Gift Boxes",
+      "blocks": 32
+    },
+    {
+      "slug": "luxury-rigid-gift-boxes",
+      "title": "LUXURY RIGID GIFT BOXES",
+      "blocks": 26
+    },
+    {
+      "slug": "custom-printed-gift-boxes",
+      "title": "Custom Printed Gift Boxes",
+      "blocks": 35
+    },
+    {
+      "slug": "magnetic-closure-gift-boxes",
+      "title": "Magnetic Closure Gift Boxes",
+      "blocks": 65
+    },
+    {
+      "slug": "collapsible-gift-boxes-for-e-commerce-retail",
+      "title": "Collapsible Gift Boxes for E-Commerce & Retail",
+      "blocks": 71
+    },
+    {
+      "slug": "custom-jewelry-gift-boxes",
+      "title": "Custom Jewelry Gift Boxes – Velvet, Rigid, Hinged Lid",
+      "blocks": 95
+    },
+    {
+      "slug": "cosmetic-gift-boxes",
+      "title": "Cosmetic Gift Boxes – Perfume, Skincare & Makeup Packaging",
+      "blocks": 108
+    }
+  ],
+  "vi": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "blocks": 43
+    },
+    {
+      "slug": "about-us",
+      "title": "About us",
+      "blocks": 30
+    },
+    {
+      "slug": "conctact-us",
+      "title": "Conctact us",
+      "blocks": 14
+    },
+    {
+      "slug": "certifications",
+      "title": "Certifications",
+      "blocks": 27
+    },
+    {
+      "slug": "hai-duong-factory",
+      "title": "XinYuan Packing Donguan",
+      "blocks": 6
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "title": "Vietnam Xinyuanjia",
+      "blocks": 70
+    },
+    {
+      "slug": "factories",
+      "title": "Factories",
+      "blocks": 51
+    },
+    {
+      "slug": "products",
+      "title": "Packaging Solutions",
+      "blocks": 27
+    },
+    {
+      "slug": "folding-cartons",
+      "title": "Folding cartons​",
+      "blocks": 40
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "title": "Cardboard, Trays & inserts",
+      "blocks": 34
+    },
+    {
+      "slug": "retail-packing",
+      "title": "Retail packaging",
+      "blocks": 23
+    },
+    {
+      "slug": "shelf-ready-packaging",
+      "title": "Shelf Ready Packaging",
+      "blocks": 57
+    },
+    {
+      "slug": "consumer-packaging",
+      "title": "Consumer Packaging",
+      "blocks": 10
+    },
+    {
+      "slug": "trays",
+      "title": "CORRUGATED TRAYS & INSERTS",
+      "blocks": 70
+    },
+    {
+      "slug": "cookie-policy",
+      "title": "Cookie Policy",
+      "blocks": 2
+    },
+    {
+      "slug": "stickers-labels",
+      "title": "Stickers & Labels",
+      "blocks": 34
+    },
+    {
+      "slug": "artificial-boxes",
+      "title": "Artificial Boxes",
+      "blocks": 42
+    },
+    {
+      "slug": "instructions-manuals",
+      "title": "Instructions & Manuals",
+      "blocks": 39
+    },
+    {
+      "slug": "terms-of-use",
+      "title": "Terms of Use",
+      "blocks": 36
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "blocks": 53
+    },
+    {
+      "slug": "dongguan-xinyuan-printing-factory",
+      "title": "Dongguan Xinyuan Printing Factory",
+      "blocks": 75
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "title": "Corrugated Packaging Box Manufacturer in Vietnam – Jinhao Xinyuan Group",
+      "blocks": 114
+    },
+    {
+      "slug": "shipping-boxes-export-cartons",
+      "title": "Shipping Boxes & Export Cartons",
+      "blocks": 117
+    },
+    {
+      "slug": "e-commerce-mailer-boxes",
+      "title": "E-COMMERCE MAILER BOXES",
+      "blocks": 101
+    },
+    {
+      "slug": "large-gift-boxes",
+      "title": "Large Gift Boxes",
+      "blocks": 32
+    },
+    {
+      "slug": "luxury-rigid-gift-boxes",
+      "title": "LUXURY RIGID GIFT BOXES",
+      "blocks": 26
+    },
+    {
+      "slug": "custom-printed-gift-boxes",
+      "title": "Custom Printed Gift Boxes",
+      "blocks": 35
+    },
+    {
+      "slug": "magnetic-closure-gift-boxes",
+      "title": "Magnetic Closure Gift Boxes",
+      "blocks": 65
+    },
+    {
+      "slug": "collapsible-gift-boxes-for-e-commerce-retail",
+      "title": "Collapsible Gift Boxes for E-Commerce & Retail",
+      "blocks": 71
+    },
+    {
+      "slug": "custom-jewelry-gift-boxes",
+      "title": "Custom Jewelry Gift Boxes – Velvet, Rigid, Hinged Lid",
+      "blocks": 95
+    },
+    {
+      "slug": "cosmetic-gift-boxes",
+      "title": "Cosmetic Gift Boxes – Perfume, Skincare & Makeup Packaging",
+      "blocks": 108
+    }
+  ],
+  "zh": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "blocks": 43
+    },
+    {
+      "slug": "about-us",
+      "title": "About us",
+      "blocks": 30
+    },
+    {
+      "slug": "conctact-us",
+      "title": "Conctact us",
+      "blocks": 14
+    },
+    {
+      "slug": "certifications",
+      "title": "Certifications",
+      "blocks": 27
+    },
+    {
+      "slug": "hai-duong-factory",
+      "title": "XinYuan Packing Donguan",
+      "blocks": 6
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "title": "Vietnam Xinyuanjia",
+      "blocks": 70
+    },
+    {
+      "slug": "factories",
+      "title": "Factories",
+      "blocks": 51
+    },
+    {
+      "slug": "products",
+      "title": "Packaging Solutions",
+      "blocks": 27
+    },
+    {
+      "slug": "folding-cartons",
+      "title": "Folding cartons​",
+      "blocks": 40
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "title": "Cardboard, Trays & inserts",
+      "blocks": 34
+    },
+    {
+      "slug": "retail-packing",
+      "title": "Retail packaging",
+      "blocks": 23
+    },
+    {
+      "slug": "shelf-ready-packaging",
+      "title": "Shelf Ready Packaging",
+      "blocks": 57
+    },
+    {
+      "slug": "consumer-packaging",
+      "title": "Consumer Packaging",
+      "blocks": 10
+    },
+    {
+      "slug": "trays",
+      "title": "CORRUGATED TRAYS & INSERTS",
+      "blocks": 70
+    },
+    {
+      "slug": "cookie-policy",
+      "title": "Cookie Policy",
+      "blocks": 2
+    },
+    {
+      "slug": "stickers-labels",
+      "title": "Stickers & Labels",
+      "blocks": 34
+    },
+    {
+      "slug": "artificial-boxes",
+      "title": "Artificial Boxes",
+      "blocks": 42
+    },
+    {
+      "slug": "instructions-manuals",
+      "title": "Instructions & Manuals",
+      "blocks": 39
+    },
+    {
+      "slug": "terms-of-use",
+      "title": "Terms of Use",
+      "blocks": 36
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "blocks": 53
+    },
+    {
+      "slug": "dongguan-xinyuan-printing-factory",
+      "title": "Dongguan Xinyuan Printing Factory",
+      "blocks": 75
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "title": "Corrugated Packaging Box Manufacturer in Vietnam – Jinhao Xinyuan Group",
+      "blocks": 114
+    },
+    {
+      "slug": "shipping-boxes-export-cartons",
+      "title": "Shipping Boxes & Export Cartons",
+      "blocks": 117
+    },
+    {
+      "slug": "e-commerce-mailer-boxes",
+      "title": "E-COMMERCE MAILER BOXES",
+      "blocks": 101
+    },
+    {
+      "slug": "large-gift-boxes",
+      "title": "Large Gift Boxes",
+      "blocks": 32
+    },
+    {
+      "slug": "luxury-rigid-gift-boxes",
+      "title": "LUXURY RIGID GIFT BOXES",
+      "blocks": 26
+    },
+    {
+      "slug": "custom-printed-gift-boxes",
+      "title": "Custom Printed Gift Boxes",
+      "blocks": 35
+    },
+    {
+      "slug": "magnetic-closure-gift-boxes",
+      "title": "Magnetic Closure Gift Boxes",
+      "blocks": 65
+    },
+    {
+      "slug": "collapsible-gift-boxes-for-e-commerce-retail",
+      "title": "Collapsible Gift Boxes for E-Commerce & Retail",
+      "blocks": 71
+    },
+    {
+      "slug": "custom-jewelry-gift-boxes",
+      "title": "Custom Jewelry Gift Boxes – Velvet, Rigid, Hinged Lid",
+      "blocks": 95
+    },
+    {
+      "slug": "cosmetic-gift-boxes",
+      "title": "Cosmetic Gift Boxes – Perfume, Skincare & Makeup Packaging",
+      "blocks": 108
+    }
+  ]
+}

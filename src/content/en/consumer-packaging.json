@@ -1,0 +1,60 @@
+{
+  "slug": "consumer-packaging",
+  "title": "Consumer Packaging",
+  "parent": 0,
+  "menu_order": 0,
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Folding Cartons – Versatile, Functional & Eye-Catching"
+    },
+    {
+      "type": "text",
+      "text": "}Folding cartons are one of the most versatile packaging solutions, offering a perfect balance of strength, functionality, and brand visibility. From everyday consumer goods to premium products, our folding carton designs can be tailored in size, shape, and finish to meet your exact requirements. With advanced printing, die-cutting, windowing, and specialty finishes, we help your packaging stand out while ensuring durability and cost-effectiveness."
+    },
+    {
+      "type": "text",
+      "text": "Whether for pharmaceuticals, food, electronics, or promotional campaigns, folding cartons provide endless possibilities—from child-resistant and senior-friendly designs to secure, tamper-evident closures. By combining creative design with efficient production, our folding cartons not only protect your product but also enhance its shelf presence and customer appeal."
+    },
+    {
+      "type": "image",
+      "src": "/media/01.Gable-Box-Mockup-copy.png",
+      "alt": "",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "type": "image",
+      "src": "/media/Chocolate-Box-Mockup-copy.png",
+      "alt": "",
+      "width": 720,
+      "height": 480
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Food Packaging – Safe, Sustainable & Reliable"
+    },
+    {
+      "type": "text",
+      "text": "Food packaging plays a critical role in protecting freshness, ensuring safety, and meeting strict regulatory standards. Our solutions are designed to preserve product integrity while delivering convenience and shelf appeal. From fresh produce and ready meals to beverages and frozen goods, we provide packaging that balances strength, sustainability, and compliance."
+    },
+    {
+      "type": "text",
+      "text": "We use carefully selected, food-grade materials such as Kraft paper and recycled fibers, supported by rigorous testing and international certifications. This ensures our packaging meets the highest hygiene and safety standards while also aligning with sustainability goals. With smart designs, efficient production, and innovative barrier technologies, we help brands deliver safe, attractive, and eco-friendly food packaging that builds consumer trust and supports a healthier planet."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Contact us - Packaging"
+    },
+    {
+      "type": "image",
+      "src": "https://jinhaoxy.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg",
+      "alt": "Loading",
+      "width": 26,
+      "height": 26
+    }
+  ]
+}

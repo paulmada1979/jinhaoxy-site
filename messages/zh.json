@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "factories": "工厂",
+    "certifications": "认证",
+    "products": "产品",
+    "contact": "联系我们"
+  },
+  "home": {
+    "hero_title": "FSC/ISO 认证的印刷与包装制造商",
+    "hero_subtitle": "瓦楞纸箱、折叠纸盒、硬盒与礼品盒、标签及环保包装"
+  }
+}
