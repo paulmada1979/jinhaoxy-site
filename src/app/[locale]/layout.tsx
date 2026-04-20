@@ -11,8 +11,17 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jinhao Xinyuan Group",
-  description: "FSC/ISO-certified printing & packaging manufacturer",
+  title: {
+    default: "Jinhao Xinyuan Group — Premium Packaging Manufacturer",
+    template: "%s | Jinhao Xinyuan Group",
+  },
+  description:
+    "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam, China & Thailand.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+  },
 };
 
 export function generateStaticParams() {
