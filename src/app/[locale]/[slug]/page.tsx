@@ -11,6 +11,7 @@ import ShelfReadyPage from "@/components/ShelfReadyPage";
 import LuxuryRigidPage from "@/components/LuxuryRigidPage";
 import CustomPrintedPage from "@/components/CustomPrintedPage";
 import LargeGiftBoxesPage from "@/components/LargeGiftBoxesPage";
+import JewelryBoxesPage from "@/components/JewelryBoxesPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -72,5 +73,6 @@ export default async function Page({
   if (slug === "luxury-rigid-gift-boxes") return <LuxuryRigidPage />;
   if (slug === "custom-printed-gift-boxes") return <CustomPrintedPage />;
   if (slug === "large-gift-boxes") return <LargeGiftBoxesPage />;
+  if (slug === "custom-jewelry-gift-boxes") return <JewelryBoxesPage />;
   return <PageRenderer page={page} />;
 }
