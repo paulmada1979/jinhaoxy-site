@@ -1,9 +1,6 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
-import { useState } from "react";
 import {
   ArrowRight,
   Cpu,
@@ -21,8 +18,8 @@ import {
   Droplets,
   Ruler,
   Award,
-  Play,
 } from "lucide-react";
+import HeroBackgroundVideo from "./HeroBackgroundVideo";
 
 const HERO_VIDEO_ID = "vuys3GFHBvk";
 
@@ -30,7 +27,6 @@ export default function TraysPage() {
   const t = useTranslations();
   const locale = useLocale();
   const prefix = locale === "en" ? "" : `/${locale}`;
-  const [videoOpen, setVideoOpen] = useState(false);
 
   const features = [
     t("trays.feat1"),
@@ -106,13 +102,9 @@ export default function TraysPage() {
     <div>
       {/* Hero */}
       <section className="relative min-h-[560px] flex items-center bg-gray-900 overflow-hidden">
-        <Image
-          src="/media/packing-line-in-a-logistics-warehouse-conveyor-b-2025-01-09-01-24-07-utc.webp"
-          alt=""
-          fill
-          priority
-          className="object-cover object-center opacity-55"
-          sizes="100vw"
+        <HeroBackgroundVideo
+          videoId={HERO_VIDEO_ID}
+          fallbackImage="/media/packing-line-in-a-logistics-warehouse-conveyor-b-2025-01-09-01-24-07-utc.webp"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/50 to-transparent" />
 
@@ -138,41 +130,10 @@ export default function TraysPage() {
                 Request a Quote
                 <ArrowRight size={14} />
               </Link>
-              <button
-                onClick={() => setVideoOpen(true)}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur border border-white/30 hover:bg-white/20 text-white rounded-md text-sm font-semibold transition-colors"
-              >
-                <Play size={14} fill="currentColor" />
-                Watch Video
-              </button>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Video modal */}
-      {videoOpen && (
-        <div
-          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
-          onClick={() => setVideoOpen(false)}
-        >
-          <div className="relative w-full max-w-5xl aspect-video" onClick={(e) => e.stopPropagation()}>
-            <iframe
-              className="w-full h-full rounded-lg"
-              src={`https://www.youtube.com/embed/${HERO_VIDEO_ID}?autoplay=1`}
-              title="Cardboard Trays & Inserts — Production"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-            <button
-              onClick={() => setVideoOpen(false)}
-              className="absolute -top-10 right-0 text-white hover:text-orange-400 text-sm font-semibold"
-            >
-              Close ✕
-            </button>
-          </div>
-        </div>
-      )}
 
       {/* Feature strip */}
       <section className="py-10 bg-orange-50 border-y border-orange-100">

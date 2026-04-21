@@ -1,9 +1,6 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
-import { useState } from "react";
 import {
   ArrowRight,
   Box,
@@ -16,18 +13,17 @@ import {
   Printer,
   FlaskConical,
   Factory,
-  Play,
   ShieldCheck,
   Send,
 } from "lucide-react";
+import HeroBackgroundVideo from "./HeroBackgroundVideo";
 
-const HERO_VIDEO_ID: string | null = "I8U2KPfFDWU";
+const HERO_VIDEO_ID = "I8U2KPfFDWU";
 
 export default function ShippingBoxesPage() {
   const t = useTranslations();
   const locale = useLocale();
   const prefix = locale === "en" ? "" : `/${locale}`;
-  const [videoOpen, setVideoOpen] = useState(false);
 
   const whyPoints = [
     t("shippingBoxes.why1"),
@@ -89,13 +85,9 @@ export default function ShippingBoxesPage() {
     <div>
       {/* Hero with video/image */}
       <section className="relative min-h-[560px] flex items-center bg-gray-900 overflow-hidden">
-        <Image
-          src="/media/warehouse-workers-packing-boxes-for-shipment-2025-02-11-14-31-52-utc.webp"
-          alt=""
-          fill
-          priority
-          className="object-cover object-center opacity-55"
-          sizes="100vw"
+        <HeroBackgroundVideo
+          videoId={HERO_VIDEO_ID}
+          fallbackImage="/media/warehouse-workers-packing-boxes-for-shipment-2025-02-11-14-31-52-utc.webp"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/50 to-transparent" />
 
@@ -118,43 +110,10 @@ export default function ShippingBoxesPage() {
                 {t("shippingBoxes.heroCtaQuote")}
                 <ArrowRight size={14} />
               </Link>
-              {HERO_VIDEO_ID && (
-                <button
-                  onClick={() => setVideoOpen(true)}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur border border-white/30 hover:bg-white/20 text-white rounded-md text-sm font-semibold transition-colors"
-                >
-                  <Play size={14} fill="currentColor" />
-                  Watch Video
-                </button>
-              )}
             </div>
           </div>
         </div>
       </section>
-
-      {/* Video modal */}
-      {videoOpen && HERO_VIDEO_ID && (
-        <div
-          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
-          onClick={() => setVideoOpen(false)}
-        >
-          <div className="relative w-full max-w-5xl aspect-video" onClick={(e) => e.stopPropagation()}>
-            <iframe
-              className="w-full h-full rounded-lg"
-              src={`https://www.youtube.com/embed/${HERO_VIDEO_ID}?autoplay=1`}
-              title="Product video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-            <button
-              onClick={() => setVideoOpen(false)}
-              className="absolute -top-10 right-0 text-white hover:text-orange-400 text-sm font-semibold"
-            >
-              Close ✕
-            </button>
-          </div>
-        </div>
-      )}
 
       {/* Intro */}
       <section className="py-20 bg-white">
