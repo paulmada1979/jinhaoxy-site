@@ -17,6 +17,7 @@ import CollapsiblePage from "@/components/CollapsiblePage";
 import CosmeticPage from "@/components/CosmeticPage";
 import InstructionsPage from "@/components/InstructionsPage";
 import StickersLabelsPage from "@/components/StickersLabelsPage";
+import PlasticBoxesPage from "@/components/PlasticBoxesPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -84,5 +85,6 @@ export default async function Page({
   if (slug === "cosmetic-gift-boxes") return <CosmeticPage />;
   if (slug === "instructions-manuals") return <InstructionsPage />;
   if (slug === "stickers-labels") return <StickersLabelsPage />;
+  if (slug === "artificial-boxes") return <PlasticBoxesPage />;
   return <PageRenderer page={page} />;
 }
