@@ -14,6 +14,7 @@ import LargeGiftBoxesPage from "@/components/LargeGiftBoxesPage";
 import JewelryBoxesPage from "@/components/JewelryBoxesPage";
 import MagneticClosurePage from "@/components/MagneticClosurePage";
 import CollapsiblePage from "@/components/CollapsiblePage";
+import CosmeticPage from "@/components/CosmeticPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -78,5 +79,6 @@ export default async function Page({
   if (slug === "custom-jewelry-gift-boxes") return <JewelryBoxesPage />;
   if (slug === "magnetic-closure-gift-boxes") return <MagneticClosurePage />;
   if (slug === "collapsible-gift-boxes-for-e-commerce-retail") return <CollapsiblePage />;
+  if (slug === "cosmetic-gift-boxes") return <CosmeticPage />;
   return <PageRenderer page={page} />;
 }
