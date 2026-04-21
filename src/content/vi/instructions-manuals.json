@@ -1,34 +1,34 @@
 {
   "slug": "instructions-manuals",
-  "title": "Instructions & Manuals",
+  "title": "Hướng dẫn & Hướng dẫn sử dụng",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "Instruction & Manual Printing Services Clear, Durable, and Professional"
+      "text": "Dịch vụ in hướng dẫn & hướng dẫn sử dụng rõ ràng, bền bỉ và chuyên nghiệp"
     },
     {
       "type": "text",
-      "text": "From multi-language product manuals to technical guides, XinYuan delivers print precision and lasting quality your customers can trust."
+      "text": "Từ hướng dẫn sử dụng sản phẩm đa ngôn ngữ đến hướng dẫn kỹ thuật, XinYuan mang lại độ chính xác in và chất lượng lâu dài mà khách hàng của bạn có thể tin tưởng."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Clear Communication, Professional Presentation"
+      "text": "Giao tiếp rõ ràng, thuyết trình chuyên nghiệp"
     },
     {
       "type": "text",
-      "text": "Our instruction and manual printing services ensure every detail is communicated accurately. We produce manuals, product guides, and assembly booklets for global brands using offset and digital presses calibrated to G7® color standards."
+      "text": "Dịch vụ hướng dẫn và in thủ công của chúng tôi đảm bảo mọi chi tiết được truyền đạt chính xác. Chúng tôi sản xuất sách hướng dẫn, hướng dẫn sản phẩm và tập sách lắp ráp cho các thương hiệu toàn cầu sử dụng máy in offset và kỹ thuật số được hiệu chỉnh theo tiêu chuẩn màu G7®."
     },
     {
       "type": "text",
-      "text": "Whether you require a single-language product leaflet or a 64-page multi-language guide, our layout specialists ensure text alignment, line spacing, and icon placement are consistent."
+      "text": "Cho dù bạn yêu cầu tờ rơi sản phẩm một ngôn ngữ hay hướng dẫn đa ngôn ngữ dài 64 trang, các chuyên gia bố cục của chúng tôi đảm bảo căn chỉnh văn bản, khoảng cách dòng và vị trí biểu tượng nhất quán."
     },
     {
       "type": "text",
-      "text": "Every print reflects your brand’s quality and reliability — from the front page to the final instruction."
+      "text": "Mỗi bản in phản ánh chất lượng và độ tin cậy của thương hiệu của bạn - từ trang đầu đến hướng dẫn cuối cùng."
     },
     {
       "type": "image",
@@ -40,47 +40,47 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Printing Process & Finishing Options"
+      "text": "Quy trình in và tùy chọn hoàn thiện"
     },
     {
       "type": "text",
-      "text": "Our facilities in Vietnam, China, and Thailand combine speed, precision, and environmental responsibility."
+      "text": "Các cơ sở của chúng tôi ở Việt Nam, Trung Quốc và Thái Lan kết hợp tốc độ, độ chính xác và trách nhiệm với môi trường."
     },
     {
       "type": "text",
-      "text": "• Paper types: matte, gloss, and FSC®-certified eco stocks"
+      "text": "• Loại giấy: mờ, bóng và chứng nhận sinh thái FSC®"
     },
     {
       "type": "text",
-      "text": "Paper types: matte, gloss, and FSC®-certified eco stocks"
+      "text": "Các loại giấy: mờ, bóng và chứng nhận FSC®"
     },
     {
       "type": "text",
-      "text": "• Finishes: lamination, spot UV, and anti-smudge coatings"
+      "text": "• Hoàn thiện: cán màng, tia cực tím tại chỗ và lớp phủ chống nhòe"
     },
     {
       "type": "text",
-      "text": "Finishes: lamination, spot UV, and anti-smudge coatings"
+      "text": "Hoàn thiện: cán màng, tia cực tím tại chỗ và lớp phủ chống nhòe"
     },
     {
       "type": "text",
-      "text": "• Binding: saddle stitch, perfect binding, spiral, or booklet formats"
+      "text": "• Ràng buộc: khâu yên ngựa, đóng gáy hoàn hảo, định dạng xoắn ốc hoặc tập sách nhỏ"
     },
     {
       "type": "text",
-      "text": "Binding: saddle stitch, perfect binding, spiral, or booklet formats"
+      "text": "Ràng buộc: khâu yên ngựa, đóng gáy hoàn hảo, định dạng xoắn ốc hoặc tập sách nhỏ"
     },
     {
       "type": "text",
-      "text": "• Quality assurance: automatic alignment, pagination, and fold precision"
+      "text": "• Đảm bảo chất lượng: tự động căn chỉnh, phân trang và gấp chính xác"
     },
     {
       "type": "text",
-      "text": "Quality assurance: automatic alignment, pagination, and fold precision"
+      "text": "Đảm bảo chất lượng: tự động căn chỉnh, phân trang và gấp chính xác"
     },
     {
       "type": "text",
-      "text": "Each manual passes rigorous inspection to ensure clear diagrams, legible text, and color accuracy.Our pressrooms operate with ISO 9001 certification and G7® color control to guarantee repeatable quality from small to mass orders."
+      "text": "Mỗi sách hướng dẫn đều vượt qua quá trình kiểm tra nghiêm ngặt để đảm bảo sơ đồ rõ ràng, văn bản dễ đọc và độ chính xác của màu sắc. Phòng ép của chúng tôi hoạt động với chứng nhận ISO 9001 và kiểm soát màu G7® để đảm bảo chất lượng lặp lại từ đơn đặt hàng nhỏ đến hàng loạt."
     },
     {
       "type": "image",
@@ -92,87 +92,87 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Durability & Readability for Long-Term Use"
+      "text": "Độ bền và khả năng đọc để sử dụng lâu dài"
     },
     {
       "type": "text",
-      "text": "Manuals often live as long as the product itself. That’s why XinYuan focuses on smudge-resistant inks, anti-tear coatings, and fold-tested stocks that withstand repeated handling."
+      "text": "Hướng dẫn sử dụng thường tồn tại lâu như chính sản phẩm. Đó là lý do tại sao XinYuan tập trung vào mực chống nhòe, lớp phủ chống rách và giấy đã được thử nghiệm gấp có khả năng xử lý nhiều lần."
     },
     {
       "type": "text",
-      "text": "We produce manuals for electronics, small appliances, cosmetics, and automotive components — all printed for clarity and durability."
+      "text": "Chúng tôi sản xuất sách hướng dẫn cho thiết bị điện tử, thiết bị nhỏ, mỹ phẩm và linh kiện ô tô - tất cả đều được in để rõ ràng và độ bền."
     },
     {
       "type": "text",
-      "text": "For brands operating across global markets, our multi-language formatting supports Latin, Cyrillic, and Asian scripts.Our proofreading and prepress teams verify translations and character spacing for 100% accuracy before print."
+      "text": "Đối với các thương hiệu hoạt động trên thị trường toàn cầu, định dạng đa ngôn ngữ của chúng tôi hỗ trợ các chữ viết Latinh, Kirin và Châu Á. Đội ngũ hiệu đính và chuẩn bị của chúng tôi xác minh bản dịch và khoảng cách ký tự để có độ chính xác 100% trước khi in."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Sustainable Printing Practices"
+      "text": "Thực hành in bền vững"
     },
     {
       "type": "text",
-      "text": "As part of XinYuan’s FSC®-certified production network, we prioritize recyclable materials and low-VOC inks.Our facilities meet SMETA 4P and ISO 14001 standards, minimizing waste through closed-loop production systems."
+      "text": "Là một phần của mạng lưới sản xuất được chứng nhận FSC® của XinYuan, chúng tôi ưu tiên vật liệu có thể tái chế và mực có hàm lượng VOC thấp. Các cơ sở của chúng tôi đáp ứng các tiêu chuẩn SMETA 4P và ISO 14001, giảm thiểu chất thải thông qua các hệ thống sản xuất khép kín."
     },
     {
       "type": "text",
-      "text": "By choosing XinYuan, your manuals meet the highest standards of environmental responsibility and quality control, ensuring both compliance and consumer confidence."
+      "text": "Bằng cách chọn XinYuan, sách hướng dẫn của bạn đáp ứng các tiêu chuẩn cao nhất về trách nhiệm môi trường và kiểm soát chất lượng, đảm bảo cả sự tuân thủ và niềm tin của người tiêu dùng."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Why Global Brands Choose XinYuan for Manual Printing"
+      "text": "Tại sao các thương hiệu toàn cầu chọn XinYuan để in thủ công"
     },
     {
       "type": "text",
-      "text": "• Global OEM experience: Trusted by electronics and consumer goods manufacturers."
+      "text": "• Kinh nghiệm OEM toàn cầu: Được các nhà sản xuất điện tử và hàng tiêu dùng tin tưởng."
     },
     {
       "type": "text",
-      "text": "Global OEM experience: Trusted by electronics and consumer goods manufacturers."
+      "text": "Kinh nghiệm OEM toàn cầu: Được các nhà sản xuất điện tử và hàng tiêu dùng tin tưởng."
     },
     {
       "type": "text",
-      "text": "• Integrated production: Manuals and packaging printed within the same network for consistent quality."
+      "text": "• Sản xuất tích hợp: Hướng dẫn sử dụng và bao bì được in trong cùng một mạng lưới để có chất lượng nhất quán."
     },
     {
       "type": "text",
-      "text": "Integrated production: Manuals and packaging printed within the same network for consistent quality."
+      "text": "Sản xuất tích hợp: Hướng dẫn sử dụng và bao bì được in trong cùng một mạng lưới để có chất lượng nhất quán."
     },
     {
       "type": "text",
-      "text": "• G7®-certified printing: Ensures precise color reproduction and sharp details."
+      "text": "• In được chứng nhận G7®: Đảm bảo tái tạo màu sắc chính xác và chi tiết sắc nét."
     },
     {
       "type": "text",
-      "text": "G7®-certified printing: Ensures precise color reproduction and sharp details."
+      "text": "In được chứng nhận G7®: Đảm bảo tái tạo màu sắc chính xác và chi tiết sắc nét."
     },
     {
       "type": "text",
-      "text": "• Multilingual expertise: Professional translation support and prepress verification."
+      "text": "• Chuyên môn đa ngôn ngữ: Hỗ trợ dịch thuật chuyên nghiệp và xác minh trước khi in."
     },
     {
       "type": "text",
-      "text": "Multilingual expertise: Professional translation support and prepress verification."
+      "text": "Chuyên môn đa ngôn ngữ: Hỗ trợ dịch thuật chuyên nghiệp và xác minh trước khi in."
     },
     {
       "type": "text",
-      "text": "• Fast, reliable turnaround: From sampling to full-scale production."
+      "text": "• Quay vòng nhanh chóng, đáng tin cậy: Từ lấy mẫu đến sản xuất quy mô lớn."
     },
     {
       "type": "text",
-      "text": "Fast, reliable turnaround: From sampling to full-scale production."
+      "text": "Quay vòng nhanh chóng, đáng tin cậy: Từ lấy mẫu đến sản xuất toàn diện."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Contact us"
+      "text": "Liên hệ với chúng tôi"
     },
     {
       "type": "image",
       "src": "https://jinhaoxy.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg",
-      "alt": "Loading",
+      "alt": "Đang tải",
       "width": 26,
       "height": 26
     }

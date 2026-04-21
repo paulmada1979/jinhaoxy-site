@@ -1,17 +1,17 @@
 {
   "slug": "cookie-policy",
-  "title": "Cookie Policy",
+  "title": "Cookie政策",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "Cookie Policy"
+      "text": "Cookie政策"
     },
     {
       "type": "text",
-      "text": "Our website uses cookies to enhance your browsing experience and provide personalized content. Cookies are small text files stored on your device that help us analyze web traffic and improve our services. By continuing to use this website, you agree to our use of cookies. You may choose to disable cookies in your browser settings, but please note that some features of the website may not function properly without them."
+      "text": "我们的网站使用Cookies来提升您的浏览体验并提供个性化内容。Cookie是存储在您设备上的小型文本文件，帮助我们分析网络流量并提升服务质量。继续使用本网站即表示您同意我们使用Cookie。您可以选择在浏览器设置中禁用Cookies，但请注意，如果没有这些功能，网站的某些功能可能会无法正常运行。"
     }
   ],
   "faqs": []

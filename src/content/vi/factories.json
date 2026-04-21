@@ -1,38 +1,38 @@
 {
   "slug": "factories",
-  "title": "Factories",
+  "title": "Nhà máy",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "image",
       "src": "/media/cropped-favicon.png",
-      "alt": "Site Icon"
+      "alt": "Biểu tượng trang web"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Dual-hub manufacturing in south east Asia. One standard of quality."
+      "text": "Sản xuất trung tâm kép ở Đông Nam Á. Một tiêu chuẩn chất lượng."
     },
     {
       "type": "text",
-      "text": "Jinhao Xinyuan Group operates high-capacity, FSC® & ISO-certified packaging factories in Bắc Ninh (Vietnam) and Dongguan (China). From folding cartons and rigid boxes to manuals, labels, and shelf-ready packaging, we combine premium printing, consistent color, and export-ready QA—delivered on time worldwide."
+      "text": "Tập đoàn Jinhao Xinyuan vận hành các nhà máy sản xuất bao bì công suất cao, được chứng nhận FSC® và ISO tại Bắc Ninh (Việt Nam) và Đông Quan (Trung Quốc). Từ thùng carton gấp và hộp cứng đến sách hướng dẫn, nhãn và bao bì sẵn sàng trên kệ, chúng tôi kết hợp in cao cấp, màu sắc nhất quán và QA sẵn sàng xuất khẩu — được giao đúng hạn trên toàn thế giới."
     },
     {
       "type": "text",
-      "text": "Request a Quote Explore our Vietnamese plant Explore our Chinese plant"
+      "text": "Yêu cầu báo giá Khám phá nhà máy Việt Nam của chúng tôi Khám phá nhà máy Trung Quốc của chúng tôi"
     },
     {
       "type": "text",
-      "text": "3 regions serviced:"
+      "text": "3 khu vực được phục vụ:"
     },
     {
       "type": "text",
-      "text": "Asia, Europe, North America"
+      "text": "Châu Á, Châu Âu, Bắc Mỹ"
     },
     {
       "type": "text",
-      "text": "Certifications:"
+      "text": "Chứng chỉ:"
     },
     {
       "type": "text",
@@ -40,197 +40,197 @@
     },
     {
       "type": "text",
-      "text": "Materials:"
+      "text": "Vật liệu:"
     },
     {
       "type": "text",
-      "text": "Recyclable kraft/white liners, FSC paperboard, eco inks"
+      "text": "Lớp lót kraft / trắng có thể tái chế, bìa FSC, mực sinh thái"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "What We Make"
+      "text": "Những gì chúng tôi làm"
     },
     {
       "type": "text",
-      "text": "From offset-printed product labels to short-run digital sticker printing, XinYuan delivers precision, consistency, and versatility for brands worldwide.We manufacture a wide range of adhesive labels and custom stickers designed for durability, vibrant color, and long-term adhesion.Our label printing facilities in Vietnam and China are equipped with offset, flexographic, and digital presses, allowing us to produce large-scale commercial orders as well as custom short runs with equal quality."
+      "text": "Từ nhãn sản phẩm in offset đến in nhãn dán kỹ thuật số ngắn hạn, XinYuan mang lại độ chính xác, nhất quán và tính linh hoạt cho các thương hiệu trên toàn thế giới. Chúng tôi sản xuất nhiều loại nhãn dính và nhãn dán tùy chỉnh được thiết kế để có độ bền, màu sắc rực rỡ và độ bám dính lâu dài. Các cơ sở in nhãn của chúng tôi tại Việt Nam và Trung Quốc được trang bị máy in offset, flexo và kỹ thuật số, cho phép chúng tôi sản xuất các đơn đặt hàng thương mại quy mô lớn cũng như các đơn đặt hàng ngắn hạn tùy chỉnh với chất lượng tương đương."
     },
     {
       "type": "text",
-      "text": "Every label is printed to withstand handling, transport, and temperature changes, maintaining strong adhesion and perfect color accuracy.Whether for food packaging, cosmetics, logistics, or consumer goods, XinYuan helps brands communicate clearly and consistently through professional, high-quality labeling solutions."
+      "text": "Mỗi nhãn đều được in để chịu được xử lý, vận chuyển và thay đổi nhiệt độ, duy trì độ bám dính mạnh mẽ và độ chính xác màu hoàn hảo. Cho dù là bao bì thực phẩm, mỹ phẩm, hậu cần hay hàng tiêu dùng, XinYuan giúp các thương hiệu giao tiếp rõ ràng và nhất quán thông qua các giải pháp ghi nhãn chuyên nghiệp, chất lượng cao."
     },
     {
       "type": "text",
-      "text": "Key Features:"
+      "text": "Các tính năng chính:"
     },
     {
       "type": "text",
-      "text": "• Offset, flexo, and digital printing for short or large production runs"
+      "text": "• In offset, flexo và kỹ thuật số cho các lần sản xuất ngắn hoặc lớn"
     },
     {
       "type": "text",
-      "text": "Offset, flexo, and digital printing for short or large production runs"
+      "text": "In offset, flexo và kỹ thuật số cho các lần sản xuất ngắn hoặc lớn"
     },
     {
       "type": "text",
-      "text": "• Wide range of adhesive types: permanent, removable, freezer-grade, and high-tack"
+      "text": "• Nhiều loại chất kết dính: vĩnh viễn, có thể tháo rời, cấp đông lạnh và độ bám dính cao"
     },
     {
       "type": "text",
-      "text": "Wide range of adhesive types: permanent, removable, freezer-grade, and high-tack"
+      "text": "Nhiều loại chất kết dính: vĩnh viễn, có thể tháo rời, cấp đông lạnh và độ bám dính cao"
     },
     {
       "type": "text",
-      "text": "• FSC®-certified label materials and water-based inks"
+      "text": "• Vật liệu nhãn được chứng nhận FSC® và mực gốc nước"
     },
     {
       "type": "text",
-      "text": "FSC®-certified label materials and water-based inks"
+      "text": "Vật liệu nhãn được chứng nhận FSC® và mực gốc nước"
     },
     {
       "type": "text",
-      "text": "• Die-cutting, embossing, and spot UV or metallic finishes"
+      "text": "• Cắt bế, dập nổi và hoàn thiện UV hoặc kim loại tại chỗ"
     },
     {
       "type": "text",
-      "text": "Die-cutting, embossing, and spot UV or metallic finishes"
+      "text": "Cắt bế, dập nổi và hoàn thiện UV hoặc kim loại tại chỗ"
     },
     {
       "type": "text",
-      "text": "• Custom roll, sheet, or shrink-sleeve labels"
+      "text": "• Nhãn cuộn, tấm hoặc ống co tùy chỉnh"
     },
     {
       "type": "text",
-      "text": "Custom roll, sheet, or shrink-sleeve labels"
+      "text": "Nhãn cuộn, tấm hoặc nhãn co tay tùy chỉnh"
     },
     {
       "type": "image",
       "src": "/media/Retail-packing.webp",
-      "alt": "Shopper examining shelf-ready packaging in retail aisle",
+      "alt": "Người mua sắm kiểm tra bao bì sẵn sàng trên kệ trong lối đi bán lẻ",
       "width": 719,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Retail packing"
+      "text": "• Đóng gói bán lẻ"
     },
     {
       "type": "text",
-      "text": "Protective, high-impact packaging that enhances product visibility and shelf appeal. Built with durable board and vivid printing — perfect for FMCG, e-commerce, and retail displays."
+      "text": "Bao bì bảo vệ, có tác động cao giúp tăng cường khả năng hiển thị sản phẩm và hấp dẫn trên kệ. Được xây dựng với bảng bền và in sống động - hoàn hảo cho màn hình FMCG, thương mại điện tử và bán lẻ."
     },
     {
       "type": "text",
-      "text": "View"
+      "text": "Xem"
     },
     {
       "type": "image",
       "src": "/media/woman-is-reading-instruction-manual-while-assembli-2025-03-12-22-25-39-utc.jpg",
-      "alt": "hands holding instruction manual with assembly diagram",
+      "alt": "Hướng dẫn sử dụng cầm tay với sơ đồ lắp ráp",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Instructions & Manual Printing"
+      "text": "• Hướng dẫn & In thủ công"
     },
     {
       "type": "text",
-      "text": "Clear, durable manuals and inserts produced with precision offset and digital printing. Ideal for electronics, appliances, and healthcare documentation."
+      "text": "Hướng dẫn sử dụng và chèn rõ ràng, bền được sản xuất với in offset và kỹ thuật số chính xác. Lý tưởng cho thiết bị điện tử, thiết bị gia dụng và tài liệu chăm sóc sức khỏe."
     },
     {
       "type": "image",
       "src": "/media/unrecognizable-man-holding-roll-with-stickers-for-2025-03-18-17-15-13-utc.jpg",
-      "alt": "Technician holding freshly printed round adhesive labels",
+      "alt": "Kỹ thuật viên cầm nhãn dính tròn mới in",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Labels & stickers"
+      "text": "• Nhãn và nhãn dán"
     },
     {
       "type": "text",
-      "text": "Vibrant, reliable adhesive labels printed on FSC® paper with strong color and adhesion. Suited for food, cosmetics, and consumer product branding."
+      "text": "Nhãn dính rực rỡ, đáng tin cậy được in trên giấy FSC® với màu sắc và độ bám dính mạnh. Thích hợp cho thực phẩm, mỹ phẩm và xây dựng thương hiệu sản phẩm tiêu dùng."
     },
     {
       "type": "image",
       "src": "/media/online-small-business-owner-2025-04-01-01-18-59-utc.webp",
-      "alt": "Woman holding kraft paper shopping bag and packaging boxes",
+      "alt": "Người phụ nữ cầm túi mua sắm bằng giấy kraft và hộp đóng gói",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Cardboard, Trays & inserts"
+      "text": "• Các tông, khay và chèn"
     },
     {
       "type": "text",
-      "text": "Functional corrugated and paperboard inserts that keep products protected and neatly arranged. Built for strength, precision, and automated packing efficiency."
+      "text": "Các miếng chèn sóng và bìa cứng chức năng giúp sản phẩm được bảo vệ và sắp xếp gọn gàng. Được xây dựng cho sức mạnh, độ chính xác và hiệu quả đóng gói tự động."
     },
     {
       "type": "image",
       "src": "/media/1.bip_.2995-copy.png",
-      "alt": "custom handle folding boxes with blue and orange graphics",
+      "alt": "Hộp gấp tay cầm tùy chỉnh với đồ họa màu xanh lam và cam",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Folding cartons"
+      "text": "• Thùng carton gấp"
     },
     {
       "type": "text",
-      "text": "Stylish, lightweight cartons for retail and food packaging. Finished with premium printing and coating options that deliver both quality and speed in production."
+      "text": "Thùng carton thời trang, nhẹ cho bao bì bán lẻ và thực phẩm. Hoàn thiện với các tùy chọn in và phủ cao cấp mang lại cả chất lượng và tốc độ sản xuất."
     },
     {
       "type": "image",
       "src": "/media/children-make-jewelry-with-their-own-hands-string-2025-01-10-20-40-31-utc.jpg",
-      "alt": "transparent plastic boxes with compartments and lids",
+      "alt": "Hộp nhựa trong suốt có ngăn và nắp đậy",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Artifical Packing"
+      "text": "• Đóng gói nhân tạo"
     },
     {
       "type": "text",
-      "text": "Durable, reusable PP and HDPE boxes engineered for long-term use. Ideal for logistics, industrial goods, and e-commerce fulfillment with strong visual presentation."
+      "text": "Hộp PP và HDPE bền, có thể tái sử dụng được thiết kế để sử dụng lâu dài. Lý tưởng cho hậu cần, hàng công nghiệp và thực hiện thương mại điện tử với cách trình bày trực quan mạnh mẽ."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Why We Run Two Hubs"
+      "text": "Tại sao chúng tôi chạy hai trung tâm"
     },
     {
       "type": "text",
-      "text": "Operating plants in Vietnam and China lets us align lead times, tariffs, and logistics to your market, while maintaining the same color targets, QC steps, and traceability across both sites. You get capacity flexibility (single SKU, multi-country rollouts, pilot → scale), with one team and one standard."
+      "text": "Vận hành các nhà máy ở Việt Nam và Trung Quốc cho phép chúng tôi điều chỉnh thời gian giao hàng, thuế quan và hậu cần cho phù hợp với thị trường của bạn, trong khi vẫn duy trì cùng một mục tiêu màu sắc, các bước QC và truy xuất nguồn gốc trên cả hai địa điểm. Bạn có được sự linh hoạt về năng lực (SKU đơn, triển khai đa quốc gia, thử nghiệm → quy mô), với một nhóm và một tiêu chuẩn."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Capabilities"
+      "text": "Khả năng"
     },
     {
       "type": "text",
-      "text": "Printing & PrepressHeidelberg/Roland/Komori offset lines, digital/CTP proofing, G7®/GMI color control, variable finishes (UV, soft-touch, matte/gloss), foiling/embossing/debossing."
+      "text": "In ấn & PrepressCác đường offset Heidelberg / Roland / Komori, kiểm tra kỹ thuật số / CTP, kiểm soát màu G7® / GMI, hoàn thiện thay đổi (UV, cảm ứng mềm, mờ / bóng), foiling / dập nổi / dập nổi."
     },
     {
       "type": "text",
-      "text": "Converting & FinishingAuto die-cut, window patching, lamination, folder-gluer lines (straight-line, lock-bottom, 4/6-corner), semi-auto rigid box assembly, corrugation (B/E/BC flutes)."
+      "text": "Chuyển đổi & Hoàn thiệnTự động cắt bế, vá cửa sổ, cán màng, đường dán thư mục (đường thẳng, đáy khóa, 4/6 góc), cụm hộp cứng bán tự động, gấp nếp (sáo B / E / BC)."
     },
     {
       "type": "text",
-      "text": "Quality & TestingISO 9001 workflows, bar-code traceability, AQL checkpoints, ISTA transit tests (compression, drop, vibration), food-contact varnish options."
+      "text": "Chất lượng và thử nghiệmQuy trình làm việc ISO 9001, truy xuất nguồn gốc mã vạch, điểm kiểm tra AQL, kiểm tra vận chuyển ISTA (nén, rơi, rung), các tùy chọn vecni tiếp xúc với thực phẩm."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Environmental & Social Compliance"
+      "text": "Tuân thủ Môi trường và Xã hội"
     },
     {
       "type": "text",
-      "text": "FSC® chain-of-custody, water-based/vegetable inks, recycled fiber options, trim-waste recovery, SMETA 4-pillar audits, continuous CAPR improvement."
+      "text": "Chuỗi hành trình FSC®, mực gốc nước/thực vật, tùy chọn sợi tái chế, thu hồi chất thải cắt tỉa, đánh giá 4 trụ cột SMETA, cải tiến CAPR liên tục."
     }
   ],
   "faqs": []

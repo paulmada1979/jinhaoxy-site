@@ -1,34 +1,34 @@
 {
   "slug": "conctact-us",
-  "title": "Conctact us",
+  "title": "Kết nối chúng tôi",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 1,
-      "text": "Contact us"
+      "text": "Liên hệ với chúng tôi"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Contact Jinhao Xinyuan Group"
+      "text": "Liên hệ với Jinhao Xinyuan Group"
     },
     {
       "type": "text",
-      "text": "Your global packaging manufacturing partner is just one message away.With production hubs in Vietnam, China, and Thailand, our multilingual export team is ready to support your next packaging project — from quotation and sampling to full-scale production."
+      "text": "Đối tác sản xuất bao bì toàn cầu của bạn chỉ cách một tin nhắn. Với các trung tâm sản xuất tại Việt Nam, Trung Quốc và Thái Lan, đội ngũ xuất khẩu đa ngôn ngữ của chúng tôi sẵn sàng hỗ trợ dự án đóng gói tiếp theo của bạn - từ báo giá và lấy mẫu đến sản xuất quy mô lớn."
     },
     {
       "type": "text",
-      "text": "Whether you’re sourcing new suppliers, expanding your packaging range, or looking for certified manufacturing capacity, we’ll help you get the answers fast."
+      "text": "Cho dù bạn đang tìm nguồn cung ứng nhà cung cấp mới, mở rộng phạm vi đóng gói hay tìm kiếm năng lực sản xuất được chứng nhận, chúng tôi sẽ giúp bạn nhanh chóng nhận được câu trả lời."
     },
     {
       "type": "text",
-      "text": "Zone B, Qifeng lndustrial Park, Qishi Town, Dongguan City, Guangdong Province, China"
+      "text": "Khu B, Công viên công nghiệp Qifeng, Thị trấn Qishi, Thành phố Đông Quan, Tỉnh Quảng Đông, Trung Quốc"
     },
     {
       "type": "text",
-      "text": "1 My Thien residential group, Nhon Town, Viet YenDistrict, Bac Giang Province, Vietnam (opposite to Van Trung 1), Vietnam"
+      "text": "1 Tổ dân cư Mỹ Thiện, Thị trấn Nhơn, Huyện Việt Yên, Tỉnh Bắc Giang, Việt Nam (đối diện Vân Trung 1), Việt Nam"
     },
     {
       "type": "text",
@@ -36,21 +36,21 @@
     },
     {
       "type": "text",
-      "text": "Phone : +84-0907093845"
+      "text": "Điện thoại : +84-0907093845"
     },
     {
       "type": "heading",
       "level": 6,
-      "text": "Send us a message"
+      "text": "Gửi tin nhắn cho chúng tôi"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Feel Free to Reach Out for Further Details."
+      "text": "Vui lòng liên hệ để biết thêm chi tiết."
     },
     {
       "type": "text",
-      "text": "Need samples, a quotation, or technical consultation?Please complete the form below, and our regional export coordinator will reply within one business day.For urgent inquiries, reach us directly by phone or email listed above."
+      "text": "Cần mẫu, báo giá hoặc tư vấn kỹ thuật? Vui lòng hoàn thành biểu mẫu bên dưới và điều phối viên xuất khẩu khu vực của chúng tôi sẽ trả lời trong vòng một ngày làm việc. Đối với các thắc mắc khẩn cấp, hãy liên hệ trực tiếp với chúng tôi qua điện thoại hoặc email được liệt kê ở trên."
     },
     {
       "type": "image",
@@ -62,12 +62,12 @@
     {
       "type": "heading",
       "level": 4,
-      "text": "Contact us on Whatsapp"
+      "text": "Liên hệ với chúng tôi trên Whatsapp"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Fill this form"
+      "text": "Điền vào biểu mẫu này"
     }
   ],
   "faqs": []

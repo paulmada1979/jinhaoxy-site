@@ -1,163 +1,163 @@
 {
   "slug": "terms-of-use",
-  "title": "Terms of Use",
+  "title": "Điều khoản sử dụng",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "Terms of Use"
+      "text": "Điều khoản sử dụng"
     },
     {
       "type": "text",
-      "text": "Effective Date: November 2025"
+      "text": "Ngày có hiệu lực: Tháng Mười Một 2025"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Acceptance of Terms"
+      "text": "1. Chấp nhận các điều khoản"
     },
     {
       "type": "text",
-      "text": "By accessing or using jinhaoxy.com, you agree to be bound by these Terms of Use and all applicable laws and regulations. If you do not agree, please do not use the site."
+      "text": "Bằng cách truy cập hoặc sử dụng jinhaoxy.com, bạn đồng ý bị ràng buộc bởi các Điều khoản sử dụng này và tất cả các luật và quy định hiện hành. Nếu bạn không đồng ý, vui lòng không sử dụng trang web."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Ownership and Intellectual Property"
+      "text": "2. Quyền sở hữu và sở hữu trí tuệ"
     },
     {
       "type": "text",
-      "text": "All content on this website — including text, images, product data, graphics, and logos — is the property of Jinhao Xinyuan Group and protected under international copyright laws.No material may be copied, reproduced, or distributed without written consent."
+      "text": "Tất cả nội dung trên trang web này - bao gồm văn bản, hình ảnh, dữ liệu sản phẩm, đồ họa và logo - là tài sản của Tập đoàn Jinhao Xinyuan và được bảo vệ theo luật bản quyền quốc tế. Không có tài liệu nào có thể được sao chép, sao chép hoặc phân phối mà không có sự đồng ý bằng văn bản."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Use of Website"
+      "text": "3. Sử dụng trang web"
     },
     {
       "type": "text",
-      "text": "You agree not to:"
+      "text": "Bạn đồng ý không:"
     },
     {
       "type": "text",
-      "text": "• Misuse the site for unlawful purposes."
+      "text": "• Lạm dụng trang web cho các mục đích bất hợp pháp."
     },
     {
       "type": "text",
-      "text": "Misuse the site for unlawful purposes."
+      "text": "Lạm dụng trang web cho các mục đích bất hợp pháp."
     },
     {
       "type": "text",
-      "text": "• Upload or transmit harmful code."
+      "text": "• Tải lên hoặc truyền mã độc hại."
     },
     {
       "type": "text",
-      "text": "Upload or transmit harmful code."
+      "text": "Tải lên hoặc truyền mã độc hại."
     },
     {
       "type": "text",
-      "text": "• Copy or scrape data for resale or unauthorized use."
+      "text": "• Sao chép hoặc thu thập dữ liệu để bán lại hoặc sử dụng trái phép."
     },
     {
       "type": "text",
-      "text": "Copy or scrape data for resale or unauthorized use."
+      "text": "Sao chép hoặc thu thập dữ liệu để bán lại hoặc sử dụng trái phép."
     },
     {
       "type": "text",
-      "text": "The website is intended solely for business and informational purposes related to packaging manufacturing and supply."
+      "text": "Trang web chỉ dành cho mục đích kinh doanh và thông tin liên quan đến sản xuất và cung cấp bao bì."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Product Information & Liability"
+      "text": "4. Thông tin sản phẩm và trách nhiệm pháp lý"
     },
     {
       "type": "text",
-      "text": "While we strive for accuracy, product images, specifications, and descriptions on this site are for general guidance only.Jinhao Xinyuan Group reserves the right to update materials, designs, or pricing without prior notice."
+      "text": "Mặc dù chúng tôi cố gắng đạt được độ chính xác, nhưng hình ảnh, thông số kỹ thuật và mô tả sản phẩm trên trang web này chỉ mang tính chất hướng dẫn chung. Tập đoàn Jinhao Xinyuan có quyền cập nhật vật liệu, thiết kế hoặc giá cả mà không cần thông báo trước."
     },
     {
       "type": "text",
-      "text": "We are not liable for any direct or indirect loss arising from website use, delays, or data inaccuracies."
+      "text": "Chúng tôi không chịu trách nhiệm về bất kỳ tổn thất trực tiếp hoặc gián tiếp nào phát sinh từ việc sử dụng trang web, sự chậm trễ hoặc dữ liệu không chính xác."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Links to Third Parties"
+      "text": "5. Liên kết với bên thứ ba"
     },
     {
       "type": "text",
-      "text": "Our website may contain links to external sites for user convenience.We are not responsible for their content, accuracy, or privacy practices."
+      "text": "Trang web của chúng tôi có thể chứa các liên kết đến các trang web bên ngoài để thuận tiện cho người dùng. Chúng tôi không chịu trách nhiệm về nội dung, tính chính xác hoặc thực tiễn quyền riêng tư của họ."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Limitation of Liability"
+      "text": "6. Giới hạn trách nhiệm pháp lý"
     },
     {
       "type": "text",
-      "text": "To the fullest extent permitted by law, Jinhao Xinyuan Group, its subsidiaries, and affiliates shall not be liable for any damages resulting from:"
+      "text": "Trong phạm vi tối đa được pháp luật cho phép, Tập đoàn Jinhao Xinyuan, các công ty con và chi nhánh của Tập đoàn sẽ không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ:"
     },
     {
       "type": "text",
-      "text": "• Website downtime or errors."
+      "text": "• Thời gian ngừng hoạt động hoặc lỗi trang web."
     },
     {
       "type": "text",
-      "text": "Website downtime or errors."
+      "text": "Thời gian ngừng hoạt động hoặc lỗi của trang web."
     },
     {
       "type": "text",
-      "text": "• Inaccurate content or outdated data."
+      "text": "• Nội dung không chính xác hoặc dữ liệu lỗi thời."
     },
     {
       "type": "text",
-      "text": "Inaccurate content or outdated data."
+      "text": "Nội dung không chính xác hoặc dữ liệu lỗi thời."
     },
     {
       "type": "text",
-      "text": "• Unauthorized access or misuse of information."
+      "text": "• Truy cập trái phép hoặc lạm dụng thông tin."
     },
     {
       "type": "text",
-      "text": "Unauthorized access or misuse of information."
+      "text": "Truy cập trái phép hoặc lạm dụng thông tin."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Indemnification"
+      "text": "7. Bồi thường"
     },
     {
       "type": "text",
-      "text": "You agree to indemnify and hold harmless Jinhao Xinyuan Group, its officers, employees, and agents from any claims resulting from your use of this website or violation of these Terms."
+      "text": "Bạn đồng ý bồi thường và giữ cho Tập đoàn Jinhao Xinyuan, các cán bộ, nhân viên và đại lý của Tập đoàn không bị tổn hại trước bất kỳ khiếu nại nào phát sinh từ việc bạn sử dụng trang web này hoặc vi phạm các Điều khoản này."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Governing Law"
+      "text": "8. Luật điều chỉnh"
     },
     {
       "type": "text",
-      "text": "These Terms shall be governed by and interpreted according to the laws of Vietnam, without regard to conflict-of-law principles.Any disputes shall be resolved in the competent courts of Bắc Ninh, Vietnam."
+      "text": "Các Điều khoản này sẽ được điều chỉnh và giải thích theo pháp luật Việt Nam, không liên quan đến các nguyên tắc xung đột pháp luật. Mọi tranh chấp sẽ được giải quyết tại tòa án có thẩm quyền của Bắc Ninh, Việt Nam."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Modifications"
+      "text": "9. Sửa đổi"
     },
     {
       "type": "text",
-      "text": "We may update these Terms at any time. Continued use of the website following changes constitutes your acceptance of the updated terms."
+      "text": "Chúng tôi có thể cập nhật các Điều khoản này bất cứ lúc nào. Việc tiếp tục sử dụng trang web sau những thay đổi cấu thành sự chấp nhận của bạn đối với các điều khoản cập nhật."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Contact"
+      "text": "10. Liên hệ"
     },
     {
       "type": "text",
-      "text": "For questions about these Terms, please contact:📞 +84-0907093845 ✉️ info@jinhaoxy.com"
+      "text": "Nếu có thắc mắc về các Điều khoản này, vui lòng liên hệ: 📞 +84-0907093845 ✉️ info@jinhaoxy.com"
     }
   ],
   "faqs": []

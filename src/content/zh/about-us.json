@@ -1,139 +1,139 @@
 {
   "slug": "about-us",
-  "title": "About us",
+  "title": "关于我们",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 1,
-      "text": "Global Printing and Packaging Expertise Built Across Asia"
+      "text": "亚洲各地积累的全球印刷与包装专业知识"
     },
     {
       "type": "text",
-      "text": "Delivering world-class packaging solutions through our dual-hub manufacturing network in China, Vietnam and Thailand."
+      "text": "通过我们在中国、越南和泰国的双重制造网络，提供世界级包装解决方案。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Vietnam Manufacturing Base"
+      "text": "越南制造基地"
     },
     {
       "type": "text",
-      "text": "Our 30,000 m² facility in Bắc Ninh integrates 8 semi-automatic and 10 fully automatic production lines, delivering 1 million gift boxes and 10 million labels monthly. Equipped with Heidelberg XL106 and KBA 162 presses, we offer water-based ink printing for eco-compliant packaging"
+      "text": "我们在北宁的3万平方米工厂集成了8条半自动和10条全自动生产线，每月交付100万个礼品盒和1000万个标签。配备Heidelberg XL106和KBA 162印刷机，我们提供水性油墨打印，实现环保包装"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "China Base"
+      "text": "中国基地"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Vietnam Base"
+      "text": "越南基地"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Thailand Hub"
+      "text": "泰国枢纽"
     },
     {
       "type": "text",
-      "text": "13,900 m² Dongguan plant specializing in premium color boxes and board-game packaging. Roland and Komori press lines ensure precision."
+      "text": "东莞13,900平方米的厂房，专注于高端彩色盒装和桌游包装。Roland和Komori的压制线确保了精准。"
     },
     {
       "type": "text",
-      "text": "30,000 m² Bắc Ninh site driving FSC-certified production for export markets under ASEAN RCEP coverage."
+      "text": "30,000平方米的Bắc Ninh场地，推动FSC认证的出口市场生产，涵盖东盟RCEP覆盖范围。"
     },
     {
       "type": "text",
-      "text": "New 2024 facility in Chon Buri focusing on e-commerce packaging and rapid regional logistics."
+      "text": "春武里2024年新设施，专注于电子商务包装和快速区域物流。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Technology-Driven Global Delivery"
+      "text": "技术驱动的全球交付"
     },
     {
       "type": "text",
-      "text": "Unified digital proofing and CTP systems enable 72-hour design-to-production turnaround across our network. Vietnam’s UV foiling and eco coatings meet EU/US compliance and anti-counterfeiting standards."
+      "text": "统一的数字校样和CTP系统实现了我们网络内72小时的设计到生产周转。越南的紫外线箔和环保涂层符合欧盟/美国的合规和防假标准。"
     },
     {
       "type": "text",
-      "text": "• 72-hour cross-country coordination"
+      "text": "• 72小时跨国协调"
     },
     {
       "type": "text",
-      "text": "72-hour cross-country coordination"
+      "text": "72小时越野协调"
     },
     {
       "type": "text",
-      "text": "• Eco inks & water-based coatings"
+      "text": "• 环保墨水与水性涂层"
     },
     {
       "type": "text",
-      "text": "Eco inks & water-based coatings"
+      "text": "生态墨水与水性涂层"
     },
     {
       "type": "text",
-      "text": "• Digital plate-to-press workflow"
+      "text": "• 数字化版到印刷工作流程"
     },
     {
       "type": "text",
-      "text": "Digital plate-to-press workflow"
+      "text": "数字版图印刷工作流程"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Our Capabilities"
+      "text": "我们的能力"
     },
     {
       "type": "text",
-      "text": "Production Capacity"
+      "text": "生产能力"
     },
     {
       "type": "text",
-      "text": "Our advanced manufacturing facilities are equipped with state-of-the-art printing and finishing technology, enabling us to handle projects of any scale with precision and consistency.From short runs to mass production, we deliver high-volume output while maintaining exceptional quality standards across every order."
+      "text": "我们的先进制造设施配备了最先进的印刷和精加工技术，使我们能够精准且稳定地处理任何规模的项目。从短批量生产到批量生产，我们都能交付高产产品，同时在每一个订单中保持卓越的质量标准。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Uncompromising Quality"
+      "text": "毫不妥协的品质"
     },
     {
       "type": "text",
-      "text": "Quality is at the core of our operations."
+      "text": "质量是我们运营的核心。"
     },
     {
       "type": "text",
-      "text": "With strict quality control protocols and certifications including FSC®, ISO, SMETA-4P, and GMI, we ensure every packaging product meets international standards.Each stage — from raw material selection to final inspection — follows a zero-defect policy to guarantee consistency, reliability, and brand protection."
+      "text": "通过严格的质量控制规范和认证，包括FSC®、ISO、SMETA-4P和GMI，我们确保每一个包装产品都符合国际标准。从原材料选择到最终检验，每个环节都遵循零缺陷政策，以确保一致性、可靠性和品牌保护。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Customization & Design Flexibility"
+      "text": "定制与设计灵活性"
     },
     {
       "type": "text",
-      "text": "Every brand is unique, and so is every packaging solution we create."
+      "text": "每个品牌都是独一无二的，我们打造的每一个包装解决方案也是如此。"
     },
     {
       "type": "text",
-      "text": "Our design and engineering teams collaborate closely with clients to develop tailor-made structures, finishes, and visual concepts that reflect their identity.By combining creativity with advanced CAD design and digital proofing systems, we turn concepts into market-ready packaging that stands out on the shelf."
+      "text": "我们的设计和工程团队与客户紧密合作，开发能够体现其身份的定制结构、饰面和视觉概念。通过将创意与先进的CAD设计和数字校样系统相结合，我们将概念转化为市场化包装，在货架上脱颖而出。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Our Philosophy"
+      "text": "我们的理念"
     },
     {
       "type": "text",
-      "text": "We believe long-term partnerships are built on trust, quality, and continuous innovation. By combining engineering precision with creative design, we deliver packaging solutions that inspire confidence and support our clients’ growth worldwide"
+      "text": "我们相信长期合作伙伴关系建立在信任、质量和持续创新之上。通过将工程精准与创意设计相结合，我们提供令人信服、支持客户全球增长的包装解决方案"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Work With Us"
+      "text": "与我们合作"
     }
   ],
   "faqs": []

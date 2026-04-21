@@ -1,31 +1,31 @@
 {
   "slug": "products",
-  "title": "Packaging Solutions",
+  "title": "Giải pháp đóng gói",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 1,
-      "text": "Packaging Solutions Manufacturer Vietnam"
+      "text": "Nhà sản xuất giải pháp bao bì Việt Nam"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Innovative Sustainable Packaging for Every Industry"
+      "text": "Bao bì bền vững sáng tạo cho mọi ngành công nghiệp"
     },
     {
       "type": "text",
-      "text": "At XinYuan, we provide custom packaging solutions that combine innovation, sustainability, and precision manufacturing.Our integrated network of facilities in Vietnam, China, and Thailand delivers premium packaging for brands across the world.From luxury folding cartons to corrugated retail packaging, and adhesive labels to instruction manuals, every solution is engineered for performance, branding, and efficiency."
+      "text": "Tại XinYuan, chúng tôi cung cấp các giải pháp đóng gói tùy chỉnh kết hợp đổi mới, bền vững và sản xuất chính xác. Mạng lưới cơ sở tích hợp của chúng tôi tại Việt Nam, Trung Quốc và Thái Lan cung cấp bao bì cao cấp cho các thương hiệu trên toàn thế giới. Từ thùng carton gấp sang trọng đến bao bì bán lẻ sóng, nhãn dính đến hướng dẫn sử dụng, mọi giải pháp đều được thiết kế để mang lại hiệu suất, thương hiệu và hiệu quả."
     },
     {
       "type": "text",
-      "text": "Our team ensures that each product we deliver not only protects your goods but also enhances your brand identity, logistics, and shelf appeal — from concept design to global shipment."
+      "text": "Nhóm của chúng tôi đảm bảo rằng mỗi sản phẩm chúng tôi cung cấp không chỉ bảo vệ hàng hóa của bạn mà còn nâng cao bản sắc thương hiệu, hậu cần và sức hấp dẫn trên kệ của bạn - từ thiết kế ý tưởng đến lô hàng toàn cầu."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Allow us to support you with innovative, sustainable, and cost-effective packaging tailored to your products and industry."
+      "text": "Cho phép chúng tôi hỗ trợ bạn với bao bì sáng tạo, bền vững và tiết kiệm chi phí phù hợp với sản phẩm và ngành của bạn."
     },
     {
       "type": "image",
@@ -36,26 +36,26 @@
     },
     {
       "type": "text",
-      "text": "• Retail packing"
+      "text": "• Đóng gói bán lẻ"
     },
     {
       "type": "text",
-      "text": "Durable, visually appealing packaging designed to protect and present retail products with impact. Our retail packing combines strong construction with high-quality printing, ensuring your products stand out on every shelf. Ideal for: FMCG, e-commerce, and in-store retail displays."
+      "text": "Bao bì bền, hấp dẫn trực quan được thiết kế để bảo vệ và giới thiệu các sản phẩm bán lẻ có tác động. Bao bì bán lẻ của chúng tôi kết hợp kết cấu chắc chắn với in ấn chất lượng cao, đảm bảo sản phẩm của bạn nổi bật trên mọi kệ. Lý tưởng cho: FMCG, thương mại điện tử và trưng bày bán lẻ tại cửa hàng."
     },
     {
       "type": "image",
       "src": "/media/woman-is-reading-instruction-manual-while-assembli-2025-03-12-22-25-39-utc.jpg",
-      "alt": "hands holding instruction manual with assembly diagram",
+      "alt": "Hướng dẫn sử dụng cầm tay với sơ đồ lắp ráp",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Instructions & Manual Printing"
+      "text": "• Hướng dẫn & In thủ công"
     },
     {
       "type": "text",
-      "text": "We print product manuals, inserts, and user guides with precision and clarity. Our hybrid offset and digital lines ensure accurate color, readable text, and lasting durability — essential for electronics, appliances, and health products. Ideal for: Product instructions, safety manuals, and assembly guides."
+      "text": "Chúng tôi in hướng dẫn sử dụng sản phẩm, phụ kiện và hướng dẫn sử dụng với độ chính xác và rõ ràng. Các đường kỹ thuật số và bù đắp kết hợp của chúng tôi đảm bảo màu sắc chính xác, văn bản dễ đọc và độ bền lâu dài - cần thiết cho các thiết bị điện tử, thiết bị và các sản phẩm y tế. Lý tưởng cho: Hướng dẫn sản phẩm, hướng dẫn an toàn và hướng dẫn lắp ráp."
     },
     {
       "type": "image",
@@ -66,11 +66,11 @@
     },
     {
       "type": "text",
-      "text": "• Labels & stickers"
+      "text": "• Nhãn và nhãn dán"
     },
     {
       "type": "text",
-      "text": "High-quality adhesive labels and stickers that reinforce brand identity and reliability. Printed on FSC®-certified stocks with vibrant inks, they ensure durability and adhesion under all conditions. Ideal for: Consumer goods, cosmetics, food, and logistics labeling."
+      "text": "Nhãn và nhãn dán chất lượng cao giúp củng cố bản sắc và độ tin cậy của thương hiệu. Được in trên giấy chứng nhận FSC® với mực rực rỡ, chúng đảm bảo độ bền và độ bám dính trong mọi điều kiện. Lý tưởng cho: Hàng tiêu dùng, mỹ phẩm, thực phẩm và dán nhãn hậu cần."
     },
     {
       "type": "image",
@@ -81,59 +81,59 @@
     },
     {
       "type": "text",
-      "text": "• Cardboard, Trays & inserts"
+      "text": "• Các tông, khay và chèn"
     },
     {
       "type": "text",
-      "text": "Practical inserts, trays, and dividers that secure and organize your products. Engineered for protection and sustainability, they optimize material use while supporting automated assembly lines."
+      "text": "Các miếng chèn, khay và vách ngăn thiết thực giúp cố định và sắp xếp sản phẩm của bạn. Được thiết kế để bảo vệ và bền vững, chúng tối ưu hóa việc sử dụng vật liệu đồng thời hỗ trợ dây chuyền lắp ráp tự động."
     },
     {
       "type": "image",
       "src": "/media/1.bip_.2995-copy.png",
-      "alt": "custom handle folding boxes with blue and orange graphics",
+      "alt": "Hộp gấp tay cầm tùy chỉnh với đồ họa màu xanh lam và cam",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Folding cartons"
+      "text": "• Thùng carton gấp"
     },
     {
       "type": "text",
-      "text": "Lightweight, versatile paperboard boxes for consumer packaging that combines elegance with production efficiency. We offer offset printing, foil stamping, and lamination options for a professional retail finish. Ideal for: Cosmetics, food, pharmaceuticals, and retail brands."
+      "text": "Hộp bìa nhẹ, linh hoạt cho bao bì tiêu dùng kết hợp sự sang trọng với hiệu quả sản xuất. Chúng tôi cung cấp các tùy chọn in offset, dập giấy bạc và cán màng để hoàn thiện bán lẻ chuyên nghiệp. Lý tưởng cho: Mỹ phẩm, thực phẩm, dược phẩm và các thương hiệu bán lẻ."
     },
     {
       "type": "image",
       "src": "/media/children-make-jewelry-with-their-own-hands-string-2025-01-10-20-40-31-utc.jpg",
-      "alt": "transparent plastic boxes with compartments and lids",
+      "alt": "Hộp nhựa trong suốt có ngăn và nắp đậy",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Artifical Packing"
+      "text": "• Đóng gói nhân tạo"
     },
     {
       "type": "text",
-      "text": "Smart, reusable plastic and hybrid packaging designed for visibility, durability, and protection. Our PP and HDPE molded boxes offer long-lasting performance for logistics and storage. Ideal for: Industry, e-commerce, logistics, and warehouse use."
+      "text": "Bao bì nhựa thông minh, có thể tái sử dụng và bao bì lai được thiết kế để có khả năng hiển thị, độ bền và bảo vệ. Hộp đúc PP và HDPE của chúng tôi cung cấp hiệu suất lâu dài cho hậu cần và lưu trữ. Lý tưởng cho: Công nghiệp, thương mại điện tử, hậu cần và sử dụng kho hàng."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Delivering Smarter Packaging, Every Step of the Way."
+      "text": "Cung cấp bao bì thông minh hơn, từng bước."
     },
     {
       "type": "text",
-      "text": "From concept to delivery, our solutions combine creativity, protection, and sustainability to support your business growth."
+      "text": "Từ ý tưởng đến phân phối, các giải pháp của chúng tôi kết hợp sự sáng tạo, bảo vệ và bền vững để hỗ trợ sự phát triển kinh doanh của bạn."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Chosen by over 25,000 top-tier brands and businesses of every scale."
+      "text": "Được lựa chọn bởi hơn 25.000 thương hiệu và doanh nghiệp hàng đầu thuộc mọi quy mô."
     },
     {
       "type": "text",
-      "text": "More than 25,000 companies worldwide rely on XinYuan for reliable, export-ready packaging solutions.Our clients include both global corporations and fast-growing local brands — all benefiting from our certified production and end-to-end logistics support."
+      "text": "Hơn 25.000 công ty trên toàn thế giới tin tưởng vào XinYuan để có các giải pháp đóng gói đáng tin cậy, sẵn sàng xuất khẩu. Khách hàng của chúng tôi bao gồm cả các tập đoàn toàn cầu và các thương hiệu địa phương đang phát triển nhanh chóng - tất cả đều được hưởng lợi từ sản xuất được chứng nhận và hỗ trợ hậu cần từ đầu đến cuối của chúng tôi."
     }
   ],
   "faqs": []

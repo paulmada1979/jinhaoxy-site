@@ -1,265 +1,265 @@
 {
   "slug": "home",
-  "title": "Home",
+  "title": "首页",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 6,
-      "text": "Xinyuan Group"
+      "text": "新元集团"
     },
     {
       "type": "heading",
       "level": 1,
-      "text": "Premium Packaging Manufacturer in Vietnam"
+      "text": "越南高端包装制造商"
     },
     {
       "type": "text",
-      "text": "End-to-End Packaging Solutions for Global Brands"
+      "text": "全球品牌的端到端包装解决方案"
     },
     {
       "type": "text",
-      "text": "As an FSC® and ISO-certified manufacturer, Jinhao Group delivers corrugated, rigid, and folding boxes from Vietnam, China & Thailand."
+      "text": "作为FSC®和ISO认证制造商，金浩集团从越南、中国和泰国交付波纹、刚性和折叠箱。"
     },
     {
       "type": "text",
-      "text": "Beyond Borders, Precision in Every Print™ – delivering standardized packaging solutions through regional hubs for global brands."
+      "text": "超越国界，每一次印刷™的精准——通过区域枢纽为全球品牌提供标准化包装解决方案。"
     },
     {
       "type": "text",
-      "text": "To empower global brands with sustainable packaging and printing ecosystems — merging Asian manufacturing efficiency with global standards."
+      "text": "赋能全球品牌，打造可持续的包装和印刷生态系统——将亚洲制造效率与全球标准相结合。"
     },
     {
       "type": "text",
-      "text": "Printing Without Borders — blending global standards with local expertise to deliver consistency and quality worldwide."
+      "text": "无国界印刷——将全球标准与本地专业知识相结合，在全球范围内提供一致性和质量。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Who We Are"
+      "text": "我们是谁"
     },
     {
       "type": "text",
-      "text": "Jinhao Xinyuan Group is one of Asia’s leading packaging manufacturers, integrating design, R&D, printing, and assembly. Our dual-hub network in Vietnam and China ensures speed, capacity, and precision for export packaging worldwide."
+      "text": "金昊新远集团是亚洲领先的包装制造商之一，集设计、研发、印刷和装配于一体。我们在越南和中国的双中心网络确保了全球出口包装的速度、容量和精度。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Our Global Network"
+      "text": "我们的全球网络"
     },
     {
       "type": "text",
-      "text": "“With production bases in Bac Ninh (Vietnam), Dongguan (China), and Saraburi (Thailand), we deliver consistent quality, fast turnaround, and competitive production capacity across Asia."
+      "text": "“我们在越南北宁、中国东莞和泰国沙拉武里设有生产基地，确保亚洲范围内持续的质量、快速的周转和具竞争力的产能。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Our Main Product Lines"
+      "text": "我们的主要产品线"
     },
     {
       "type": "heading",
       "level": 4,
-      "text": "Corrugated Boxes"
+      "text": "瓦楞纸箱"
     },
     {
       "type": "heading",
       "level": 4,
-      "text": "Rigid & Gift Boxes"
+      "text": "硬盒与礼盒"
     },
     {
       "type": "heading",
       "level": 4,
-      "text": "Folding Cartons"
+      "text": "折叠纸箱"
     },
     {
       "type": "heading",
       "level": 4,
-      "text": "Labels & Manuals"
+      "text": "标签与手册"
     },
     {
       "type": "heading",
       "level": 4,
-      "text": "Eco Packaging"
+      "text": "生态包装"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Comprehensive Packaging Capabilities"
+      "text": "全面的包装能力"
     },
     {
       "type": "text",
-      "text": "“From concept to delivery, our teams manage every stage — design, printing, lamination, die-cutting, folding, gluing, and final assembly. Our facilities in Hai Duong, Bac Ninh, and Dongguan feature Heidelberg and KBA offset presses, automated corrugation lines, and precision finishing tools ensuring consistent quality and rapid turnaround."
+      "text": "“从概念到交付，我们的团队负责设计、打印、覆膜、模切、折叠、粘合和最终组装的每一个环节。我们在海阳、北宁和东莞的工厂配备了海德堡和KBA胶印机、自动波纹线和精密精加工工具，确保质量稳定和快速交货。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Trusted by Global Brands"
+      "text": "全球品牌信赖"
     },
     {
       "type": "text",
-      "text": "We serve retail, electronics, food & beverage, and cosmetics brands worldwide, with reliable logistics for export. With OEM & ODM experience and certifications including GMI, SMETA-4P, and ISTA, we ensure compliance, durability, and premium visual results."
+      "text": "我们服务于全球零售、电子产品、食品饮料及化妆品品牌，并提供可靠的出口物流。凭借OEM和ODM经验以及包括GMI、SMETA-4P和ISTA等认证，我们确保合规、耐用性和卓越的视觉效果。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Certified Quality & Sustainable Materials"
+      "text": "认证质量与可持续材料"
     },
     {
       "type": "text",
-      "text": "We believe packaging should safeguard your product and the planet. All materials are FSC®-certified, recyclable, and responsibly sourced. We invest in eco-friendly inks, water-based coatings, and recyclable paperboard to help partners achieve their sustainability goals."
+      "text": "我们相信包装应保护您的产品和地球。所有材料均获得FSC®认证，可回收，且采购负责任。我们投资环保油墨、水性涂层和可回收纸板，帮助合作伙伴实现可持续发展目标。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Partner With Us"
+      "text": "与我们合作"
     },
     {
       "type": "text",
-      "text": "Looking for a reliable packaging manufacturer in Vietnam? Our export team is ready to help with samples, design mock-ups, and fast production."
+      "text": "在越南寻找可靠的包装制造商吗？我们的出口团队随时准备提供样品、设计样图和快速生产。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Frequently Asked Questions"
+      "text": "常见问题解答"
     },
     {
       "type": "text",
-      "text": "我们在中国东莞常平（20,000㎡）和越南北宁（8条专业生产线）均设有现代化工厂，配备全自动与半自动生产线，可同时承接大批量印刷彩盒与精细手工礼品盒订单。"
+      "text": "我们在中国东莞长平（20,000平方米）和越南北宁（8条专用生产线）运营现代化工厂，配备全自动和半自动生产线，适用于批量印刷纸盒和精密手工礼品盒。"
     },
     {
       "type": "text",
-      "text": "We hold FSC, SMETA, CAPR, and ISO9001 certifications — fully meeting supplier approval standards for global brands such as L’Oréal and complying with EU/US environmental and ethical regulations."
+      "text": "我们持有FSC、SMETA、CAPR和ISO9001认证——完全符合欧莱雅等全球品牌的供应商审批标准，并遵守欧盟/美国的环境和伦理法规。"
     },
     {
       "type": "text",
-      "text": "可以。东莞工厂的自动化设备负责高精度开槽、模切，经验丰富的手工团队完成精细包边工艺，两种生产模式可并行运作，满足不同工艺难度需求。"
+      "text": "是的。我们的东莞工厂将自动化精密开槽和模切结合，配备专业手工包装团队。两种模式同时运行，涵盖从大量纸盒到手工礼盒的各种商品。"
     },
     {
       "type": "text",
-      "text": "我们专注于以下四类：①精品手工礼品盒（rigid box）②高档彩盒（folding carton）③瓦楞运输箱（corrugated box）④纸塑合成复合包装。覆盖美妆、电子、食品、奢侈品等多个行业。"
+      "text": "我们专注于四大核心类别：（1）高端手工硬礼盒（2）高端折叠纸盒（3）瓦楞纸箱（4）纸塑料复合包装——服务于化妆品、电子产品、食品和奢侈品行业。"
     },
     {
       "type": "text",
-      "text": "我们支持胶印、UV印刷、烫金/烫银、击凸/压凹、哑膜/亮膜覆膜、局部UV等主流工艺，可根据品牌视觉要求定制工艺组合，提升货架吸引力。"
+      "text": "我们支持胶印、紫外线印刷、热箔冲压（金银）、压花/压印、哑光/光泽层压和点UV——可根据您的品牌形象进行完全定制，最大化展架效果。"
     },
     {
       "type": "text",
-      "text": "提供。我们的FSC认证确保用纸来自可持续林场；同时提供可降解材料、减塑方案，帮助品牌满足欧盟PPWR（包装法规）及北美EPR（生产者责任延伸）等合规要求。"
+      "text": "是的。我们的FSC认证保证纸张的可持续来源。我们还提供可生物降解材料和塑料减脂解决方案，帮助品牌遵守欧盟PPWR和北美EPR包装法规。"
     },
     {
       "type": "text",
-      "text": "可以。我们具备成熟的异质材料复合技术，可在纸质基材上融合PET、PP等塑料组件，实现特殊防护性能与高端视觉效果的结合。"
+      "text": "是的。我们在复合材料加工方面拥有成熟的专业能力，将PET、PP及其他塑料与纸质基材结合，实现专业保护和高端美观。"
     },
     {
       "type": "text",
-      "text": "我们的起订量为 1,000 个起，包含专业设计支持、材料选型建议、高精度量产及全流程质检。该起订量可最大化自动化产线的性价比，为您提供最具竞争力的单价。"
+      "text": "我们的MOQ为1000单位，涵盖专业设计支持、材料咨询、高精度大规模生产和全面质量检测——旨在最大化自动化生产线的成本效率。"
     },
     {
       "type": "text",
-      "text": "提供。我们的设计团队可协助结构优化、刀版绘制和视觉稿设计。确认量产意向（1,000个以上）后，我们将提供实物样品，确保量产前工艺与效果100%符合预期。"
+      "text": "是的。我们的内部设计团队协助结构工程、模线制作和视觉艺术工作。确认1000+单位生产意向后，我们会生产实物样品，验证所有工艺细节，确保全面生产前完成。"
     },
     {
       "type": "text",
-      "text": "We accept Adobe Illustrator (.AI), print-ready PDF (300 DPI minimum), and CDR formats. If you don’t have final artwork, our design team can create it from scratch based on your brand guidelines."
+      "text": "我们接受Adobe Illustrator（.AI）、打印即用PDF（最低300 DPI）和CDR格式。如果您还没有最终的艺术作品，我们的设计团队可以根据您的品牌指南从零开始制作。"
     },
     {
       "type": "text",
-      "text": "我们实行全流程质检体系：来料检验（IQC）→ 过程检验（IPQC）→ 出货检验（OQC），结合自动化视觉检测与人工抽样，确保出厂合格率99%以上。可根据客户需求提供第三方验货支持。"
+      "text": "我们运行全周期质量控制系统：进货质量控制（IQC）→在品质量控制（IPQC）→出货质量控制（OQC），结合自动视觉检测与人工采样，实现99%+通过率。如需第三方检查支持，我们可根据要求提供。"
     },
     {
       "type": "text",
-      "text": "我们采用标准化色彩管理体系（CMS），使用分光光度计（Spectrophotometer）进行色差检测，确保重复订单的△E色差值控制在国际标准范围内，与初次确认样高度一致。"
+      "text": "我们使用标准化的色彩管理系统（CMS），基于分光光度计的Delta-E测量，确保所有重复订单的色彩偏差符合国际公差标准。"
     },
     {
       "type": "text",
-      "text": "FSC certification proves your packaging uses materials from certified sustainable forests — directly supporting your brand’s ESG reports and EU sustainability declarations. It also meets mandatory or recommended requirements from major retailers like Amazon and Target."
+      "text": "FSC认证证明您的包装使用了认证可持续森林的材料——直接支持品牌的ESG报告和欧盟可持续发展声明。它还满足亚马逊和Target等大型零售商的强制或推荐要求。"
     },
     {
       "type": "text",
-      "text": "1,000个以上的标准彩盒订单约15-20个工作日；手工礼品盒因工序复杂约需25个工作日。样品制作周期为5-7个工作日。旺季建议提前4-6周下单以保障交期。"
+      "text": "标准折叠纸盒订单，1000+件：15–20个工作日。手工制作的刚性礼盒：大约25个工作日。样本：5–7个工作日。我们建议在旺季提前4至6周下单。"
     },
     {
       "type": "text",
-      "text": "Bac Ninh offers proximity to Noi Bai International Airport and Hai Phong Port. Vietnam’s FTAs — including EVFTA (EU) and UKVFTA (UK) — significantly reduce export tariffs, providing stronger supply chain resilience in today’s global trade environment."
+      "text": "北宁靠近诺伊白国际机场和海防港。越南的自由贸易协定——包括欧盟的EVFTA和英国的英国自由贸易协定——大幅降低了出口关税，增强了当今全球贸易环境中的供应链韧性。"
     },
     {
       "type": "text",
-      "text": "我们支持 FOB（离岸价）、CIF（含运保费）和 DDP（完税交货）贸易条款，可从中国或越南工厂分批发货，并协助安排国际货运代理对接。"
+      "text": "我们支持FOB、CIF和DDP贸易条款，并可选择从中国或越南设施分批发货。我们还协助您连接国际货运代理。"
     },
     {
       "type": "text",
-      "text": "请提供：①产品尺寸（长×宽×高）②材质与工艺要求 ③设计图稿（如有）④目标数量。我们的团队将在24小时内回复1,000个以上数量的竞争力报价，并附材料与工艺建议。"
+      "text": "请提供：（1）箱体尺寸（L×W×H）（2）材料和表面处理要求（3）设计艺术品（如有）（4）目标数量。我们的团队将在24小时内回复，提供1000+单元的有竞争力报价，包括材料和表面处理建议。"
     }
   ],
   "faqs": [
     {
-      "q": "你们的工厂在哪里？有哪些生产设施？",
-      "a": "我们在中国东莞常平（20,000㎡）和越南北宁（8条专业生产线）均设有现代化工厂，配备全自动与半自动生产线，可同时承接大批量印刷彩盒与精细手工礼品盒订单。"
+      "q": "你们的工厂位于哪里？有哪些生产设施？",
+      "a": "我们在中国东莞长平（20,000平方米）和越南北宁（8条专用生产线）运营现代化工厂，配备全自动和半自动生产线，适用于批量印刷纸盒和精密手工礼品盒。"
     },
     {
-      "q": "你们持有哪些国际认证？能否供货给欧美大品牌？",
-      "a": "我们已通过 FSC（可持续林业）、SMETA（社会责任审计）、CAPR 及 ISO9001 认证，完全符合欧莱雅等国际品牌的供应商准入标准，满足欧美市场环保与合规要求。"
+      "q": "你持有哪些国际认证？您是否获准供应全球品牌？",
+      "a": "我们持有FSC、SMETA、CAPR和ISO9001认证——完全符合欧莱雅等全球品牌的供应商审批标准，并遵守欧盟/美国的环境和伦理法规。"
     },
     {
-      "q": "你们能同时生产手工礼品盒和自动化批量纸盒吗？",
-      "a": "可以。东莞工厂的自动化设备负责高精度开槽、模切，经验丰富的手工团队完成精细包边工艺，两种生产模式可并行运作，满足不同工艺难度需求。"
+      "q": "你能同时生产手工礼盒和自动散装纸箱吗？",
+      "a": "是的。我们的东莞工厂将自动化精密开槽和模切结合，配备专业手工包装团队。两种模式同时运行，涵盖从大量纸盒到手工礼盒的各种商品。"
     },
     {
-      "q": "你们提供哪些类型的包装产品？",
-      "a": "我们专注于以下四类：①精品手工礼品盒（rigid box）②高档彩盒（folding carton）③瓦楞运输箱（corrugated box）④纸塑合成复合包装。覆盖美妆、电子、食品、奢侈品等多个行业。"
+      "q": "你们生产哪些类型的包装产品？",
+      "a": "我们专注于四大核心类别：（1）高端手工硬礼盒（2）高端折叠纸盒（3）瓦楞纸箱（4）纸塑料复合包装——服务于化妆品、电子产品、食品和奢侈品行业。"
     },
     {
-      "q": "你们支持哪些印刷与表面处理工艺？",
-      "a": "我们支持胶印、UV印刷、烫金/烫银、击凸/压凹、哑膜/亮膜覆膜、局部UV等主流工艺，可根据品牌视觉要求定制工艺组合，提升货架吸引力。"
+      "q": "你们提供哪些印刷和表面处理选项？",
+      "a": "我们支持胶印、紫外线印刷、热箔冲压（金银）、压花/压印、哑光/光泽层压和点UV——可根据您的品牌形象进行完全定制，最大化展架效果。"
     },
     {
-      "q": "你们提供环保包装解决方案吗？",
-      "a": "提供。我们的FSC认证确保用纸来自可持续林场；同时提供可降解材料、减塑方案，帮助品牌满足欧盟PPWR（包装法规）及北美EPR（生产者责任延伸）等合规要求。"
+      "q": "你们提供环保包装方案吗？",
+      "a": "是的。我们的FSC认证保证纸张的可持续来源。我们还提供可生物降解材料和塑料减脂解决方案，帮助品牌遵守欧盟PPWR和北美EPR包装法规。"
     },
     {
-      "q": "你们能处理纸塑合成等特殊复合材料吗？",
-      "a": "可以。我们具备成熟的异质材料复合技术，可在纸质基材上融合PET、PP等塑料组件，实现特殊防护性能与高端视觉效果的结合。"
+      "q": "你能使用纸塑料复合材料或其他特殊材料吗？",
+      "a": "是的。我们在复合材料加工方面拥有成熟的专业能力，将PET、PP及其他塑料与纸质基材结合，实现专业保护和高端美观。"
     },
     {
-      "q": "定制包装的最小起订量（MOQ）是多少？",
-      "a": "我们的起订量为 1,000 个起，包含专业设计支持、材料选型建议、高精度量产及全流程质检。该起订量可最大化自动化产线的性价比，为您提供最具竞争力的单价。"
+      "q": "定制包装的最低订购量（MOQ）是多少？",
+      "a": "我们的MOQ为1000单位，涵盖专业设计支持、材料咨询、高精度大规模生产和全面质量检测——旨在最大化自动化生产线的成本效率。"
     },
     {
-      "q": "你们提供包装设计和打样服务吗？",
-      "a": "提供。我们的设计团队可协助结构优化、刀版绘制和视觉稿设计。确认量产意向（1,000个以上）后，我们将提供实物样品，确保量产前工艺与效果100%符合预期。"
+      "q": "你们是否提供包装设计和样品原型制作服务？",
+      "a": "是的。我们的内部设计团队协助结构工程、模线制作和视觉艺术工作。确认1000+单位生产意向后，我们会生产实物样品，验证所有工艺细节，确保全面生产前完成。"
     },
     {
-      "q": "提交设计稿需要什么文件格式？",
-      "a": "我们接受 Adobe Illustrator（.AI）、PDF（印刷级，300 DPI以上）及 CDR 格式。如您尚无成品稿件，我们的设计团队可根据您的品牌指南从零开始制作。"
+      "q": "你们接受哪些艺术作品文件格式？",
+      "a": "我们接受Adobe Illustrator（.AI）、打印即用PDF（最低300 DPI）和CDR格式。如果您还没有最终的艺术作品，我们的设计团队可以根据您的品牌指南从零开始制作。"
     },
     {
-      "q": "你们如何保证大货质量稳定？",
-      "a": "我们实行全流程质检体系：来料检验（IQC）→ 过程检验（IPQC）→ 出货检验（OQC），结合自动化视觉检测与人工抽样，确保出厂合格率99%以上。可根据客户需求提供第三方验货支持。"
+      "q": "你们如何确保大规模生产中的质量一致？",
+      "a": "我们运行全周期质量控制系统：进货质量控制（IQC）→在品质量控制（IPQC）→出货质量控制（OQC），结合自动视觉检测与人工采样，实现99%+通过率。如需第三方检查支持，我们可根据要求提供。"
     },
     {
-      "q": "你们如何保证跨批次颜色一致性？",
-      "a": "我们采用标准化色彩管理体系（CMS），使用分光光度计（Spectrophotometer）进行色差检测，确保重复订单的△E色差值控制在国际标准范围内，与初次确认样高度一致。"
+      "q": "你如何保持不同批次的颜色一致性？",
+      "a": "我们使用标准化的色彩管理系统（CMS），基于分光光度计的Delta-E测量，确保所有重复订单的色彩偏差符合国际公差标准。"
     },
     {
-      "q": "FSC 认证对欧美买家有什么实际价值？",
-      "a": "FSC认证证明您的包装材料来自经过认证的可持续林场，可直接用于支持品牌的ESG报告及欧盟包装可持续性申报。这也是亚马逊、Target等大型零售商对供应商包装的强制或推荐要求。"
+      "q": "FSC认证对欧盟/美国买家有什么实际价值？",
+      "a": "FSC认证证明您的包装使用了认证可持续森林的材料——直接支持品牌的ESG报告和欧盟可持续发展声明。它还满足亚马逊和Target等大型零售商的强制或推荐要求。"
     },
     {
-      "q": "大货订单的生产周期通常是多久？",
-      "a": "1,000个以上的标准彩盒订单约15-20个工作日；手工礼品盒因工序复杂约需25个工作日。样品制作周期为5-7个工作日。旺季建议提前4-6周下单以保障交期。"
+      "q": "批量订单的典型生产交货期是多久？",
+      "a": "标准折叠纸盒订单，1000+件：15–20个工作日。手工制作的刚性礼盒：大约25个工作日。样本：5–7个工作日。我们建议在旺季提前4至6周下单。"
     },
     {
-      "q": "从越南北宁生产出口有什么优势？",
-      "a": "Bac Ninh offers proximity to Noi Bai International Airport and Hai Phong Port. Vietnam&#8217;s FTAs — including EVFTA (EU) and UKVFTA (UK) — significantly reduce export tariffs, providing stronger supply chain resilience in today&#8217;s global trade environment."
+      "q": "从越南北宁制造和出口有哪些优势？",
+      "a": "北宁靠近诺伊白国际机场和海防港。越南的自由贸易协定——包括欧盟的EVFTA和英国的英国自由贸易协定——大幅降低了出口关税，增强了当今全球贸易环境中的供应链韧性。"
     },
     {
-      "q": "你们支持哪些贸易条款和发货方式？",
-      "a": "我们支持 FOB（离岸价）、CIF（含运保费）和 DDP（完税交货）贸易条款，可从中国或越南工厂分批发货，并协助安排国际货运代理对接。"
+      "q": "你支持哪些贸易条款和运输选项？",
+      "a": "我们支持FOB、CIF和DDP贸易条款，并可选择从中国或越南设施分批发货。我们还协助您连接国际货运代理。"
     },
     {
-      "q": "如何快速获得正式报价？",
-      "a": "请提供：①产品尺寸（长×宽×高）②材质与工艺要求 ③设计图稿（如有）④目标数量。我们的团队将在24小时内回复1,000个以上数量的竞争力报价，并附材料与工艺建议。"
+      "q": "我怎样才能快速获得正式报价？",
+      "a": "请提供：（1）箱体尺寸（L×W×H）（2）材料和表面处理要求（3）设计艺术品（如有）（4）目标数量。我们的团队将在24小时内回复，提供1000+单元的有竞争力报价，包括材料和表面处理建议。"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "slug": "cookie-policy",
-  "title": "Cookie Policy",
+  "title": "Chính sách cookie",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "Cookie Policy"
+      "text": "Chính sách cookie"
     },
     {
       "type": "text",
-      "text": "Our website uses cookies to enhance your browsing experience and provide personalized content. Cookies are small text files stored on your device that help us analyze web traffic and improve our services. By continuing to use this website, you agree to our use of cookies. You may choose to disable cookies in your browser settings, but please note that some features of the website may not function properly without them."
+      "text": "Trang web của chúng tôi sử dụng cookie để nâng cao trải nghiệm duyệt web của bạn và cung cấp nội dung được cá nhân hóa. Cookie là các tệp văn bản nhỏ được lưu trữ trên thiết bị của bạn giúp chúng tôi phân tích lưu lượng truy cập web và cải thiện dịch vụ của mình. Bằng cách tiếp tục sử dụng trang web này, bạn đồng ý với việc sử dụng cookie của chúng tôi. Bạn có thể chọn tắt cookie trong cài đặt trình duyệt của mình, nhưng xin lưu ý rằng một số tính năng của trang web có thể không hoạt động bình thường nếu không có chúng."
     }
   ],
   "faqs": []

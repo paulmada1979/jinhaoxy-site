@@ -1,29 +1,29 @@
 {
   "slug": "hai-duong-factory",
-  "title": "XinYuan Packing Donguan",
+  "title": "XinYuan đóng gói Donguan",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "XinYuan Packing Donguan"
+      "text": "XinYuan đóng gói Donguan"
     },
     {
       "type": "text",
-      "text": "Year of Establishment: 2024.07"
+      "text": "Năm thành lập: 2024.07"
     },
     {
       "type": "text",
-      "text": "Location:Zone B, Qifeng lndustrial Park, Qishi Town, Dongguan City, Guangdong Province, China"
+      "text": "Vị trí:Khu B, Công viên công nghiệp Qifeng, Thị trấn Qishi, Thành phố Đông Quan, Tỉnh Quảng Đông, Trung Quốc"
     },
     {
       "type": "text",
-      "text": "Building Area: 43500 m"
+      "text": "Diện tích xây dựng: 43500 m"
     },
     {
       "type": "text",
-      "text": "Workers:120"
+      "text": "Công nhân:120"
     },
     {
       "type": "image",

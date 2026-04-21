@@ -1,139 +1,139 @@
 {
   "slug": "about-us",
-  "title": "About us",
+  "title": "Về chúng tôi",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 1,
-      "text": "Global Printing and Packaging Expertise Built Across Asia"
+      "text": "Chuyên môn in ấn và đóng gói toàn cầu được xây dựng trên khắp châu Á"
     },
     {
       "type": "text",
-      "text": "Delivering world-class packaging solutions through our dual-hub manufacturing network in China, Vietnam and Thailand."
+      "text": "Cung cấp các giải pháp đóng gói đẳng cấp thế giới thông qua mạng lưới sản xuất trung tâm kép của chúng tôi tại Trung Quốc, Việt Nam và Thái Lan."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Vietnam Manufacturing Base"
+      "text": "Cơ sở sản xuất tại Việt Nam"
     },
     {
       "type": "text",
-      "text": "Our 30,000 m² facility in Bắc Ninh integrates 8 semi-automatic and 10 fully automatic production lines, delivering 1 million gift boxes and 10 million labels monthly. Equipped with Heidelberg XL106 and KBA 162 presses, we offer water-based ink printing for eco-compliant packaging"
+      "text": "Cơ sở rộng 30.000 m² của chúng tôi tại Bắc Ninh tích hợp 8 dây chuyền sản xuất bán tự động và 10 dây chuyền sản xuất hoàn toàn tự động, cung cấp 1 triệu hộp quà tặng và 10 triệu nhãn mác hàng tháng. Được trang bị máy in Heidelberg XL106 và KBA 162, chúng tôi cung cấp dịch vụ in mực gốc nước cho bao bì phù hợp với môi trường"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "China Base"
+      "text": "Căn cứ Trung Quốc"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Vietnam Base"
+      "text": "Căn cứ Việt Nam"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Thailand Hub"
+      "text": "Trung tâm Thái Lan"
     },
     {
       "type": "text",
-      "text": "13,900 m² Dongguan plant specializing in premium color boxes and board-game packaging. Roland and Komori press lines ensure precision."
+      "text": "Nhà máy Đông Quan rộng 13.900 m² chuyên về hộp màu cao cấp và bao bì trò chơi trên bàn cờ. Dây chuyền ép Roland và Komori đảm bảo độ chính xác."
     },
     {
       "type": "text",
-      "text": "30,000 m² Bắc Ninh site driving FSC-certified production for export markets under ASEAN RCEP coverage."
+      "text": "30.000 m² khu vực Bắc Ninh thúc đẩy sản xuất được chứng nhận FSC cho các thị trường xuất khẩu thuộc phạm vi ASEAN RCEP."
     },
     {
       "type": "text",
-      "text": "New 2024 facility in Chon Buri focusing on e-commerce packaging and rapid regional logistics."
+      "text": "Cơ sở mới năm 2024 tại Chon Buri tập trung vào bao bì thương mại điện tử và hậu cần khu vực nhanh chóng."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Technology-Driven Global Delivery"
+      "text": "Phân phối toàn cầu dựa trên công nghệ"
     },
     {
       "type": "text",
-      "text": "Unified digital proofing and CTP systems enable 72-hour design-to-production turnaround across our network. Vietnam’s UV foiling and eco coatings meet EU/US compliance and anti-counterfeiting standards."
+      "text": "Hệ thống CTP và kiểm tra kỹ thuật số hợp nhất cho phép quay vòng thiết kế đến sản xuất trong 72 giờ trên toàn mạng lưới của chúng tôi. Lớp phủ UV và lớp phủ sinh thái của Việt Nam đáp ứng các tiêu chuẩn tuân thủ và chống hàng giả của EU/Mỹ."
     },
     {
       "type": "text",
-      "text": "• 72-hour cross-country coordination"
+      "text": "• Điều phối xuyên quốc gia 72 giờ"
     },
     {
       "type": "text",
-      "text": "72-hour cross-country coordination"
+      "text": "Điều phối xuyên quốc gia 72 giờ"
     },
     {
       "type": "text",
-      "text": "• Eco inks & water-based coatings"
+      "text": "• Mực Eco và lớp phủ gốc nước"
     },
     {
       "type": "text",
-      "text": "Eco inks & water-based coatings"
+      "text": "Mực Eco & lớp phủ gốc nước"
     },
     {
       "type": "text",
-      "text": "• Digital plate-to-press workflow"
+      "text": "• Quy trình làm việc kỹ thuật số từ tấm đến máy ép"
     },
     {
       "type": "text",
-      "text": "Digital plate-to-press workflow"
+      "text": "Quy trình làm việc kỹ thuật số từ bản in đến máy in"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Our Capabilities"
+      "text": "Năng lực của chúng tôi"
     },
     {
       "type": "text",
-      "text": "Production Capacity"
+      "text": "Năng lực sản xuất"
     },
     {
       "type": "text",
-      "text": "Our advanced manufacturing facilities are equipped with state-of-the-art printing and finishing technology, enabling us to handle projects of any scale with precision and consistency.From short runs to mass production, we deliver high-volume output while maintaining exceptional quality standards across every order."
+      "text": "Các cơ sở sản xuất tiên tiến của chúng tôi được trang bị công nghệ in và hoàn thiện hiện đại, cho phép chúng tôi xử lý các dự án ở mọi quy mô với độ chính xác và nhất quán. Từ thời gian ngắn đến sản xuất hàng loạt, chúng tôi cung cấp sản lượng lớn trong khi vẫn duy trì các tiêu chuẩn chất lượng vượt trội trên mọi đơn đặt hàng."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Uncompromising Quality"
+      "text": "Chất lượng vượt trội"
     },
     {
       "type": "text",
-      "text": "Quality is at the core of our operations."
+      "text": "Chất lượng là cốt lõi trong hoạt động của chúng tôi."
     },
     {
       "type": "text",
-      "text": "With strict quality control protocols and certifications including FSC®, ISO, SMETA-4P, and GMI, we ensure every packaging product meets international standards.Each stage — from raw material selection to final inspection — follows a zero-defect policy to guarantee consistency, reliability, and brand protection."
+      "text": "Với các giao thức và chứng nhận kiểm soát chất lượng nghiêm ngặt bao gồm FSC®, ISO, SMETA-4P và GMI, chúng tôi đảm bảo mọi sản phẩm bao bì đều đáp ứng các tiêu chuẩn quốc tế. Mỗi giai đoạn - từ lựa chọn nguyên liệu thô đến kiểm tra cuối cùng - tuân theo chính sách không có lỗi để đảm bảo tính nhất quán, độ tin cậy và bảo vệ thương hiệu."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Customization & Design Flexibility"
+      "text": "Tùy chỉnh và thiết kế linh hoạt"
     },
     {
       "type": "text",
-      "text": "Every brand is unique, and so is every packaging solution we create."
+      "text": "Mỗi thương hiệu là duy nhất và mọi giải pháp đóng gói mà chúng tôi tạo ra cũng vậy."
     },
     {
       "type": "text",
-      "text": "Our design and engineering teams collaborate closely with clients to develop tailor-made structures, finishes, and visual concepts that reflect their identity.By combining creativity with advanced CAD design and digital proofing systems, we turn concepts into market-ready packaging that stands out on the shelf."
+      "text": "Đội ngũ thiết kế và kỹ thuật của chúng tôi hợp tác chặt chẽ với khách hàng để phát triển các cấu trúc, lớp hoàn thiện và khái niệm trực quan được thiết kế riêng phản ánh bản sắc của họ. Bằng cách kết hợp sự sáng tạo với thiết kế CAD tiên tiến và hệ thống kiểm tra kỹ thuật số, chúng tôi biến các khái niệm thành bao bì sẵn sàng cho thị trường nổi bật trên kệ."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Our Philosophy"
+      "text": "Triết lý của chúng tôi"
     },
     {
       "type": "text",
-      "text": "We believe long-term partnerships are built on trust, quality, and continuous innovation. By combining engineering precision with creative design, we deliver packaging solutions that inspire confidence and support our clients’ growth worldwide"
+      "text": "Chúng tôi tin rằng quan hệ đối tác lâu dài được xây dựng dựa trên sự tin tưởng, chất lượng và đổi mới liên tục. Bằng cách kết hợp độ chính xác kỹ thuật với thiết kế sáng tạo, chúng tôi cung cấp các giải pháp đóng gói truyền cảm hứng cho sự tự tin và hỗ trợ sự phát triển của khách hàng trên toàn thế giới"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Work With Us"
+      "text": "Làm việc với chúng tôi"
     }
   ],
   "faqs": []
