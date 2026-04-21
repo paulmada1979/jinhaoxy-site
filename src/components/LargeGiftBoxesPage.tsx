@@ -91,7 +91,7 @@ export default function LargeGiftBoxesPage() {
       <section className="relative min-h-[600px] flex items-center bg-gray-900 overflow-hidden">
         <HeroBackgroundVideo
           videoId={HERO_VIDEO_ID}
-          fallbackImage="/media/stack-of-gift-boxes-with-christmas-decorations-2025-03-08-05-01-27-utc.webp"
+          fallbackImage="/media/black-man-opening-box-with-blue-balloons-while-pre-2025-06-19-19-20-51-utc.webp"
           imageOpacity={0.5}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/55 to-transparent" />

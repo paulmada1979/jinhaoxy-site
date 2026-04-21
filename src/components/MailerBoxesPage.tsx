@@ -97,7 +97,7 @@ export default function MailerBoxesPage() {
       <section className="relative min-h-[560px] flex items-center bg-gray-900 overflow-hidden">
         <HeroBackgroundVideo
           videoId={HERO_VIDEO_ID}
-          fallbackImage="/media/delivery-managers-asian-team-supervising-parcels-r-2025-02-17-06-27-30-utc.webp"
+          fallbackImage="/media/cardboard-carton-box-with-photos-close-up-2024-09-16-08-33-48-utc.webp"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/50 to-transparent" />
 

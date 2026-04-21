@@ -94,7 +94,7 @@ export default function JewelryBoxesPage() {
       <section className="relative min-h-[620px] flex items-center bg-gray-900 overflow-hidden">
         <HeroBackgroundVideo
           videoId={HERO_VIDEO_ID}
-          fallbackImage="/media/white-jewelry-boxes-on-brown-silk-background-2025-02-24-23-20-17-utc.webp"
+          fallbackImage="/media/shot-of-assorted-colorful-gift-boxes-with-accessor-2025-02-08-23-29-30-utc.webp"
           imageOpacity={0.55}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/55 to-transparent" />

@@ -98,7 +98,7 @@ export default function CustomPrintedPage() {
       <section className="relative min-h-[600px] flex items-center bg-gray-900 overflow-hidden">
         <HeroBackgroundVideo
           videoId={HERO_VIDEO_ID}
-          fallbackImage="/media/Heidelberg-Offset-Printing-Line-–-Dongguan-Xinyuan-Printing-Factory.webp"
+          fallbackImage="/media/happy-mothers-day-2025-02-24-14-44-31-utc.webp"
           imageOpacity={0.5}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/55 to-transparent" />
