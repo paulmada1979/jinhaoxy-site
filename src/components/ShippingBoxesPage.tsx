@@ -21,9 +21,7 @@ import {
   Send,
 } from "lucide-react";
 
-// If you have a hero video for this product, drop the YouTube ID here.
-// e.g. "dQw4w9WgXcQ" — leave null/empty to fall back to the banner image.
-const HERO_VIDEO_ID: string | null = null;
+const HERO_VIDEO_ID: string | null = "I8U2KPfFDWU";
 
 export default function ShippingBoxesPage() {
   const t = useTranslations();

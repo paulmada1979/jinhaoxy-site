@@ -18,15 +18,13 @@ import {
   Send,
   Play,
   Shirt,
-  Gift,
   Cpu,
   RefreshCw,
   Utensils,
   Heart,
 } from "lucide-react";
 
-// Paste a YouTube video ID here to enable a "Watch Video" button in the hero.
-const HERO_VIDEO_ID: string | null = null;
+const HERO_VIDEO_ID: string | null = "I8U2KPfFDWU";
 
 export default function MailerBoxesPage() {
   const t = useTranslations();

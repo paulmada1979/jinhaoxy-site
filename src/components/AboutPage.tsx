@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
+import { useState } from "react";
 import {
   ArrowRight,
   Building2,
@@ -13,12 +16,16 @@ import {
   ShieldCheck,
   Palette,
   Handshake,
+  Play,
 } from "lucide-react";
+
+const HERO_VIDEO_ID = "fhPKm6y5aZw";
 
 export default function AboutPage() {
   const t = useTranslations();
   const locale = useLocale();
   const prefix = locale === "en" ? "" : `/${locale}`;
+  const [videoOpen, setVideoOpen] = useState(false);
 
   const hubs = [
     {
@@ -92,12 +99,52 @@ export default function AboutPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               {t("about.heroTitle")}
             </h1>
-            <p className="text-lg md:text-xl text-gray-200 font-light">
+            <p className="text-lg md:text-xl text-gray-200 font-light mb-8">
               {t("about.heroDesc")}
             </p>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href={`${prefix}/conctact-us`}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
+              >
+                {t("about.ctaConsult")}
+                <ArrowRight size={14} />
+              </Link>
+              <button
+                onClick={() => setVideoOpen(true)}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur border border-white/30 hover:bg-white/20 text-white rounded-md text-sm font-semibold transition-colors"
+              >
+                <Play size={14} fill="currentColor" />
+                Watch Video
+              </button>
+            </div>
           </div>
         </div>
       </section>
+
+      {/* Video modal */}
+      {videoOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setVideoOpen(false)}
+        >
+          <div className="relative w-full max-w-5xl aspect-video" onClick={(e) => e.stopPropagation()}>
+            <iframe
+              className="w-full h-full rounded-lg"
+              src={`https://www.youtube.com/embed/${HERO_VIDEO_ID}?autoplay=1`}
+              title="About Jinhao Xinyuan Group"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+            <button
+              onClick={() => setVideoOpen(false)}
+              className="absolute -top-10 right-0 text-white hover:text-orange-400 text-sm font-semibold"
+            >
+              Close ✕
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Three-hub network */}
       <section className="py-20 bg-white">
