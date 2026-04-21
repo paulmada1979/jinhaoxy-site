@@ -8,6 +8,7 @@ import ShippingBoxesPage from "@/components/ShippingBoxesPage";
 import MailerBoxesPage from "@/components/MailerBoxesPage";
 import TraysPage from "@/components/TraysPage";
 import ShelfReadyPage from "@/components/ShelfReadyPage";
+import LuxuryRigidPage from "@/components/LuxuryRigidPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -66,5 +67,6 @@ export default async function Page({
   if (slug === "e-commerce-mailer-boxes") return <MailerBoxesPage />;
   if (slug === "cardboard-trays-inserts" || slug === "trays") return <TraysPage />;
   if (slug === "shelf-ready-packaging") return <ShelfReadyPage />;
+  if (slug === "luxury-rigid-gift-boxes") return <LuxuryRigidPage />;
   return <PageRenderer page={page} />;
 }
