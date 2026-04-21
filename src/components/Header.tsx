@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Globe, Mail, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Globe, Mail, Phone, ChevronDown, Building2, Award } from "lucide-react";
 
 // Toggle to show language switcher when translations are ready
 const SHOW_LANGUAGE_SWITCHER = false;
@@ -74,6 +74,7 @@ export default function Header() {
   const [langOpen, setLangOpen] = useState(false);
   const [packagingOpen, setPackagingOpen] = useState(false);
   const [factoriesOpen, setFactoriesOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
 
   const PACKAGING_SOLUTIONS = buildPackagingSolutions(t);
 
@@ -131,12 +132,90 @@ export default function Header() {
             >
               {t("nav.home")}
             </Link>
-            <Link
-              href={`${prefix}/about-us`}
-              className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors"
+            {/* About dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setAboutOpen(true)}
+              onMouseLeave={() => setAboutOpen(false)}
             >
-              {t("nav.about")}
-            </Link>
+              <button className="flex items-center gap-1 px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors">
+                {t("nav.about")}
+                <ChevronDown size={14} />
+              </button>
+              {aboutOpen && (
+                <div className="absolute right-0 top-full pt-2 w-[560px]">
+                  <div className="bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden">
+                    <div className="grid grid-cols-[1fr_1.2fr]">
+                      {/* Featured image */}
+                      <div className="relative bg-[#0d2340] overflow-hidden min-h-[280px]">
+                        <Image
+                          src="/media/Banner-copy-scaled.jpg"
+                          alt="About Jinhao Xinyuan Group"
+                          fill
+                          className="object-cover opacity-60"
+                          sizes="260px"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0d2340] via-[#0d2340]/70 to-transparent" />
+                        <div className="relative p-5 flex flex-col h-full justify-end text-white min-h-[280px]">
+                          <span className="text-[10px] font-bold uppercase tracking-widest text-orange-400 mb-1.5">
+                            {t("megamenu.featured")}
+                          </span>
+                          <h3 className="text-base font-bold mb-2 leading-tight">
+                            Global manufacturing network
+                          </h3>
+                          <p className="text-[11px] text-gray-200 leading-relaxed">
+                            Vietnam, China & Thailand — three hubs, one standard of quality.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Links */}
+                      <div className="p-5">
+                        <Link
+                          href={`${prefix}/about-us`}
+                          onClick={() => setAboutOpen(false)}
+                          className="group block p-3 rounded-lg hover:bg-orange-50 transition-colors"
+                        >
+                          <div className="flex items-start gap-3">
+                            <div className="w-9 h-9 rounded-lg bg-orange-100 text-orange-600 flex items-center justify-center shrink-0 group-hover:bg-orange-500 group-hover:text-white transition-colors">
+                              <Building2 size={16} />
+                            </div>
+                            <div>
+                              <h4 className="text-sm font-semibold text-gray-900 mb-0.5">
+                                {t("nav.about")}
+                              </h4>
+                              <p className="text-xs text-gray-500 leading-snug">
+                                Our company, factories and production capabilities
+                              </p>
+                            </div>
+                          </div>
+                        </Link>
+
+                        <Link
+                          href={`${prefix}/certifications`}
+                          onClick={() => setAboutOpen(false)}
+                          className="group block p-3 rounded-lg hover:bg-orange-50 transition-colors mt-1"
+                        >
+                          <div className="flex items-start gap-3">
+                            <div className="w-9 h-9 rounded-lg bg-orange-100 text-orange-600 flex items-center justify-center shrink-0 group-hover:bg-orange-500 group-hover:text-white transition-colors">
+                              <Award size={16} />
+                            </div>
+                            <div>
+                              <h4 className="text-sm font-semibold text-gray-900 mb-0.5">
+                                {t("nav.certifications")}
+                              </h4>
+                              <p className="text-xs text-gray-500 leading-snug">
+                                FSC®, ISO, SMETA, GMI, G7®, ISTA and more
+                              </p>
+                            </div>
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* Packaging Solutions mega menu */}
             <div
@@ -236,13 +315,6 @@ export default function Header() {
               )}
             </div>
 
-            <Link
-              href={`${prefix}/certifications`}
-              className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors"
-            >
-              {t("nav.certifications")}
-            </Link>
-
             {/* Language switcher */}
             {SHOW_LANGUAGE_SWITCHER && (
               <div
@@ -299,7 +371,10 @@ export default function Header() {
           <nav className="lg:hidden border-t border-gray-100 bg-white max-h-[80vh] overflow-y-auto">
             <div className="px-4 py-3 space-y-1">
               <Link href={`${prefix}/`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("nav.home")}</Link>
-              <Link href={`${prefix}/about-us`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("nav.about")}</Link>
+
+              <p className="px-3 pt-2 text-[10px] font-bold text-orange-600 uppercase tracking-wider">{t("nav.about")}</p>
+              <Link href={`${prefix}/about-us`} onClick={() => setMenuOpen(false)} className="block pl-5 pr-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 rounded-md">{t("nav.about")}</Link>
+              <Link href={`${prefix}/certifications`} onClick={() => setMenuOpen(false)} className="block pl-5 pr-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 rounded-md">{t("nav.certifications")}</Link>
               {PACKAGING_SOLUTIONS.map((group) => (
                 <div key={group.title} className="py-1">
                   <p className="px-3 py-1 text-[10px] font-bold text-orange-600 uppercase tracking-wider">{group.title}</p>
@@ -319,7 +394,6 @@ export default function Header() {
               {FACTORIES.map((f) => (
                 <Link key={f.href} href={`${prefix}${f.href}`} onClick={() => setMenuOpen(false)} className="block pl-5 pr-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 rounded-md">{f.label}</Link>
               ))}
-              <Link href={`${prefix}/certifications`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md mt-2">{t("nav.certifications")}</Link>
               <Link href={`${prefix}/conctact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("nav.contact")}</Link>
 
               {/* Language switcher in mobile menu */}
