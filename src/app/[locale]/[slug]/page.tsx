@@ -4,6 +4,7 @@ import PageRenderer, { type PageData } from "@/components/PageRenderer";
 import ContactPage from "@/components/ContactPage";
 import AboutPage from "@/components/AboutPage";
 import CertificationsPage from "@/components/CertificationsPage";
+import ShippingBoxesPage from "@/components/ShippingBoxesPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -58,5 +59,6 @@ export default async function Page({
   if (slug === "conctact-us") return <ContactPage page={page} />;
   if (slug === "about-us") return <AboutPage />;
   if (slug === "certifications") return <CertificationsPage />;
+  if (slug === "shipping-boxes-export-cartons") return <ShippingBoxesPage />;
   return <PageRenderer page={page} />;
 }
