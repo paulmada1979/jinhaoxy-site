@@ -5,6 +5,7 @@ import ContactPage from "@/components/ContactPage";
 import AboutPage from "@/components/AboutPage";
 import CertificationsPage from "@/components/CertificationsPage";
 import ShippingBoxesPage from "@/components/ShippingBoxesPage";
+import MailerBoxesPage from "@/components/MailerBoxesPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -60,5 +61,6 @@ export default async function Page({
   if (slug === "about-us") return <AboutPage />;
   if (slug === "certifications") return <CertificationsPage />;
   if (slug === "shipping-boxes-export-cartons") return <ShippingBoxesPage />;
+  if (slug === "e-commerce-mailer-boxes") return <MailerBoxesPage />;
   return <PageRenderer page={page} />;
 }
