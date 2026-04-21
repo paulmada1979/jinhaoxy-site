@@ -16,6 +16,7 @@ import MagneticClosurePage from "@/components/MagneticClosurePage";
 import CollapsiblePage from "@/components/CollapsiblePage";
 import CosmeticPage from "@/components/CosmeticPage";
 import InstructionsPage from "@/components/InstructionsPage";
+import StickersLabelsPage from "@/components/StickersLabelsPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -82,5 +83,6 @@ export default async function Page({
   if (slug === "collapsible-gift-boxes-for-e-commerce-retail") return <CollapsiblePage />;
   if (slug === "cosmetic-gift-boxes") return <CosmeticPage />;
   if (slug === "instructions-manuals") return <InstructionsPage />;
+  if (slug === "stickers-labels") return <StickersLabelsPage />;
   return <PageRenderer page={page} />;
 }
