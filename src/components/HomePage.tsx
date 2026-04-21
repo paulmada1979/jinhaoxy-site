@@ -11,9 +11,13 @@ import {
   Award,
   Factory,
   ArrowRight,
+  ShieldCheck,
+  Truck,
+  Recycle,
 } from "lucide-react";
 import type { PageData } from "./PageRenderer";
 import FAQ from "./FAQ";
+import FactoryMap from "./FactoryMapLoader";
 
 export default function HomePage({ page }: { page: PageData }) {
   const t = useTranslations();
@@ -26,12 +30,6 @@ export default function HomePage({ page }: { page: PageData }) {
     { href: "/folding-cartons", icon: Layers, title: t("home.catFoldingTitle"), desc: t("home.catFoldingDesc") },
     { href: "/stickers-labels", icon: Tag, title: t("home.catLabelsTitle"), desc: t("home.catLabelsDesc") },
     { href: "/shelf-ready-packaging", icon: Leaf, title: t("home.catEcoTitle"), desc: t("home.catEcoDesc") },
-  ];
-
-  const FACTORIES = [
-    { href: "/hai-duong-factory", title: "XinYuan Dongguan", country: "China", img: "/media/Jinhaoxi-logo-02-scaled.png" },
-    { href: "/vietnam-xinyuanjia", title: "Vietnam Xinyuanjia", country: "Vietnam", img: "/media/Jinhaoxi-logo-04.png" },
-    { href: "/dongguan-xinyuan-printing-factory", title: "Dongguan Printing", country: "China", img: "/media/New-logo.webp" },
   ];
 
   const STATS = [
@@ -202,45 +200,157 @@ export default function HomePage({ page }: { page: PageData }) {
         </div>
       </section>
 
-      {/* Global network */}
-      {globalNetwork && (
-        <section className="py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-4 lg:px-6">
-            <div className="text-center max-w-2xl mx-auto mb-12">
-              <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("home.networkBadge")}</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
-                {globalNetwork.heading}
-              </h2>
-              {globalNetwork.texts[0] && (
-                <p className="text-gray-600 mt-4">{globalNetwork.texts[0]}</p>
-              )}
+      {/* Global network with map */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("home.networkBadge")}</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
+              {globalNetwork?.heading || "Our Global Network"}
+            </h2>
+            <p className="text-gray-600 mt-4">
+              {t("home.networkDesc")}
+            </p>
+          </div>
+          <FactoryMap height="520px" />
+        </div>
+      </section>
+
+      {/* Trusted by global brands */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6">
+          <div className="text-center max-w-3xl mx-auto">
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("home.trustedBadge")}</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">
+              {t("home.trustedTitle")}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {t("home.trustedDesc")}
+            </p>
+
+            {/* Trust pills */}
+            <div className="flex flex-wrap justify-center gap-3 mt-8">
+              {["FSC®", "ISO 9001", "SMETA-4P", "GMI", "ISTA", "OEM & ODM"].map((cert) => (
+                <span
+                  key={cert}
+                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-semibold text-gray-700 shadow-sm"
+                >
+                  <ShieldCheck size={12} className="text-orange-500" />
+                  {cert}
+                </span>
+              ))}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {FACTORIES.map((f) => (
-                <Link
-                  key={f.href}
-                  href={`${prefix}${f.href}`}
-                  className="group relative aspect-[4/3] rounded-xl overflow-hidden bg-gray-900 shadow-md hover:shadow-xl transition-shadow"
-                >
-                  <Image
-                    src={f.img}
-                    alt={f.title}
-                    fill
-                    className="object-cover opacity-70 group-hover:opacity-90 group-hover:scale-105 transition-all duration-500"
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <span className="text-xs font-semibold text-orange-400 uppercase tracking-widest">{f.country}</span>
-                    <h3 className="text-xl font-bold mt-1">{f.title}</h3>
-                  </div>
-                </Link>
+            {/* Sectors */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-12 max-w-3xl mx-auto">
+              {[
+                { label: "Retail", icon: Package },
+                { label: "Electronics", icon: ShieldCheck },
+                { label: "Food & Beverage", icon: Leaf },
+                { label: "Cosmetics", icon: Gift },
+              ].map((s) => (
+                <div key={s.label} className="flex flex-col items-center gap-2 p-4 bg-white rounded-lg border border-gray-100">
+                  <s.icon size={20} className="text-orange-500" />
+                  <span className="text-xs font-semibold text-gray-700">{s.label}</span>
+                </div>
               ))}
             </div>
           </div>
-        </section>
-      )}
+        </div>
+      </section>
+
+      {/* Certified quality & sustainability */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">{t("home.qualityBadge")}</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">
+              {t("home.qualityTitle")}
+            </h2>
+            <p className="text-gray-600 text-base leading-relaxed mb-6">
+              {t("home.qualityDesc")}
+            </p>
+
+            <div className="space-y-3 mb-8">
+              {[
+                { icon: Recycle, label: "FSC®-certified materials, recyclable and responsibly sourced" },
+                { icon: Leaf, label: "Eco-friendly inks and water-based coatings" },
+                { icon: ShieldCheck, label: "Compliance with EU PPWR and North American EPR regulations" },
+              ].map((item, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-lg bg-orange-100 text-orange-600 flex items-center justify-center shrink-0">
+                    <item.icon size={16} />
+                  </div>
+                  <p className="text-sm text-gray-700 leading-relaxed pt-1.5">{item.label}</p>
+                </div>
+              ))}
+            </div>
+
+            <Link
+              href={`${prefix}/certifications`}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
+            >
+              {t("home.qualityCta")}
+              <ArrowRight size={14} />
+            </Link>
+          </div>
+
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+            <Image
+              src="/media/opening-the-paper-eco-box-man-in-casual-clothes-i-2025-03-18-22-06-13-utc.webp"
+              alt="Certified sustainable packaging"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Partner with us */}
+      <section className="py-20 bg-gradient-to-br from-[#0d2340] to-[#1a3659] text-white">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6 text-center">
+          <span className="text-xs font-semibold text-orange-400 uppercase tracking-widest">{t("home.partnerBadge")}</span>
+          <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-5">
+            {t("home.partnerTitle")}
+          </h2>
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
+            {t("home.partnerDesc")}
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto mb-8">
+            <div className="flex items-center gap-2 justify-center text-sm text-gray-200">
+              <Truck size={16} className="text-orange-400" />
+              Fast turnaround
+            </div>
+            <div className="flex items-center gap-2 justify-center text-sm text-gray-200">
+              <Package size={16} className="text-orange-400" />
+              Samples & mockups
+            </div>
+            <div className="flex items-center gap-2 justify-center text-sm text-gray-200">
+              <Globe2 size={16} className="text-orange-400" />
+              Global export
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-3 justify-center">
+            <Link
+              href={`${prefix}/factories`}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
+            >
+              <Factory size={14} />
+              {t("home.partnerCta1")}
+            </Link>
+            <Link
+              href={`${prefix}/conctact-us`}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur border border-white/30 hover:bg-white/20 text-white rounded-md text-sm font-semibold transition-colors"
+            >
+              {t("home.partnerCta2")}
+              <ArrowRight size={14} />
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* FAQ */}
       {page.faqs && page.faqs.length > 0 && <FAQ items={page.faqs} />}
