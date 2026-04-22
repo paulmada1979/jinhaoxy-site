@@ -80,7 +80,7 @@ export default function CertificationsPage() {
       {/* Hero */}
       <section className="relative min-h-[440px] flex items-center bg-gray-900 overflow-hidden">
         <Image
-          src="/media/ISO-Certified-Packaging-Manufacturer-–-Quality-Compliance-Standards.webp"
+          src="/media/banner certifications.jpg"
           alt=""
           fill
           priority
@@ -145,8 +145,8 @@ export default function CertificationsPage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/media/Sustainable-Bamboo-Forest-Vietnam-–-FSC-Certified-Eco-Materials.webp"
-              alt="Sustainable Bamboo Forest Vietnam"
+              src="/media/fsc image.jpg"
+              alt="FSC® Chain of Custody Certification"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"

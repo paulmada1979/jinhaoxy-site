@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Globe, Mail, Phone, ChevronDown, Building2, Award } from "lucide-react";
+import { Menu, X, Globe, Mail, Phone, ChevronDown, Building2, Award, MapPin, ArrowRight } from "lucide-react";
 
 // Toggle to show language switcher when translations are ready
 const SHOW_LANGUAGE_SWITCHER = false;
@@ -60,10 +60,22 @@ function buildPackagingSolutions(t: (key: string) => string) {
 }
 
 const FACTORIES = [
-  { href: "/hai-duong-factory", label: "XinYuan Packing Dongguan" },
-  { href: "/dongguan-xinyuan-printing-factory", label: "Dongguan Xinyuan Printing Factory" },
-  { href: "/vietnam-xinyuanjia", label: "Vietnam Xinyuanjia" },
-  { href: "/corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group", label: "Corrugated Packaging Vietnam" },
+  {
+    href: "/vietnam-xinyuanjia",
+    label: "Vietnam Xinyuanjia",
+    location: "Bắc Ninh, Vietnam",
+    size: "30,000 m² · Main factory",
+    desc: "FSC® & ISO 9001 certified production hub serving export markets worldwide.",
+    img: "/media/Banner-1.png",
+  },
+  {
+    href: "/dongguan-xinyuan-printing-factory",
+    label: "Dongguan Xinyuan Printing Factory",
+    location: "Dongguan, China",
+    size: "13,900 m² plant",
+    desc: "Premium color boxes and board-game packaging on Roland and Komori press lines.",
+    img: "/media/Dongguan-Xinyuan-Printing-Factory-Exterior-–-FSC-ISO-Certified-Packaging-Manufacturer.webp",
+  },
 ];
 
 export default function Header() {
@@ -285,7 +297,7 @@ export default function Header() {
               )}
             </div>
 
-            {/* Factories dropdown */}
+            {/* Factories mega menu */}
             <div
               className="relative"
               onMouseEnter={() => setFactoriesOpen(true)}
@@ -296,20 +308,55 @@ export default function Header() {
                 <ChevronDown size={14} />
               </button>
               {factoriesOpen && (
-                <div className="absolute right-0 top-full pt-2 w-[320px]">
-                  <div className="bg-white border border-gray-200 rounded-lg shadow-xl p-4">
-                    <ul className="space-y-1">
+                <div className="absolute right-0 top-full pt-2 w-[720px]">
+                  <div className="bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden">
+                    <div className="px-5 pt-4 pb-2">
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-orange-600">
+                        {t("megamenu.factoriesBadge")}
+                      </span>
+                      <h3 className="text-sm font-bold text-gray-900 mt-0.5">
+                        {t("megamenu.factoriesTitle")}
+                      </h3>
+                    </div>
+                    <div className="grid grid-cols-2 gap-3 p-3">
                       {FACTORIES.map((f) => (
-                        <li key={f.href}>
-                          <Link
-                            href={`${prefix}${f.href}`}
-                            className="block px-3 py-2 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-600 rounded-md transition-colors"
-                          >
-                            {f.label}
-                          </Link>
-                        </li>
+                        <Link
+                          key={f.href}
+                          href={`${prefix}${f.href}`}
+                          onClick={() => setFactoriesOpen(false)}
+                          className="group relative rounded-lg overflow-hidden border border-gray-200 hover:border-orange-400 hover:shadow-lg transition-all bg-white flex flex-col"
+                        >
+                          <div className="relative aspect-[16/9] bg-gray-100 overflow-hidden">
+                            <Image
+                              src={f.img}
+                              alt={f.label}
+                              fill
+                              className="object-cover transition-transform duration-500 group-hover:scale-105"
+                              sizes="340px"
+                            />
+                            <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-white/90 backdrop-blur text-[10px] font-semibold text-orange-600 flex items-center gap-1">
+                              <MapPin size={10} />
+                              {f.location}
+                            </div>
+                          </div>
+                          <div className="p-4 flex flex-col flex-1">
+                            <h4 className="text-sm font-bold text-gray-900 leading-snug mb-1 group-hover:text-orange-600 transition-colors">
+                              {f.label}
+                            </h4>
+                            <p className="text-[10px] font-semibold text-orange-600 uppercase tracking-wider mb-2">
+                              {f.size}
+                            </p>
+                            <p className="text-xs text-gray-600 leading-relaxed flex-1">
+                              {f.desc}
+                            </p>
+                            <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-orange-600 mt-3 group-hover:gap-2 transition-all">
+                              {t("megamenu.factoriesCta")}
+                              <ArrowRight size={11} />
+                            </span>
+                          </div>
+                        </Link>
                       ))}
-                    </ul>
+                    </div>
                   </div>
                 </div>
               )}
@@ -390,9 +437,12 @@ export default function Header() {
                   ))}
                 </div>
               ))}
-              <p className="px-3 pt-2 text-[10px] font-bold text-orange-600 uppercase tracking-wider">Factories</p>
+              <p className="px-3 pt-2 text-[10px] font-bold text-orange-600 uppercase tracking-wider">{t("nav.factories")}</p>
               {FACTORIES.map((f) => (
-                <Link key={f.href} href={`${prefix}${f.href}`} onClick={() => setMenuOpen(false)} className="block pl-5 pr-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 rounded-md">{f.label}</Link>
+                <Link key={f.href} href={`${prefix}${f.href}`} onClick={() => setMenuOpen(false)} className="block pl-5 pr-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 rounded-md">
+                  <span className="block font-medium text-gray-800">{f.label}</span>
+                  <span className="block text-[10px] text-gray-500">{f.location}</span>
+                </Link>
               ))}
               <Link href={`${prefix}/conctact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("nav.contact")}</Link>
 

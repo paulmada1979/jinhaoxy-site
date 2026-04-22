@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import {
   ArrowRight,
-  Building2,
   Factory,
   Globe2,
   Clock,
@@ -13,10 +12,11 @@ import {
   ShieldCheck,
   Palette,
   Handshake,
+  CheckCircle2,
 } from "lucide-react";
-import HeroBackgroundVideo from "./HeroBackgroundVideo";
+import YouTubeLite from "./YouTubeLite";
 
-const HERO_VIDEO_ID = "fhPKm6y5aZw";
+const VIETNAM_TOUR_VIDEO_ID = "J_884K_jG6U";
 
 export default function AboutPage() {
   const t = useTranslations();
@@ -38,16 +38,15 @@ export default function AboutPage() {
       title: t("about.vietnamTitle"),
       size: t("about.vietnamSize"),
       desc: t("about.vietnamDesc"),
-      img: "/media/FSC-Certified-Packaging-Manufacturer-Vietnam-–-Vietnam-Xinyuanjia-Environment-Technology-Co.-Ltd.webp",
+      img: "/media/Banner-1.png",
     },
-    {
-      key: "thailand",
-      icon: Building2,
-      title: t("about.thailandTitle"),
-      size: t("about.thailandSize"),
-      desc: t("about.thailandDesc"),
-      img: "/media/warehouse-workers-under-working-factory-cargo-hand-2025-03-16-20-11-08-utc.webp",
-    },
+  ];
+
+  const vietnamHighlights = [
+    t("about.vietnamHighlight1"),
+    t("about.vietnamHighlight2"),
+    t("about.vietnamHighlight3"),
+    t("about.vietnamHighlight4"),
   ];
 
   const capabilities = [
@@ -77,10 +76,14 @@ export default function AboutPage() {
     <div>
       {/* Hero with banner */}
       <section className="relative min-h-[500px] flex items-center bg-gray-900 overflow-hidden">
-        <HeroBackgroundVideo
-          videoId={HERO_VIDEO_ID}
-          fallbackImage="/media/Banner-copy-scaled.jpg"
-          imageOpacity={0.5}
+        <Image
+          src="/media/Banner-copy-scaled.jpg"
+          alt=""
+          fill
+          priority
+          className="object-cover object-center"
+          style={{ opacity: 0.5 }}
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/60 to-transparent" />
 
@@ -108,8 +111,46 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Three-hub network */}
+      {/* Vietnam Manufacturing Base — our main factory */}
       <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
+              {t("about.vietnamBaseBadge")}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">
+              {t("about.vietnamBaseTitle")}
+            </h2>
+            <p className="text-gray-600 text-base leading-relaxed mb-4">
+              {t("about.vietnamBaseDesc1")}
+            </p>
+            <p className="text-gray-600 text-base leading-relaxed mb-6">
+              {t("about.vietnamBaseDesc2")}
+            </p>
+            <ul className="space-y-3">
+              {vietnamHighlights.map((item, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <CheckCircle2 size={20} className="text-orange-500 shrink-0 mt-0.5" />
+                  <span className="text-sm text-gray-700 leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="lg:pl-6">
+            <YouTubeLite
+              videoId={VIETNAM_TOUR_VIDEO_ID}
+              title={t("about.vietnamBaseVideoTitle")}
+            />
+            <p className="text-xs text-gray-500 text-center mt-3">
+              {t("about.vietnamBaseVideoCaption")}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Hub network */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 lg:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
@@ -121,7 +162,7 @@ export default function AboutPage() {
             <p className="text-gray-600">{t("about.hubsDesc")}</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {hubs.map((hub) => (
               <div
                 key={hub.key}
@@ -153,11 +194,11 @@ export default function AboutPage() {
       </section>
 
       {/* Technology-driven delivery */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
             <Image
-              src="/media/Heidelberg-Offset-Printing-Line-–-Dongguan-Xinyuan-Printing-Factory.webp"
+              src="/media/Banner-4.png"
               alt="Heidelberg Offset Printing Line"
               fill
               className="object-cover"
@@ -194,7 +235,7 @@ export default function AboutPage() {
       </section>
 
       {/* Capabilities grid */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 lg:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
@@ -209,7 +250,7 @@ export default function AboutPage() {
             {capabilities.map((cap) => (
               <div
                 key={cap.title}
-                className="p-8 rounded-2xl bg-gray-50 hover:bg-orange-50 transition-colors border border-gray-100"
+                className="p-8 rounded-2xl bg-white hover:bg-orange-50 transition-colors border border-gray-100"
               >
                 <div className="w-12 h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center mb-4">
                   <cap.icon size={22} />
