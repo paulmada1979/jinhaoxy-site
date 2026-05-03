@@ -49,13 +49,6 @@ const DEFAULT_LOCATIONS: FactoryLocation[] = [
     address: "Dongguan, Guangdong, China",
     slug: "hai-duong-factory",
   },
-  {
-    name: "Saraburi Facility",
-    country: "Thailand",
-    city: "Saraburi",
-    coords: [14.5289, 100.9108],
-    address: "Saraburi Province, Thailand",
-  },
 ];
 
 export default function FactoryMap({

@@ -18,6 +18,11 @@ import CosmeticPage from "@/components/CosmeticPage";
 import InstructionsPage from "@/components/InstructionsPage";
 import StickersLabelsPage from "@/components/StickersLabelsPage";
 import PlasticBoxesPage from "@/components/PlasticBoxesPage";
+import RetailPackingPage from "@/components/RetailPackingPage";
+import ConsumerPackagingPage from "@/components/ConsumerPackagingPage";
+import FoldingCartonsPage from "@/components/FoldingCartonsPage";
+import VietnamXinyuanjiaPage from "@/components/VietnamXinyuanjiaPage";
+import DongguanFactoryPage from "@/components/DongguanFactoryPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
 
@@ -86,5 +91,10 @@ export default async function Page({
   if (slug === "instructions-manuals") return <InstructionsPage />;
   if (slug === "stickers-labels") return <StickersLabelsPage />;
   if (slug === "artificial-boxes") return <PlasticBoxesPage />;
+  if (slug === "retail-packing") return <RetailPackingPage />;
+  if (slug === "consumer-packaging") return <ConsumerPackagingPage />;
+  if (slug === "folding-cartons") return <FoldingCartonsPage />;
+  if (slug === "vietnam-xinyuanjia") return <VietnamXinyuanjiaPage />;
+  if (slug === "dongguan-xinyuan-printing-factory") return <DongguanFactoryPage />;
   return <PageRenderer page={page} />;
 }

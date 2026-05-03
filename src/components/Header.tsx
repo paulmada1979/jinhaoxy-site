@@ -8,7 +8,7 @@ import { useState } from "react";
 import { Menu, X, Globe, Mail, Phone, ChevronDown, Building2, Award, MapPin, ArrowRight } from "lucide-react";
 
 // Toggle to show language switcher when translations are ready
-const SHOW_LANGUAGE_SWITCHER = false;
+const SHOW_LANGUAGE_SWITCHER = true;
 
 const LOCALES = [
   { code: "en", label: "English", flag: "🇺🇸" },
@@ -21,62 +21,63 @@ function buildPackagingSolutions(t: (key: string) => string) {
     {
       title: t("megamenu.corrugated"),
       items: [
-        { href: "/shipping-boxes-export-cartons", label: "Shipping Boxes & Export Cartons" },
-        { href: "/e-commerce-mailer-boxes", label: "E-Commerce Mailer Boxes" },
-        { href: "/cardboard-trays-inserts", label: "Cardboard Trays & Inserts" },
-        { href: "/shelf-ready-packaging", label: "Shelf Ready Packaging" },
-        { href: "/trays", label: "Corrugated Trays & Inserts" },
+        { href: "/shipping-boxes-export-cartons", label: t("megamenu.linkShippingBoxes") },
+        { href: "/e-commerce-mailer-boxes", label: t("megamenu.linkMailerBoxes") },
+        { href: "/cardboard-trays-inserts", label: t("megamenu.linkCardboardTrays") },
       ],
     },
     {
       title: t("megamenu.retail"),
       items: [
-        { href: "/retail-packing", label: "Retail Packaging" },
-        { href: "/consumer-packaging", label: "Consumer Packaging" },
-        { href: "/folding-cartons", label: "Folding Cartons" },
+        { href: "/retail-packing", label: t("megamenu.linkRetailPackaging") },
+        { href: "/shelf-ready-packaging", label: t("megamenu.linkShelfReady") },
+        { href: "/consumer-packaging", label: t("megamenu.linkConsumerPackaging") },
+        { href: "/folding-cartons", label: t("megamenu.linkFoldingCartons") },
       ],
     },
     {
       title: t("megamenu.gift"),
       items: [
-        { href: "/luxury-rigid-gift-boxes", label: "Luxury Rigid Gift Boxes" },
-        { href: "/custom-printed-gift-boxes", label: "Custom Printed Gift Boxes" },
-        { href: "/large-gift-boxes", label: "Large Gift Boxes" },
-        { href: "/custom-jewelry-gift-boxes", label: "Custom Jewelry Gift Boxes" },
-        { href: "/magnetic-closure-gift-boxes", label: "Magnetic Closure Gift Boxes" },
-        { href: "/collapsible-gift-boxes-for-e-commerce-retail", label: "Collapsible Gift Boxes" },
-        { href: "/cosmetic-gift-boxes", label: "Cosmetic Gift Boxes" },
+        { href: "/luxury-rigid-gift-boxes", label: t("megamenu.linkLuxuryRigid") },
+        { href: "/custom-printed-gift-boxes", label: t("megamenu.linkCustomPrinted") },
+        { href: "/large-gift-boxes", label: t("megamenu.linkLargeGift") },
+        { href: "/custom-jewelry-gift-boxes", label: t("megamenu.linkJewelryBoxes") },
+        { href: "/magnetic-closure-gift-boxes", label: t("megamenu.linkMagnetic") },
+        { href: "/collapsible-gift-boxes-for-e-commerce-retail", label: t("megamenu.linkCollapsible") },
+        { href: "/cosmetic-gift-boxes", label: t("megamenu.linkCosmetic") },
       ],
     },
     {
       title: t("megamenu.labels"),
       items: [
-        { href: "/stickers-labels", label: "Adhesive Label & Sticker" },
-        { href: "/artificial-boxes", label: "Artificial Boxes" },
-        { href: "/instructions-manuals", label: "Instructions & Manuals" },
+        { href: "/stickers-labels", label: t("megamenu.linkAdhesiveLabel") },
+        { href: "/artificial-boxes", label: t("megamenu.linkArtificialBoxes") },
+        { href: "/instructions-manuals", label: t("megamenu.linkInstructions") },
       ],
     },
   ];
 }
 
-const FACTORIES = [
-  {
-    href: "/vietnam-xinyuanjia",
-    label: "Vietnam Xinyuanjia",
-    location: "Bắc Ninh, Vietnam",
-    size: "30,000 m² · Main factory",
-    desc: "FSC® & ISO 9001 certified production hub serving export markets worldwide.",
-    img: "/media/Banner-1.png",
-  },
-  {
-    href: "/dongguan-xinyuan-printing-factory",
-    label: "Dongguan Xinyuan Printing Factory",
-    location: "Dongguan, China",
-    size: "13,900 m² plant",
-    desc: "Premium color boxes and board-game packaging on Roland and Komori press lines.",
-    img: "/media/Dongguan-Xinyuan-Printing-Factory-Exterior-–-FSC-ISO-Certified-Packaging-Manufacturer.webp",
-  },
-];
+function buildFactories(t: (key: string) => string) {
+  return [
+    {
+      href: "/vietnam-xinyuanjia",
+      label: t("megamenu.factoryVietnamLabel"),
+      location: t("megamenu.factoryVietnamLocation"),
+      size: t("megamenu.factoryVietnamSize"),
+      desc: t("megamenu.factoryVietnamDesc"),
+      img: "/media/Banner-1.png",
+    },
+    {
+      href: "/dongguan-xinyuan-printing-factory",
+      label: t("megamenu.factoryChinaLabel"),
+      location: t("megamenu.factoryChinaLocation"),
+      size: t("megamenu.factoryChinaSize"),
+      desc: t("megamenu.factoryChinaDesc"),
+      img: "/media/Dongguan-Xinyuan-Printing-Factory-Exterior-–-FSC-ISO-Certified-Packaging-Manufacturer.webp",
+    },
+  ];
+}
 
 export default function Header() {
   const t = useTranslations();
@@ -89,6 +90,7 @@ export default function Header() {
   const [aboutOpen, setAboutOpen] = useState(false);
 
   const PACKAGING_SOLUTIONS = buildPackagingSolutions(t);
+  const FACTORIES = buildFactories(t);
 
   const pathWithoutLocale = pathname.replace(new RegExp(`^/${locale}`), "") || "/";
   const prefix = locale === "en" ? "" : `/${locale}`;

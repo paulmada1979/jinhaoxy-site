@@ -1,163 +1,163 @@
 {
   "slug": "terms-of-use",
-  "title": "Terms of Use",
+  "title": "使用条款",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "Terms of Use"
+      "text": "使用条款"
     },
     {
       "type": "text",
-      "text": "Effective Date: November 2025"
+      "text": "生效日期：2025年11月"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Acceptance of Terms"
+      "text": "1. 条款接受"
     },
     {
       "type": "text",
-      "text": "By accessing or using jinhaoxy.com, you agree to be bound by these Terms of Use and all applicable laws and regulations. If you do not agree, please do not use the site."
+      "text": "访问或使用 jinhaoxy.com 即表示您同意遵守本使用条款及所有适用法律法规。如果您不同意，请不要使用本网站。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Ownership and Intellectual Property"
+      "text": "2. 所有权与知识产权"
     },
     {
       "type": "text",
-      "text": "All content on this website — including text, images, product data, graphics, and logos — is the property of Jinhao Xinyuan Group and protected under international copyright laws.No material may be copied, reproduced, or distributed without written consent."
+      "text": "本网站上的所有内容——包括文字、图片、产品数据、图形和标志——均为金浩新源集团财产，受国际版权法保护。未经书面同意，任何材料不得复制、复制或分发。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Use of Website"
+      "text": "3. 网站使用"
     },
     {
       "type": "text",
-      "text": "You agree not to:"
+      "text": "你同意不这样做："
     },
     {
       "type": "text",
-      "text": "• Misuse the site for unlawful purposes."
+      "text": "• 滥用网站进行非法用途。"
     },
     {
       "type": "text",
-      "text": "Misuse the site for unlawful purposes."
+      "text": "滥用本网站进行非法用途。"
     },
     {
       "type": "text",
-      "text": "• Upload or transmit harmful code."
+      "text": "• 上传或传输有害代码。"
     },
     {
       "type": "text",
-      "text": "Upload or transmit harmful code."
+      "text": "上传或传输有害代码。"
     },
     {
       "type": "text",
-      "text": "• Copy or scrape data for resale or unauthorized use."
+      "text": "• 复制或抓取数据以供转售或未经授权使用。"
     },
     {
       "type": "text",
-      "text": "Copy or scrape data for resale or unauthorized use."
+      "text": "复制或抓取数据以供转售或未经授权使用。"
     },
     {
       "type": "text",
-      "text": "The website is intended solely for business and informational purposes related to packaging manufacturing and supply."
+      "text": "本网站仅供包装、制造和供应相关的商业和信息目的。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Product Information & Liability"
+      "text": "4. 产品信息与责任"
     },
     {
       "type": "text",
-      "text": "While we strive for accuracy, product images, specifications, and descriptions on this site are for general guidance only.Jinhao Xinyuan Group reserves the right to update materials, designs, or pricing without prior notice."
+      "text": "虽然我们力求准确，但本网站上的产品图片、规格和描述仅供一般参考。金浩新源集团保留无需事先通知即可更新材料、设计或定价的权利。"
     },
     {
       "type": "text",
-      "text": "We are not liable for any direct or indirect loss arising from website use, delays, or data inaccuracies."
+      "text": "我们不对因网站使用、延误或数据不准确而产生的任何直接或间接损失承担责任。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Links to Third Parties"
+      "text": "5. 与第三方的关联"
     },
     {
       "type": "text",
-      "text": "Our website may contain links to external sites for user convenience.We are not responsible for their content, accuracy, or privacy practices."
+      "text": "我们的网站可能包含外部链接，以便用户使用。我们不对其内容、准确性或隐私政策负责。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Limitation of Liability"
+      "text": "6. 责任限制"
     },
     {
       "type": "text",
-      "text": "To the fullest extent permitted by law, Jinhao Xinyuan Group, its subsidiaries, and affiliates shall not be liable for any damages resulting from:"
+      "text": "在法律允许的范围内，金浩新源集团及其子公司及关联公司不对以下原因造成的任何损害承担责任："
     },
     {
       "type": "text",
-      "text": "• Website downtime or errors."
+      "text": "• 网站宕机或出错。"
     },
     {
       "type": "text",
-      "text": "Website downtime or errors."
+      "text": "网站宕机或错误。"
     },
     {
       "type": "text",
-      "text": "• Inaccurate content or outdated data."
+      "text": "• 内容不准确或数据过时。"
     },
     {
       "type": "text",
-      "text": "Inaccurate content or outdated data."
+      "text": "内容不准确或数据过时。"
     },
     {
       "type": "text",
-      "text": "• Unauthorized access or misuse of information."
+      "text": "• 未经授权访问或滥用信息。"
     },
     {
       "type": "text",
-      "text": "Unauthorized access or misuse of information."
+      "text": "未经授权访问或滥用信息。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Indemnification"
+      "text": "7. 赔偿"
     },
     {
       "type": "text",
-      "text": "You agree to indemnify and hold harmless Jinhao Xinyuan Group, its officers, employees, and agents from any claims resulting from your use of this website or violation of these Terms."
+      "text": "您同意对金浩新源集团及其高管、员工和代理人因使用本网站或违反本条款而产生的任何索赔进行赔偿和保护。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Governing Law"
+      "text": "8. 治理法律"
     },
     {
       "type": "text",
-      "text": "These Terms shall be governed by and interpreted according to the laws of Vietnam, without regard to conflict-of-law principles.Any disputes shall be resolved in the competent courts of Bắc Ninh, Vietnam."
+      "text": "本条款应依越南法律管辖和解释，不考虑冲突原则。任何争议应在越南北宁的主管法院解决。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Modifications"
+      "text": "9. 修改"
     },
     {
       "type": "text",
-      "text": "We may update these Terms at any time. Continued use of the website following changes constitutes your acceptance of the updated terms."
+      "text": "我们可能会随时更新这些条款。在更改后继续使用本网站即表示您接受更新后的条款。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Contact"
+      "text": "10. 接触"
     },
     {
       "type": "text",
-      "text": "For questions about these Terms, please contact:📞 +84-0907093845 ✉️ info@jinhaoxy.com"
+      "text": "如对本条款有疑问，请联系：📞+84-0907093845 ✉️ info@jinhaoxy.com"
     }
   ],
   "faqs": []

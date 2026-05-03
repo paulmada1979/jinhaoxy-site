@@ -1,236 +1,236 @@
 {
   "slug": "factories",
-  "title": "Factories",
+  "title": "工厂",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "image",
       "src": "/media/cropped-favicon.png",
-      "alt": "Site Icon"
+      "alt": "网站图标"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Dual-hub manufacturing in south east Asia. One standard of quality."
+      "text": "东南亚的双枢纽制造业。一个质量标准。"
     },
     {
       "type": "text",
-      "text": "Jinhao Xinyuan Group operates high-capacity, FSC® & ISO-certified packaging factories in Bắc Ninh (Vietnam) and Dongguan (China). From folding cartons and rigid boxes to manuals, labels, and shelf-ready packaging, we combine premium printing, consistent color, and export-ready QA—delivered on time worldwide."
+      "text": "金昊新远集团在越南北宁和中国东莞运营高产能、获得FSC®和ISO认证的包装工厂。从折叠纸盒和硬盒到说明书、标签和货架包装，我们结合了高端印刷、统一的色彩和出口即兴质量保证——全球准时交付。"
     },
     {
       "type": "text",
-      "text": "Request a Quote Explore our Vietnamese plant Explore our Chinese plant"
+      "text": "索取报价 探索我们的越南工厂 探索我们的中国工厂"
     },
     {
       "type": "text",
-      "text": "3 regions serviced:"
+      "text": "服务3个地区："
     },
     {
       "type": "text",
-      "text": "Asia, Europe, North America"
+      "text": "亚洲、欧洲、北美"
     },
     {
       "type": "text",
-      "text": "Certifications:"
+      "text": "认证："
     },
     {
       "type": "text",
-      "text": "FSC®, ISO 9001, SMETA, G7®, GMI, ISTA"
+      "text": "FSC®、ISO 9001、SMETA、G7®、GMI、ISTA"
     },
     {
       "type": "text",
-      "text": "Materials:"
+      "text": "材料："
     },
     {
       "type": "text",
-      "text": "Recyclable kraft/white liners, FSC paperboard, eco inks"
+      "text": "可回收牛皮纸/白色衬里、FSC纸板、环保墨水"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "What We Make"
+      "text": "我们制造的东西"
     },
     {
       "type": "text",
-      "text": "From offset-printed product labels to short-run digital sticker printing, XinYuan delivers precision, consistency, and versatility for brands worldwide.We manufacture a wide range of adhesive labels and custom stickers designed for durability, vibrant color, and long-term adhesion.Our label printing facilities in Vietnam and China are equipped with offset, flexographic, and digital presses, allowing us to produce large-scale commercial orders as well as custom short runs with equal quality."
+      "text": "从胶印产品标签到短量数字贴纸印刷，新远为全球品牌提供精准、一致性和多样性。我们生产各种胶粘标签和定制贴纸，设计注重耐用性、鲜艳色彩和长期粘附力。我们在越南和中国的标签打印设施配备了胶印、柔版印刷和数字印刷机，使我们能够以同等质量生产大型商业订单和定制短批。"
     },
     {
       "type": "text",
-      "text": "Every label is printed to withstand handling, transport, and temperature changes, maintaining strong adhesion and perfect color accuracy.Whether for food packaging, cosmetics, logistics, or consumer goods, XinYuan helps brands communicate clearly and consistently through professional, high-quality labeling solutions."
+      "text": "每张标签都经过印刷，能够承受搬运、运输和温度变化，保持强力附着力和完美的色彩准确性。无论是食品包装、化妆品、物流还是消费品，新源通过专业、高质量的标签解决方案，帮助品牌清晰且一致地沟通。"
     },
     {
       "type": "text",
-      "text": "Key Features:"
+      "text": "主要特色："
     },
     {
       "type": "text",
-      "text": "• Offset, flexo, and digital printing for short or large production runs"
+      "text": "• 胶印、柔版和数字印刷，适用于短批量或大规模生产"
     },
     {
       "type": "text",
-      "text": "Offset, flexo, and digital printing for short or large production runs"
+      "text": "胶印、柔版和数字印刷适用于短批量或大规模生产"
     },
     {
       "type": "text",
-      "text": "• Wide range of adhesive types: permanent, removable, freezer-grade, and high-tack"
+      "text": "• 多种胶粘剂类型：永久性、可拆卸、冷冻级和高粘性"
     },
     {
       "type": "text",
-      "text": "Wide range of adhesive types: permanent, removable, freezer-grade, and high-tack"
+      "text": "多种胶粘剂类型：永久性、可拆卸、冷冻级和高粘性"
     },
     {
       "type": "text",
-      "text": "• FSC®-certified label materials and water-based inks"
+      "text": "• FSC®认证标签材料和水性墨水"
     },
     {
       "type": "text",
-      "text": "FSC®-certified label materials and water-based inks"
+      "text": "FSC®认证标签材料和水性墨水"
     },
     {
       "type": "text",
-      "text": "• Die-cutting, embossing, and spot UV or metallic finishes"
+      "text": "• 模切、压花及点状紫外线或金属表面处理"
     },
     {
       "type": "text",
-      "text": "Die-cutting, embossing, and spot UV or metallic finishes"
+      "text": "模切、压花和点UV或金属表面处理"
     },
     {
       "type": "text",
-      "text": "• Custom roll, sheet, or shrink-sleeve labels"
+      "text": "• 定制卷、片或缩膜标签"
     },
     {
       "type": "text",
-      "text": "Custom roll, sheet, or shrink-sleeve labels"
+      "text": "定制卷、片或收缩套标签"
     },
     {
       "type": "image",
       "src": "/media/Retail-packing.webp",
-      "alt": "Shopper examining shelf-ready packaging in retail aisle",
+      "alt": "购物者在零售通道中检查货架包装",
       "width": 719,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Retail packing"
+      "text": "• 零售包装"
     },
     {
       "type": "text",
-      "text": "Protective, high-impact packaging that enhances product visibility and shelf appeal. Built with durable board and vivid printing — perfect for FMCG, e-commerce, and retail displays."
+      "text": "保护性强、高影响力的包装，提升产品可见度和货架吸引力。采用耐用的板材和鲜艳印刷——非常适合快速消费品、电商和零售展示。"
     },
     {
       "type": "text",
-      "text": "View"
+      "text": "景观"
     },
     {
       "type": "image",
       "src": "/media/woman-is-reading-instruction-manual-while-assembli-2025-03-12-22-25-39-utc.jpg",
-      "alt": "hands holding instruction manual with assembly diagram",
+      "alt": "手持说明书及组装图",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Instructions & Manual Printing"
+      "text": "• 说明书与手工印刷"
     },
     {
       "type": "text",
-      "text": "Clear, durable manuals and inserts produced with precision offset and digital printing. Ideal for electronics, appliances, and healthcare documentation."
+      "text": "透明、耐用的说明书和插入件采用精密胶印和数字印刷技术生产。非常适合电子产品、家电和医疗文档。"
     },
     {
       "type": "image",
       "src": "/media/unrecognizable-man-holding-roll-with-stickers-for-2025-03-18-17-15-13-utc.jpg",
-      "alt": "Technician holding freshly printed round adhesive labels",
+      "alt": "技师手持刚打印的圆形粘贴标签",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Labels & stickers"
+      "text": "• 标签与贴纸"
     },
     {
       "type": "text",
-      "text": "Vibrant, reliable adhesive labels printed on FSC® paper with strong color and adhesion. Suited for food, cosmetics, and consumer product branding."
+      "text": "鲜艳、可靠的粘性标签，印刷在FSC®纸上，颜色和附着力强。适合食品、化妆品和消费品品牌推广。"
     },
     {
       "type": "image",
       "src": "/media/online-small-business-owner-2025-04-01-01-18-59-utc.webp",
-      "alt": "Woman holding kraft paper shopping bag and packaging boxes",
+      "alt": "女人手持牛皮纸购物袋和包装箱",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Cardboard, Trays & inserts"
+      "text": "• 纸板、托盘和内衬"
     },
     {
       "type": "text",
-      "text": "Functional corrugated and paperboard inserts that keep products protected and neatly arranged. Built for strength, precision, and automated packing efficiency."
+      "text": "功能性波纹和纸板内衬，保护产品并整齐排列。专为强度、精准和自动化包装效率而设计。"
     },
     {
       "type": "image",
       "src": "/media/1.bip_.2995-copy.png",
-      "alt": "custom handle folding boxes with blue and orange graphics",
+      "alt": "定制手柄折叠盒，带有蓝色和橙色图案",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Folding cartons"
+      "text": "• 折叠纸箱"
     },
     {
       "type": "text",
-      "text": "Stylish, lightweight cartons for retail and food packaging. Finished with premium printing and coating options that deliver both quality and speed in production."
+      "text": "时尚轻便的纸盒，用于零售和食品包装。采用优质印刷和涂层选项，兼具生产质量和速度。"
     },
     {
       "type": "image",
       "src": "/media/children-make-jewelry-with-their-own-hands-string-2025-01-10-20-40-31-utc.jpg",
-      "alt": "transparent plastic boxes with compartments and lids",
+      "alt": "透明塑料盒，带有隔层和盖子",
       "width": 720,
       "height": 480
     },
     {
       "type": "text",
-      "text": "• Artifical Packing"
+      "text": "• 人工包装"
     },
     {
       "type": "text",
-      "text": "Durable, reusable PP and HDPE boxes engineered for long-term use. Ideal for logistics, industrial goods, and e-commerce fulfillment with strong visual presentation."
+      "text": "耐用、可重复使用的PP和HDPE电箱，专为长期使用而设计。非常适合物流、工业品和电子商务履约，视觉表现力强。"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Why We Run Two Hubs"
+      "text": "为什么我们运营两个枢纽"
     },
     {
       "type": "text",
-      "text": "Operating plants in Vietnam and China lets us align lead times, tariffs, and logistics to your market, while maintaining the same color targets, QC steps, and traceability across both sites. You get capacity flexibility (single SKU, multi-country rollouts, pilot → scale), with one team and one standard."
+      "text": "在越南和中国运营工厂，让我们能够将交货时间、关税和物流与您的市场对齐，同时保持相同的颜色目标、质量控制步骤和两地的可追溯性。你拥有容量灵活性（单一SKU、多国推广、试点项目→规模），只需一个团队和一个标准。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Capabilities"
+      "text": "能力"
     },
     {
       "type": "text",
-      "text": "Printing & PrepressHeidelberg/Roland/Komori offset lines, digital/CTP proofing, G7®/GMI color control, variable finishes (UV, soft-touch, matte/gloss), foiling/embossing/debossing."
+      "text": "印刷与印前：Heidelberg/Roland/Komori胶印线，数字/CTP校样，G7®/GMI色彩控制，可变处理（UV、柔触、哑光/光泽）、箔片/压花/压印。"
     },
     {
       "type": "text",
-      "text": "Converting & FinishingAuto die-cut, window patching, lamination, folder-gluer lines (straight-line, lock-bottom, 4/6-corner), semi-auto rigid box assembly, corrugation (B/E/BC flutes)."
+      "text": "转换与精加工自动模切、窗户补丁、覆膜、折刀胶缝线（直线、锁底、4/6角）、半自动刚性盒装配、波纹（B/E/BC长笛）。"
     },
     {
       "type": "text",
-      "text": "Quality & TestingISO 9001 workflows, bar-code traceability, AQL checkpoints, ISTA transit tests (compression, drop, vibration), food-contact varnish options."
+      "text": "质量与测试ISO 9001工作流程、条码可追溯性、AQL检查点、ISTA运输测试（压缩、落差、振动）、食品接触清漆选项。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Environmental & Social Compliance"
+      "text": "环境与社会合规"
     },
     {
       "type": "text",
-      "text": "FSC® chain-of-custody, water-based/vegetable inks, recycled fiber options, trim-waste recovery, SMETA 4-pillar audits, continuous CAPR improvement."
+      "text": "FSC®的保管链、水性/植物性墨水、回收纤维选项、修剪废弃物回收、SMETA四柱审计、持续改进CAPR系统。"
     }
   ],
   "faqs": []

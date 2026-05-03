@@ -31,6 +31,7 @@ export default function AboutPage() {
       size: t("about.chinaSize"),
       desc: t("about.chinaDesc"),
       img: "/media/Dongguan-Xinyuan-Printing-Factory-Exterior-–-FSC-ISO-Certified-Packaging-Manufacturer.webp",
+      href: `${prefix}/dongguan-xinyuan-printing-factory`,
     },
     {
       key: "vietnam",
@@ -39,6 +40,7 @@ export default function AboutPage() {
       size: t("about.vietnamSize"),
       desc: t("about.vietnamDesc"),
       img: "/media/Banner-1.png",
+      href: `${prefix}/vietnam-xinyuanjia`,
     },
   ];
 
@@ -164,16 +166,17 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {hubs.map((hub) => (
-              <div
+              <Link
                 key={hub.key}
-                className="bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-xl transition-shadow overflow-hidden flex flex-col"
+                href={hub.href}
+                className="group bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-orange-300 transition-all overflow-hidden flex flex-col"
               >
                 <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden">
                   <Image
                     src={hub.img}
                     alt={hub.title}
                     fill
-                    className="object-cover transition-transform duration-500 hover:scale-105"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                   <div className="absolute top-4 left-4 w-10 h-10 rounded-lg bg-white/90 backdrop-blur flex items-center justify-center text-orange-600">
@@ -181,13 +184,19 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="p-6 flex-1 flex flex-col">
-                  <h3 className="font-bold text-gray-900 text-lg mb-1">{hub.title}</h3>
+                  <h3 className="font-bold text-gray-900 text-lg mb-1 group-hover:text-orange-600 transition-colors">
+                    {hub.title}
+                  </h3>
                   <p className="text-xs text-orange-600 font-semibold mb-3 uppercase tracking-wider">
                     {hub.size}
                   </p>
                   <p className="text-sm text-gray-600 leading-relaxed flex-1">{hub.desc}</p>
+                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-orange-600 group-hover:gap-2 transition-all">
+                    Visit factory page
+                    <ArrowRight size={14} />
+                  </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -198,7 +207,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
             <Image
-              src="/media/Banner-4.png"
+              src="/media/about-technology-heidelberg-press.png"
               alt="Heidelberg Offset Printing Line"
               fill
               className="object-cover"

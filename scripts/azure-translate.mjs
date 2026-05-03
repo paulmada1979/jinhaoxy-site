@@ -96,31 +96,88 @@ async function callTranslate(texts, from, to, cred) {
   return { ok: true, translations: translated };
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Per-key char budget to stay under Azure F0's ~33K chars/min throughput cap.
+// We track chars sent per key in a 60-second sliding window and sleep before
+// breaching the cap, instead of bouncing to the next candidate.
+const F0_CHARS_PER_MIN = 30_000; // safe margin under the 33,300 limit
+const sentLog = {}; // label → [{ ts, chars }]
+
+function recordSend(label, chars) {
+  const now = Date.now();
+  const log = (sentLog[label] ||= []);
+  log.push({ ts: now, chars });
+  // drop entries older than 60s
+  while (log.length && now - log[0].ts > 60_000) log.shift();
+}
+
+function charsInLastMinute(label) {
+  const now = Date.now();
+  const log = sentLog[label] || [];
+  while (log.length && now - log[0].ts > 60_000) log.shift();
+  return log.reduce((s, e) => s + e.chars, 0);
+}
+
+async function throttleIfNeeded(label, isFreeTier, plannedChars) {
+  if (!isFreeTier) return; // paid keys have no per-minute cap we care about
+  while (charsInLastMinute(label) + plannedChars > F0_CHARS_PER_MIN) {
+    const log = sentLog[label] || [];
+    const oldest = log[0]?.ts ?? Date.now();
+    const waitMs = Math.max(1000, 60_000 - (Date.now() - oldest) + 500);
+    console.log(`    … throttling ${label} for ${(waitMs / 1000).toFixed(1)}s (would exceed ${F0_CHARS_PER_MIN}/min)`);
+    await sleep(waitMs);
+  }
+}
+
 async function translateBatch(texts, from, to) {
   if (!texts || texts.length === 0) return [];
   const candidates = buildCandidates();
   if (candidates.length === 0) throw new Error("No AZURE_TRANSLATOR_KEY_* credentials configured");
 
-  // Azure limit: 100 elements per request, or 50k chars per request, or 5000 per element
-  // We'll chunk defensively at 50 elements
+  // Azure limit: 100 elements per request, or 50k chars per request, or 5000 per element.
+  // Chunk at 50 elements to stay safely under all three.
   const results = [];
   for (let i = 0; i < texts.length; i += 50) {
     const chunk = texts.slice(i, i + 50).map((t) => (t.length > AZURE_MAX_CHARS ? t.slice(0, AZURE_MAX_CHARS) : t));
+    const chunkChars = chunk.reduce((s, t) => s + t.length, 0);
 
     let lastError = null;
     let success = false;
 
     for (const cred of candidates) {
-      const r = await callTranslate(chunk, from, to, cred);
-      if (r.ok) {
-        bumpStat(cred.label, "calls");
-        stats[cred.label].chars += chunk.reduce((sum, t) => sum + t.length, 0);
-        results.push(...r.translations);
-        success = true;
-        break;
+      const isFree = cred.label.startsWith("free");
+
+      // For free keys, wait if this chunk would push us over the per-minute cap.
+      await throttleIfNeeded(cred.label, isFree, chunkChars);
+
+      let attempt = 0;
+      const maxAttempts = isFree ? 3 : 1; // retry rate-limits on free; don't waste time on paid
+      while (attempt < maxAttempts && !success) {
+        attempt++;
+        const r = await callTranslate(chunk, from, to, cred);
+        if (r.ok) {
+          bumpStat(cred.label, "calls");
+          stats[cred.label].chars += chunkChars;
+          recordSend(cred.label, chunkChars);
+          results.push(...r.translations);
+          success = true;
+          break;
+        }
+
+        if (r.quotaHit && isFree && attempt < maxAttempts) {
+          // Rate limit on free tier — wait and retry the SAME key, don't fall over.
+          const backoff = 30_000 * attempt; // 30s, 60s, 90s
+          console.log(`    ⏳ ${cred.label} rate-limited (status ${r.status}) — sleeping ${backoff / 1000}s and retrying`);
+          await sleep(backoff);
+          continue;
+        }
+
+        bumpStat(cred.label, "failures");
+        lastError = `[${cred.label}] status=${r.status} error=${String(r.error).slice(0, 150)}`;
+        break; // try next candidate
       }
-      bumpStat(cred.label, "failures");
-      lastError = `[${cred.label}] status=${r.status} error=${String(r.error).slice(0, 150)}`;
+      if (success) break;
     }
 
     if (!success) {

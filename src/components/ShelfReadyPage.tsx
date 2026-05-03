@@ -14,7 +14,6 @@ import {
   ShoppingCart,
   Cpu,
   Warehouse,
-  Send,
   ShieldCheck,
   Factory,
   Gauge,
@@ -22,6 +21,7 @@ import {
   Droplets,
   Recycle,
 } from "lucide-react";
+import ContactForm from "./ContactForm";
 import HeroBackgroundVideo from "./HeroBackgroundVideo";
 
 // No dedicated video in WP postmeta for this page — fall back to the image only
@@ -315,82 +315,23 @@ export default function ShelfReadyPage() {
             </h2>
             <p className="text-gray-600">{t("shelfReady.formDesc")}</p>
           </div>
-          <div className="bg-white rounded-2xl p-6 lg:p-8 shadow-xl border border-gray-100">
-            <form className="space-y-4" action="mailto:info@jinhaoxy.com" method="post" encType="text/plain">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Name *</label>
-                  <input
-                    type="text"
-                    name="name"
-                    required
-                    className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                  />
-                </div>
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Email *</label>
-                  <input
-                    type="email"
-                    name="email"
-                    required
-                    className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                  />
-                </div>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Brand / Company</label>
-                  <input
-                    type="text"
-                    name="company"
-                    className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                  />
-                </div>
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Retailer / Channel</label>
-                  <input
-                    type="text"
-                    name="retailer"
-                    placeholder="e.g. Carrefour, Tesco, Amazon"
-                    className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Retail Channel Type</label>
-                <select
-                  name="channel_type"
-                  className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                >
-                  <option>Food & Beverage</option>
-                  <option>E-Commerce Fulfillment</option>
-                  <option>Electronics & Home Goods</option>
-                  <option>Retail Distribution</option>
-                  <option>Other</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">SKU count, volumes, and retailer specs *</label>
-                <textarea
-                  name="message"
-                  rows={5}
-                  required
-                  placeholder="SKUs per SRP, products per SKU, monthly volume, retailer compliance requirements, brand guidelines, print specs..."
-                  className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent resize-none"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
-              >
-                <Send size={14} />
-                Submit
-              </button>
-              <p className="text-xs text-gray-500 text-center">
-                We'll respond within 1 business day.
-              </p>
-            </form>
-          </div>
+          <ContactForm
+            pageContext="Shelf Ready Packaging"
+            companyLabel="Brand / Company"
+            volume={{ label: "Retailer / Channel", placeholder: "e.g. Carrefour, Tesco, Amazon" }}
+            select={{
+              label: "Retail Channel Type",
+              options: [
+                "Food & Beverage",
+                "E-Commerce Fulfillment",
+                "Electronics & Home Goods",
+                "Retail Distribution",
+                "Other",
+              ],
+            }}
+            messageLabel="SKU count, volumes, and retailer specs *"
+            messagePlaceholder="SKUs per SRP, products per SKU, monthly volume, retailer compliance requirements, brand guidelines, print specs..."
+          />
         </div>
       </section>
     </div>

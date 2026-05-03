@@ -1,29 +1,29 @@
 {
   "slug": "hai-duong-factory",
-  "title": "XinYuan Packing Donguan",
+  "title": "新苑打包东官",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "XinYuan Packing Donguan"
+      "text": "新苑打包东官"
     },
     {
       "type": "text",
-      "text": "Year of Establishment: 2024.07"
+      "text": "成立年份：2024.07"
     },
     {
       "type": "text",
-      "text": "Location:Zone B, Qifeng lndustrial Park, Qishi Town, Dongguan City, Guangdong Province, China"
+      "text": "地点：中国广东省东莞市齐丰工业公园B区"
     },
     {
       "type": "text",
-      "text": "Building Area: 43500 m"
+      "text": "建筑面积：43500米"
     },
     {
       "type": "text",
-      "text": "Workers:120"
+      "text": "工人：120人"
     },
     {
       "type": "image",

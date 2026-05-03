@@ -23,12 +23,9 @@ import {
   FileText,
   Boxes,
   Leaf,
-  Send,
   ShieldCheck,
 } from "lucide-react";
-import HeroBackgroundVideo from "./HeroBackgroundVideo";
-
-const HERO_VIDEO_ID = "I8U2KPfFDWU";
+import ContactForm from "./ContactForm";
 
 export default function LargeGiftBoxesPage() {
   const t = useTranslations();
@@ -87,12 +84,16 @@ export default function LargeGiftBoxesPage() {
 
   return (
     <div>
-      {/* Hero */}
+      {/* Hero banner */}
       <section className="relative min-h-[600px] flex items-center bg-gray-900 overflow-hidden">
-        <HeroBackgroundVideo
-          videoId={HERO_VIDEO_ID}
-          fallbackImage="/media/black-man-opening-box-with-blue-balloons-while-pre-2025-06-19-19-20-51-utc.webp"
-          imageOpacity={0.5}
+        <Image
+          src="/media/black-man-opening-box-with-blue-balloons-while-pre-2025-06-19-19-20-51-utc.webp"
+          alt=""
+          fill
+          priority
+          className="object-cover object-center"
+          style={{ opacity: 0.5 }}
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2340]/90 via-[#0d2340]/55 to-transparent" />
 
@@ -212,7 +213,7 @@ export default function LargeGiftBoxesPage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/media/beautiful-christmas-gift-boxes-on-floor-near-fir-t-2024-11-26-10-46-09-utc.webp"
+              src="/media/pretty-multiethnic-woman-standing-inside-blank-whi-2024-09-11-20-35-43-utc.webp"
               alt="Large gift box hampers"
               fill
               className="object-cover"
@@ -334,46 +335,17 @@ export default function LargeGiftBoxesPage() {
             </h2>
             <p className="text-gray-600">{t("largeGift.formDesc")}</p>
           </div>
-          <div className="bg-gray-50 rounded-2xl p-6 lg:p-8 shadow-sm border border-gray-100">
-            <form className="space-y-4" action="mailto:info@jinhaoxy.com" method="post" encType="text/plain">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Name *</label>
-                  <input type="text" name="name" required className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" />
-                </div>
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Email *</label>
-                  <input type="email" name="email" required className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" />
-                </div>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Company / Brand</label>
-                  <input type="text" name="company" className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" />
-                </div>
-                <div>
-                  <label className="block text-xs font-semibold text-gray-700 mb-1">Box Type</label>
-                  <select name="box_type" className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent">
-                    {types.map((tp) => <option key={tp.title}>{tp.title}</option>)}
-                    <option>Not sure — need design advice</option>
-                  </select>
-                </div>
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Approximate box dimensions</label>
-                <input type="text" name="dimensions" placeholder="e.g. 40 × 30 × 15 cm" className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" />
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Project details *</label>
-                <textarea name="message" rows={5} required placeholder="Use case (hamper, apparel set, corporate...), product weight, volume, finishing preferences, launch timeline..." className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent resize-none" />
-              </div>
-              <button type="submit" className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors">
-                <Send size={14} />
-                Submit
-              </button>
-              <p className="text-xs text-gray-500 text-center">We'll respond within 1 business day.</p>
-            </form>
-          </div>
+          <ContactForm
+            pageContext="Large Gift Boxes"
+            companyLabel="Company / Brand"
+            volume={{ label: "Approximate box dimensions", placeholder: "e.g. 40 × 30 × 15 cm" }}
+            select={{
+              label: "Box Type",
+              options: [...types.map((tp) => tp.title), "Not sure — need design advice"],
+            }}
+            messageLabel="Project details *"
+            messagePlaceholder="Use case (hamper, apparel set, corporate...), product weight, volume, finishing preferences, launch timeline..."
+          />
         </div>
       </section>
     </div>
