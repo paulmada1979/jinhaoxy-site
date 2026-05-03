@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s | Jinhao Xinyuan Group",
   },
   description:
-    "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam, China & Thailand.",
+    "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam & China.",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },

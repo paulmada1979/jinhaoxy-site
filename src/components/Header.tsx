@@ -178,7 +178,7 @@ export default function Header() {
                             Global manufacturing network
                           </h3>
                           <p className="text-[11px] text-gray-200 leading-relaxed">
-                            Vietnam, China & Thailand — three hubs, one standard of quality.
+                            Vietnam & China — two hubs, one standard of quality.
                           </p>
                         </div>
                       </div>

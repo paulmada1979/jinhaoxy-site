@@ -143,7 +143,6 @@ export default function StickersLabelsPage() {
   const hubs = [
     { title: t("stickers.hub1Title"), desc: t("stickers.hub1Desc") },
     { title: t("stickers.hub2Title"), desc: t("stickers.hub2Desc") },
-    { title: t("stickers.hub3Title"), desc: t("stickers.hub3Desc") },
   ];
 
   return (

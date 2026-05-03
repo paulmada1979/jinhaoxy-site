@@ -106,7 +106,6 @@ export default function InstructionsPage() {
   const hubs = [
     { title: t("instructions.hub1Title"), desc: t("instructions.hub1Desc") },
     { title: t("instructions.hub2Title"), desc: t("instructions.hub2Desc") },
-    { title: t("instructions.hub3Title"), desc: t("instructions.hub3Desc") },
   ];
 
   return (
