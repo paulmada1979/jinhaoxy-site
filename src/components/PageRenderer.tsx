@@ -84,12 +84,16 @@ export default function PageRenderer({ page }: { page: PageData }) {
       <div className="prose prose-lg max-w-none">
         {page.blocks.map((block, i) => {
           if (block.type === "heading" && block.text) {
-            return <Heading key={i} level={block.level || 2} text={block.text} />;
+            // Demote level=1 to level=2 — page.title is already the only h1
+            const level = block.level === 1 ? 2 : block.level || 2;
+            return <Heading key={i} level={level} text={block.text} />;
           }
           if (block.type === "text" && block.text) {
             return <TextBlock key={i} text={block.text} />;
           }
           if (block.type === "image" && block.src) {
+            // Skip stale WordPress contact-form spinner SVG (404s on the new site)
+            if (block.src.includes("wp-content/")) return null;
             return (
               <ImageBlock
                 key={i}

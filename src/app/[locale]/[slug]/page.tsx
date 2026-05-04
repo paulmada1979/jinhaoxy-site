@@ -60,25 +60,43 @@ function pathFor(locale: string, slug: string): string {
   return `${localePart}/${slug}/`;
 }
 
-function extractDescription(page: PageData): string | null {
-  // Pull the first non-empty text block as a meta description.
-  // Cap at ~160 chars to fit Google's display window.
-  for (const block of page.blocks) {
-    if (block.type === "text" && block.text) {
-      // Strip leading bullet markers and stray whitespace.
-      const cleaned = block.text.replace(/^[•\-*]\s*/, "").trim();
-      if (cleaned.length < 30) continue; // skip very short fragments
-      if (cleaned.length <= 160) return cleaned;
-      // Cut at a sentence boundary if possible
-      const truncated = cleaned.slice(0, 157);
-      const lastPeriod = truncated.lastIndexOf(".");
-      if (lastPeriod > 100) return cleaned.slice(0, lastPeriod + 1);
-      const lastSpace = truncated.lastIndexOf(" ");
-      return cleaned.slice(0, lastSpace > 100 ? lastSpace : 157) + "…";
-    }
+// Skip text blocks that look like stamps/dates/headers — too short to be a meta description.
+function isThinFragment(s: string): boolean {
+  const lower = s.toLowerCase();
+  if (s.length < 60) return true;
+  if (/^(effective date|last updated|ngày có hiệu lực|cập nhật lần cuối|生效日期|最后更新)/i.test(lower)) {
+    return true;
   }
-  return null;
+  return false;
 }
+
+function extractDescription(page: PageData): string | null {
+  // Walk text blocks and concat substantive prose until we have ~120-160 chars.
+  // This avoids the "first text block was just a date" failure mode.
+  const parts: string[] = [];
+  let total = 0;
+  for (const block of page.blocks) {
+    if (block.type !== "text" || !block.text) continue;
+    const cleaned = block.text.replace(/^[•\-*]\s*/, "").trim();
+    if (!cleaned) continue;
+    if (total === 0 && isThinFragment(cleaned)) continue; // keep walking past stamps
+    parts.push(cleaned);
+    total += cleaned.length + 1;
+    if (total >= 120) break;
+  }
+  if (parts.length === 0) return null;
+  const joined = parts.join(" ");
+  if (joined.length <= 160) return joined;
+  // Cut at a sentence boundary if possible
+  const truncated = joined.slice(0, 157);
+  const lastPeriod = truncated.lastIndexOf(".");
+  if (lastPeriod > 100) return joined.slice(0, lastPeriod + 1);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return joined.slice(0, lastSpace > 100 ? lastSpace : 157) + "…";
+}
+
+const FALLBACK_DESCRIPTION =
+  "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam & China.";
 
 export async function generateMetadata({
   params,
@@ -89,11 +107,12 @@ export async function generateMetadata({
   const page = await loadPage(locale, slug);
   if (!page) return { title: "Not Found", robots: { index: false, follow: false } };
 
-  const description = extractDescription(page) ?? undefined;
+  const description = extractDescription(page) ?? FALLBACK_DESCRIPTION;
   const canonicalPath = pathFor(locale, slug);
 
   return {
-    title: `${page.title} | Jinhao Xinyuan Group`,
+    // Layout sets template "%s | Jinhao Xinyuan Group" — pass the bare title.
+    title: page.title,
     description,
     alternates: {
       canonical: `${SITE_URL}${canonicalPath}`,

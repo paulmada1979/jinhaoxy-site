@@ -17,7 +17,9 @@ export async function generateMetadata({
     "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam & China.";
 
   return {
-    title: `${SITE_NAME} — Premium Packaging Manufacturer`,
+    // `absolute` opts out of the layout's "%s | Jinhao Xinyuan Group" template
+    // so the homepage title doesn't double the brand name.
+    title: { absolute: `${SITE_NAME} — Premium Packaging Manufacturer` },
     description,
     alternates: {
       canonical: `${SITE_URL}${localePath}`,
