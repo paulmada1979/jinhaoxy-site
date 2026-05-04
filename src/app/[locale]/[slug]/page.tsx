@@ -52,6 +52,34 @@ async function loadPage(locale: string, slug: string): Promise<PageData | null> 
   }
 }
 
+const SITE_URL = "https://jinhaoxy.com";
+
+function pathFor(locale: string, slug: string): string {
+  const localePart = locale === "en" ? "" : `/${locale}`;
+  if (slug === "home") return `${localePart}/`;
+  return `${localePart}/${slug}/`;
+}
+
+function extractDescription(page: PageData): string | null {
+  // Pull the first non-empty text block as a meta description.
+  // Cap at ~160 chars to fit Google's display window.
+  for (const block of page.blocks) {
+    if (block.type === "text" && block.text) {
+      // Strip leading bullet markers and stray whitespace.
+      const cleaned = block.text.replace(/^[•\-*]\s*/, "").trim();
+      if (cleaned.length < 30) continue; // skip very short fragments
+      if (cleaned.length <= 160) return cleaned;
+      // Cut at a sentence boundary if possible
+      const truncated = cleaned.slice(0, 157);
+      const lastPeriod = truncated.lastIndexOf(".");
+      if (lastPeriod > 100) return cleaned.slice(0, lastPeriod + 1);
+      const lastSpace = truncated.lastIndexOf(" ");
+      return cleaned.slice(0, lastSpace > 100 ? lastSpace : 157) + "…";
+    }
+  }
+  return null;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -59,9 +87,38 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale, slug } = await params;
   const page = await loadPage(locale, slug);
-  if (!page) return { title: "Not Found" };
+  if (!page) return { title: "Not Found", robots: { index: false, follow: false } };
+
+  const description = extractDescription(page) ?? undefined;
+  const canonicalPath = pathFor(locale, slug);
+
   return {
     title: `${page.title} | Jinhao Xinyuan Group`,
+    description,
+    alternates: {
+      canonical: `${SITE_URL}${canonicalPath}`,
+      languages: {
+        en: `${SITE_URL}${pathFor("en", slug)}`,
+        vi: `${SITE_URL}${pathFor("vi", slug)}`,
+        zh: `${SITE_URL}${pathFor("zh", slug)}`,
+        "x-default": `${SITE_URL}${pathFor("en", slug)}`,
+      },
+    },
+    openGraph: {
+      type: "article",
+      url: `${SITE_URL}${canonicalPath}`,
+      title: page.title,
+      description,
+      locale: locale === "en" ? "en_US" : locale === "vi" ? "vi_VN" : "zh_CN",
+      siteName: "Jinhao Xinyuan Group",
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: page.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: page.title,
+      description,
+      images: ["/og-image.png"],
+    },
   };
 }
 
