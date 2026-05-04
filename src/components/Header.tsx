@@ -364,6 +364,14 @@ export default function Header() {
               )}
             </div>
 
+            {/* Blog */}
+            <Link
+              href={`${prefix}/blog`}
+              className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-600 transition-colors"
+            >
+              {t("nav.blog")}
+            </Link>
+
             {/* Language switcher */}
             {SHOW_LANGUAGE_SWITCHER && (
               <div
@@ -446,6 +454,8 @@ export default function Header() {
                   <span className="block text-[10px] text-gray-500">{f.location}</span>
                 </Link>
               ))}
+              <Link href={`${prefix}/blog`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("nav.blog")}</Link>
+
               <Link href={`${prefix}/conctact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("nav.contact")}</Link>
 
               {/* Language switcher in mobile menu */}
