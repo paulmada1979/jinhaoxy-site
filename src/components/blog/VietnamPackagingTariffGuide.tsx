@@ -316,6 +316,21 @@ export default function VietnamPackagingTariffGuide() {
             Run the math against your own 12-month buy.
           </p>
 
+          <figure className="my-10 rounded-2xl overflow-hidden bg-gray-100 not-prose">
+            <Image
+              src="/blog/vietnam-tariff-cost-comparison.png"
+              alt="Two parallel cardboard packaging production lines side by side: the left labeled FROM CHINA with a +25% TARIFF stamp on the shipping documents, the right labeled FROM VIETNAM with a TARIFF-FREE stamp"
+              width={1200}
+              height={800}
+              className="w-full h-auto"
+              sizes="(max-width: 1024px) 100vw, 800px"
+            />
+            <figcaption className="text-center text-xs text-gray-500 px-4 py-3 bg-white border-t border-gray-100">
+              Same product, same buyer, different country of origin: a +25%
+              Section 301 tariff is the entire difference.
+            </figcaption>
+          </figure>
+
           <p className="text-gray-700 leading-relaxed mb-4">
             For Chapter 39 plastics (PE/PP mailers, blister packs, plastic gift
             boxes), the savings are even more pronounced — Section 301 hits
@@ -482,6 +497,21 @@ export default function VietnamPackagingTariffGuide() {
             Packaging production in Vietnam clusters around three regions, each
             with a different specialty and freight profile.
           </p>
+
+          <figure className="my-10 rounded-2xl overflow-hidden bg-gray-50 not-prose">
+            <Image
+              src="/blog/vietnam-packaging-hubs-map.png"
+              alt="Map of Vietnam showing the three main packaging-industry hubs: Bac Ninh / Hai Phong in the north, Da Nang in central Vietnam, and Ho Chi Minh / Binh Duong in the south, each marked with cardboard, container, and factory icons"
+              width={1200}
+              height={800}
+              className="w-full h-auto"
+              sizes="(max-width: 1024px) 100vw, 800px"
+            />
+            <figcaption className="text-center text-xs text-gray-500 px-4 py-3 bg-white border-t border-gray-100">
+              Vietnam&apos;s three packaging-industry clusters and their nearest
+              export ports.
+            </figcaption>
+          </figure>
 
           <ul className="space-y-4 my-8">
             <li className="flex items-start gap-4">
