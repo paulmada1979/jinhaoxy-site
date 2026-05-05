@@ -8,8 +8,8 @@
   "author": "金昊新元集团编辑团队",
   "category": "资费指南",
   "cluster": "tariff",
-  "coverImage": "/blog/vietnam-tariff-cost-comparison.png",
-  "coverAlt": "条形图对比了中国与越南的瓦楞纸包装着陆成本，显示第301条关税为中国部分增加了25%",
+  "coverImage": "/blog/section-301-hts-hero.png",
+  "coverAlt": "海关代理柜台俯视图：CBP 7501表格条目摘要、一册藏有HTS代码参考的海军色文件夹、计算器、笔和一个折叠的纸板样品盒，由温暖的窗灯照亮",
   "blocks": [
     {
       "type": "callout",
@@ -106,6 +106,12 @@
         ]
       ],
       "caption": "截至2026年初，第301条的税率。每次录入前请务必核对USTR 301条款的实时清单——费率和代码会随着每次USTR审查而变化。"
+    },
+    {
+      "type": "image",
+      "src": "/blog/hts-classification-inline.png",
+      "alt": "美国海关入境摘要表放在一张木桌上，桌面上用黄色标注了HTS分类字段，右上角有一个瓦楞纸板样本",
+      "caption": "你的海关代理会在入境摘要中将每批货物归类为特定的HTS代码——从这里开始核实你的301条款暴露。"
     },
     {
       "type": "heading",

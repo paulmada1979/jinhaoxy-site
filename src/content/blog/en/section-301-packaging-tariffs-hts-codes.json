@@ -8,8 +8,8 @@
   "author": "Jinhao Xinyuan Group editorial team",
   "category": "Tariff guide",
   "cluster": "tariff",
-  "coverImage": "/blog/vietnam-tariff-cost-comparison.png",
-  "coverAlt": "Bar chart comparing landed cost of corrugated packaging from China versus Vietnam, showing Section 301 tariffs adding 25% to the China column",
+  "coverImage": "/blog/section-301-hts-hero.png",
+  "coverAlt": "Customs broker desk overhead view: a CBP Form 7501 entry summary, a navy folder of HTS code references, calculator, pen, and a folded cardboard sample box, lit by warm window light",
   "blocks": [
     {
       "type": "callout",
@@ -106,6 +106,12 @@
         ]
       ],
       "caption": "Section 301 rates as of early 2026. Always verify against the live USTR Section 301 lists before each entry — rates and codes change with each USTR review."
+    },
+    {
+      "type": "image",
+      "src": "/blog/hts-classification-inline.png",
+      "alt": "US Customs entry summary form on a wooden desk with the HTS classification field highlighted in yellow, a corrugated cardboard sample in the upper-right corner",
+      "caption": "Your customs broker classifies every shipment under a specific HTS code on the entry summary — start there when verifying your Section 301 exposure."
     },
     {
       "type": "heading",

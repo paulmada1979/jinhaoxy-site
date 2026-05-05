@@ -8,8 +8,8 @@
   "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
   "category": "Hướng dẫn thuế quan",
   "cluster": "tariff",
-  "coverImage": "/blog/vietnam-tariff-cost-comparison.png",
-  "coverAlt": "Biểu đồ thanh so sánh chi phí nhập kho của bao bì sóng từ Trung Quốc so với Việt Nam, cho thấy thuế quan Mục 301 tăng 25% vào cột Trung Quốc",
+  "coverImage": "/blog/section-301-hts-hero.png",
+  "coverAlt": "Chế độ xem trên cao của bàn môi giới hải quan: tóm tắt mục nhập CBP Form 7501, một thư mục màu xanh nước biển chứa các tài liệu tham khảo mã HTS, máy tính, bút và hộp mẫu bằng bìa cứng gấp, được thắp sáng bởi ánh sáng cửa sổ ấm áp",
   "blocks": [
     {
       "type": "callout",
@@ -106,6 +106,12 @@
         ]
       ],
       "caption": "Mục 301 tính đến đầu năm 2026. Luôn xác minh dựa trên danh sách USTR Mục 301 trực tiếp trước mỗi mục nhập - tỷ lệ và mã thay đổi theo mỗi lần đánh giá USTR."
+    },
+    {
+      "type": "image",
+      "src": "/blog/hts-classification-inline.png",
+      "alt": "Mẫu tóm tắt nhập cảnh của Hải quan Hoa Kỳ trên bàn gỗ với trường phân loại HTS được đánh dấu bằng màu vàng, mẫu bìa cứng sóng ở góc trên bên phải",
+      "caption": "Đại lý hải quan của bạn phân loại mọi lô hàng theo mã HTS cụ thể trên bản tóm tắt nhập cảnh - bắt đầu từ đó khi xác minh mức độ phơi nhiễm theo Mục 301 của bạn."
     },
     {
       "type": "heading",
