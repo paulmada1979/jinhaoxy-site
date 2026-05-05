@@ -1,36 +1,20 @@
 import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
-import VietnamPackagingTariffGuide, {
-  articleMeta as vietnamPackagingTariffGuideMeta,
-} from "@/components/blog/VietnamPackagingTariffGuide";
 import type { Metadata } from "next";
+import {
+  getAllArticles,
+  getArticle,
+  getArticleData,
+  type Locale,
+} from "@/lib/blog";
+import BlogArticleRenderer from "@/components/blog/BlogArticleRenderer";
 
 const SITE_URL = "https://jinhaoxy.com";
 
-interface ArticleMeta {
-  slug: string;
-  title: string;
-  description: string;
-  publishedAt: string;
-  updatedAt: string;
-  readingMin: number;
-  author: string;
-  coverImage: string;
-  coverAlt: string;
-}
-
-const ARTICLES: Record<string, { meta: ArticleMeta; component: React.ComponentType }> = {
-  [vietnamPackagingTariffGuideMeta.slug]: {
-    meta: vietnamPackagingTariffGuideMeta,
-    component: VietnamPackagingTariffGuide,
-  },
-};
-
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
-  for (const locale of routing.locales) {
-    for (const slug of Object.keys(ARTICLES)) {
-      params.push({ locale, slug });
+  for (const entry of getAllArticles()) {
+    for (const locale of entry.availableLocales) {
+      params.push({ locale, slug: entry.meta.slug });
     }
   }
   return params;
@@ -47,42 +31,58 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const article = ARTICLES[slug];
-  if (!article) {
+  const entry = getArticle(slug);
+  if (!entry || !entry.availableLocales.includes(locale as Locale)) {
     return { title: "Not Found", robots: { index: false, follow: false } };
   }
-  const m = article.meta;
+
+  // For JSON articles, prefer the per-locale title/description (translated)
+  // over the EN meta.
+  const localeData =
+    entry.kind === "json" ? getArticleData(entry, locale as Locale) : null;
+  const title = localeData?.title ?? entry.meta.title;
+  const description = localeData?.description ?? entry.meta.description;
+  const updatedAt = localeData?.updatedAt ?? entry.meta.updatedAt;
+  const publishedAt = localeData?.publishedAt ?? entry.meta.publishedAt;
+  const coverImage = entry.meta.coverImage;
+  const coverAlt = localeData?.coverAlt ?? entry.meta.coverAlt;
+
   const canonicalPath = pathFor(locale, slug);
 
+  // Only emit hreflang alternates for locales the article is actually
+  // available in. This keeps Google from indexing English fallback content
+  // under non-English URLs.
+  const languages: Record<string, string> = {
+    "x-default": `${SITE_URL}${pathFor("en", slug)}`,
+  };
+  for (const l of entry.availableLocales) {
+    languages[l] = `${SITE_URL}${pathFor(l, slug)}`;
+  }
+
   return {
-    title: m.title,
-    description: m.description,
+    title,
+    description,
     alternates: {
       canonical: `${SITE_URL}${canonicalPath}`,
-      languages: {
-        en: `${SITE_URL}${pathFor("en", slug)}`,
-        vi: `${SITE_URL}${pathFor("vi", slug)}`,
-        zh: `${SITE_URL}${pathFor("zh", slug)}`,
-        "x-default": `${SITE_URL}${pathFor("en", slug)}`,
-      },
+      languages,
     },
     openGraph: {
       type: "article",
       url: `${SITE_URL}${canonicalPath}`,
-      title: m.title,
-      description: m.description,
+      title,
+      description,
       locale: locale === "en" ? "en_US" : locale === "vi" ? "vi_VN" : "zh_CN",
       siteName: "Jinhao Xinyuan Group",
-      publishedTime: m.publishedAt,
-      modifiedTime: m.updatedAt,
-      authors: [m.author],
-      images: [{ url: m.coverImage, width: 1600, height: 900, alt: m.coverAlt }],
+      publishedTime: publishedAt,
+      modifiedTime: updatedAt,
+      authors: [entry.meta.author],
+      images: [{ url: coverImage, width: 1600, height: 900, alt: coverAlt }],
     },
     twitter: {
       card: "summary_large_image",
-      title: m.title,
-      description: m.description,
-      images: [m.coverImage],
+      title,
+      description,
+      images: [coverImage],
     },
   };
 }
@@ -92,11 +92,18 @@ export default async function BlogArticle({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const article = ARTICLES[slug];
-  if (!article) notFound();
-  const Component = article.component;
-  return <Component />;
-}
+  const { locale, slug } = await params;
+  const entry = getArticle(slug);
+  if (!entry || !entry.availableLocales.includes(locale as Locale)) {
+    notFound();
+  }
 
-export const BLOG_ARTICLE_REGISTRY = ARTICLES;
+  if (entry.kind === "tsx") {
+    const Component = entry.Component;
+    return <Component />;
+  }
+
+  const data = getArticleData(entry, locale as Locale);
+  if (!data) notFound();
+  return <BlogArticleRenderer article={data} locale={locale as Locale} />;
+}

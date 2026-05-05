@@ -1,0 +1,219 @@
+{
+  "slug": "section-301-packaging-tariffs-hts-codes",
+  "title": "Section 301 Tariffs on Packaging: HTS Codes, Rates, and the Vietnam Workaround (2026)",
+  "description": "A procurement-focused breakdown of which packaging HTS codes carry Section 301 tariffs, current rates, what's exempt, and how Vietnam-origin imports avoid them entirely.",
+  "publishedAt": "2026-05-04",
+  "updatedAt": "2026-05-04",
+  "readingMin": 7,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Tariff guide",
+  "cluster": "tariff",
+  "coverImage": "/blog/vietnam-tariff-cost-comparison.png",
+  "coverAlt": "Bar chart comparing landed cost of corrugated packaging from China versus Vietnam, showing Section 301 tariffs adding 25% to the China column",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "Most packaging from China carries a 25% Section 301 tariff stacked on top of the MFN base rate. Vietnam-origin packaging falls outside Section 301 entirely. The math doesn't change much by HTS code — what changes is the country of origin, and that's the lever buyers actually have."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Section 301 actually is"
+    },
+    {
+      "type": "text",
+      "text": "Section 301 of the Trade Act of 1974 lets the United States Trade Representative (USTR) impose tariffs on goods from a country judged to be engaging in unfair trade practices. The current China Section 301 action — initiated in 2018, expanded through 2019, and reviewed in 2024 — covers four lists of HTS codes. Lists 1, 2, and 3 carry an additional 25% duty. List 4A carries 7.5%. These are layered on top of the standard MFN (most-favored-nation) duty, not replacing it."
+    },
+    {
+      "type": "text",
+      "text": "Important: Section 301 attaches to country of origin, not country of shipment. A box manufactured in Vietnam from Vietnamese paperboard is Vietnam-origin and falls outside Section 301 — even if it ships through Hong Kong. A box manufactured in China and merely repackaged in Vietnam is still China-origin and still subject to Section 301."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The substantial transformation rule",
+      "body": "For your packaging to qualify as Vietnam-origin, the substantial transformation must occur in Vietnam — typically the conversion of paperboard or plastic resin into a finished printed box. Relabeling or repacking Chinese-made boxes inside a Vietnamese warehouse does NOT change origin, and US Customs has cracked down hard on this since 2023. Several importers have been hit with retroactive duty assessments plus penalties."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The HTS chapters that hit packaging"
+    },
+    {
+      "type": "text",
+      "text": "Almost all B2B packaging imported into the US falls into two HTS chapters. Chapter 48 covers paper and paperboard articles — corrugated cartons, folding cartons, rigid gift boxes, paperboard bags. Chapter 39 covers plastics — poly mailers, films, foam inserts, plastic clamshells."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "HTS code",
+        "Description",
+        "Section 301 list",
+        "Additional rate",
+        "MFN base rate"
+      ],
+      "rows": [
+        [
+          "4819.10.00",
+          "Corrugated cartons & boxes",
+          "List 3",
+          "25%",
+          "Free"
+        ],
+        [
+          "4819.20.00",
+          "Folding cartons (non-corrugated paperboard)",
+          "List 3",
+          "25%",
+          "Free"
+        ],
+        [
+          "4819.40.00",
+          "Other sacks and bags of paperboard",
+          "List 3",
+          "25%",
+          "Free"
+        ],
+        [
+          "4819.50.40",
+          "Rigid set-up boxes (gift boxes)",
+          "List 3",
+          "25%",
+          "Free"
+        ],
+        [
+          "4811.51",
+          "Coated paper/paperboard, bleached",
+          "List 3",
+          "25%",
+          "Free"
+        ],
+        [
+          "3923.21",
+          "Polyethylene sacks/bags",
+          "List 3",
+          "25%",
+          "3%"
+        ],
+        [
+          "3923.30",
+          "Plastic carboys, bottles, flasks",
+          "List 4A",
+          "7.5%",
+          "3%"
+        ]
+      ],
+      "caption": "Section 301 rates as of early 2026. Always verify against the live USTR Section 301 lists before each entry — rates and codes change with each USTR review."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Exclusions: most have expired"
+    },
+    {
+      "type": "text",
+      "text": "Between 2018 and 2020, USTR ran an exclusion process — narrow, product-specific carve-outs from Section 301. Most packaging-related exclusions expired in 2020–2022. The 2024 USTR review (announced September 2024) maintained the broader Section 301 framework and, for some sectors, increased rates. As of early 2026, virtually no broad packaging exclusions remain active for new entries."
+    },
+    {
+      "type": "text",
+      "text": "Practical implication: don't plan a sourcing strategy around the hope of an exclusion grant. Exclusions are political, narrow, and usually retroactive only to the petition date. Plan around country of origin instead."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to verify your HTS code"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Pull the HTS classification used on your last 5 entries from your customs broker. They should have it on the entry summary (CBP Form 7501).",
+        "Cross-check that classification against the live USTR Section 301 lists, published at ustr.gov.",
+        "For ambiguous classifications — for example, a mailer that combines paperboard with a plastic insert — request a binding ruling from US Customs and Border Protection. Rulings take 30–90 days but lock in the classification.",
+        "If you're new to the SKU, ask the manufacturer for the HTS code they use on commercial invoices to other US customers. Cross-check it against your own broker's read."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Vietnam workaround"
+    },
+    {
+      "type": "text",
+      "text": "When the same SKU is re-sourced from a Vietnamese factory with the substantial transformation occurring on Vietnamese soil, the duty picture changes completely:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Country of origin: Vietnam",
+        "HTS classification: usually identical to the China-sourced version",
+        "MFN base rate: typically Free for paperboard, 3% for plastics",
+        "Section 301: not applicable",
+        "Section 232 (steel/aluminum): not applicable to packaging",
+        "Anti-dumping or countervailing duties: rare for packaging from Vietnam"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "For our customers switching a high-volume corrugated SKU from a Shanghai-area supplier to our Hai Duong factory, the typical landed cost reduction is 20–28% — driven almost entirely by the removal of the Section 301 layer."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      "title": "The full Vietnam packaging tariff-free buyer's guide",
+      "body": "Cert standards, MOQ comparison, lead times, and a 10-point vetting checklist for first-time Vietnam buyers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A note on stacked tariffs"
+    },
+    {
+      "type": "text",
+      "text": "Section 301 is just one of several US import tariff regimes. The full duty stack on a given import can include the MFN base rate, Section 301 (China-specific), Section 232 (steel and aluminum — usually not packaging), Section 201 safeguard tariffs (currently solar cells and washers — not packaging), and case-specific anti-dumping or countervailing duties. For Chinese-origin packaging, Section 301 is the dominant cost driver, and removing it via a country-of-origin change is the single highest-leverage move available to a US buyer."
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Verify before you act",
+      "body": "Tariff rates, list contents, and exclusions change. Before placing or repricing an order, verify the current HTS code, the active Section 301 list, and any pending USTR review against the official USTR website and your customs broker's read. This article is editorial guidance, not legal or customs advice."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are all packaging imports from China subject to a 25% tariff?",
+      "a": "No, but most are. Paperboard packaging under HTS 4819 is on List 3 (25%). Some plastic packaging is on List 4A (7.5%). A small number of HTS codes were never added to any Section 301 list. Always verify the specific code your shipments enter under with your customs broker."
+    },
+    {
+      "q": "Can I claim a refund for Section 301 tariffs paid in the past?",
+      "a": "Generally no, unless an exclusion is retroactively granted (rare, and only back to the petition date) or you filed a Post Summary Correction within the statutory window — typically 314 days from entry. Don't plan around refunds; plan around future origin."
+    },
+    {
+      "q": "Does sourcing from Mexico avoid Section 301 the same way Vietnam does?",
+      "a": "Yes for origin purposes — Mexico-origin goods are not subject to China Section 301. But Mexican packaging factories don't have the cost or capacity advantage Vietnam offers for high-volume B2B packaging. For most folding carton, corrugated, and rigid gift box programs, Vietnam runs 15–25% cheaper than Mexico for comparable specs."
+    },
+    {
+      "q": "What about the packaging that ships around an imported product?",
+      "a": "Packaging that's part of the product (a retail-ready box around a dishwasher, for example) generally follows the product's HTS classification. Packaging imported as a commercial good in its own right (empty boxes you import to fill domestically) is dutied separately under its own packaging HTS code. Your broker should classify both lines correctly on the entry summary."
+    }
+  ],
+  "related": [
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Vietnam Packaging Manufacturers: Tariff-Free Alternative to China (Cornerstone Guide)",
+      "kind": "blog"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Corrugated Packaging Box Manufacturing in Vietnam",
+      "kind": "page"
+    },
+    {
+      "slug": "hai-duong-factory",
+      "label": "Hai Duong Factory — Capacity and Capabilities",
+      "kind": "page"
+    }
+  ]
+}

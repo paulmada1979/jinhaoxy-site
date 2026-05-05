@@ -2,12 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
-import { articleMeta as vietnamPackagingTariffGuideMeta } from "@/components/blog/VietnamPackagingTariffGuide";
+import { getArticlesForLocale, type Locale } from "@/lib/blog";
 
 const SITE_URL = "https://jinhaoxy.com";
 const SITE_NAME = "Jinhao Xinyuan Group";
-
-const ARTICLES = [vietnamPackagingTariffGuideMeta];
 
 export async function generateMetadata({
   params,
@@ -18,7 +16,11 @@ export async function generateMetadata({
   const localePath = locale === "en" ? "/blog/" : `/${locale}/blog/`;
 
   const description =
-    "Buyer's guides, supplier intelligence, and packaging industry briefs from Jinhao Xinyuan Group.";
+    locale === "vi"
+      ? "Hướng dẫn người mua, thông tin nhà cung cấp và bản tin ngành bao bì từ Jinhao Xinyuan Group."
+      : locale === "zh"
+        ? "金浩鑫源集团为您提供采购指南、供应商情报和包装行业简报。"
+        : "Buyer's guides, supplier intelligence, and packaging industry briefs from Jinhao Xinyuan Group.";
 
   return {
     title: "Blog",
@@ -51,6 +53,28 @@ export default async function BlogIndex({
 }) {
   const { locale } = await params;
   const prefix = locale === "en" ? "" : `/${locale}`;
+  const articles = getArticlesForLocale(locale as Locale);
+
+  const eyebrow =
+    locale === "vi" ? "Thông tin chuyên sâu" : locale === "zh" ? "洞察" : "Insights";
+  const heading =
+    locale === "vi"
+      ? "Hướng dẫn người mua bao bì & thông tin nhà cung cấp"
+      : locale === "zh"
+        ? "包装采购指南与供应商情报"
+        : "Packaging buyer's guides & supplier intelligence";
+  const sub =
+    locale === "vi"
+      ? "Phân tích thuế quan, tiêu chuẩn chứng nhận, sách hướng dẫn tìm nguồn cung và bản tin ngành cho đội ngũ mua hàng đang ra quyết định bao bì thực tế."
+      : locale === "zh"
+        ? "关税计算、认证标准、采购手册与行业简报，面向真正在做包装采购决策的团队。"
+        : "Tariff math, certification standards, sourcing playbooks, and industry briefs for procurement teams making real packaging decisions.";
+  const readLabel =
+    locale === "vi" ? "Đọc bài viết" : locale === "zh" ? "阅读文章" : "Read article";
+  const readSuffix =
+    locale === "vi" ? "phút đọc" : locale === "zh" ? "分钟阅读" : "min read";
+  const dateLocale =
+    locale === "vi" ? "vi-VN" : locale === "zh" ? "zh-CN" : "en-US";
 
   return (
     <div>
@@ -58,15 +82,13 @@ export default async function BlogIndex({
       <section className="bg-gradient-to-br from-[#0d2340] to-[#1a3659] text-white">
         <div className="max-w-5xl mx-auto px-4 lg:px-6 py-20">
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-orange-400 mb-4">
-            Insights
+            {eyebrow}
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
-            Packaging buyer&apos;s guides &amp; supplier intelligence
+            {heading}
           </h1>
           <p className="text-base md:text-lg text-gray-300 max-w-2xl leading-relaxed">
-            Tariff math, certification standards, sourcing playbooks, and
-            industry briefs for procurement teams making real packaging
-            decisions.
+            {sub}
           </p>
         </div>
       </section>
@@ -75,9 +97,10 @@ export default async function BlogIndex({
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 lg:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {ARTICLES.map((article) => {
+            {articles.map((entry) => {
+              const article = entry.meta;
               const date = new Date(article.publishedAt).toLocaleDateString(
-                "en-US",
+                dateLocale,
                 { year: "numeric", month: "long", day: "numeric" },
               );
               return (
@@ -99,7 +122,9 @@ export default async function BlogIndex({
                     <div className="flex items-center gap-3 text-xs text-gray-500 mb-3">
                       <time dateTime={article.publishedAt}>{date}</time>
                       <span>·</span>
-                      <span>{article.readingMin} min read</span>
+                      <span>
+                        {article.readingMin} {readSuffix}
+                      </span>
                     </div>
                     <h2 className="text-xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-orange-600 transition-colors">
                       {article.title}
@@ -108,7 +133,7 @@ export default async function BlogIndex({
                       {article.description}
                     </p>
                     <span className="inline-flex items-center gap-1 text-sm font-semibold text-orange-600 group-hover:gap-2 transition-all">
-                      Read article
+                      {readLabel}
                       <ArrowRight size={14} />
                     </span>
                   </div>

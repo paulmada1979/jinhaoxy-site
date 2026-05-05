@@ -2,9 +2,12 @@
 // Adapted from D:\insperium-dashboard\workers\shared\azure-config.js
 //
 // Usage:
-//   node scripts/azure-translate.mjs                         # translates EN → VI + ZH for all pages
-//   node scripts/azure-translate.mjs --only=home             # just home
-//   node scripts/azure-translate.mjs --locale=zh             # just Chinese
+//   node scripts/azure-translate.mjs                              # translates EN → VI + ZH for all PAGES
+//   node scripts/azure-translate.mjs --only=home                  # just one page slug
+//   node scripts/azure-translate.mjs --locale=zh                  # just Chinese
+//   node scripts/azure-translate.mjs --blog                       # translates ALL blog articles
+//   node scripts/azure-translate.mjs --blog --only=section-301-…  # one blog slug
+//   node scripts/azure-translate.mjs --blog --locale=vi           # blog, just Vietnamese
 //
 // Reads env from .env.local (AZURE_TRANSLATOR_KEY_FREE, _FREE_2, _PAID, ...)
 
@@ -190,6 +193,183 @@ async function translateBatch(texts, from, to) {
   return results;
 }
 
+// --- Blog article translation --------------------------------------------
+//
+// Schema is richer than pages — see src/types/blog.ts. We walk every block
+// type and collect translatable strings, then re-attach them by index.
+// Slugs, hrefs, src URLs, dates, and author names are NOT translated.
+
+function collectBlogStrings(data) {
+  const toTranslate = [];
+  const indexMap = [];
+  const push = (text, m) => {
+    if (typeof text === "string" && text.length > 0) {
+      toTranslate.push(text);
+      indexMap.push(m);
+    }
+  };
+
+  push(data.title, { kind: "title" });
+  push(data.description, { kind: "description" });
+  push(data.coverAlt, { kind: "coverAlt" });
+  push(data.category, { kind: "category" });
+  push(data.author, { kind: "author" });
+
+  for (let i = 0; i < (data.blocks || []).length; i++) {
+    const b = data.blocks[i];
+    switch (b.type) {
+      case "heading":
+      case "text":
+        push(b.text, { kind: "block.text", i });
+        break;
+      case "list":
+        for (let j = 0; j < (b.items || []).length; j++) {
+          push(b.items[j], { kind: "block.list.item", i, j });
+        }
+        break;
+      case "image":
+        push(b.alt, { kind: "block.image.alt", i });
+        push(b.caption, { kind: "block.image.caption", i });
+        break;
+      case "callout":
+        push(b.title, { kind: "block.callout.title", i });
+        push(b.body, { kind: "block.callout.body", i });
+        break;
+      case "table":
+        for (let j = 0; j < (b.headers || []).length; j++) {
+          push(b.headers[j], { kind: "block.table.header", i, j });
+        }
+        for (let r = 0; r < (b.rows || []).length; r++) {
+          for (let c = 0; c < (b.rows[r] || []).length; c++) {
+            push(b.rows[r][c], { kind: "block.table.cell", i, r, c });
+          }
+        }
+        push(b.caption, { kind: "block.table.caption", i });
+        break;
+      case "quote":
+        push(b.text, { kind: "block.quote.text", i });
+        push(b.attribution, { kind: "block.quote.attribution", i });
+        break;
+      case "cta":
+        push(b.title, { kind: "block.cta.title", i });
+        push(b.body, { kind: "block.cta.body", i });
+        // href is a URL — never translated
+        break;
+      default:
+        break;
+    }
+  }
+
+  for (let i = 0; i < (data.faqs || []).length; i++) {
+    push(data.faqs[i].q, { kind: "faq.q", i });
+    push(data.faqs[i].a, { kind: "faq.a", i });
+  }
+
+  for (let i = 0; i < (data.related || []).length; i++) {
+    push(data.related[i].label, { kind: "related.label", i });
+    // slug + kind are stable identifiers — never translated
+  }
+
+  return { toTranslate, indexMap };
+}
+
+function applyBlogTranslations(out, indexMap, translated) {
+  for (let idx = 0; idx < indexMap.length; idx++) {
+    const m = indexMap[idx];
+    const v = translated[idx];
+    if (!v) continue;
+    switch (m.kind) {
+      case "title":
+        out.title = v;
+        break;
+      case "description":
+        out.description = v;
+        break;
+      case "coverAlt":
+        out.coverAlt = v;
+        break;
+      case "category":
+        out.category = v;
+        break;
+      case "author":
+        out.author = v;
+        break;
+      case "block.text":
+        out.blocks[m.i].text = v;
+        break;
+      case "block.list.item":
+        out.blocks[m.i].items[m.j] = v;
+        break;
+      case "block.image.alt":
+        out.blocks[m.i].alt = v;
+        break;
+      case "block.image.caption":
+        out.blocks[m.i].caption = v;
+        break;
+      case "block.callout.title":
+        out.blocks[m.i].title = v;
+        break;
+      case "block.callout.body":
+        out.blocks[m.i].body = v;
+        break;
+      case "block.table.header":
+        out.blocks[m.i].headers[m.j] = v;
+        break;
+      case "block.table.cell":
+        out.blocks[m.i].rows[m.r][m.c] = v;
+        break;
+      case "block.table.caption":
+        out.blocks[m.i].caption = v;
+        break;
+      case "block.quote.text":
+        out.blocks[m.i].text = v;
+        break;
+      case "block.quote.attribution":
+        out.blocks[m.i].attribution = v;
+        break;
+      case "block.cta.title":
+        out.blocks[m.i].title = v;
+        break;
+      case "block.cta.body":
+        out.blocks[m.i].body = v;
+        break;
+      case "faq.q":
+        out.faqs[m.i].q = v;
+        break;
+      case "faq.a":
+        out.faqs[m.i].a = v;
+        break;
+      case "related.label":
+        out.related[m.i].label = v;
+        break;
+      default:
+        break;
+    }
+  }
+}
+
+async function translateBlogFile(slug, targetLocale) {
+  const srcPath = path.join(projectRoot, "src/content/blog/en", `${slug}.json`);
+  const outDir = path.join(projectRoot, `src/content/blog/${targetLocale}`);
+  const outPath = path.join(outDir, `${slug}.json`);
+
+  const data = JSON.parse(await fs.readFile(srcPath, "utf-8"));
+  const { toTranslate, indexMap } = collectBlogStrings(data);
+
+  const totalChars = toTranslate.reduce((s, t) => s + t.length, 0);
+  console.log(`  blog/${slug} → ${targetLocale}: ${toTranslate.length} strings (${totalChars} chars)`);
+
+  const azureCode = targetLocale === "zh" ? "zh-Hans" : targetLocale;
+  const translated = await translateBatch(toTranslate, "en", azureCode);
+
+  const out = JSON.parse(JSON.stringify(data));
+  applyBlogTranslations(out, indexMap, translated);
+
+  await fs.mkdir(outDir, { recursive: true });
+  await fs.writeFile(outPath, JSON.stringify(out, null, 2));
+  console.log(`  ✓ wrote ${outPath}`);
+}
+
 async function translateFile(slug, targetLocale) {
   const srcPath = path.join(projectRoot, "src/content/en", `${slug}.json`);
   const outPath = path.join(projectRoot, `src/content/${targetLocale}`, `${slug}.json`);
@@ -251,6 +431,7 @@ async function main() {
   const localeArg = args.find((a) => a.startsWith("--locale="));
   const onlySlug = onlyArg ? onlyArg.split("=")[1] : null;
   const onlyLocale = localeArg ? localeArg.split("=")[1] : null;
+  const blogMode = args.includes("--blog");
 
   // Verify we have credentials
   const candidates = buildCandidates();
@@ -261,18 +442,23 @@ async function main() {
   }
   console.log(`Azure Translator candidates: ${candidates.map((c) => c.label).join(", ")}\n`);
 
-  const srcDir = path.join(projectRoot, "src/content/en");
+  const srcDir = blogMode
+    ? path.join(projectRoot, "src/content/blog/en")
+    : path.join(projectRoot, "src/content/en");
   const files = (await fs.readdir(srcDir)).filter((f) => f.endsWith(".json"));
   const slugs = onlySlug ? [onlySlug] : files.map((f) => f.replace(/\.json$/, ""));
   const locales = onlyLocale ? [onlyLocale] : ["vi", "zh"];
+  const kindLabel = blogMode ? "blog articles" : "pages";
 
-  console.log(`Translating ${slugs.length} pages × ${locales.length} locales\n`);
+  console.log(`Translating ${slugs.length} ${kindLabel} × ${locales.length} locales\n`);
+
+  const fn = blogMode ? translateBlogFile : translateFile;
 
   for (const locale of locales) {
     console.log(`\n=== ${locale === "zh" ? "Chinese" : "Vietnamese"} ===`);
     for (const slug of slugs) {
       try {
-        await translateFile(slug, locale);
+        await fn(slug, locale);
       } catch (err) {
         console.error(`  ✗ ${slug} → ${locale}:`, err.message);
       }

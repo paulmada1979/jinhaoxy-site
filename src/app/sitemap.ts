@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import manifest from "@/content/manifest.json";
-import { articleMeta as vietnamPackagingTariffGuideMeta } from "@/components/blog/VietnamPackagingTariffGuide";
+import { getAllArticles } from "@/lib/blog";
 
 const SITE = "https://jinhaoxy.com";
 const LOCALES = ["en", "vi", "zh"] as const;
@@ -15,8 +15,6 @@ interface Manifest {
   vi: ManifestEntry[];
   zh: ManifestEntry[];
 }
-
-const BLOG_ARTICLES = [vietnamPackagingTariffGuideMeta];
 
 function urlFor(locale: string, slug: string): string {
   const localePart = locale === "en" ? "" : `/${locale}`;
@@ -78,15 +76,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Blog articles
-  for (const article of BLOG_ARTICLES) {
-    for (const locale of LOCALES) {
-      const languages: Record<string, string> = {
-        en: blogUrlFor("en", article.slug),
-        vi: blogUrlFor("vi", article.slug),
-        zh: blogUrlFor("zh", article.slug),
-        "x-default": blogUrlFor("en", article.slug),
-      };
+  // Blog articles — only emit URLs in locales the article actually has content
+  // for, and only list those locales as hreflang alternates.
+  for (const entry of getAllArticles()) {
+    const article = entry.meta;
+    const languages: Record<string, string> = {
+      "x-default": blogUrlFor("en", article.slug),
+    };
+    for (const l of entry.availableLocales) {
+      languages[l] = blogUrlFor(l, article.slug);
+    }
+
+    for (const locale of entry.availableLocales) {
       entries.push({
         url: blogUrlFor(locale, article.slug),
         lastModified: new Date(article.updatedAt),
