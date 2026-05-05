@@ -1,0 +1,225 @@
+{
+  "slug": "section-301-packaging-tariffs-hts-codes",
+  "title": "Mục 301 Thuế quan đối với bao bì: Mã HTS, giá cước và giải pháp thay thế tại Việt Nam (2026)",
+  "description": "Phân tích tập trung vào mua sắm về mã HTS bao bì nào mang thuế quan Mục 301, mức giá hiện hành, những gì được miễn và cách nhập khẩu có xuất xứ từ Việt Nam tránh hoàn toàn.",
+  "publishedAt": "2026-05-04",
+  "updatedAt": "2026-05-04",
+  "readingMin": 7,
+  "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
+  "category": "Hướng dẫn thuế quan",
+  "cluster": "tariff",
+  "coverImage": "/blog/section-301-hts-hero.png",
+  "coverAlt": "Chế độ xem trên cao của bàn môi giới hải quan: tóm tắt mục nhập CBP Form 7501, một thư mục màu xanh nước biển chứa các tài liệu tham khảo mã HTS, máy tính, bút và hộp mẫu bằng bìa cứng gấp, được thắp sáng bởi ánh sáng cửa sổ ấm áp",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "Phiên bản 90 giây",
+      "body": "Hầu hết các bao bì từ Trung Quốc đều có mức thuế 25% theo Mục 301 xếp chồng lên trên mức thuế cơ bản MFN. Bao bì có xuất xứ Việt Nam hoàn toàn nằm ngoài Mục 301. Toán học không thay đổi nhiều theo mã HTS - điều thay đổi là quốc gia xuất xứ và đó là đòn bẩy mà người mua thực sự có."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mục 301 thực sự là gì"
+    },
+    {
+      "type": "text",
+      "text": "Mục 301 của Đạo luật Thương mại năm 1974 cho phép Đại diện Thương mại Hoa Kỳ (USTR) áp đặt thuế quan đối với hàng hóa từ một quốc gia bị đánh giá là tham gia vào các hoạt động thương mại không công bằng. Hành động Mục 301 hiện tại của Trung Quốc - được khởi xướng vào năm 2018, mở rộng đến năm 2019 và được xem xét vào năm 2024 - bao gồm bốn danh sách mã HTS. Danh sách 1, 2 và 3 có thêm 25% thuế. Danh sách 4A chiếm 7,5%. Chúng được xếp chồng lên trên nghĩa vụ MFN (tối huệ quốc) tiêu chuẩn, không thay thế nó."
+    },
+    {
+      "type": "text",
+      "text": "Quan trọng: Mục 301 đính kèm với quốc gia xuất xứ, không phải quốc gia giao hàng. Một hộp được sản xuất tại Việt Nam từ bìa cứng Việt Nam có xuất xứ từ Việt Nam và nằm ngoài Mục 301 - ngay cả khi nó được vận chuyển qua Hồng Kông. Một hộp được sản xuất tại Trung Quốc và chỉ được đóng gói lại tại Việt Nam vẫn có xuất xứ từ Trung Quốc và vẫn phải tuân theo Mục 301."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Quy tắc chuyển đổi đáng kể",
+      "body": "Để bao bì của bạn đủ điều kiện có xuất xứ từ Việt Nam, sự chuyển đổi đáng kể phải diễn ra tại Việt Nam - điển hình là chuyển đổi bìa cứng hoặc nhựa nhựa thành hộp in thành phẩm. Việc dán nhãn lại hoặc đóng gói lại các hộp do Trung Quốc sản xuất bên trong kho hàng Việt Nam KHÔNG thay đổi xuất xứ và Hải quan Hoa Kỳ đã đàn áp mạnh mẽ việc này kể từ năm 2023. Một số nhà nhập khẩu đã bị đánh giá thuế hồi tố cộng với các hình phạt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Các chương HTS đánh bao bì"
+    },
+    {
+      "type": "text",
+      "text": "Hầu hết tất cả bao bì B2B nhập khẩu vào Mỹ đều chia thành hai chương HTS. Chương 48 bao gồm các sản phẩm giấy và bìa - thùng carton sóng, thùng carton gấp, hộp quà cứng, túi bìa. Chương 39 đề cập đến nhựa - bưu phẩm poly, màng, chèn xốp, vỏ sò nhựa."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mã HTS",
+        "Sự miêu tả",
+        "Danh sách Mục 301",
+        "Mức giá bổ sung",
+        "Tỷ lệ cơ bản MFN"
+      ],
+      "rows": [
+        [
+          "4819.10.00",
+          "Thùng carton & hộp sóng",
+          "Danh sách 3",
+          "25%",
+          "Miễn phí"
+        ],
+        [
+          "4819.20.00",
+          "Thùng carton gấp (bìa không sóng)",
+          "Danh sách 3",
+          "25%",
+          "Miễn phí"
+        ],
+        [
+          "4819.40.00",
+          "Các bao tải và túi bìa khác",
+          "Danh sách 3",
+          "25%",
+          "Miễn phí"
+        ],
+        [
+          "4819.50.40",
+          "Hộp thiết lập cứng (hộp quà tặng)",
+          "Danh sách 3",
+          "25%",
+          "Miễn phí"
+        ],
+        [
+          "4811.51",
+          "Giấy tráng / bìa, tẩy trắng",
+          "Danh sách 3",
+          "25%",
+          "Miễn phí"
+        ],
+        [
+          "3923.21",
+          "Bao / túi polyetylen",
+          "Danh sách 3",
+          "25%",
+          "3%"
+        ],
+        [
+          "3923.30",
+          "Carboys nhựa, chai, bình",
+          "Danh sách 4A",
+          "7.5%",
+          "3%"
+        ]
+      ],
+      "caption": "Mục 301 tính đến đầu năm 2026. Luôn xác minh dựa trên danh sách USTR Mục 301 trực tiếp trước mỗi mục nhập - tỷ lệ và mã thay đổi theo mỗi lần đánh giá USTR."
+    },
+    {
+      "type": "image",
+      "src": "/blog/hts-classification-inline.png",
+      "alt": "Mẫu tóm tắt nhập cảnh của Hải quan Hoa Kỳ trên bàn gỗ với trường phân loại HTS được đánh dấu bằng màu vàng, mẫu bìa cứng sóng ở góc trên bên phải",
+      "caption": "Đại lý hải quan của bạn phân loại mọi lô hàng theo mã HTS cụ thể trên bản tóm tắt nhập cảnh - bắt đầu từ đó khi xác minh mức độ phơi nhiễm theo Mục 301 của bạn."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Loại trừ: hầu hết đã hết hạn"
+    },
+    {
+      "type": "text",
+      "text": "Từ năm 2018 đến năm 2020, USTR đã thực hiện một quy trình loại trừ - cắt bỏ hẹp, dành riêng cho sản phẩm khỏi Mục 301. Hầu hết các loại trừ liên quan đến bao bì đã hết hạn vào năm 2020–2022. Đánh giá USTR năm 2024 (được công bố vào tháng 9 năm 2024) duy trì khuôn khổ Mục 301 rộng hơn và đối với một số lĩnh vực, tăng tỷ lệ. Tính đến đầu năm 2026, hầu như không có loại trừ bao bì rộng rãi nào vẫn còn hoạt động đối với các mục mới."
+    },
+    {
+      "type": "text",
+      "text": "Hàm ý thực tế: đừng lập kế hoạch chiến lược tìm nguồn cung ứng xung quanh hy vọng được trợ cấp loại trừ. Loại trừ là chính trị, hẹp và thường chỉ có hiệu lực hồi tố cho ngày kiến nghị. Thay vào đó, hãy lên kế hoạch xung quanh quốc gia xuất xứ."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cách xác minh mã HTS của bạn"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Lấy phân loại HTS được sử dụng trong 5 mục nhập gần đây nhất của bạn từ nhà môi giới hải quan của bạn. Họ nên có nó trong bản tóm tắt mục nhập (Biểu mẫu CBP 7501).",
+        "Kiểm tra chéo phân loại đó với danh sách USTR Mục 301 trực tiếp, được công bố tại ustr.gov.",
+        "Đối với các phân loại mơ hồ - ví dụ, một bưu phẩm kết hợp bìa cứng với một miếng chèn nhựa - yêu cầu một phán quyết ràng buộc từ Hải quan và Bảo vệ Biên giới Hoa Kỳ. Các phán quyết mất 30–90 ngày nhưng khóa trong phân loại.",
+        "Nếu bạn chưa quen với SKU, hãy yêu cầu nhà sản xuất cung cấp mã HTS mà họ sử dụng trên hóa đơn thương mại cho các khách hàng khác ở Hoa Kỳ. Kiểm tra chéo nó với bài đọc của nhà môi giới của riêng bạn."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Giải pháp tại Việt Nam"
+    },
+    {
+      "type": "text",
+      "text": "Khi cùng một SKU được lấy lại nguồn từ một nhà máy Việt Nam với sự chuyển đổi đáng kể xảy ra trên đất Việt Nam, bức tranh thuế sẽ thay đổi hoàn toàn:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nước sản xuất: Việt Nam",
+        "Phân loại HTS: thường giống với phiên bản có nguồn gốc từ Trung Quốc",
+        "Tỷ lệ cơ bản MFN: thường miễn phí cho bìa, 3% cho nhựa",
+        "Mục 301: không áp dụng",
+        "Mục 232 (thép/nhôm): không áp dụng cho bao bì",
+        "Thuế chống bán phá giá hoặc chống trợ cấp: hiếm đối với bao bì từ Việt Nam"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Đối với khách hàng của chúng tôi chuyển đổi SKU sóng khối lượng lớn từ nhà cung cấp khu vực Thượng Hải sang nhà máy Hải Dương của chúng tôi, mức giảm chi phí hạ cánh điển hình là 20–28% - được thúc đẩy gần như hoàn toàn bởi việc loại bỏ lớp Mục 301."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      "title": "Hướng dẫn người mua miễn thuế bao bì Việt Nam đầy đủ",
+      "body": "Tiêu chuẩn chứng nhận, so sánh MOQ, thời gian giao hàng và danh sách kiểm tra 10 điểm cho người mua lần đầu tại Việt Nam."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lưu ý về thuế quan xếp chồng"
+    },
+    {
+      "type": "text",
+      "text": "Mục 301 chỉ là một trong số các chế độ thuế nhập khẩu của Hoa Kỳ. Mức thuế đầy đủ đối với một hàng nhập khẩu nhất định có thể bao gồm thuế suất cơ bản MFN, Mục 301 (dành riêng cho Trung Quốc), Mục 232 (thép và nhôm - thường không bao bì), thuế tự vệ Mục 201 (hiện là pin mặt trời và máy giặt - không bao bì) và thuế chống bán phá giá hoặc đối kháng theo trường hợp cụ thể. Đối với bao bì có nguồn gốc từ Trung Quốc, Mục 301 là động lực chi phí chủ đạo và việc loại bỏ nó thông qua thay đổi quốc gia xuất xứ là động thái đòn bẩy cao nhất duy nhất dành cho người mua Hoa Kỳ."
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Xác minh trước khi hành động",
+      "body": "Thuế suất, nội dung danh sách và loại trừ thay đổi. Trước khi đặt hoặc định giá lại đơn đặt hàng, hãy xác minh mã HTS hiện tại, danh sách Mục 301 đang hoạt động và bất kỳ đánh giá USTR nào đang chờ xử lý đối với trang web chính thức của USTR và thông tin của nhà môi giới hải quan của bạn. Bài viết này là hướng dẫn biên tập, không phải tư vấn pháp lý hoặc hải quan."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tất cả bao bì nhập khẩu từ Trung Quốc có phải chịu thuế 25% không?",
+      "a": "Không, nhưng hầu hết là như vậy. Bao bì bìa theo HTS 4819 nằm trong Danh sách 3 (25%). Một số bao bì nhựa nằm trong Danh mục 4A (7,5%). Một số lượng nhỏ mã HTS không bao giờ được thêm vào bất kỳ danh sách Mục 301 nào. Luôn xác minh mã cụ thể mà lô hàng của bạn nhập với đại lý hải quan của bạn."
+    },
+    {
+      "q": "Tôi có thể yêu cầu hoàn lại tiền cho các mức thuế Mục 301 đã trả trước đây không?",
+      "a": "Nói chung là không, trừ khi loại trừ được cấp hồi tố (hiếm khi và chỉ quay trở lại ngày kiến nghị) hoặc bạn đã nộp Chỉnh sửa Tóm tắt Bài đăng trong khoảng thời gian luật định - thường là 314 ngày kể từ ngày nhập cảnh. Đừng lên kế hoạch hoàn lại tiền; lập kế hoạch xung quanh nguồn gốc tương lai."
+    },
+    {
+      "q": "Nguồn cung ứng từ Mexico có tránh Mục 301 giống như cách Việt Nam làm không?",
+      "a": "Có đối với mục đích xuất xứ - Hàng hóa có xuất xứ từ Mexico không phải tuân theo Mục 301 của Trung Quốc. Nhưng các nhà máy sản xuất bao bì Mexico không có lợi thế về chi phí hoặc công suất mà Việt Nam cung cấp cho bao bì B2B khối lượng lớn. Đối với hầu hết các chương trình hộp gấp, sóng và hộp quà cứng, Việt Nam rẻ hơn 15-25% so với Mexico với thông số kỹ thuật tương đương."
+    },
+    {
+      "q": "Còn bao bì vận chuyển xung quanh một sản phẩm nhập khẩu thì sao?",
+      "a": "Bao bì là một phần của sản phẩm (ví dụ: hộp sẵn sàng bán lẻ xung quanh máy rửa bát) thường tuân theo phân loại HTS của sản phẩm. Bao bì nhập khẩu dưới dạng hàng hóa thương mại theo đúng nghĩa của nó (hộp rỗng bạn nhập khẩu để chiết rót trong nước) được đánh thuế riêng theo mã HTS bao bì riêng. Nhà môi giới của bạn nên phân loại chính xác cả hai dòng trên tóm tắt mục nhập."
+    }
+  ],
+  "related": [
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Các nhà sản xuất bao bì Việt Nam: Giải pháp thay thế miễn thuế cho Trung Quốc (Hướng dẫn nền tảng)",
+      "kind": "blog"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Sản xuất hộp bao bì sóng tại Việt Nam",
+      "kind": "page"
+    },
+    {
+      "slug": "hai-duong-factory",
+      "label": "Nhà máy Hải Dương – Năng lực và Năng lực",
+      "kind": "page"
+    }
+  ]
+}
