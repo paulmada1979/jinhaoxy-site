@@ -1,0 +1,240 @@
+{
+  "slug": "vietnam-vs-china-landed-cost-worked-example",
+  "title": "Bao bì Việt Nam và Trung Quốc: Ví dụ tính chi phí nhập kho thực tế (2026)",
+  "description": "So sánh chi phí nhập kho từng dòng cho một lô 50.000 thùng carton gấp có nguồn gốc từ Trung Quốc so với Việt Nam. Số liệu thực, tuyến vận chuyển thực, phép tính có cơ sở — và mức chênh lệch 21% mà bạn có thể tái lập trên chính SKU của mình.",
+  "publishedAt": "2026-05-08",
+  "updatedAt": "2026-05-08",
+  "readingMin": 8,
+  "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
+  "category": "Phân tích chi phí",
+  "cluster": "tariff",
+  "coverImage": "/blog/landed-cost-comparison-hero.png",
+  "coverAlt": "Bức ảnh bố cục rộng cho thấy các container xếp chồng lên nhau tại một cảng Trung Quốc ở bên trái và một cảng Việt Nam ở bên phải, cả hai đều được thắp sáng bởi cùng một ánh sáng giờ vàng",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "Phiên bản 90 giây",
+      "body": "Đối với một SKU thùng carton gấp 50.000 chiếc, tìm nguồn cung ứng từ một nhà máy Việt Nam thay vì một nhà máy Trung Quốc tương đương sẽ giảm chi phí nhập cảnh từ khoảng 31.283 USD xuống còn 24.551 USD - giảm 21,5%, tương đương 6.732 USD cho mỗi lô hàng. Với bốn lô hàng một năm, tỷ suất lợi nhuận thu hồi là 26.928 đô la. Trình điều khiển gần như hoàn toàn là lớp thuế quan của Mục 301; mọi thứ khác (FOB nhà máy, vận chuyển hàng hóa, phí) nằm trong vòng vài điểm phần trăm."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "\"Chi phí tiếp đất\" thực sự có nghĩa là gì"
+    },
+    {
+      "type": "text",
+      "text": "Chi phí cập bến là tổng chi phí trên mỗi đơn vị (hoặc mỗi lô hàng) của hàng hóa tại thời điểm chúng vào kho của bạn - không phải những gì nhà cung cấp của bạn báo giá và không phải những gì người giao nhận hàng hóa lập hóa đơn. Nó bao gồm mọi thứ phải trả trước khi bạn có thể bán hộp."
+    },
+    {
+      "type": "text",
+      "text": "Đối với bao bì B2B nhập khẩu, các mục hàng có thể dự đoán được. Có bảy thành phần, và khoảng cách giữa Việt Nam và Trung Quốc thể hiện ở chính xác một trong số đó."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Giá FOB của nhà máy (báo giá của nhà cung cấp, xuất xưởng hoặc cảng xuất xứ FOB)",
+        "Vận tải đường biển (giá cước container 40HQ, cảng xuất xứ đến cảng xả hàng Mỹ)",
+        "Thuế cơ bản MFN (biểu thuế nhập khẩu tiêu chuẩn, được quy định bởi phân loại HTS)",
+        "Thuế quan Mục 301 (chỉ có xuất xứ từ Trung Quốc - xem bài #2)",
+        "Phí xử lý hàng hóa (MPF) và phí bảo trì bến cảng (HMF)",
+        "Môi giới hải quan Hoa Kỳ và nộp hồ sơ nhập cảnh",
+        "Vận tải đường bộ nội địa từ cảng đến kho"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ví dụ làm việc: 50.000 thùng carton gấp, Trung Quốc vs Việt Nam"
+    },
+    {
+      "type": "text",
+      "text": "Chúng tôi đang mô hình hóa một lô hàng container 40HQ duy nhất gồm 50.000 chiếc. Mã hàng: thùng carton gấp mặt sau màu trắng, 350gsm, in offset 4 màu, có chèn bên trong sóng một sáo. Bao bì B2B tiêu chuẩn - các nhóm mua sắm chính xác di chuyển giữa các nhà cung cấp mà không thay đổi tác phẩm nghệ thuật."
+    },
+    {
+      "type": "text",
+      "text": "Giả định xuất xứ: một nhà máy khu vực Thượng Hải cho cột Trung Quốc, một nhà máy Hải Dương cho cột Việt Nam. Cả hai đều là các nhà xuất khẩu tầm trung với chứng nhận FSC và ISO 9001. Cảng dỡ hàng: Los Angeles. Giao hàng nội địa: Riverside, CA. Tất cả các con số tính bằng USD tính đến đầu năm 2026."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Thành phần chi phí",
+        "Xuất xứ Trung Quốc",
+        "Xuất xứ Việt Nam",
+        "Lợi thế Việt Nam"
+      ],
+      "rows": [
+        [
+          "Giá FOB xuất xưởng (50.000 chiếc)",
+          "$22,500",
+          "$21,000",
+          "$1,500"
+        ],
+        [
+          "Vận tải đường biển (40HQ đến LA)",
+          "$2,400",
+          "$2,800",
+          "–400 đô la"
+        ],
+        [
+          "Nhiệm vụ cơ bản MFN (HTS 4819.20.00)",
+          "0 đô la",
+          "0 đô la",
+          "0 đô la"
+        ],
+        [
+          "Thuế quan Mục 301 (25% đối với Trung Quốc)",
+          "$5,625",
+          "0 đô la",
+          "$5,625"
+        ],
+        [
+          "MPF + HMF",
+          "108 đô la",
+          "101 đô la",
+          "$7"
+        ],
+        [
+          "Môi giới hải quan Hoa Kỳ",
+          "$250",
+          "$250",
+          "0 đô la"
+        ],
+        [
+          "Vận tải đường bộ nội địa (cảng → Riverside)",
+          "$400",
+          "$400",
+          "0 đô la"
+        ],
+        [
+          "Tổng chi phí nhập cảng (mỗi lô hàng)",
+          "$31,283",
+          "$24,551",
+          "$6,732"
+        ],
+        [
+          "Chi phí trên mỗi đơn vị đất đai",
+          "0,626 US$",
+          "0,491 US$",
+          "0,135 US$"
+        ]
+      ],
+      "caption": "Ví dụ làm việc, container 40HQ đơn, giá cước đầu năm 2026. Số của bạn sẽ khác nhau — xem \"Cách lập mô hình SKU của riêng bạn\" bên dưới."
+    },
+    {
+      "type": "image",
+      "src": "/blog/landed-cost-spreadsheet-inline.png",
+      "alt": "Màn hình máy tính xách tay hiển thị bảng tính chi phí nhập khẩu sạch sẽ với các cột cho giá FOB, cước phí, thuế, Mục 301, MPF / HMF và tổng chi phí cập bến, được thắp sáng bởi đèn bàn ấm áp",
+      "caption": "Xây dựng phiên bản của bạn trong bảng tính — một cột cho mỗi xuất xứ, một hàng cho mỗi thành phần chi phí. Các chênh lệch tự lộ ra ngay lập tức."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tại sao Việt Nam thắng mặc định"
+    },
+    {
+      "type": "text",
+      "text": "Loại bỏ toán học xuống trình điều khiển của nó và bức tranh rất đơn giản."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "FOB của nhà máy gần như có thể so sánh được. Lao động Việt Nam và chi phí chung rẻ hơn một chút so với ven biển Trung Quốc để chuyển đổi bìa; Trong ví dụ của chúng tôi, đó là 1.500 đô la (khoảng 7%) trên cơ sở 22.500 đô la. Đôi khi khoảng cách lớn hơn, đôi khi nhà máy Trung Quốc cắt giảm nguồn cung ứng giấy - gọi đó là rửa trong vòng ±10%.",
+        "Vận tải đường biển có lợi cho Trung Quốc với một biên độ nhỏ. Thượng Hải/Ninh Ba có năng lực vận chuyển lớn hơn và lịch trình đi thuyền chặt chẽ hơn Hải Phòng hoặc Hồ Chí Minh, vì vậy giá cước vận chuyển mỗi container cao hơn 300-500 USD từ Việt Nam. Thật, nhưng nhỏ.",
+        "Mục 301 là toàn bộ trò chơi. Mức thuế bổ sung 25% đối với giá trị hải quan tương đương FOB lật ngược toàn bộ so sánh. Trên một lô hàng trị giá 22.500 đô la, đó là 5.625 đô la - gấp hơn bốn lần chênh lệch chi phí FOB và chênh lệch vận chuyển hàng hóa cộng lại.",
+        "Phí và chi phí chung là một sự rửa sạch. MPF, HMF, môi giới và vận tải đường bộ nội địa không phụ thuộc vào nguồn gốc - con số giống nhau."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Loại bỏ Mục 301 ra khỏi phương trình và hai nguồn gốc cách nhau trong vòng 1.100 đô la. Cuộc tranh luận về chi phí của Trung Quốc và chi phí của Việt Nam, về cốt lõi, là một cuộc tranh luận về chênh lệch giá thuế."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Nơi Việt Nam không thắng"
+    },
+    {
+      "type": "text",
+      "text": "Phiên bản trung thực: có ba lý do chính đáng để không chuyển đổi và các nhóm mua sắm nên biết chúng trước khi bóp cò."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Khoảng cách thời gian giao hàng trên giấy đặc biệt. Nếu SKU của bạn sử dụng loại bìa cứng không phổ biến (một số loại giấy FBB tráng nhất định, lớp lót kraft đặc biệt), các nhà máy Việt Nam thường nhập khẩu chất nền từ Trung Quốc hoặc Indonesia, thêm 7-14 ngày vào chu kỳ sản xuất.",
+        "Khả năng hoàn thiện cao cấp nhất mỏng hơn. Đối với các hiệu ứng lá lạnh, ba chiều hoặc một số hiệu ứng tia cực tím tại chỗ, số lượng nhà máy Việt Nam có hồ sơ theo dõi đã được chứng minh ít hơn so với ở ven biển Trung Quốc. Đối với 90% bao bì B2B, điều này không liên quan; Đối với các đợt ra mắt dành cho người tiêu dùng siêu cao cấp, điều đó có thể quan trọng.",
+        "Tập trung rủi ro của nhà cung cấp một nguồn. Nếu bạn đã dành năm năm để tối ưu hóa mối quan hệ với một nhà cung cấp Trung Quốc, chuyển đổi là một chi phí quản lý thay đổi thực sự - vòng lấy mẫu, kết hợp màu sắc, đánh giá lại ISTA. Không phải là lý do để không bao giờ chuyển đổi, mà là lý do để lập ngân sách cho quá trình chuyển đổi một cách cẩn thận."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cách lập mô hình SKU của riêng bạn"
+    },
+    {
+      "type": "text",
+      "text": "Ví dụ làm việc ở trên không phải là một bản mẫu - đó là một minh họa. Để chạy phép toán trên chương trình đóng gói của riêng bạn, hãy làm theo trình tự sau:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Kéo 3 hóa đơn thương mại cuối cùng cho SKU và xác nhận FOB của nhà máy. Không sử dụng giá báo giá - hãy sử dụng những gì đã thực sự được lập hóa đơn sau bất kỳ điều chỉnh nào.",
+        "Lấy các bản tóm tắt nhập cảnh tương ứng (Mẫu CBP 7501) và đọc thuế MFN thực tế, số tiền Mục 301, MPF và HMF đã được thanh toán.",
+        "Lấy hóa đơn vận chuyển hàng hóa cho cùng một lô hàng để nhận giá cước đường biển thực của bạn trên mỗi container, cộng với bất kỳ THC, ISF và phí lưu kho nào gặp phải.",
+        "Thêm môi giới và vận tải đường bộ nội địa từ hóa đơn 3PL hoặc nhà môi giới của bạn.",
+        "Tổng tất cả thành chi phí cập bến cho mỗi lô hàng và trên mỗi đơn vị. Đó là cơ sở của bạn.",
+        "Yêu cầu báo giá Việt Nam trên cùng một thông số kỹ thuật SKU. Áp dụng cùng một phép toán MFN, MPF, HMF (Mục 301 giảm xuống không). Thêm ước tính phí vận chuyển hàng hóa 300–500 đô la và cùng một dịch vụ môi giới / vận tải đường bộ.",
+        "So sánh tổng số. Nếu chi phí nhập kho ở Việt Nam thấp hơn 12-15%, công tắc hầu như luôn được sử dụng, ngay cả sau khi có chi phí quản lý thay đổi. Dưới 8%, hãy xem xét kỹ hơn liệu sự gián đoạn của nhà cung cấp có xứng đáng hay không."
+      ]
+    },
+    {
+      "type": "cta",
+      "href": "/blog/section-301-packaging-tariffs-hts-codes/",
+      "title": "Trước tiên, hãy xác minh mức độ phơi nhiễm theo Mục 301 của bạn",
+      "body": "Trước khi lập mô hình Việt Nam, hãy xác nhận mã HTS thực tế và danh sách Mục 301 bao bì của bạn - đó là nguồn gốc của con số tiết kiệm."
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Xác minh trước khi hành động",
+      "body": "Tất cả các con số cước vận chuyển, thuế và phí ở trên phản ánh các điều kiện đầu năm 2026 trên tuyến xuyên Thái Bình Dương. Tỷ lệ dao động hàng tuần. Trước khi bóp cò trên công tắc, hãy chạy mô hình của riêng bạn với mức phí đã lập hóa đơn của tuần này từ người giao nhận và nhà môi giới của bạn, đồng thời xác minh bất kỳ thay đổi nào của Mục 301 so với danh sách USTR trực tiếp. Bài viết này là hướng dẫn biên tập, không phải lời khuyên về tài chính hoặc hải quan."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Việc giảm 21% chi phí nhập kho có thực tế trên hầu hết các SKU bao bì không?",
+      "a": "Đối với bao bì bìa trong Mục 301 Danh sách 3 (hầu hết các thùng carton gấp, thùng carton sóng và hộp thiết lập cứng), có - phạm vi 18–25% là nhất quán trong cơ sở khách hàng của chúng tôi. Đối với bao bì nhựa trong Danh sách 4A (tỷ lệ bổ sung 7,5% thay vì 25%), chênh lệch all-in nhỏ hơn - thường là 8–14% - vì lớp thuế được loại bỏ nhỏ hơn."
+    },
+    {
+      "q": "Tại sao vận tải đường biển Việt Nam đắt hơn vận tải đường biển Trung Quốc?",
+      "a": "Năng lực vận chuyển. Thượng Hải và Ninh Ba kết hợp với nhau xử lý khối lượng container gấp nhiều lần Hải Phòng và Hồ Chí Minh, vì vậy các hãng vận tải vận hành nhiều dịch vụ hơn và với chi phí mỗi vị trí thấp hơn từ Trung Quốc. Khoảng cách đã thu hẹp hàng năm kể từ năm 2021 khi công suất cảng của Việt Nam tăng lên - hiện tại 300–500 USD/40HQ trên tuyến xuyên Thái Bình Dương. Bên trong châu Á hoặc châu Âu, khoảng cách vẫn còn nhỏ hơn."
+    },
+    {
+      "q": "Ví dụ đã làm thay đổi bao nhiêu nếu tôi sử dụng container 20 feet thay vì 40HQ?",
+      "a": "Chi phí vận chuyển hàng hóa giảm khoảng một nửa; mọi thứ khác gần như giữ nguyên. Tỷ lệ phần trăm chênh lệch giữa Trung Quốc và Việt Nam trở nên nhỏ hơn một chút (vì vận chuyển hàng hóa chiếm tỷ trọng lớn hơn trong tổng số), nhưng mức tiết kiệm tuyệt đối theo Mục 301 không thay đổi. Bạn sẽ thấy Việt Nam rẻ hơn 17-19% trên 20ft thay vì 21,5% trên 40HQ."
+    },
+    {
+      "q": "Toán học có thay đổi nếu tôi sử dụng thuật ngữ DDP thay vì FOB không?",
+      "a": "DDP gộp cước phí, thuế, phí và môi giới thành một số duy nhất do nhà cung cấp báo giá. Chênh lệch Việt Nam - Trung Quốc vẫn tồn tại — nó chỉ ẩn bên trong báo giá DDP. Luôn yêu cầu bảng phân tích báo giá DDP để bạn có thể biết khoản tiết kiệm đến từ đâu. Một số nhà cung cấp DDP của Trung Quốc hấp thụ một phần chi phí Mục 301 trong báo giá của họ (thực chất là trả lại lợi nhuận), điều này có thể nén chênh lệch nhìn thấy được nhưng không thay đổi nền tảng kinh tế."
+    }
+  ],
+  "related": [
+    {
+      "slug": "section-301-packaging-tariffs-hts-codes",
+      "label": "Mục 301 thuế quan đóng gói theo mã HTS (đi sâu vào)",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Hướng dẫn người mua miễn thuế bao bì Việt Nam đầy đủ",
+      "kind": "blog"
+    },
+    {
+      "slug": "hai-duong-factory",
+      "label": "Nhà máy Hải Dương – Năng lực và Năng lực",
+      "kind": "page"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "slug": "vietnam-vs-china-landed-cost-worked-example",
+  "title": "Vietnam vs China Packaging: A Real Landed-Cost Worked Example (2026)",
+  "description": "A line-by-line landed-cost comparison for a 50,000-unit folding carton run sourced from China versus Vietnam. Real numbers, real freight lanes, defensible math — and a 21% delta you can replicate on your own SKU.",
+  "publishedAt": "2026-05-08",
+  "updatedAt": "2026-05-08",
+  "readingMin": 8,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Cost analysis",
+  "cluster": "tariff",
+  "coverImage": "/blog/landed-cost-comparison-hero.png",
+  "coverAlt": "Wide split-composition photograph showing stacked containers at a Chinese port on the left and a Vietnamese port on the right, both lit by the same golden-hour light",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "For a 50,000-unit folding carton SKU, sourcing from a Vietnamese factory instead of a comparable Chinese one drops the all-in landed cost from roughly $31,283 to $24,551 — a 21.5% reduction, or $6,732 per shipment. At four shipments a year that's $26,928 in recovered margin. The driver is almost entirely the Section 301 tariff layer; everything else (factory FOB, freight, fees) is within a few percentage points."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What \"landed cost\" actually means"
+    },
+    {
+      "type": "text",
+      "text": "Landed cost is the total per-unit (or per-shipment) cost of goods at the point they enter your warehouse — not what your supplier quoted, and not what the freight forwarder invoiced. It includes everything that has to be paid before you can sell the box."
+    },
+    {
+      "type": "text",
+      "text": "For imported B2B packaging, the line items are predictable. There are seven components, and the gap between Vietnam and China shows up in exactly one of them."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Factory FOB price (the supplier's quote, ex-works or FOB origin port)",
+        "Ocean freight (40HQ container rate, origin port to US discharge port)",
+        "MFN base duty (the standard import tariff, set by HTS classification)",
+        "Section 301 tariff (China-origin only — see post #2)",
+        "Merchandise Processing Fee (MPF) and Harbor Maintenance Fee (HMF)",
+        "US customs brokerage and entry filing",
+        "Domestic trucking from port to warehouse"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The worked example: 50,000 folding cartons, China vs Vietnam"
+    },
+    {
+      "type": "text",
+      "text": "We're modeling a single 40HQ container shipment of 50,000 units. The SKU: a white-back folding carton, 350gsm, 4-color offset printed, with a single-flute corrugated inner insert. Standard B2B packaging — the exact kind procurement teams move between suppliers without changing the artwork."
+    },
+    {
+      "type": "text",
+      "text": "Origin assumptions: a Shanghai-area factory for the China column, a Hai Duong factory for the Vietnam column. Both are mid-tier exporters with FSC and ISO 9001 certifications. Discharge port: Los Angeles. Inland delivery: Riverside, CA. All numbers in USD as of early 2026."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Cost component",
+        "China origin",
+        "Vietnam origin",
+        "Vietnam advantage"
+      ],
+      "rows": [
+        [
+          "Factory FOB price (50,000 units)",
+          "$22,500",
+          "$21,000",
+          "$1,500"
+        ],
+        [
+          "Ocean freight (40HQ to LA)",
+          "$2,400",
+          "$2,800",
+          "–$400"
+        ],
+        [
+          "MFN base duty (HTS 4819.20.00)",
+          "$0",
+          "$0",
+          "$0"
+        ],
+        [
+          "Section 301 tariff (25% on China)",
+          "$5,625",
+          "$0",
+          "$5,625"
+        ],
+        [
+          "MPF + HMF",
+          "$108",
+          "$101",
+          "$7"
+        ],
+        [
+          "US customs brokerage",
+          "$250",
+          "$250",
+          "$0"
+        ],
+        [
+          "Inland trucking (port → Riverside)",
+          "$400",
+          "$400",
+          "$0"
+        ],
+        [
+          "Total landed cost (per shipment)",
+          "$31,283",
+          "$24,551",
+          "$6,732"
+        ],
+        [
+          "Per-unit landed cost",
+          "$0.626",
+          "$0.491",
+          "$0.135"
+        ]
+      ],
+      "caption": "Worked example, single 40HQ container, early 2026 rates. Your numbers will vary — see \"How to model your own SKU\" below."
+    },
+    {
+      "type": "image",
+      "src": "/blog/landed-cost-spreadsheet-inline.png",
+      "alt": "A laptop screen showing a clean import-cost spreadsheet with columns for FOB price, freight, duty, Section 301, MPF/HMF, and total landed cost, lit by warm desk-lamp light",
+      "caption": "Build your version in a spreadsheet — one column per origin, one row per cost component. The deltas reveal themselves immediately."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Vietnam wins by default"
+    },
+    {
+      "type": "text",
+      "text": "Strip the math down to its drivers and the picture is simple."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Factory FOB is roughly comparable. Vietnamese labor and overhead run slightly cheaper than coastal China for paperboard converting; in our example that's $1,500 (about 7%) on a $22,500 base. Sometimes the gap is bigger, sometimes the Chinese factory undercuts on paper sourcing — call it a wash within ±10%.",
+        "Ocean freight favors China by a small margin. Shanghai/Ningbo has more carrier capacity and tighter sailing schedules than Hai Phong or Ho Chi Minh, so per-container freight rates run $300–500 higher from Vietnam. Real, but small.",
+        "Section 301 is the whole game. The 25% additional tariff on the FOB-equivalent customs value flips the entire comparison. On a $22,500 shipment that's $5,625 — more than four times the FOB cost difference and freight delta combined.",
+        "Fees and overhead are a wash. MPF, HMF, brokerage, and inland trucking are origin-agnostic — same numbers either way."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Take Section 301 out of the equation and the two origins are within $1,100 of each other. The cost-of-China vs cost-of-Vietnam debate is, at its core, a tariff arbitrage debate."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Where Vietnam doesn't win"
+    },
+    {
+      "type": "text",
+      "text": "Honest version: there are three legitimate reasons not to switch, and procurement teams should know them before pulling the trigger."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lead time gap on specialty paper. If your SKU uses an uncommon paperboard grade (certain coated FBB stocks, specialty kraft liners), Vietnamese factories often import the substrate from China or Indonesia, adding 7–14 days to the production cycle.",
+        "Highest-end finishing capacity is thinner. For cold-foil, holographic, or certain spot UV effects, the number of Vietnamese factories with proven track records is smaller than in coastal China. For 90% of B2B packaging this is irrelevant; for ultra-premium consumer launches it can matter.",
+        "Single-source supplier risk concentration. If you've spent five years optimizing one Chinese supplier relationship, switching is a real change-management cost — sample rounds, color-matching, ISTA re-qualification. Not a reason to never switch, but a reason to budget the transition carefully."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to model your own SKU"
+    },
+    {
+      "type": "text",
+      "text": "The worked example above isn't a template — it's a demonstration. To run the math on your own packaging program, follow this sequence:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Pull the last 3 commercial invoices for the SKU and confirm the factory FOB. Don't use the quote price — use what was actually invoiced after any adjustments.",
+        "Pull the corresponding entry summaries (CBP Form 7501) and read off the actual MFN duty, Section 301 amount, MPF, and HMF that were paid.",
+        "Pull the freight invoices for the same shipments to get your real ocean rate per container, plus any THC, ISF, and demurrage that hit.",
+        "Add brokerage and inland trucking from your 3PL or broker invoices.",
+        "Sum it all into a per-shipment and per-unit landed cost. That's your baseline.",
+        "Request a Vietnam quote on the same SKU spec. Apply the same MFN, MPF, HMF math (Section 301 drops to zero). Add a $300–500 freight premium estimate and the same brokerage/trucking.",
+        "Compare totals. If the Vietnam landed cost is more than 12–15% lower, the switch almost always pencils out, even after change-management costs. Below 8%, look harder at whether the supplier disruption is worth it."
+      ]
+    },
+    {
+      "type": "cta",
+      "href": "/blog/section-301-packaging-tariffs-hts-codes/",
+      "title": "Verify your Section 301 exposure first",
+      "body": "Before modeling Vietnam, confirm the actual HTS codes and Section 301 list your packaging falls under — that's where the savings number comes from."
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Verify before acting",
+      "body": "All freight, duty, and fee numbers above reflect early 2026 conditions on the trans-Pacific lane. Rates fluctuate weekly. Before pulling the trigger on a switch, run your own model with this week's invoiced rates from your forwarder and broker, and verify any Section 301 changes against the live USTR lists. This article is editorial guidance, not financial or customs advice."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the 21% landed-cost reduction realistic across most packaging SKUs?",
+      "a": "For paperboard packaging on Section 301 List 3 (most folding cartons, corrugated cartons, and rigid set-up boxes), yes — the 18–25% range is consistent across our customer base. For plastic packaging on List 4A (7.5% additional rate instead of 25%), the all-in delta is smaller — typically 8–14% — because the tariff layer being removed is smaller."
+    },
+    {
+      "q": "Why is Vietnam ocean freight more expensive than China ocean freight?",
+      "a": "Carrier capacity. Shanghai and Ningbo combined handle multiple times the container volume of Hai Phong and Ho Chi Minh, so carriers operate more services and at lower per-slot cost from China. The gap has narrowed every year since 2021 as Vietnam's port capacity has grown — currently $300–500 per 40HQ on the trans-Pacific. Inside Asia or to Europe the gap is smaller still."
+    },
+    {
+      "q": "How much does the worked example change if I use a 20-foot container instead of a 40HQ?",
+      "a": "The freight cost roughly halves; everything else stays roughly the same. The percentage delta between China and Vietnam becomes slightly smaller (because freight is a bigger share of the total), but the absolute Section 301 saving is unchanged. You'd see Vietnam come out 17–19% cheaper on a 20ft instead of 21.5% on a 40HQ."
+    },
+    {
+      "q": "Does the math change if I use DDP terms instead of FOB?",
+      "a": "DDP rolls freight, duty, fees, and brokerage into a single supplier-quoted number. The Vietnam-China delta still exists — it's just hidden inside the DDP quote. Always ask for a DDP quote breakdown so you can see where the savings come from. Some Chinese DDP suppliers absorb part of the Section 301 cost in their quote (effectively giving back margin), which can compress the visible delta but not the underlying economics."
+    }
+  ],
+  "related": [
+    {
+      "slug": "section-301-packaging-tariffs-hts-codes",
+      "label": "Section 301 packaging tariffs by HTS code (deep dive)",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "The full Vietnam packaging tariff-free buyer's guide",
+      "kind": "blog"
+    },
+    {
+      "slug": "hai-duong-factory",
+      "label": "Hai Duong Factory — Capacity and Capabilities",
+      "kind": "page"
+    }
+  ]
+}
