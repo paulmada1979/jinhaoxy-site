@@ -1,0 +1,212 @@
+{
+  "slug": "corrugated-mailer-specs-explained",
+  "title": "Corrugated Mailer Specs That Actually Matter: Flute, ECT, BCT, Burst (2026)",
+  "description": "A procurement-focused breakdown of corrugated mailer specifications — what each test measures, when to use which flute profile, and the spec sheet that survives a 1,000-mile trans-Pacific shipment.",
+  "publishedAt": "2026-05-16",
+  "updatedAt": "2026-05-16",
+  "readingMin": 8,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Buyer's guide",
+  "cluster": "products",
+  "draft": true,
+  "coverImage": "/blog/corrugated-mailer-specs-hero.png",
+  "coverAlt": "Macro photograph of a corrugated kraft mailer at an angle showing the flute structure between two paper liners, natural kraft brown color with real fiber texture",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "Three numbers run the corrugated spec sheet: ECT (the board's edge crush strength), BCT (the assembled box's compression strength), and burst (the puncture resistance of the liner). Pick the flute profile from your protection requirement and stack height, not from price. For typical e-commerce mailers, B-flute or E-flute single-wall hits 32 ECT is the sweet spot; for export pallet stacking, BC double-wall at 44+ ECT is the only spec that survives the trans-Pacific."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Anatomy of a corrugated mailer"
+    },
+    {
+      "type": "text",
+      "text": "Every corrugated board has the same three-layer construction: an outer liner (the printable side facing the customer), a fluted medium (the wavy paper sandwiched in the middle), and an inner liner (the side facing the contents). Variations are in the weight of each paper, the height and frequency of the flutes, and the number of layers (single-wall, double-wall, triple-wall)."
+    },
+    {
+      "type": "image",
+      "src": "/blog/flute-comparison-inline.png",
+      "alt": "Macro photograph of three corrugated board cross-sections lined up edge-on showing visibly different flute heights — left B-flute medium wave 3mm, center E-flute fine tight 1.5mm, right BC double-wall stacked 6mm — natural kraft color with real fiber texture",
+      "caption": "Left to right: B-flute (3mm), E-flute (1.5mm), BC double-wall (6mm). The flute height determines stiffness, cushioning, and printability. Don't pick by price — pick by what the mailer actually has to do."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Flute profiles: which to use when"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Flute",
+        "Height",
+        "Flutes/foot",
+        "Best for",
+        "Cost vs C"
+      ],
+      "rows": [
+        ["A", "4.8mm", "33", "Heavy bulk shipments, stacking", "+5%"],
+        ["B", "3.2mm", "47", "Retail-ready, e-commerce mailers, displays", "baseline"],
+        ["C", "4.0mm", "39", "Standard shipping cartons (most common globally)", "baseline"],
+        ["E", "1.5mm", "90", "Premium mailers, retail boxes, fine print quality", "+15%"],
+        ["F", "0.8mm", "128", "Folding-carton-like high-end mailers, jewelry, cosmetics", "+25%"],
+        ["BC double", "7.0mm", "stacked", "Export pallets, heavy product, long-haul ocean freight", "+40%"]
+      ],
+      "caption": "Flute height and density vary slightly by paper mill — these are typical ranges for Vietnamese and Chinese converters, early 2026."
+    },
+    {
+      "type": "text",
+      "text": "Practical guidance: B-flute is the workhorse for North American e-commerce mailers — enough cushioning for typical shipping shock, fine enough flute pitch to take quality offset or flexo printing, low cost. C-flute is the global default for shipping cartons and master cases. E and F flutes are for premium retail-ready packaging where print quality matters more than cushioning. BC double-wall is required for any product that gets palletized and stacked 4+ high in an ocean container."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ECT (Edge Crush Test) — the most-cited number"
+    },
+    {
+      "type": "text",
+      "text": "ECT measures how much force a vertical edge of the board can withstand before crushing, expressed in pounds per linear inch. It correlates strongly with stack strength on a pallet — which is why ECT has largely replaced burst rating as the primary spec for shipping packaging."
+    },
+    {
+      "type": "list",
+      "items": [
+        "23 ECT — light-duty mailers, small e-commerce items under 5 lb",
+        "32 ECT — standard e-commerce, most subscription boxes, retail-ready up to 30 lb",
+        "44 ECT — heavy-duty single-wall, palletized goods up to 65 lb",
+        "55 ECT — double-wall territory, 65+ lb, ocean-freight resilient",
+        "71 ECT — triple-wall, industrial, hazardous, or very heavy goods"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Most fulfillment specifications you'll see written are some variant of \"32 ECT B-flute\" for mailers and \"44 ECT C-flute\" for shipping cartons. These are the high-volume sweet spots. Going below 32 ECT for any product going through a fulfillment center is asking for crush damage at the warehouse, before the product even reaches the customer."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "BCT (Box Compression Test) — the assembled-box version"
+    },
+    {
+      "type": "image",
+      "src": "/blog/box-compression-test-inline.png",
+      "alt": "Photograph of a corrugated box being compression-tested on an ECT/BCT machine with a steel platen descending and corner deformation just starting, industrial lab setting with neutral lighting",
+      "caption": "BCT measures the assembled, glued box — not just the board. A weak glue joint or a poor flap fit can drop a 44-ECT board's BCT by 20% in the finished box."
+    },
+    {
+      "type": "text",
+      "text": "BCT is what your warehouse actually cares about: how much weight can a stack of these boxes hold before the bottom one collapses? It's measured on the assembled, glued box, not just the board. A perfect ECT spec on weak glue or a poor flap fit produces disappointing BCT — which is why a careful manufacturer verifies BCT, not just ECT, before signing off on a new SKU."
+    },
+    {
+      "type": "text",
+      "text": "Rough rule of thumb: BCT ≈ 5.87 × ECT × √(perimeter × board thickness). For procurement purposes you usually request a target BCT (e.g., \"minimum 600 lb BCT for a 12×9×3 mailer\") and let the converter back into the ECT and flute spec to hit it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Burst (Mullen) — the legacy number"
+    },
+    {
+      "type": "text",
+      "text": "Burst, or Mullen burst, measures the force per square inch needed to puncture a stationary diaphragm against the liner. It's expressed as a number like \"200 lb burst\" or \"275 lb burst.\" Historically this was the dominant carton spec, but it's been mostly displaced by ECT for two reasons: (1) ECT correlates better with stack performance, and (2) burst tests measure the strongest layer rather than the weakest, so a high-burst board can still fail edge-crush."
+    },
+    {
+      "type": "text",
+      "text": "Burst is still useful: it's a good check on the liner paper quality. A board with high ECT but low burst suggests that the medium is doing all the work and the liner is undergauged — which means the box will crush corners under stack load even if it survives compression testing. Most modern specs include both ECT and burst as a sanity check on each other."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What a complete corrugated spec sheet contains"
+    },
+    {
+      "type": "text",
+      "text": "If you're transferring a SKU between suppliers (China to Vietnam, for example), the spec sheet you hand the new factory should contain everything below. Anything missing is a guess they'll fill in for you, often badly."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Internal dimensions (L × W × H, in mm and inches)",
+        "Flute profile and total board thickness",
+        "Liner papers — outer and inner — with weight (g/m²) and grade (kraft, white-top, mottled white)",
+        "ECT target with tolerance (e.g., 32 ECT ±10%)",
+        "BCT target for the assembled box at standard ASTM conditions",
+        "Burst target (still expected on most spec sheets)",
+        "Glue type — sodium silicate, polymer, or hot melt",
+        "Flap configuration — RSC, full-overlap, half-slotted, die-cut mailer-style",
+        "Print method, color count, Pantone references, plate finishing requirement",
+        "Pallet pattern and stack height for shipping",
+        "Climate / humidity assumption (most ECT specs assume 23°C / 50% RH; tropical destinations need adjusted specs)",
+        "Compliance markings — recycling triangle, FSC mark, country of origin"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vietnam vs China for corrugated"
+    },
+    {
+      "type": "text",
+      "text": "Corrugated capacity in Vietnam has grown roughly 3× since 2021, driven directly by the China tariff spread. The technology is identical — Bobst die-cutters, BHS corrugators, Komori printers — and the paper supply increasingly local (large mills like Lee & Man and Saigon Paper produce kraft and white-top liner in-country). For 80% of B2B corrugated programs, Vietnamese output now matches Chinese on quality at the same spec, with the same ISTA performance."
+    },
+    {
+      "type": "text",
+      "text": "The remaining gap: niche specialty papers (certain coated white-tops, ultra-high-burst kraft liners) still come predominantly from Chinese mills. Vietnamese factories source these as imports, adding 7–10 days to the lead time. For standard kraft and standard white-top, it's a wash."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      "title": "Vietnam packaging — the full picture",
+      "body": "Tariff math, certifications, MOQs, lead times, and a 10-point vetting checklist for first-time Vietnam buyers."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Spec what you measure, not what you think",
+      "body": "Most corrugated complaints we see come from buyers who specified a flute profile (\"give me B-flute\") instead of a performance target (\"give me 32 ECT, 600 BCT, surviving ISTA-3A\"). Specifying performance lets the converter optimize cost — they may achieve the spec with a different flute or paper grade than you expected, often cheaper. Specifying flute locks them into one solution, which usually isn't the cheapest."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I downgrade from C-flute to B-flute to save cost?",
+      "a": "Sometimes. B-flute uses slightly less paper per square foot than C-flute, so it's marginally cheaper at the same liner spec. But B-flute is shorter (3.2mm vs 4.0mm), so it has less cushioning and less stack strength. For lightweight e-commerce mailers (under 10 lb) the swap usually works. For shipping cartons getting palletized, the BCT drop is too significant — you'd need to upgrade the liner paper to compensate, and that wipes out the saving. Run the math on your specific SKU before committing."
+    },
+    {
+      "q": "Is the 32 ECT / 200 lb burst standard still valid in 2026?",
+      "a": "Yes. The 32 ECT B-flute spec hits the sweet spot for most US fulfillment networks (Amazon, Shopify Shipping, ShipBob) — it survives the parcel handling chain, takes good print, and uses paper economically. The 200 lb burst spec is largely a legacy parallel — most converters meet it automatically when they hit 32 ECT with standard kraft liner. Don't waste time arguing about whether burst still matters; just keep both numbers on your spec sheet."
+    },
+    {
+      "q": "What's the climate adjustment factor for Vietnam-shipped corrugated?",
+      "a": "Standard ECT specs are measured at 23°C / 50% relative humidity. Vietnam-origin corrugated typically arrives at US East Coast warehouses after spending time at 30°C / 80% RH humidity in transit — and corrugated loses 15–25% of compression strength at high humidity. Practical fix: spec ECT at the target performance + 25% margin, or add a moisture-barrier liner if the contents are sensitive. For tropical end-markets (Florida, Texas Gulf, Caribbean), spec the ECT 30% above bare-minimum target."
+    },
+    {
+      "q": "Do I need different specs for ocean vs air freight?",
+      "a": "Ocean is harder on corrugated — longer transit time, more humidity exposure, more vibration and stack-shift stress, more chance of being on the bottom of a stack for weeks. Spec to ocean-resilient if any of your shipments cross water; the small premium is cheaper than dealing with crushed inbound. For air-only programs (rare in packaging — usually only for samples or small high-value goods), you can spec lighter. For mixed-mode, spec to the tougher case."
+    }
+  ],
+  "related": [
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Vietnam packaging — full buyer's guide",
+      "kind": "blog"
+    },
+    {
+      "slug": "shipping-boxes-export-cartons",
+      "label": "Shipping boxes & export cartons",
+      "kind": "page"
+    },
+    {
+      "slug": "e-commerce-mailer-boxes",
+      "label": "E-commerce mailer boxes",
+      "kind": "page"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Corrugated packaging in Vietnam — capabilities",
+      "kind": "page"
+    }
+  ]
+}

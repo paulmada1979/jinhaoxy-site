@@ -1,0 +1,201 @@
+{
+  "slug": "packaging-certifications-fsc-iso-bsci-sedex",
+  "title": "Chứng nhận đóng gói được giải mã: FSC, ISO 9001, BSCI, Sedex (2026)",
+  "description": "Chứng nhận của mỗi nhà cung cấp bao bì lớn thực sự chứng minh điều gì, những gì không chứng minh và cách xác minh chứng chỉ là thật trước khi ký PO. Bảng thuật ngữ làm việc cho các nhóm mua sắm mới tìm nguồn cung ứng bao bì toàn cầu.",
+  "publishedAt": "2026-05-20",
+  "updatedAt": "2026-05-20",
+  "readingMin": 8,
+  "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
+  "category": "Tuân thủ",
+  "cluster": "compliance",
+  "draft": true,
+  "coverImage": "/blog/certifications-primer-hero.png",
+  "coverAlt": "Bức ảnh từ trên xuống của một góc bàn hội nghị bằng gỗ với một chồng bốn tài liệu chứng chỉ A4 chính thức được quạt ra, có thể nhìn thấy các con dấu dập nổi, một cây bút thép và kính đọc sách ở trên, được chiếu sáng bởi ánh sáng bên ấm áp",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "Phiên bản 90 giây",
+      "body": "Bốn chứng nhận bao gồm ~ 90% thẩm định bao bì B2B: FSC về truy xuất nguồn gốc giấy, ISO 9001 về quản lý chất lượng, SMETA / Sedex về tuân thủ đạo đức / xã hội và BSCI tương đương SMETA trong nhiều chương trình người mua của EU. Mỗi người xác minh một lớp khác nhau - không ai trong số chúng thay thế cho bất kỳ lớp nào khác. Một nhà máy có FSC nhưng không có SMETA là tốt về tìm nguồn cung ứng giấy nhưng chưa được kiểm toán về lao động; ngược lại là tốt về lao động nhưng chưa được kiểm toán trên giấy tờ. Luôn hỏi nhà máy có chứng chỉ nào, yêu cầu số đăng ký và xác minh chúng trên sổ đăng ký công khai của tổ chức phát hành trước khi đặt PO đầu tiên."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tại sao chứng nhận lại quan trọng (và ở đâu thì không)"
+    },
+    {
+      "type": "text",
+      "text": "Chứng nhận là bằng chứng, không phải bảo hiểm. Họ chứng minh rằng vào ngày đánh giá, nhà máy đã đáp ứng một tiêu chuẩn xác định. Họ không chứng minh nhà máy đang đáp ứng điều đó ngày hôm nay và họ không chứng minh thực thể được chứng nhận giống với thực thể thực sự sản xuất hàng hóa của bạn. Được sử dụng như một điểm khởi đầu cho sự thẩm định, chúng là vô giá. Được sử dụng làm tệp thẩm định TOÀN BỘ, chúng không thành công."
+    },
+    {
+      "type": "image",
+      "src": "/blog/factory-cert-wall-inline.png",
+      "alt": "Bức ảnh chụp bức tường lễ tân văn phòng nhà máy với bốn đến sáu chứng nhận đóng khung được treo trong một lưới gọn gàng hiển thị bố cục chứng chỉ chính thức và con dấu dập nổi, ánh sáng văn phòng ấm áp từ cửa sổ với sàn bê tông đánh bóng có thể nhìn thấy",
+      "caption": "Một bức tường chứng chỉ trong sảnh là một tín hiệu, không phải bằng chứng. Luôn yêu cầu số đăng ký và xác minh trên sổ đăng ký công khai của cơ quan phát hành - hầu hết đều có số đăng ký."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "FSC (Hội đồng Quản lý Rừng) - truy xuất nguồn gốc giấy"
+    },
+    {
+      "type": "text",
+      "text": "FSC chứng nhận rằng giấy hoặc bìa đến từ các khu rừng được quản lý có trách nhiệm, với chuỗi giám sát theo dõi qua mọi giai đoạn từ rừng đến thành phẩm. Đối với bao bì, chứng chỉ liên quan là FSC Chain-of-Custody (CoC) - có nghĩa là nhà chuyển đổi có thể chứng minh giấy họ sử dụng trong công việc của bạn đến từ các nhà máy được chứng nhận FSC."
+    },
+    {
+      "type": "text",
+      "text": "Ba tuyên bố phụ mà bạn sẽ thấy trên nhãn FSC: FSC 100% (tất cả sợi nguyên sinh từ rừng FSC), FSC Mix (hỗn hợp FSC có kiểm soát và tái chế), FSC Recycled (hàm lượng tái chế sau tiêu dùng). Hỗn hợp là phổ biến nhất để đóng gói - nó cho phép bộ chuyển đổi linh hoạt trong khi vẫn đảm bảo hàm lượng FSC tối thiểu."
+    },
+    {
+      "type": "text",
+      "text": "Xác minh tại: info.fsc.org. Tìm kiếm theo số chứng chỉ hoặc tên công ty. Sổ đăng ký trả về trạng thái của chứng chỉ (Hợp lệ, Tạm ngưng, Đã hết hạn) và phạm vi (sản phẩm và hoạt động nào được đề cập)."
+    },
+    {
+      "type": "text",
+      "text": "Những gì nó không chứng minh: rằng bất kỳ lô hàng cụ thể nào của bạn đều sử dụng giấy FSC. Hệ thống CoC yêu cầu tài liệu cho mỗi công việc - một dấu vết kiểm toán thực sự từ khi nhận giấy đến khi gửi thành phẩm - mà kiểm toán viên xem xét định kỳ nhưng người mua không nhìn thấy. Để sử dụng dấu FSC trên bao bì bán lẻ của bạn, bạn cần công cụ chuyển đổi xuất hóa đơn FSC cho công việc đó."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ISO 9001:2015 — hệ thống quản lý chất lượng"
+    },
+    {
+      "type": "text",
+      "text": "ISO 9001 là tiêu chuẩn hệ thống quản lý chất lượng phổ biến nhất trên toàn cầu. Nó không chứng nhận rằng sản phẩm tốt - nó chứng nhận rằng nhà máy có một hệ thống quản lý chất lượng được lập thành văn bản, với các quy trình xác định để sản xuất, kiểm tra, xử lý lỗi, khiếu nại của khách hàng và cải tiến liên tục. Các cuộc kiểm toán hàng năm của bên thứ ba xác minh hệ thống đã được áp dụng và đang được tuân thủ."
+    },
+    {
+      "type": "text",
+      "text": "Trên thực tế, ISO 9001 có nghĩa là: nhà máy có sổ tay chất lượng, có hướng dẫn công việc được lập thành văn bản cho từng hoạt động, chạy kiểm tra nguyên liệu đến, kiểm tra trong quá trình và kiểm tra cuối cùng, ghi nhật ký lỗi và có quy trình hành động khắc phục. Không có gì trong số đó là quyến rũ, nhưng sự vắng mặt của bất kỳ điều gì trong số đó là một dấu hiệu đỏ. Một bộ chuyển đổi không có ISO 9001 vẫn có thể tạo ra đầu ra tốt, nhưng bạn không có gì đảm bảo về cấu trúc rằng chúng sẽ phát hiện sự cố một cách nhất quán."
+    },
+    {
+      "type": "text",
+      "text": "Xác minh tại: trang web của tổ chức chứng nhận (ví dụ: SGS, Bureau Veritas, TÜV, BSI). Giấy chứng nhận nêu tên cơ quan phát hành - tìm kiếm ở đó bằng cách sử dụng số chứng chỉ. ISO không chạy một cơ quan đăng ký trung tâm toàn cầu; các cơ quan phát hành giữ chúng."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "SMETA / Sedex - tuân thủ đạo đức và xã hội"
+    },
+    {
+      "type": "text",
+      "text": "SMETA (Kiểm toán Thương mại Đạo đức Thành viên Sedex) là định dạng kiểm toán tuân thủ xã hội được chấp nhận rộng rãi nhất trên toàn cầu. Nó được điều hành bởi Sedex (Trao đổi dữ liệu đạo đức nhà cung cấp) - một tổ chức thành viên nơi người mua và nhà cung cấp chia sẻ kết quả kiểm toán. Cuộc kiểm toán bao gồm các tiêu chuẩn lao động (tiền lương, giờ làm, lao động trẻ em, lao động cưỡng bức), sức khỏe và an toàn, môi trường và đạo đức kinh doanh."
+    },
+    {
+      "type": "text",
+      "text": "SMETA có hai phiên bản: 2-Pillar (chỉ lao động + sức khỏe / an toàn) và 4-Pillar (thêm môi trường + đạo đức kinh doanh). Hầu hết người mua ở Hoa Kỳ và Vương quốc Anh mong đợi 4-Pillar cho trình độ nhà cung cấp mới. Đánh giá diễn ra 1–3 năm một lần tùy thuộc vào kết quả; việc không tuân thủ tạo ra CAPR (Báo cáo kế hoạch hành động khắc phục) mà nhà cung cấp phải đóng trước khi kiểm tra lại."
+    },
+    {
+      "type": "text",
+      "text": "Những gì người mua yêu cầu: tóm tắt kiểm toán SMETA (hay còn gọi là SAQ - Bảng câu hỏi tự đánh giá) cộng với CAPR gần đây nhất với trạng thái đóng cửa. Một nhà máy chỉ giao cho bạn SAQ nhưng sẽ không chia sẻ CAPR đang che giấu điều gì đó. Một CAPR sạch sẽ với tất cả các phát hiện được đóng lại là tiêu chuẩn vàng."
+    },
+    {
+      "type": "text",
+      "text": "Xác minh tại: sedex.com. Bản thân Sedex chỉ cho phép xác minh thông qua cổng thành viên, nhưng hầu hết các nhà máy có uy tín sẽ cho phép bạn xem cuộc kiểm toán thông qua tài khoản của họ hoặc gửi trực tiếp bản tóm tắt đã được biên tập. Nếu họ từ chối cả hai, đó là một dấu hiệu đỏ."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "BSCI (amfori BSCI) - Tương đương đạo đức người mua châu Âu"
+    },
+    {
+      "type": "text",
+      "text": "BSCI (Sáng kiến Tuân thủ Xã hội Doanh nghiệp, do amfori điều hành) đối với người mua châu Âu gần giống như SMETA đối với người mua Hoa Kỳ / Vương quốc Anh - một cuộc kiểm toán tuân thủ xã hội được tiêu chuẩn hóa được chấp nhận trên hầu hết các chương trình người mua bán lẻ của EU (Carrefour, Tchibo, Otto, Aldi, v.v.). Các tiêu chí trùng lặp nhiều với SMETA nhưng không giống nhau."
+    },
+    {
+      "type": "text",
+      "text": "Đánh giá BSCI tạo ra kết quả được phân loại (A đến E, với A là tốt nhất). Hầu hết những người mua lớn ở EU sẽ không giới thiệu một nhà cung cấp được xếp hạng dưới C. Đánh giá có giá trị từ 1-2 năm tùy thuộc vào cấp độ."
+    },
+    {
+      "type": "text",
+      "text": "Hầu hết các nhà máy phục vụ thị trường B2B toàn cầu hiện nay đều mang cả SMETA và BSCI. Nếu một nhà máy chỉ có một, hãy hỏi xem người mua nào đã yêu cầu nó - điều đó cho bạn biết về hỗn hợp khách hàng hiện tại của họ và thị trường mà họ được thiết lập."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Các chứng chỉ khác đáng biết"
+    },
+    {
+      "type": "list",
+      "items": [
+        "ISO 14001 — hệ thống quản lý môi trường. Phổ biến, hình thức tương tự như ISO 9001 nhưng đối với tác động môi trường (chất thải, khí thải, nước).",
+        "ISO 45001 — hệ thống quản lý an toàn và sức khỏe nghề nghiệp. Thay thế OHSAS 18001 cũ hơn.",
+        "GMI / G7 — chứng nhận quản lý màu sắc về chất lượng in. Chứng chỉ chính G7 có nghĩa là máy in đáp ứng các tiêu chuẩn tái tạo màu sắc quy định. Hữu ích cho bản in bán lẻ cao cấp, nhưng không hoàn toàn cần thiết cho hầu hết B2B.",
+        "ISTA (Hiệp hội Vận chuyển An toàn Quốc tế) — kiểm tra hiệu suất gói hàng. ISTA-3A là tiêu chuẩn cho bao bì vận chuyển bưu kiện; ISTA-6 dành cho thử nghiệm dành riêng cho Amazon. Hầu hết các nhà máy có uy tín đều có phòng thí nghiệm được chứng nhận ISTA nội bộ.",
+        "FSSC 22000 / BRC — tiêu chuẩn an toàn thực phẩm. Bắt buộc đối với bao bì thực phẩm chính; không liên quan đến hầu hết các chương trình hộp bán lẻ trừ khi tiếp xúc với thực phẩm.",
+        "Kiểm toán Disney FAMA / Walmart — kiểm toán dành riêng cho người mua. Một số người mua lớn điều hành các chương trình tuân thủ xã hội của riêng họ tách biệt với SMETA / BSCI; Nếu bạn đang nhắm đến việc bán một trong những công ty này, nhà máy sẽ cần kiểm toán cụ thể của họ trong hồ sơ."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cách thực sự xác minh chứng chỉ"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Yêu cầu một bản sao của chứng chỉ (PDF). Xác nhận tên pháp lý của tổ chức được chứng nhận khớp với nhà cung cấp mà bạn đang ký hợp đồng - lỗi phổ biến là công ty mẹ được chứng nhận nhưng công ty con hoạt động vận chuyển hàng hóa của bạn thì không.",
+        "Lưu ý số chứng chỉ, cơ quan phát hành và ngày hiệu lực.",
+        "Tra cứu giấy chứng nhận trên sổ đăng ký công khai của cơ quan phát hành (FSC, SGS, Bureau Veritas, v.v.). Xác nhận trạng thái hợp lệ và kiểm tra phạm vi bao gồm các thao tác bạn sẽ sử dụng.",
+        "Nếu sổ đăng ký hiển thị Tạm ngưng hoặc Hết hạn, hãy yêu cầu giải thích. Đôi khi có một khoảng trống hợp pháp trong quá trình chứng nhận lại; đôi khi đó là một thất bại nghiêm trọng trong việc tuân thủ.",
+        "Cụ thể đối với SMETA/BSCI, hãy yêu cầu báo cáo kiểm toán hoặc CAPR - không chỉ xác nhận rằng một cuộc kiểm toán đã được thực hiện. Chi tiết rất quan trọng."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Nhà máy sản xuất bao bì Việt Nam trông như thế nào"
+    },
+    {
+      "type": "text",
+      "text": "Các doanh nghiệp xuất khẩu tầm trung của Việt Nam phục vụ các thương hiệu Mỹ và EU thường có: FSC CoC, ISO 9001:2015, ISO 14001 (môi trường), SMETA 4-Pillar, đánh giá BSCI. Các nhà máy cấp cao hơn bổ sung chứng nhận in G7 và phòng thí nghiệm thử nghiệm được chứng nhận ISTA. Các nhà máy cấp thấp hơn có thể chỉ có FSC và ISO 9001 - có thể sử dụng cho công việc hàng hóa nhưng là một dấu hỏi cho bất kỳ chương trình nào mà kiểm toán tuân thủ xã hội là một phần trong việc bảo vệ thương hiệu của người mua."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/made-in-vietnam-verification-substantial-transformation/",
+      "title": "Xác minh nguồn gốc - nửa còn lại của thẩm định",
+      "body": "Chứng nhận bao gồm chất lượng, giấy tờ và đạo đức. Xác minh xuất xứ bao gồm quy tắc chuyển đổi đáng kể xác định xem bao bì của bạn có đủ điều kiện xuất xứ Việt Nam theo Hải quan Hoa Kỳ hay không."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Không chấp nhận ảnh chứng chỉ làm bằng chứng",
+      "body": "Thật tầm thường khi mô phỏng một chứng chỉ giả mạo dưới dạng JPG. Luôn yêu cầu bản gốc PDF trực tiếp từ cơ quan phát hành hoặc xác minh độc lập trên cơ quan đăng ký công cộng bằng cách sử dụng số chứng chỉ. \"Đây là ảnh ISO 9001 của chúng tôi\" là bằng chứng cấp thấp nhất và không nên vượt qua thẩm định mua sắm."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Chứng nhận nào quan trọng nhất đối với các quyết định mua sắm?",
+      "a": "Nó phụ thuộc vào rủi ro bạn đang quản lý. Đối với các tuyên bố về truy xuất nguồn gốc giấy và tính bền vững trên bao bì bán lẻ - FSC. Đối với độ tin cậy của hệ thống chất lượng tổng thể - ISO 9001. Để bảo vệ thương hiệu trước các vụ bê bối tuân thủ xã hội - SMETA hoặc BSCI. Đối với hầu hết người mua B2B ở Hoa Kỳ, gói này là FSC + ISO 9001 + SMETA (4 trụ cột). Người mua EU thường thay thế BSCI cho SMETA. Đừng chọn một - yêu cầu bộ có liên quan."
+    },
+    {
+      "q": "Điều gì sẽ xảy ra nếu nhà cung cấp của tôi có SMETA nhưng không có BSCI và tôi bán hàng cho EU?",
+      "a": "Hầu hết các nhà bán lẻ lớn ở EU chấp nhận SMETA thay cho BSCI miễn là nó là 4-Pillar với một cuộc kiểm toán hợp lệ gần đây. Một số người mua cụ thể (Tchibo, Otto, đôi khi là Aldi) có thể yêu cầu rõ ràng BSCI trong giấy tờ giới thiệu nhà cung cấp của họ. Hỏi trực tiếp người mua. Nếu BSCI được yêu cầu, nhà cung cấp của bạn thường có thể yêu cầu đánh giá BSCI trên SMETA hiện có của họ - chúng là bổ sung, không độc quyền và chồng chéo nhiều."
+    },
+    {
+      "q": "Bao lâu thì chứng nhận cần được gia hạn?",
+      "a": "FSC: đánh giá giám sát hàng năm, chứng nhận lại đầy đủ 5 năm một lần. ISO 9001/14001: giám sát hàng năm, chứng nhận lại đầy đủ 3 năm một lần. SMETA: phụ thuộc vào các phát hiện - thường là 1–3 năm một lần. BSCI: 1–2 năm tùy thuộc vào lớp. Một nhà máy có tất cả các chứng chỉ chính đã hết hạn trong vòng 6 tháng qua và chưa được gia hạn đang gặp rủi ro; Xác minh việc gia hạn đang được tiến hành trước khi đặt hợp đồng dài hạn."
+    },
+    {
+      "q": "Kiểm toán dành riêng cho người mua (Walmart, Disney FAMA) có thể hoán đổi cho SMETA không?",
+      "a": "Không. Chúng song song, không tương đương. Nếu bạn bán hàng cho Walmart, bạn cần một cuộc kiểm toán được Walmart công nhận (hiện tại SMETA, ICTI hoặc amfori BSCI đều đủ điều kiện theo chương trình của họ). Nếu bạn bán cho Disney để mua hàng hóa được cấp phép, bạn cần kiểm tra ILS của Disney cụ thể. Hầu hết các nhà máy lớn đều mang theo một số để trang trải cơ sở khách hàng của họ. Khi bạn giới thiệu một người mua mới, hãy hỏi xem họ chấp nhận kiểm toán nào và chuyển danh sách cho nhà cung cấp của bạn - họ sẽ cho bạn biết họ có kiểm toán nào trong hồ sơ."
+    }
+  ],
+  "related": [
+    {
+      "slug": "made-in-vietnam-verification-substantial-transformation",
+      "label": "Xác minh sản xuất tại Việt Nam - chuyển đổi đáng kể",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Bao bì Việt Nam — hướng dẫn đầy đủ cho người mua",
+      "kind": "blog"
+    },
+    {
+      "slug": "certifications",
+      "label": "Chứng nhận và báo cáo đánh giá của chúng tôi",
+      "kind": "page"
+    }
+  ]
+}

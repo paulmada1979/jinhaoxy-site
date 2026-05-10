@@ -1,0 +1,180 @@
+{
+  "slug": "eu-ppwr-2026-brief-for-non-eu-exporters",
+  "title": "EU PPWR 2026 Brief: What Non-EU Packaging Exporters Need to Know",
+  "description": "The EU Packaging and Packaging Waste Regulation enters force in 2026 — what it requires, what changes for non-EU manufacturers and US brands shipping into Europe, and the practical compliance steps to take this year.",
+  "publishedAt": "2026-05-22",
+  "updatedAt": "2026-05-22",
+  "readingMin": 8,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Compliance",
+  "cluster": "compliance",
+  "draft": true,
+  "coverImage": "/blog/eu-ppwr-2026-hero.png",
+  "coverAlt": "Vietnamese-shipped folding carton being inspected at a European customs/logistics warehouse with clean concrete floor, blue-and-yellow industrial signage out of focus, gloved hands holding a clipboard nearby",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "The EU's Packaging and Packaging Waste Regulation (PPWR) replaced the older Directive in 2025 and applies to packaging placed on the EU market — including packaging shipped from non-EU exporters into EU brands. Five things change materially for packaging manufacturers: mandatory recyclability ratings, recycled-content minimums for plastics, restrictions on per- and polyfluoroalkyl substances (PFAS), explicit empty-space limits to reduce overpackaging, and labelling requirements with QR codes linking to compliance information. If your factory ships to brands selling into the EU, you need to be able to issue PPWR-compliant declarations and use compliant materials by 2030, with phased deadlines starting in 2026."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why this matters for non-EU manufacturers"
+    },
+    {
+      "type": "text",
+      "text": "PPWR doesn't apply directly to factories outside the EU — it applies to whoever \"places the packaging on the EU market.\" In practice, that's the EU importer of record. But the importer is going to push compliance documentation upstream to their supplier (you), and your factory will be expected to provide it. If you can't, the importer switches to a factory that can. So while the regulation isn't aimed at your factory, your customers' demands functionally become your demands."
+    },
+    {
+      "type": "text",
+      "text": "Three buyer profiles where PPWR compliance becomes a procurement gate this year:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Major EU retailers (Carrefour, Lidl, Aldi, Tesco, Marks & Spencer) requiring PPWR-aligned recyclability ratings on private-label and branded supplier packaging",
+        "Pan-European brand owners (Unilever, P&G, L'Oréal European arms) who consolidate supplier compliance documentation across all packaging programs",
+        "US brands selling into EU markets through their own subsidiary or regional distributor — these will inherit EU obligations and pass them upstream"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What PPWR actually requires"
+    },
+    {
+      "type": "text",
+      "text": "PPWR is a long regulation; this is the procurement-relevant summary."
+    },
+    {
+      "type": "image",
+      "src": "/blog/recyclability-marking-inline.png",
+      "alt": "Macro photograph of a folding carton corner showing standard recycling and material marking icons including resin code triangle, FSC mark area, and EU recyclability symbol, printed in dark grey on natural kraft paperboard with sharp focus on the marks",
+      "caption": "PPWR mandates harmonized labelling on packaging placed on the EU market — material composition, sortability instructions, and from 2030 a QR code linking to the digital product passport."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Recyclability rating (Grade A through E) for every packaging unit, based on EU harmonized criteria. Packaging rated D or E is restricted from market by 2030; rated E is restricted from 2026.",
+        "Recycled content minimums for plastic packaging — phased thresholds starting 30% by 2030 for most categories, increasing through 2040.",
+        "PFAS restriction in food-contact packaging — banned for most applications from 2026.",
+        "Empty-space ratio limits — no more than 50% empty volume in e-commerce shipping packaging from 2030 (with intermediate thresholds before).",
+        "Reuse and refill targets for certain categories — beverage and large-format transport packaging primarily.",
+        "Harmonized labelling — material composition icons, sortability instructions, and from 2030 a digital product passport via QR code."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The recyclability grading system in plain terms"
+    },
+    {
+      "type": "text",
+      "text": "Every packaging unit will be assessed on a Grade A–E scale. Grade A means highly recyclable in standard EU sorting and recycling streams. Grade E means effectively unrecyclable. The grade depends on material composition (mono-material vs multi-material), separability of components (label vs container, foil vs paperboard), inks and additives, and the existence of mature collection and recycling infrastructure for that material in the EU."
+    },
+    {
+      "type": "text",
+      "text": "Practical impact for paperboard packaging: most pure-paperboard cartons grade A or B by default — paper is the most recyclable packaging material in the EU. Where paperboard packaging trips into C, D, or E is when it has integrated plastic films (window cartons), heavy foiling that resists pulping, certain laminated coatings, or barrier layers. The fix: design out the problem materials, or specify them more carefully so the recycler knows how to handle them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What changes for paperboard packaging specifically"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hot-foil stamping in heavy coverage may push grade from B to C. Most EU recyclers can pulp through standard foil stamping if it's a small fraction of the surface. Heavy decorative foiling (>20% surface coverage) becomes problematic.",
+        "Window patches (PET or PLA films set into a carton aperture) — separable mono-material PE or compostable PLA preferred over PET; non-removable PET windows downgrade the rating.",
+        "Lamination — water-based dispersion coatings preferred over PE film lamination. Laminated cartons that don't separate cleanly in pulping move toward Grade C–D.",
+        "UV inks and certain pigments — most water-based and conventional offset inks are recycler-friendly. Heavy-coverage UV-cured solid colors may downgrade depending on de-inking performance.",
+        "Recycled content — paperboard is already typically 60–85% recycled fiber for shipping cartons; specifying minimum recycled content explicitly helps documentation.",
+        "Paper grade — most kraft and white-back grades are PPWR-compatible at Grade A/B with no design changes."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What you should be doing this year"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Audit your current packaging spec library against PPWR criteria. Most paperboard programs will land at A or B with minor or no changes. Identify the SKUs with foil-heavy finishing, plastic windows, or laminated coatings — these are the ones to redesign first.",
+        "Request PPWR-aligned material declarations from your packaging suppliers. The format is still being harmonized but most converters can produce a material composition statement and recyclability self-assessment now.",
+        "Confirm your supplier's PFAS compliance for any food-contact packaging. The EU restriction is broader than the US's, and the supplier should be able to issue a written PFAS-free declaration.",
+        "If you sell into EU markets through a US brand HQ, set up a process for PPWR documentation flow from supplier → US HQ → EU subsidiary → EU importer. Most US procurement teams haven't built this pipeline yet.",
+        "Begin redesigning the SKUs flagged in step 1 for 2027–2028 production. The 2030 deadline sounds far, but EU retailers increasingly require compliance ahead of that — many are demanding A/B grades by 2027 to derisk their own deadline exposure."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What's still being defined"
+    },
+    {
+      "type": "text",
+      "text": "Several PPWR provisions are still in the secondary-legislation phase as of early 2026 — the main regulation passed but the detailed implementation acts (which define exactly how recyclability is measured, the QR-code data standard, the empty-space measurement methodology) are being negotiated through 2026–2027. Practical implication: design for the spirit of the regulation now, but expect specific technical thresholds to shift before final enforcement. Don't over-invest in SKU redesigns until the implementation acts are final, but do build the documentation pipeline."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How this connects to Vietnam sourcing"
+    },
+    {
+      "type": "text",
+      "text": "Vietnamese factories serving European brand customers have been ramping up PPWR readiness through 2025. Most reputable converters now: produce mono-material paperboard packaging by default, offer water-based dispersion coatings as the laminate alternative, source FSC-certified paperboard with high recycled content, and can issue material composition declarations on request. Where the gap remains is on PFAS-free declarations for plastic-component packaging — supply-chain documentation for plastic resins is harder to verify upstream. For pure paperboard packaging, Vietnamese supply is broadly PPWR-ready."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/packaging-certifications-fsc-iso-bsci-sedex/",
+      "title": "Certifications that support PPWR documentation",
+      "body": "FSC and ISO 14001 form the backbone of supplier-side environmental documentation. Read the certifications primer for how to verify them."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "PPWR compliance is the importer's responsibility — but their problem becomes yours",
+      "body": "Strictly speaking, PPWR enforcement falls on the EU importer of record (the entity placing the packaging on the EU market). But that importer will source from suppliers who can document compliance and walk away from those who can't. By 2027, lacking PPWR documentation will functionally lock you out of EU brand customer programs even though the regulation doesn't directly apply to your factory. Treat it as a market-access requirement, not an external compliance issue."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does PPWR apply to packaging shipped from Vietnam to the US, then re-exported to EU?",
+      "a": "Yes — PPWR applies to packaging placed on the EU market regardless of where it was manufactured or how it got to Europe. If a US brand imports from Vietnam, then re-exports to its EU subsidiary, the EU subsidiary becomes the importer of record under PPWR and is responsible for compliance. They'll demand the documentation from the US brand, who'll demand it from the supplier. The path matters less than the destination."
+    },
+    {
+      "q": "What's the actual penalty for non-compliance?",
+      "a": "Penalties are set per member state but follow a common framework. Typical maximums run 4% of EU turnover for serious violations (non-recyclable packaging placed on market knowingly), with lower tiers for documentation failures. More practically, non-compliant packaging can be barred from sale or required to be withdrawn — which is far more expensive than the fine itself. Major retailers also de-list non-compliant supplier programs, which becomes a commercial loss."
+    },
+    {
+      "q": "Are there exemptions for very small import volumes?",
+      "a": "There are some thresholds for micro-enterprises (under €2M turnover) and very small import volumes, but these are limited and apply mainly to documentation simplification, not full exemption from material requirements. For any commercially meaningful B2B program (typical 10K+ units/year), assume full PPWR applicability and plan accordingly."
+    },
+    {
+      "q": "Can I just keep using my current packaging until 2029 and worry about it then?",
+      "a": "Technically yes for many provisions — full enforcement is 2030 — but commercially, no. Major EU retailers are pulling deadlines forward. Carrefour requires Grade A or B for new private-label suppliers from 2026. Lidl is similar. By 2027, the supplier base that can serve major EU retailers will be the one that's already PPWR-compliant. Brands that wait until 2029 to start the work will find their supplier base has moved on."
+    }
+  ],
+  "related": [
+    {
+      "slug": "packaging-certifications-fsc-iso-bsci-sedex",
+      "label": "Packaging certifications decoded",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Vietnam packaging — full buyer's guide",
+      "kind": "blog"
+    },
+    {
+      "slug": "certifications",
+      "label": "Our certifications and audit reports",
+      "kind": "page"
+    }
+  ]
+}

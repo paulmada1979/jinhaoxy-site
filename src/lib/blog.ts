@@ -97,6 +97,8 @@ function loadJsonArticles(): ArticleEntry[] {
     }
     if (!data.en) continue; // EN is the source of truth; skip if missing.
     const en = data.en;
+    // Drafts sit in the content folder but aren't routed/indexed.
+    if (en.draft === true) continue;
     out.push({
       kind: "json",
       meta: {
