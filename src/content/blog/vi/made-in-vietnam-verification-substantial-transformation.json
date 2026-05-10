@@ -1,0 +1,217 @@
+{
+  "slug": "made-in-vietnam-verification-substantial-transformation",
+  "title": "Xác minh \"Made in Vietnam\": Làm thế nào để chứng minh sự chuyển đổi đáng kể cho bao bì (2026)",
+  "description": "Những gì Hải quan Hoa Kỳ thực sự yêu cầu để chấp nhận bao bì của bạn là có xuất xứ từ Việt Nam - quy tắc chuyển đổi đáng kể, tài liệu được giữ trong kiểm tra Mục 301 và các dấu hiệu báo hiệu trung chuyển.",
+  "publishedAt": "2026-05-10",
+  "updatedAt": "2026-05-10",
+  "readingMin": 8,
+  "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
+  "category": "Tuân thủ",
+  "cluster": "tariff",
+  "coverImage": "/blog/made-in-vietnam-verification-hero.png",
+  "coverAlt": "Sàn nhà máy sản xuất thùng carton gấp Việt Nam với máy in offset đang chạy, các tờ bìa xếp chồng lên nhau, một công nhân đeo găng tay kiểm tra một tờ giấy, được thắp sáng bởi ánh sáng ấm áp trên cao và khói bụi",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "Phiên bản 90 giây",
+      "body": "Nếu bao bì của bạn đủ điều kiện có xuất xứ Việt Nam theo quy định của Hải quan Hoa Kỳ, sự chuyển đổi đáng kể phải xảy ra trên đất Việt Nam - điển hình là chuyển đổi bìa thô thành hộp in thành phẩm. Việc đóng gói lại hoặc dán nhãn lại các hộp do Trung Quốc sản xuất bên trong kho hàng Việt Nam KHÔNG thay đổi nguồn gốc và CBP đã tích cực bắt nó kể từ năm 2023. Hoàn thiện hồ sơ trước khi lô hàng đầu tiên cập cảng; làm sai có nghĩa là trả hồi tố Mục 301, cộng với các hình phạt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tại sao điều này quan trọng hơn những gì người mua nhận ra"
+    },
+    {
+      "type": "text",
+      "text": "Thuế quan Mục 301 áp dụng cho quốc gia xuất xứ, không phải quốc gia giao hàng. Điều đó có nghĩa là biện pháp bảo vệ duy nhất của CBP chống lại các nhà nhập khẩu vận chuyển hàng hóa Trung Quốc qua kho hàng Việt Nam để tránh mức thuế 25% là quy tắc chuyển đổi đáng kể. Kể từ năm 2023, CBP đã ưu tiên thực thi chính xác mô hình này - bao bì, điện tử, dệt may - với các đánh giá thuế hồi tố chạy ngược lại toàn bộ thời hiệu và hình phạt dân sự lên đến 4× thuế chưa thanh toán."
+    },
+    {
+      "type": "text",
+      "text": "Một số nhà nhập khẩu Mỹ đã học được điều này một cách khó khăn trong hai năm qua. Mô hình nhất quán: một người giao nhận thiết lập một \"nhà cung cấp bao bì Việt Nam\" hóa ra là một nhà kho dán nhãn lại; nhà nhập khẩu tin tưởng vào các thủ tục giấy tờ; CBP kiểm toán hai năm sau đó và yêu cầu công việc trở lại cộng với hình phạt. Nhà nhập khẩu ăn chi phí - không phải nhà cung cấp."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Trách nhiệm xuất xứ thuộc về nhà nhập khẩu trong hồ sơ",
+      "body": "Theo 19 USC 1592, nhà nhập khẩu chịu trách nhiệm về tính chính xác của tờ khai xuất xứ trên bản tóm tắt nhập cảnh. \"Nhà cung cấp của tôi nói với tôi đó là Việt Nam\" không phải là một lời bào chữa. Tiêu chuẩn của CBP là bạn đã thực hiện sự cẩn thận hợp lý - có nghĩa là bạn phải có khả năng xuất trình tài liệu, không chỉ chỉ vào nó."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quy tắc chuyển đổi đáng kể, bằng tiếng Anh đơn giản"
+    },
+    {
+      "type": "text",
+      "text": "Bài kiểm tra pháp lý theo 19 CFR 102 và các phán quyết của CBP trong nhiều thập kỷ là liệu một hoạt động sản xuất có sản xuất một mặt hàng thương mại mới với tên, đặc điểm hoặc cách sử dụng khác biệt với nguyên liệu đầu vào hay không. Đối với bao bì bìa, điều đó chuyển thành một dòng thực tế rõ ràng."
+    },
+    {
+      "type": "text",
+      "text": "Các hoạt động được coi là sự chuyển đổi đáng kể tại Việt Nam:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Các tấm bìa cứng → thùng carton gấp in và cắt bế",
+        "Lớp lót kraft + tấm tôn có rãnh trung bình → → bưu phẩm thành phẩm",
+        "Bìa trơn → các hộp thiết lập cứng nhiều lớp, giấy bạc và lắp ráp",
+        "Nhựa nhựa → các thành phần bao bì nhựa thổi hoặc định hình nhiệt"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Các hoạt động KHÔNG được tính là chuyển đổi đáng kể:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nhận hộp thành phẩm và dán nhãn hoặc nhãn dán tiếng Việt",
+        "Nhận các hộp đã hoàn thành, phá vỡ chúng và bó lại",
+        "Nhận các tờ bìa đã in ở Trung Quốc và chỉ thực hiện công đoạn cắt bế + keo dán tại Việt Nam",
+        "Nhận hộp đã hoàn thành và thêm miếng chèn, vách ngăn hoặc phụ kiện"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ranh giới phân chia là liệu nhà máy Việt Nam có lấy một đầu vào dễ nhận biết (giấy, bìa, nhựa) và xuất ra một mặt hàng khác về cơ bản (một bao bì in, thành phẩm, sẵn sàng để vận chuyển). Nếu đầu vào đã là một hộp và đầu ra cũng là một hộp, bạn không có sự biến đổi đáng kể bất kể những gì đã được thực hiện ở giữa."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tài liệu xuất xứ nào thực sự nắm giữ"
+    },
+    {
+      "type": "text",
+      "text": "Có một hệ thống phân cấp các tài liệu trong mắt CBP - một số chứng minh yếu, một số khác không tích cực. Xây dựng tệp của bạn với bằng chứng mạnh mẽ nhất trước."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Giấy chứng nhận xuất xứ hàng hóa Việt Nam (Mẫu B đối với thương mại không ưu đãi với Hoa Kỳ, do Phòng Thương mại và Công nghiệp Việt Nam – VCCI cấp). Đây là tài liệu cơ sở; giả sử CBP muốn nó trên mọi mục nhập.",
+        "Bản tuyên thệ của nhà sản xuất nêu tên nhà máy cụ thể, liệt kê các hoạt động đã thực hiện và có chữ ký của cán bộ của nhà cung cấp Việt Nam. CBP đưa ra trọng lượng thực sự này khi các hoạt động được mô tả phù hợp với những gì một bộ chuyển đổi bìa cứng thực tế làm.",
+        "Báo cáo thử nghiệm của nhà máy / hóa đơn của nhà cung cấp giấy cho thấy chất nền có nguồn gốc từ một nhà máy không phải của Trung Quốc (Việt Nam, Indonesia, Hàn Quốc) - hoặc, nếu sử dụng giấy Trung Quốc, bằng chứng cho thấy bản thân giấy đã trải qua sự chuyển đổi đáng kể ở Việt Nam (in, cắt bế, cán màng, lắp ráp).",
+        "Hồ sơ sản xuất - lệnh sản xuất, nhật ký chạy máy, chứng chỉ thử nghiệm ISTA liên kết nhà máy với lô hàng cụ thể, ghi ngày trong cửa sổ sản xuất.",
+        "Hình ảnh và video của sàn sản xuất với dấu thời gian và mã định danh nhà máy có thể nhận biết được (biển báo, số sê-ri thiết bị có thể nhìn thấy trong khung). Tùy chọn nhưng ngày càng được mong đợi khi kiểm toán CBP trở nên nghiêm túc."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/blog/certificate-of-origin-inline.png",
+      "alt": "Cận cảnh giấy chứng nhận xuất xứ Mẫu B của Việt Nam trên bàn gỗ có tem mực đen có thể nhìn thấy một phần và ghim cờ Việt Nam trên sổ tay gần đó",
+      "caption": "Giấy chứng nhận xuất xứ Mẫu B của VCCI là tài liệu cơ sở - nhưng bản thân nó không đủ để tồn tại qua một cuộc kiểm toán khắc nghiệt. Hãy coi nó như trang bìa trên một tệp dày hơn."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Làm thế nào để thực sự tự xác minh nguồn gốc"
+    },
+    {
+      "type": "text",
+      "text": "Các nhóm mua sắm muốn thực hiện thẩm định đúng cách sẽ chạy trình tự này - thường là trước khi giới thiệu, sau đó một lần nữa trên cơ sở mẫu hàng năm."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Trực tiếp đến thăm nhà máy ít nhất một lần trước PO đầu tiên. Đi bộ kéo dài hai giờ cho bạn biết trong 20 phút liệu việc chuyển đổi thực sự có đang diễn ra hay không, hay liệu nơi đó có phải là một bãi trung chuyển với các thùng carton thành phẩm xếp chồng lên nhau trên bến tàu.",
+        "Đi bộ trên dây chuyền sản xuất và xem các hoạt động diễn ra. Báo chí bù đắp đang chạy. Máy ép cắt bế chu kỳ. Trạm keo hoạt động. Công nhân xử lý bìa thô, chưa hoàn thiện hộp.",
+        "Yêu cầu xem hóa đơn của nhà cung cấp giấy trong 6 tháng gần nhất. Kiểm tra chéo các nhà cung cấp với các nhà máy Việt Nam, Hàn Quốc, Indonesia. Một nhà máy không thể hoặc sẽ không cho bạn thấy những điều này là một dấu hiệu đỏ.",
+        "Yêu cầu VCCI Mẫu B đối với lô hàng gần đây và xác minh trên cơ quan đăng ký trực tuyến VCCI (cosvietnam.gov.vn). Mã số VCCI được cấp tuần tự; Sự không phù hợp rất dễ phát hiện.",
+        "Lấy bản tóm tắt nhập cảnh (Biểu mẫu CBP 7501) từ nhà môi giới của bạn cho bất kỳ lô hàng nào trong quá khứ và xác nhận trường quốc gia xuất xứ là \"VN\" mà không có cờ hoặc tạm giữ.",
+        "Trên cơ sở mẫu, yêu cầu giấy chứng nhận kiểm tra nhà máy có thể truy xuất nguồn gốc từ đầu vào giấy đến SKU thành phẩm. Một công cụ chuyển đổi thực sự có những thứ này trong hồ sơ."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cờ đỏ gợi ý trung chuyển"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Địa chỉ nhà máy phân giải thành một khu phức hợp nhà kho mà không có thiết bị chuyển đổi rõ ràng có thể nhìn thấy trên hình ảnh vệ tinh",
+        "Nhà cung cấp Việt Nam được thành lập trong vòng 24 tháng qua và chỉ có một hoặc hai hiệu trưởng được nêu tên, cả hai đều có trụ sở tại Trung Quốc đại lục",
+        "Thời gian giao hàng được trích dẫn ngắn một cách đáng ngờ so với độ phức tạp của SKU (dưới 10 ngày đối với thùng carton gấp in từ đơn đặt hàng đến khi vận chuyển - nhanh hơn so với sản xuất thực tế)",
+        "Miễn cưỡng hoặc không có khả năng chia sẻ hóa đơn của nhà cung cấp giấy, ngay cả theo NDA",
+        "Từ chối cho phép trực tiếp đến thăm nhà máy",
+        "Giá thấp hơn đáng kể so với những gì nhà cung cấp Trung Quốc hiện tại của bạn báo giá - chiết khấu 40%+ thường có nghĩa là không có chuyển đổi Việt Nam thực sự xảy ra, chỉ có lợi nhuận được gắn nhãn lại"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Những gì \"Made in Vietnam\" thực sự yêu cầu đối với một hộp giấy"
+    },
+    {
+      "type": "text",
+      "text": "Cụ thể, để một thùng carton gấp hoặc hộp quà cứng đủ điều kiện có xuất xứ Việt Nam theo phân tích chuyển đổi đáng kể của CBP, các hoạt động tối thiểu sau đây phải diễn ra tại Việt Nam:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Xử lý tấm bìa - nhận, cắt theo kích thước làm việc, điều hòa",
+        "In ấn — offset, flexo hoặc kỹ thuật số, được áp dụng trong nước (các tờ in nhập khẩu từ Trung Quốc và chỉ cắt bế ở Việt Nam KHÔNG được chuyển đổi đáng kể; đây là chế độ hỏng hóc phổ biến nhất)",
+        "Cắt bế - chuyển đổi các tờ in thành thùng carton trống",
+        "Gấp và dán - chuyển đổi phôi phẳng thành hộp thành phẩm, có thể vận chuyển",
+        "Kiểm soát chất lượng và đóng gói xuất khẩu"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Nếu bất kỳ một trong những bước đó đang được thực hiện ở Trung Quốc và chỉ phần còn lại ở Việt Nam, bạn đang ở trong vùng xám - và CBP ngày càng coi những vùng xám đó là không được chuyển đổi. Người bảo thủ đọc: tất cả năm hoạt động phải là người Việt Nam để an toàn."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/section-301-packaging-tariffs-hts-codes/",
+      "title": "Mục 301 thực sự hoạt động như thế nào (và tại sao điều này lại quan trọng)",
+      "body": "Phân tích đầy đủ về thuế quan đóng gói theo Mục 301, mã HTS và các loại trừ - bối cảnh tại sao xác minh xuất xứ là động thái tuân thủ đòn bẩy cao nhất mà người mua Hoa Kỳ có thể thực hiện."
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Xác minh trước khi hành động",
+      "body": "Bài viết này mô tả các mô hình thực thi CBP và quy tắc chuyển đổi đáng kể khi chúng tôi quan sát chúng vào đầu năm 2026. Xác định nguồn gốc là từng trường hợp cụ thể. Đối với các chương trình có giá trị cao hoặc ranh giới, hãy nhận phán quyết ràng buộc từ CBP (Mẫu 19 CFR 177) - nó khóa phân loại và bảo vệ bạn khỏi việc đánh giá lại hồi tố. Bài viết này là hướng dẫn biên tập, không phải tư vấn pháp lý hoặc hải quan."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có thể chỉ dựa vào Giấy chứng nhận xuất xứ của nhà cung cấp để làm bằng chứng không?",
+      "a": "Không phải để kiểm toán nghiêm túc. COO là cần thiết nhưng không đủ - CBP coi đó là một tài liệu trong một hồ sơ bằng chứng lớn hơn. Nếu cuộc kiểm toán trở nên tích cực, kiểm toán viên sẽ muốn xem bản tuyên thệ của nhà sản xuất, hóa đơn của nhà cung cấp giấy, hồ sơ sản xuất và lý tưởng nhất là xác minh địa điểm. Hãy coi COO là trang bìa, không phải toàn bộ câu trả lời."
+    },
+    {
+      "q": "CBP thực sự xem xét điều gì trong quá trình kiểm toán xuất xứ Mục 301?",
+      "a": "Theo trải nghiệm khách hàng của chúng tôi, đánh giá đánh giá CBP điển hình: (1) tóm tắt mục nhập cho giai đoạn được xem xét, (2) COO cho mỗi lô hàng, (3) bản tuyên thệ của nhà sản xuất và hồ sơ thương mại hỗ trợ, (4) chuỗi cung ứng đầu vào bằng giấy - hóa đơn, chứng từ vận chuyển, chứng chỉ nhà máy và (5) bất kỳ phán quyết hoặc phản đối nào trước đây của CBP về các SKU liên quan. Nếu bất kỳ lớp nào không thành công, chúng sẽ chuyển sang truy cập trang web hoặc Yêu cầu thông tin chính thức."
+    },
+    {
+      "q": "Nếu nhà cung cấp của tôi cung cấp bìa Trung Quốc nhưng thực hiện tất cả việc chuyển đổi tại Việt Nam, đó có phải là xuất xứ Việt Nam không?",
+      "a": "Nói chung là có, miễn là việc chuyển đổi ở Việt Nam thực sự đáng kể - in, cắt, dán và hoàn thiện. Phân tích chuyển đổi đáng kể xem xét liệu sản phẩm đã hoàn thành (hộp in, dán, sẵn sàng vận chuyển) có tên, ký tự và cách sử dụng khác với đầu vào (tờ bìa) hay không. Nó có. Nhưng hãy ghi lại chuỗi đầu vào một cách cẩn thận - CBP có thể và thực sự xem xét kỹ lưỡng kịch bản này và bạn muốn hồ sơ rõ ràng cho thấy nơi mỗi bước xảy ra."
+    },
+    {
+      "q": "Hình phạt thực tế là bao nhiêu nếu yêu cầu trung chuyển hóa ra là gian lận?",
+      "a": "Theo 19 USC 1592, các hình phạt dân sự đối với gian lận có thể lên tới 4× thuế chưa thanh toán, cộng với chính nghĩa vụ, cộng với tiền lãi. Đối với sơ suất (thanh dưới), hình phạt lên đến 2× thuế chưa thanh toán. CBP cũng có thể thu giữ hàng hóa, từ chối các mục nhập trong tương lai từ nhà cung cấp đó và chuyển các trường hợp đến ICE để điều tra hình sự theo các mô hình nghiêm trọng. Đây không phải là rủi ro lý thuyết - đã có các khoản dàn xếp trị giá hàng triệu đô la trong danh mục này kể từ năm 2023."
+    }
+  ],
+  "related": [
+    {
+      "slug": "section-301-packaging-tariffs-hts-codes",
+      "label": "Mục 301 thuế bao bì theo mã HTS",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-vs-china-landed-cost-worked-example",
+      "label": "Ví dụ tính chi phí nhập kho thực tế Việt Nam vs Trung Quốc",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Hướng dẫn người mua miễn thuế bao bì Việt Nam đầy đủ",
+      "kind": "blog"
+    },
+    {
+      "slug": "hai-duong-factory",
+      "label": "Nhà máy Hải Dương – Năng lực và Năng lực",
+      "kind": "page"
+    }
+  ]
+}

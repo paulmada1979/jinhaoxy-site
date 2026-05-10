@@ -1,0 +1,226 @@
+{
+  "$schema": "Blog image generation queue. Consumed by scripts/blog-image-worker.mjs.",
+  "defaults": {
+    "model": "openai/gpt-image-2",
+    "quality": "high",
+    "outputFormat": "png"
+  },
+  "images": [
+    {
+      "filename": "section-301-hts-hero.png",
+      "size": [1920, 1080],
+      "cluster": "tariff",
+      "post": 2,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Overhead flat-lay of a customs broker's desk: a printed CBP Form 7501 entry summary, a navy folder labeled with redacted HTS codes, a small calculator, a steel pen, a coffee cup, and one folded cardboard sample box in the corner. Soft window light from upper-left, warm wood desk surface. Color grading slightly desaturated, cinematic."
+    },
+    {
+      "filename": "hts-classification-inline.png",
+      "size": [1600, 900],
+      "cluster": "tariff",
+      "post": 2,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Macro photograph, slight angle, of a US Customs commercial invoice or entry summary form on a wooden desk, with the HTS code field highlighted by a yellow highlighter mark. A small sample of corrugated kraft cardboard sits in the upper-right corner of the frame, slightly out of focus. Warm desk-lamp light from the left. Documentary product photography."
+    },
+    {
+      "filename": "landed-cost-comparison-hero.png",
+      "size": [1920, 1080],
+      "cluster": "tariff",
+      "post": 3,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Wide split-composition photograph: left half shows stacked containers at a Chinese port (Shanghai/Ningbo style — modern cranes, dense container yard); right half shows similar containers at a Vietnamese port (Hai Phong style — slightly newer cranes, lower container density, palm trees on horizon). Same golden-hour lighting across both halves so the seam is subtle. Cinematic, wide angle."
+    },
+    {
+      "filename": "landed-cost-spreadsheet-inline.png",
+      "size": [1600, 900],
+      "cluster": "tariff",
+      "post": 3,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Macro photograph of a laptop screen showing a clean spreadsheet view of an import cost calculation — columns for FOB price, freight, duty, Section 301, MPF/HMF, total landed cost. Numbers legible but generic (no real company names). Cinematic side angle so the screen fills two-thirds of the frame, blurred desk surface and a coffee cup in the foreground. Warm desk-lamp light."
+    },
+    {
+      "filename": "made-in-vietnam-verification-hero.png",
+      "size": [1920, 1080],
+      "cluster": "tariff",
+      "post": 4,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Vietnamese folding-carton factory floor seen from a slight elevation. A Heidelberg or Komori offset press in mid-run, paperboard sheets stacking. One worker in a clean polo and gloves checking a sheet, viewed from behind. Warm overhead lighting, light haze of paper dust catching the light. Conveys real manufacturing transformation, not assembly."
+    },
+    {
+      "filename": "certificate-of-origin-inline.png",
+      "size": [1600, 900],
+      "cluster": "tariff",
+      "post": 4,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Close-up at slight angle of a Form A / Vietnamese Certificate of Origin document on a desk, with a black ink stamp partially visible in the corner. A Vietnamese national flag pin on a notebook nearby, slightly out of focus. Warm window light from upper-left, wood desk surface. Generic placeholder formatting only — no readable specific company names."
+    },
+    {
+      "filename": "supplier-switch-playbook-hero.png",
+      "size": [1920, 1080],
+      "cluster": "tariff",
+      "post": 5,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Hands of a procurement professional (sleeves rolled, no face) holding two identical-looking corrugated sample boxes side-by-side over a desk. One box has a small Chinese-flag origin sticker, the other a small Vietnamese-flag origin sticker. Soft daylight, navy-and-orange notebook visible at the edge of the frame."
+    },
+    {
+      "filename": "switch-playbook-timeline-inline.png",
+      "size": [1600, 900],
+      "cluster": "tariff",
+      "post": 5,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Top-down photograph of a procurement planning desk: a 3-month wall calendar laid flat with sticky notes on specific days (color-coded blue, orange, green for sample/PO/shipment milestones), a navy notebook open to a page with hand-drawn timeline arrows, a phone showing a generic project-tracker UI, and a single corrugated sample box at the edge. Warm overhead light."
+    },
+    {
+      "filename": "rigid-gift-boxes-hero.png",
+      "size": [1920, 1080],
+      "cluster": "products",
+      "post": 6,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Three premium rigid gift boxes arranged in a row on a soft neutral grey backdrop: left a magnetic-closure box with the flap slightly open, center a lift-off lid box with lid floating slightly above the base, right a drawer-style box pulled half open. Black or navy box exteriors, subtle texture (matte laminated paper). Studio product photography, soft directional light."
+    },
+    {
+      "filename": "magnetic-closure-construction-inline.png",
+      "size": [1600, 900],
+      "cluster": "products",
+      "post": 6,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Macro photograph, slight angle, of a rigid gift box with the lid lifted halfway, showing the small disc magnets embedded in the flap and base. Matte-black laminated paper exterior, charcoal lining inside. Soft directional studio light from upper-right."
+    },
+    {
+      "filename": "drawer-box-mechanism-inline.png",
+      "size": [1600, 900],
+      "cluster": "products",
+      "post": 6,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Macro photograph of a drawer-style rigid gift box pulled three-quarters open, viewed from a low front-three-quarter angle. The inner drawer slides out of the outer sleeve; a satin ribbon pull tab is visible. Navy or deep burgundy exterior, cream lining. Studio product photography, soft top light, neutral grey backdrop."
+    },
+    {
+      "filename": "corrugated-mailer-specs-hero.png",
+      "size": [1920, 1080],
+      "cluster": "products",
+      "post": 7,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Macro photograph of a corrugated kraft mailer, viewed at an angle so one cut edge is in sharp focus showing the flute structure (the wavy paper layer between two liners). Natural kraft brown color, real fiber texture visible. Beside it, a partial second mailer showing the closed pre-creased side. Soft top-down studio light."
+    },
+    {
+      "filename": "flute-comparison-inline.png",
+      "size": [1600, 900],
+      "cluster": "products",
+      "post": 7,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Macro photograph of three corrugated board cross-sections lined up edge-on, sharp focus, showing visibly different flute heights and densities — left B-flute (medium wave, ~3mm), center E-flute (fine, tight, ~1.5mm), right BC double-wall (two stacked flute layers, ~6mm). Natural kraft brown color, real fiber texture, soft top-down studio light, neutral light-grey backdrop."
+    },
+    {
+      "filename": "box-compression-test-inline.png",
+      "size": [1600, 900],
+      "cluster": "products",
+      "post": 7,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Photograph of a corrugated box being tested in an ECT/box compression machine — the box is centered on the test platen, a steel plate descending from above, deformation just starting at the corners. Industrial lab setting, neutral lighting, slight motion-blur on the descending platen. Documentary technical photography."
+    },
+    {
+      "filename": "print-methods-compared-hero.png",
+      "size": [1920, 1080],
+      "cluster": "products",
+      "post": 8,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Three identical-shape folding cartons lined up on a clean light-grey studio surface, each printed using a different method, viewed from a low 30 degree angle. Subtle differences visible in print quality at hero resolution: leftmost shows fine offset detail with sharp branding mockup, middle shows flexo simpler color blocks, rightmost shows digital with a short-run feel. Studio product photography, even soft lighting."
+    },
+    {
+      "filename": "offset-press-running-inline.png",
+      "size": [1600, 900],
+      "cluster": "products",
+      "post": 8,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Photograph of a Heidelberg or Komori sheet-fed offset press in mid-run, viewed from a low side angle. Paperboard sheets visible mid-feed, ink rollers spinning, slight motion blur on the rollers conveying speed. Factory floor setting, warm overhead industrial lighting."
+    },
+    {
+      "filename": "print-quality-macro-inline.png",
+      "size": [1600, 900],
+      "cluster": "products",
+      "post": 8,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Extreme macro photograph showing two adjacent printed paperboard surfaces side-by-side: left side shows fine offset halftone dots in a sharp pattern, right side shows coarser flexo dots with slightly less crispness. Natural color (a warm orange brand-mark area), real paperboard texture visible underneath. Soft top studio light, shallow depth of field."
+    },
+    {
+      "filename": "certifications-primer-hero.png",
+      "size": [1920, 1080],
+      "cluster": "compliance",
+      "post": 9,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Top-down photograph of a wooden conference-table corner: a stack of four formal A4 certificate documents (paper, with embossed seals) fanned out so each top edge is partially visible — generic certification layouts only, no readable specific text. Steel pen and a pair of reading glasses on top. Warm side light, slightly desaturated cinematic grade."
+    },
+    {
+      "filename": "factory-cert-wall-inline.png",
+      "size": [1600, 900],
+      "cluster": "compliance",
+      "post": 9,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Photograph of a factory office reception wall: four to six framed certifications hung in a tidy grid, formal certificate layouts with embossed seals visible, generic placeholder layouts only. Warm office light from a window to the right, polished concrete or wood floor partially visible at the bottom of the frame."
+    },
+    {
+      "filename": "eu-ppwr-2026-hero.png",
+      "size": [1920, 1080],
+      "cluster": "compliance",
+      "post": 10,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "A Vietnamese-shipped folding carton being inspected at what reads as a European customs/logistics warehouse — clean concrete floor, blue-and-yellow industrial signage out of focus in the background. The carton is in mid-frame on a stainless inspection table; gloved hands (no face) holding a clipboard nearby. Cool daylight, very slight blue cast."
+    },
+    {
+      "filename": "recyclability-marking-inline.png",
+      "size": [1600, 900],
+      "cluster": "compliance",
+      "post": 10,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Macro photograph of a folding carton corner showing standard recycling and material marking icons (resin code triangle, FSC mark area, EU recyclability symbol — generic placeholder marks, not real specific brand logos), printed in dark grey on natural kraft paperboard. Sharp focus on the marks, the rest of the box softly out of focus. Soft top studio light."
+    },
+    {
+      "filename": "cosmetic-gift-box-sourcing-hero.png",
+      "size": [1920, 1080],
+      "cluster": "sectors",
+      "post": 11,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Premium luxury cosmetic gift box (rigid, magnetic-closure, deep navy or matte black with subtle gold foil edge), sitting open with a satin-textured tray inside. Photographed on a marble or stone surface, soft side light, faint shadow. Editorial product photography, beauty/luxury industry feel, but B2B-oriented — show construction quality."
+    },
+    {
+      "filename": "cosmetic-foil-stamping-inline.png",
+      "size": [1600, 900],
+      "cluster": "sectors",
+      "post": 11,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Extreme macro photograph of a hot-foil-stamped detail on a matte-black laminated paperboard surface — gold foil mark catching light at an angle, showing the slightly raised registration of the foil and the crisp edge against the matte substrate. Abstract decorative motif only. Studio side light, shallow depth of field. Editorial luxury product photography."
+    },
+    {
+      "filename": "cosmetic-box-production-inline.png",
+      "size": [1600, 900],
+      "cluster": "sectors",
+      "post": 11,
+      "role": "inline",
+      "quality": "medium",
+      "prompt": "Photograph of a clean factory production line with rows of premium black cosmetic gift boxes moving along a conveyor in soft focus, with one box in the foreground in sharp focus being inspected by gloved hands (no face, no full body). Bright clean industrial lighting, white floor, neutral palette."
+    }
+  ]
+}
