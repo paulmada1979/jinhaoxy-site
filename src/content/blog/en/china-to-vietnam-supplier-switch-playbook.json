@@ -1,0 +1,205 @@
+{
+  "slug": "china-to-vietnam-supplier-switch-playbook",
+  "title": "China-to-Vietnam Packaging Supplier Switch: A 90-Day Playbook",
+  "description": "A week-by-week procurement playbook for moving a packaging program from a Chinese supplier to a Vietnamese one without disrupting your fill rate, retail launches, or QC standards.",
+  "publishedAt": "2026-05-12",
+  "updatedAt": "2026-05-12",
+  "readingMin": 9,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Procurement",
+  "cluster": "tariff",
+  "draft": true,
+  "coverImage": "/blog/supplier-switch-playbook-hero.png",
+  "coverAlt": "Hands of a procurement professional holding two identical corrugated sample boxes side-by-side over a desk, one with a Chinese-flag origin sticker and one with a Vietnamese-flag origin sticker",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "Moving a packaging SKU from a Chinese supplier to a Vietnamese one is fundamentally a logistics + qualification project, not a product-redesign project. Done well, the switch takes 75–90 days from first conversation to full production cutover, costs $8K–$25K in transition expenses (samples, qualification, dual-running), and recovers 18–25% on landed cost from the first qualified shipment. Done badly, you blow a peak season because your old supplier walked when you started shopping. The sequence below is the order that prevents both."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The trap most teams fall into"
+    },
+    {
+      "type": "text",
+      "text": "Procurement teams typically start the China-to-Vietnam conversation by emailing five Vietnamese suppliers for quotes and waiting for the cheapest one. That works to validate that the savings exist on paper. It does not work as a transition plan, because while you're collecting quotes, your existing Chinese supplier hears about it (the industry is small) and quietly shifts your account to lower priority. Three months later you have great Vietnamese quotes, a Chinese supplier that is now slow on responses, and a Q4 product launch with packaging that hasn't been ordered yet."
+    },
+    {
+      "type": "text",
+      "text": "The fix: separate \"price discovery\" from \"transition execution.\" Discovery happens quietly through one or two trusted channels. Execution starts only after you've decided to switch and sequenced the qualification work."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Days 0–14: Discovery and shortlist"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Pull your current SKU spec sheet, dieline, color-matched proof, and last 3 commercial invoices. The spec sheet should include paperboard grade and weight, ink system, finishing (lamination, foil, varnish), structural specs, and any compliance certifications required.",
+        "Identify 3 Vietnamese factories through trusted referrals — your customs broker, your freight forwarder, an industry contact who imports from Vietnam, or a packaging-specific sourcing agent. Avoid generic B2B marketplaces; the signal-to-noise ratio is bad.",
+        "Send each shortlisted factory the spec sheet and ask for: a written quote on FOB Hai Phong terms, a sample lead time, MOQ, and copies of FSC, ISO 9001, and SMETA certificates. Reasonable response time: 5 business days.",
+        "Score the responses on a 4-criteria matrix: price competitiveness, certification completeness, sample lead time, and quality of communication (clear English, asks technical questions, doesn't oversell). Pick 2 finalists."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Days 15–30: Sample qualification"
+    },
+    {
+      "type": "image",
+      "src": "/blog/switch-playbook-timeline-inline.png",
+      "alt": "Top-down photograph of a procurement planning desk with a 3-month wall calendar, color-coded sticky notes for sample/PO/shipment milestones, a navy notebook with hand-drawn timeline arrows, and a single corrugated sample box at the edge",
+      "caption": "Print this calendar and put it on the wall. Most failed switches happen because someone skipped a milestone trying to save 10 days, then lost 30 to rework."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Order paid samples from both finalists. Pay the sample fee — $300–$800 per factory is normal — and don't argue about it. Free samples mean the factory cuts corners on the sample (different paper, generic ink) and you don't see what production will actually look like.",
+        "Provide the same color-matched proof you give your Chinese supplier. Ask for samples in production-spec materials, not generic stock. Specify Pantone references explicitly.",
+        "Do a side-by-side QC review when samples arrive. Compare to the existing Chinese sample on: print registration, color match (use a spectrophotometer if you have one, or visual under D65 light), structural fit, glue strength, surface finish.",
+        "If both samples pass, run an ISTA-3A drop/vibration test on the Vietnamese sample. Most reputable Vietnamese factories have ISTA-certified labs onsite; ask for the report."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Days 31–45: Compliance file + factory visit"
+    },
+    {
+      "type": "text",
+      "text": "While samples are being evaluated, get the compliance documentation in place. This is also when you visit the factory in person."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Request the full compliance pack from the chosen finalist: FSC Chain-of-Custody certificate (verify on info.fsc.org), ISO 9001:2015 certificate with registration body, SMETA/Sedex audit (most recent, with CAPR), prop 65 statement if you sell into California, REACH statement if you also export to EU.",
+        "Visit the factory. Two hours on the floor tells you in 20 minutes whether real conversion is happening. Watch the offset press run, walk through die-cut and gluing, see the QC station, ask to see paper inventory and supplier invoices.",
+        "Have your customs broker pre-approve the supplier's documentation flow — the COO format, commercial invoice template, packing list — so the first shipment doesn't get held at the port over paperwork formatting issues.",
+        "Negotiate Incoterms, payment terms, and quality protocol in writing. Match what you have with your Chinese supplier so apples-to-apples cost comparisons hold."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Days 46–60: First production order"
+    },
+    {
+      "type": "text",
+      "text": "Place the first production PO at a deliberately conservative volume — 25–40% of your typical reorder size. This is your live test, not a full transition."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Don't cancel the next Chinese reorder yet. Keep the existing supplier on full schedule. The new Vietnamese supplier is in test mode, not yet replacing.",
+        "Send the same artwork, dieline, and proof you'd send to the Chinese supplier. Don't \"clean up\" or change anything for the Vietnamese run — you want to compare like-for-like.",
+        "Request mid-production photos and a pre-shipment inspection report (or hire a third-party inspector — SGS, Bureau Veritas, Asia Inspection — for ~$300).",
+        "Watch lead time vs quoted. A small slip on the first run is normal; a 3-week slip is a warning sign."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Days 61–75: Receiving + QC + qualified status"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "When the first Vietnamese container arrives, do a full receiving inspection: count, dimensions, print quality, structural integrity, packaging integrity. Use the same protocol you use for Chinese shipments.",
+        "Pull a statistical sample (e.g., 1.5% AQL) for detailed comparison against the Chinese baseline. If you have a quality ERP module, log defects by category.",
+        "If the first shipment passes QC, the supplier moves to \"qualified\" status. Document this internally — most companies require sign-off from QA, procurement, and finance.",
+        "Run the actual landed cost numbers from the entry summary and broker invoice. Confirm the savings model. Note any surprises (e.g., higher than quoted port charges) for next round."
+      ]
+    },
+    {
+      "type": "cta",
+      "href": "/blog/vietnam-vs-china-landed-cost-worked-example/",
+      "title": "Confirm the math before you commit",
+      "body": "Worked landed-cost example for a 50K folding carton SKU showing the 21.5% Vietnam advantage line by line. Use it as a template for your own model."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Days 76–90: Cutover"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Place the next full-volume PO with the Vietnamese supplier. Cancel or wind down the next planned Chinese reorder.",
+        "Keep the Chinese relationship warm but inactive — a 6-month gap before you call them again is fine; a 2-year gap means re-onboarding from scratch if you ever want to dual-source. A short courtesy email saying you're moving the program is professional.",
+        "Update your master vendor records, ERP supplier table, and quality system to reflect the new primary source.",
+        "Set a 90-day review on the calendar — at that point evaluate fill rate, defect rate, and total landed cost performance against pre-switch baseline."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Common ways the playbook breaks"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Skipping the factory visit. Saving a $1,500 trip costs you a $50,000 problem when month-three deliveries don't match samples.",
+        "Trying to switch during peak season. Cutover should land in your slowest quarter, not your busiest. If your peak is Q4, cutover in Q2.",
+        "Negotiating Vietnamese supplier prices against Chinese quotes openly. The Chinese supplier finds out and quietly drops your priority. Keep the discovery phase quiet.",
+        "Underspecifying the qualification. \"Send me a quote and a sample\" is not enough — you need a written spec, color references, and ISTA expectations.",
+        "Treating the first PO as full production. The first PO is a live test at 25–40% volume; only after it passes does it become a real transition."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Verify before acting",
+      "body": "Lead times, MOQs, and pricing in this article reflect typical mid-tier Vietnamese paperboard exporters as of early 2026. Your specific spec, volume, and finishing requirements will move all of these. Treat this as the structure of the playbook, not the specific timing of yours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does a full China-to-Vietnam switch cost in transition expenses?",
+      "a": "For a single SKU program at moderate volume (50K–200K units/year), typical transition cost is $8K–$25K. Breakdown: $1.5K–$3K factory visit, $1K–$2K samples and freight, $300–$800 third-party inspection on first shipment, $4K–$15K dual-running cost during the qualification window (carrying inventory from both suppliers briefly), and $1K–$2K customs broker re-onboarding. Recovered within the first 1–2 production orders from the landed-cost savings."
+    },
+    {
+      "q": "Should I dual-source instead of fully switching?",
+      "a": "For high-volume, mission-critical programs (medical packaging, regulated cosmetic), yes — keep both suppliers qualified and split volume 70/30 or 60/40 in favor of Vietnam. For standard B2B packaging, the dual-source overhead (managing two QC files, two color-match drift problems, two minimum order commitments) usually outweighs the resilience benefit. Most of our customers fully switch with a 6-month \"warm\" relationship to the original Chinese supplier as backup."
+    },
+    {
+      "q": "What if the Vietnamese supplier's first shipment fails QC?",
+      "a": "It happens. Standard remedy: rework or replacement at the supplier's cost (this should be in the contract), with the supplier covering re-inspection fees. If the failure is systemic (multiple shipments fail), the supplier doesn't reach qualified status and you stay with the Chinese source while shopping a new finalist. Don't sunk-cost-fallacy your way through a bad Vietnamese supplier just because you've already spent on samples."
+    },
+    {
+      "q": "Do I need to update my brand artwork or compliance markings when switching?",
+      "a": "Generally no. Your dielines, color references, and on-pack compliance markings (recycling marks, FSC mark, country-of-origin label) are transferable. The country-of-origin label on the packaging itself, if you have one, will need updating from \"Made in China\" to \"Made in Vietnam\" — this is a small artwork change but plan for it. Some brands use this transition as the trigger for a broader pack refresh."
+    }
+  ],
+  "related": [
+    {
+      "slug": "vietnam-vs-china-landed-cost-worked-example",
+      "label": "Vietnam vs China landed-cost worked example",
+      "kind": "blog"
+    },
+    {
+      "slug": "made-in-vietnam-verification-substantial-transformation",
+      "label": "Made-in-Vietnam verification — substantial transformation",
+      "kind": "blog"
+    },
+    {
+      "slug": "section-301-packaging-tariffs-hts-codes",
+      "label": "Section 301 packaging tariffs by HTS code",
+      "kind": "blog"
+    },
+    {
+      "slug": "hai-duong-factory",
+      "label": "Hai Duong Factory — capacity and capabilities",
+      "kind": "page"
+    }
+  ]
+}

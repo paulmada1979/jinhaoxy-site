@@ -53,6 +53,11 @@ export interface BlogArticle {
   cluster?: string;
   coverImage: string;
   coverAlt: string;
+  // When true, the article is excluded from the index, sitemap, and route
+  // generation — it sits dormant in the content folder until promoted by
+  // flipping this to false (or removing it). Use this to queue up future
+  // posts that aren't ready to publish yet.
+  draft?: boolean;
   blocks: BlogBlock[];
   faqs?: BlogFAQ[];
   related?: BlogRelated[];

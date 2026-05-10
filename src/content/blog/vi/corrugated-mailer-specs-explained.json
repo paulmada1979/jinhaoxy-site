@@ -1,0 +1,248 @@
+{
+  "slug": "corrugated-mailer-specs-explained",
+  "title": "Thông số kỹ thuật của Mailer sóng thực sự quan trọng: Sáo, ECT, BCT, Burst (2026)",
+  "description": "Phân tích tập trung vào mua sắm về các thông số kỹ thuật của bưu phẩm sóng - mỗi thử nghiệm đo lường những gì, khi nào sử dụng cấu hình sáo nào và bảng thông số kỹ thuật tồn tại sau một chuyến hàng xuyên Thái Bình Dương dài 1.000 dặm.",
+  "publishedAt": "2026-05-16",
+  "updatedAt": "2026-05-16",
+  "readingMin": 8,
+  "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
+  "category": "Hướng dẫn người mua",
+  "cluster": "products",
+  "draft": true,
+  "coverImage": "/blog/corrugated-mailer-specs-hero.png",
+  "coverAlt": "Ảnh macro của một bưu phẩm kraft sóng ở một góc cho thấy cấu trúc sáo giữa hai lớp lót giấy, màu nâu kraft tự nhiên với kết cấu sợi thật",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "Phiên bản 90 giây",
+      "body": "Ba số chạy bảng thông số kỹ thuật sóng: ECT (cường độ nghiền cạnh của bảng), BCT (cường độ nén của hộp lắp ráp) và nổ (khả năng chống đâm thủng của lớp lót). Chọn cấu hình sáo từ yêu cầu bảo vệ và chiều cao ngăn xếp của bạn, không phải từ giá cả. Đối với những người gửi thư thương mại điện tử điển hình, Sáo B hoặc Sáo điện tử đánh 32 ECT là điểm ngọt ngào; để xếp chồng pallet xuất khẩu, tường đôi BC ở 44+ ECT là thông số kỹ thuật duy nhất tồn tại xuyên Thái Bình Dương."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Giải phẫu của một bưu phẩm sóng"
+    },
+    {
+      "type": "text",
+      "text": "Mỗi tấm tôn đều có cấu trúc ba lớp giống nhau: một lớp lót bên ngoài (mặt có thể in đối diện với khách hàng), một phương tiện có rãnh (giấy lượn sóng được kẹp ở giữa) và một lớp lót bên trong (mặt đối diện với nội dung). Các biến thể là trọng lượng của mỗi giấy, chiều cao và tần suất của sáo cũng như số lớp (một vách, hai vách, ba vách)."
+    },
+    {
+      "type": "image",
+      "src": "/blog/flute-comparison-inline.png",
+      "alt": "Ảnh macro của ba mặt cắt ngang tấm tôn xếp cạnh cho thấy chiều cao sáo khác nhau rõ rệt - sáo B bên trái sóng trung bình 3mm, sáo E trung tâm chặt chẽ 1,5mm, bên phải BC hai bức xếp chồng lên nhau 6mm - màu kraft tự nhiên với kết cấu sợi thật",
+      "caption": "Từ trái sang phải: Sáo B (3mm), Sáo E (1.5mm), vách đôi BC (6mm). Chiều cao ống sáo quyết định độ cứng, đệm và khả năng in. Đừng chọn theo giá cả - hãy chọn theo những gì người gửi thư thực sự phải làm."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hồ sơ sáo: sử dụng khi nào"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sáo",
+        "Chiều cao",
+        "Sáo / chân",
+        "Tốt nhất cho",
+        "Chi phí so với C"
+      ],
+      "rows": [
+        [
+          "A",
+          "4,8 mm",
+          "33",
+          "Lô hàng số lượng lớn, xếp chồng lên nhau",
+          "+5%"
+        ],
+        [
+          "B",
+          "3.2 mm",
+          "47",
+          "Bưu phẩm, màn hình thương mại điện tử, sẵn sàng bán lẻ",
+          "Đường cơ sở"
+        ],
+        [
+          "C",
+          "4.0mm",
+          "39",
+          "Thùng carton vận chuyển tiêu chuẩn (phổ biến nhất trên toàn cầu)",
+          "Đường cơ sở"
+        ],
+        [
+          "E",
+          "1,5 mm",
+          "90",
+          "Bưu phẩm cao cấp, hộp bán lẻ, chất lượng in đẹp",
+          "+15%"
+        ],
+        [
+          "F",
+          "0,8mm",
+          "128",
+          "Bưu phẩm cao cấp, đồ trang sức, mỹ phẩm giống như thùng carton gấp",
+          "+25%"
+        ],
+        [
+          "BC đôi",
+          "7.0 mm",
+          "xếp chồng lên nhau",
+          "Pallet xuất khẩu, sản phẩm nặng, vận tải đường biển đường dài",
+          "+40%"
+        ]
+      ],
+      "caption": "Chiều cao và mật độ ống sáo thay đổi một chút tùy theo nhà máy giấy - đây là những phạm vi điển hình cho các nhà máy chuyển đổi Việt Nam và Trung Quốc, đầu năm 2026."
+    },
+    {
+      "type": "text",
+      "text": "Hướng dẫn thực tế: Sáo B là con ngựa làm việc cho các bưu phẩm thương mại điện tử Bắc Mỹ - đủ đệm cho cú sốc vận chuyển điển hình, cao độ sáo đủ mịn để in offset hoặc flexo chất lượng, chi phí thấp. Sáo chữ C là mặc định toàn cầu để vận chuyển thùng carton và hộp chính. Sáo E và F dành cho bao bì bán lẻ cao cấp, nơi chất lượng in quan trọng hơn đệm. Cần có vách đôi BC cho bất kỳ sản phẩm nào được xếp lên pallet và xếp chồng lên nhau cao 4+ trong container đường biển."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ECT (Edge Crush Test) — con số được trích dẫn nhiều nhất"
+    },
+    {
+      "type": "text",
+      "text": "ECT đo lượng lực mà một cạnh thẳng đứng của bảng có thể chịu được trước khi nghiền, được biểu thị bằng pound trên inch tuyến tính. Nó tương quan chặt chẽ với độ bền của ngăn xếp trên pallet - đó là lý do tại sao ECT đã thay thế phần lớn xếp hạng bùng nổ làm thông số kỹ thuật chính để vận chuyển bao bì."
+    },
+    {
+      "type": "list",
+      "items": [
+        "23 ECT - bưu phẩm hạng nhẹ, các mặt hàng thương mại điện tử nhỏ dưới 5 lb",
+        "32 ECT — thương mại điện tử tiêu chuẩn, hầu hết các hộp đăng ký, sẵn sàng bán lẻ lên đến 30 lb",
+        "44 ECT — hàng hóa một vách hạng nặng, xếp lên pallet lên đến 65 lb",
+        "55 ECT - lãnh thổ hai bức tường, 65+ lb, khả năng phục hồi vận tải đường biển",
+        "71 ECT — hàng hóa ba vách, công nghiệp, nguy hiểm hoặc rất nặng"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hầu hết các thông số kỹ thuật thực hiện mà bạn sẽ thấy được viết là một số biến thể của \"32 ECT B-flute\" cho bưu phẩm và \"44 ECT C-flute\" cho thùng carton vận chuyển. Đây là những điểm ngọt ngào có khối lượng lớn. Giảm xuống dưới 32 ECT đối với bất kỳ sản phẩm nào đi qua trung tâm hoàn thiện đơn hàng là yêu cầu hư hỏng do nghiền nát tại kho, thậm chí trước khi sản phẩm đến tay khách hàng."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "BCT (Kiểm tra độ nén hộp) — phiên bản hộp lắp ráp"
+    },
+    {
+      "type": "image",
+      "src": "/blog/box-compression-test-inline.png",
+      "alt": "Ảnh chụp một hộp sóng đang được thử nghiệm nén trên máy ECT / BCT với trục lăn thép giảm dần và biến dạng góc vừa bắt đầu, thiết lập phòng thí nghiệm công nghiệp với ánh sáng trung tính",
+      "caption": "BCT đo hộp đã lắp ráp, dán - không chỉ bảng. Mối nối keo yếu hoặc khớp nắp kém có thể làm giảm 20% BCT của bảng 44-ECT trong hộp hoàn thiện."
+    },
+    {
+      "type": "text",
+      "text": "BCT là những gì nhà kho của bạn thực sự quan tâm: một chồng hộp này có thể chứa bao nhiêu trọng lượng trước khi hộp dưới cùng sụp đổ? Nó được đo trên hộp được lắp ráp, dán, không chỉ bảng. Một thông số kỹ thuật ECT hoàn hảo trên keo yếu hoặc nắp kém sẽ tạo ra BCT đáng thất vọng - đó là lý do tại sao một nhà sản xuất cẩn thận xác minh BCT, không chỉ ECT, trước khi ký vào SKU mới."
+    },
+    {
+      "type": "text",
+      "text": "Quy tắc chung: BCT ≈ 5,87 × ECT × √ (chu vi × độ dày bảng). Đối với mục đích mua sắm, bạn thường yêu cầu BCT mục tiêu (ví dụ: \"tối thiểu 600 lb BCT cho một bưu phẩm 12×9×3\") và để bộ chuyển đổi quay trở lại ECT và thông số kỹ thuật sáo để đánh nó."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Burst (Mullen) — số kế thừa"
+    },
+    {
+      "type": "text",
+      "text": "Burst, hay Mullen burst, đo lực trên mỗi inch vuông cần thiết để chọc thủng màng ngăn đứng yên vào lớp lót. Nó được biểu thị dưới dạng một con số như \"200 lb burst\" hoặc \"275 lb burst\". Trong lịch sử, đây là thông số kỹ thuật thùng carton chiếm ưu thế, nhưng nó chủ yếu bị thay thế bởi ECT vì hai lý do: (1) ECT tương quan tốt hơn với hiệu suất ngăn xếp và (2) thử nghiệm liên tục đo lớp mạnh nhất thay vì lớp yếu nhất, vì vậy bảng nổ cao vẫn có thể thất bại khi nghiền nát cạnh."
+    },
+    {
+      "type": "text",
+      "text": "Burst vẫn hữu ích: đó là một kiểm tra tốt về chất lượng giấy lót. Một bảng có ECT cao nhưng bùng nổ thấp cho thấy rằng môi trường đang thực hiện tất cả công việc và lớp lót được đánh giá thấp - có nghĩa là hộp sẽ nghiền nát các góc dưới tải trọng ngăn xếp ngay cả khi nó tồn tại sau thử nghiệm nén. Hầu hết các thông số kỹ thuật hiện đại bao gồm cả ECT và burst như một kiểm tra sự tỉnh táo đối với nhau."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Một bảng thông số kỹ thuật sóng hoàn chỉnh chứa những gì"
+    },
+    {
+      "type": "text",
+      "text": "Nếu bạn đang chuyển SKU giữa các nhà cung cấp (ví dụ: Trung Quốc sang Việt Nam), bảng thông số kỹ thuật bạn đưa cho nhà máy mới sẽ chứa mọi thứ bên dưới. Bất cứ điều gì còn thiếu là một dự đoán họ sẽ điền cho bạn, thường là tồi tệ."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Kích thước bên trong (L × W × H, tính bằng mm và inch)",
+        "Hồ sơ sáo và tổng độ dày bảng",
+        "Giấy lót - bên ngoài và bên trong - có trọng lượng (g / m²) và cấp độ (kraft, mặt trắng, trắng đốm)",
+        "Mục tiêu ECT có dung sai (ví dụ: 32 ECT ±10%)",
+        "Mục tiêu BCT cho hộp lắp ráp ở điều kiện ASTM tiêu chuẩn",
+        "Mục tiêu bùng nổ (vẫn được mong đợi trên hầu hết các bảng thông số kỹ thuật)",
+        "Loại keo - natri silicat, polyme hoặc nóng chảy",
+        "Cấu hình nắp - RSC, chồng chéo đầy đủ, nửa rãnh, kiểu bưu phẩm cắt bế",
+        "Phương pháp in, số màu, tham chiếu Pantone, yêu cầu hoàn thiện bản in",
+        "Mẫu pallet và chiều cao ngăn xếp để vận chuyển",
+        "Giả định khí hậu / độ ẩm (hầu hết các thông số kỹ thuật ECT giả định 23°C / 50% RH; các điểm đến nhiệt đới cần điều chỉnh thông số kỹ thuật)",
+        "Dấu hiệu tuân thủ - tam giác tái chế, dấu FSC, nước xuất xứ"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Việt Nam vs Trung Quốc cho tôn"
+    },
+    {
+      "type": "text",
+      "text": "Công suất tôn ở Việt Nam đã tăng khoảng 3× kể từ năm 2021, do chênh lệch thuế quan của Trung Quốc. Công nghệ giống hệt nhau - máy cắt khuôn Bobst, máy gấp nếp BHS, máy in Komori - và nguồn cung cấp giấy ngày càng địa phương (các nhà máy lớn như Lee & Man và Saigon Paper sản xuất kraft và lớp lót trắng trong nước). Đối với 80% chương trình sóng B2B, đầu ra của Việt Nam hiện phù hợp với Trung Quốc về chất lượng ở cùng thông số kỹ thuật, với cùng hiệu suất ISTA."
+    },
+    {
+      "type": "text",
+      "text": "Khoảng trống còn lại: các loại giấy đặc biệt thích hợp (một số loại giấy phủ trắng, lớp lót kraft có độ nổ cực cao) vẫn chủ yếu đến từ các nhà máy Trung Quốc. Các nhà máy Việt Nam cung cấp những thứ này dưới dạng nhập khẩu, thêm 7-10 ngày vào thời gian giao hàng. Đối với kraft tiêu chuẩn và áo trắng tiêu chuẩn, đó là một lần rửa."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      "title": "Bao bì Việt Nam — bức tranh toàn cảnh",
+      "body": "Toán thuế, chứng nhận, MOQ, thời gian giao hàng và danh sách kiểm tra 10 điểm cho người mua lần đầu tại Việt Nam."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Xác định những gì bạn đo lường, không phải những gì bạn nghĩ",
+      "body": "Hầu hết các khiếu nại về sóng mà chúng tôi thấy đến từ những người mua đã chỉ định cấu hình sáo (\"cho tôi sáo B\") thay vì mục tiêu hiệu suất (\"cho tôi 32 ECT, 600 BCT, ISTA-3A còn sót lại\"). Chỉ định hiệu suất cho phép bộ chuyển đổi tối ưu hóa chi phí — chúng có thể đạt được thông số kỹ thuật với loại sáo hoặc giấy khác với bạn mong đợi, thường rẻ hơn. Chỉ định sáo khóa chúng vào một giải pháp, thường không phải là rẻ nhất."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có thể hạ cấp từ sáo C xuống sáo B để tiết kiệm chi phí không?",
+      "a": "Đôi khi. Sáo B sử dụng ít giấy hơn một chút trên mỗi foot vuông so với sáo C, vì vậy nó rẻ hơn một chút ở cùng một thông số kỹ thuật lót. Nhưng sáo B ngắn hơn (3.2mm so với 4.0mm), vì vậy nó có ít đệm hơn và độ bền xếp chồng ít hơn. Đối với các bưu phẩm thương mại điện tử nhẹ (dưới 10 lb), hoán đổi thường hoạt động. Đối với các thùng carton vận chuyển được xếp lên pallet, sự sụt giảm BCT là quá đáng kể - bạn cần nâng cấp giấy lót để bù đắp và điều đó sẽ xóa sạch khoản tiết kiệm. Chạy phép toán trên SKU cụ thể của bạn trước khi cam kết."
+    },
+    {
+      "q": "Tiêu chuẩn nổ 32 ECT / 200 lb có còn hiệu lực vào năm 2026 không?",
+      "a": "Đúng. Thông số kỹ thuật 32 ECT B-flute đạt được điểm hấp dẫn đối với hầu hết các mạng lưới thực hiện của Hoa Kỳ (Amazon, Shopify Shipping, ShipBob) - nó tồn tại trong chuỗi xử lý bưu kiện, in tốt và sử dụng giấy tiết kiệm. Thông số kỹ thuật liên tục 200 lb phần lớn là một song song kế thừa - hầu hết các bộ chuyển đổi đều tự động đáp ứng nó khi chúng đạt 32 ECT với lớp lót kraft tiêu chuẩn. Đừng lãng phí thời gian tranh cãi về việc liệu bùng nổ có còn quan trọng hay không; Chỉ cần giữ cả hai số trên bảng thông số kỹ thuật của bạn."
+    },
+    {
+      "q": "Yếu tố điều chỉnh khí hậu đối với tôn vận chuyển tại Việt Nam là gì?",
+      "a": "Thông số kỹ thuật ECT tiêu chuẩn được đo ở 23°C / 50% độ ẩm tương đối. Sóng có xuất xứ Việt Nam thường đến các kho ở Bờ Đông Hoa Kỳ sau khi dành thời gian ở độ ẩm 30°C / 80% RH trong quá trình vận chuyển - và sóng mất 15–25% cường độ nén ở độ ẩm cao. Khắc phục thực tế: thông số kỹ thuật ECT ở hiệu suất mục tiêu + biên độ 25% hoặc thêm lớp lót chống ẩm nếu nội dung nhạy cảm. Đối với các thị trường cuối cùng nhiệt đới (Florida, Vịnh Texas, Caribe), hãy xác định ECT cao hơn 30% so với mục tiêu tối thiểu."
+    },
+    {
+      "q": "Tôi có cần các thông số kỹ thuật khác nhau cho vận tải đường biển và đường hàng không không?",
+      "a": "Đại dương khó hơn đối với sóng - thời gian vận chuyển lâu hơn, tiếp xúc với độ ẩm nhiều hơn, rung động nhiều hơn và căng thẳng dịch chuyển ngăn xếp, nhiều cơ hội ở dưới đáy của một ngăn xếp trong nhiều tuần. Thông số kỹ thuật có khả năng chống chịu đại dương nếu bất kỳ lô hàng nào của bạn vượt biển; Phí bảo hiểm nhỏ rẻ hơn so với xử lý Crushed Inbound. Đối với các chương trình chỉ phát sóng (hiếm trong bao bì - thường chỉ dành cho các mẫu hoặc hàng hóa nhỏ có giá trị cao), bạn có thể thông số kỹ thuật nhẹ hơn. Đối với chế độ hỗn hợp, hãy thông số kỹ thuật cho trường hợp cứng hơn."
+    }
+  ],
+  "related": [
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Bao bì Việt Nam — hướng dẫn đầy đủ cho người mua",
+      "kind": "blog"
+    },
+    {
+      "slug": "shipping-boxes-export-cartons",
+      "label": "Hộp vận chuyển & thùng carton xuất khẩu",
+      "kind": "page"
+    },
+    {
+      "slug": "e-commerce-mailer-boxes",
+      "label": "Hộp thư thương mại điện tử",
+      "kind": "page"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Bao bì sóng tại Việt Nam — năng lực",
+      "kind": "page"
+    }
+  ]
+}

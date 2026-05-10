@@ -1,0 +1,205 @@
+{
+  "slug": "china-to-vietnam-supplier-switch-playbook",
+  "title": "Chuyển đổi nhà cung cấp bao bì từ Trung Quốc sang Việt Nam: Cẩm nang 90 ngày",
+  "description": "Cẩm nang mua sắm hàng tuần để chuyển chương trình bao bì từ nhà cung cấp Trung Quốc sang nhà cung cấp Việt Nam mà không làm gián đoạn tỷ lệ lấp đầy, ra mắt bán lẻ hoặc tiêu chuẩn QC của bạn.",
+  "publishedAt": "2026-05-12",
+  "updatedAt": "2026-05-12",
+  "readingMin": 9,
+  "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
+  "category": "Mua sắm",
+  "cluster": "tariff",
+  "draft": true,
+  "coverImage": "/blog/supplier-switch-playbook-hero.png",
+  "coverAlt": "Bàn tay của một chuyên gia mua sắm cầm hai hộp mẫu sóng giống hệt nhau cạnh nhau trên bàn làm việc, một hộp có nhãn dán xuất xứ cờ Trung Quốc và một hộp có nhãn dán xuất xứ cờ Việt Nam",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "Phiên bản 90 giây",
+      "body": "Chuyển SKU bao bì từ nhà cung cấp Trung Quốc sang nhà cung cấp Việt Nam về cơ bản là một dự án hậu cần + đánh giá, không phải là một dự án thiết kế lại sản phẩm. Được thực hiện tốt, việc chuyển đổi mất 75–90 ngày kể từ cuộc trò chuyện đầu tiên đến khi chuyển đổi sản xuất đầy đủ, chi phí chuyển đổi từ 8 nghìn đô la – 25 nghìn đô la chi phí chuyển đổi (mẫu, chất lượng, chạy kép) và thu hồi 18–25% chi phí cập bến từ lô hàng đủ điều kiện đầu tiên. Làm tồi tệ, bạn thổi bay một mùa cao điểm vì nhà cung cấp cũ của bạn đã đi bộ khi bạn bắt đầu mua sắm. Trình tự dưới đây là thứ tự ngăn chặn cả hai."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bẫy mà hầu hết các đội đều rơi vào"
+    },
+    {
+      "type": "text",
+      "text": "Các nhóm mua sắm thường bắt đầu cuộc trò chuyện giữa Trung Quốc và Việt Nam bằng cách gửi email cho năm nhà cung cấp Việt Nam để báo giá và chờ đợi nhà cung cấp rẻ nhất. Điều đó hoạt động để xác nhận rằng khoản tiết kiệm tồn tại trên giấy. Nó không hoạt động như một kế hoạch chuyển đổi, bởi vì trong khi bạn đang thu thập báo giá, nhà cung cấp Trung Quốc hiện tại của bạn nghe về nó (ngành công nghiệp nhỏ) và lặng lẽ chuyển tài khoản của bạn sang mức độ ưu tiên thấp hơn. Ba tháng sau, bạn có báo giá tuyệt vời của Việt Nam, một nhà cung cấp Trung Quốc hiện đang phản hồi chậm và ra mắt sản phẩm quý 4 với bao bì chưa được đặt hàng."
+    },
+    {
+      "type": "text",
+      "text": "Cách khắc phục: tách biệt \"khám phá giá\" khỏi \"thực hiện chuyển đổi\". Khám phá diễn ra một cách lặng lẽ thông qua một hoặc hai kênh đáng tin cậy. Quá trình thực thi chỉ bắt đầu sau khi bạn đã quyết định chuyển đổi và sắp xếp trình tự công việc đánh giá."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ngày 0–14: Khám phá và danh sách rút gọn"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Kéo bảng thông số kỹ thuật SKU hiện tại của bạn, dieline, bằng chứng phù hợp với màu sắc và 3 hóa đơn thương mại cuối cùng. Bảng thông số kỹ thuật phải bao gồm loại và trọng lượng bìa, hệ thống mực, hoàn thiện (cán màng, giấy bạc, vecni), thông số kỹ thuật cấu trúc và bất kỳ chứng nhận tuân thủ nào được yêu cầu.",
+        "Xác định 3 nhà máy Việt Nam thông qua các giới thiệu đáng tin cậy - đại lý hải quan, giao nhận hàng hóa, người liên hệ trong ngành nhập khẩu từ Việt Nam hoặc đại lý tìm nguồn cung ứng bao bì cụ thể. Tránh các thị trường B2B chung chung; Tỷ lệ tín hiệu trên nhiễu là xấu.",
+        "Gửi cho mỗi nhà máy trong danh sách rút gọn bảng thông số kỹ thuật và yêu cầu: báo giá bằng văn bản về các điều khoản FOB Hải Phòng, thời gian giao hàng mẫu, MOQ và bản sao các chứng chỉ FSC, ISO 9001 và SMETA. Thời gian phản hồi hợp lý: 5 ngày làm việc.",
+        "Chấm điểm các câu trả lời trên ma trận 4 tiêu chí: khả năng cạnh tranh về giá, tính đầy đủ của chứng nhận, thời gian dẫn mẫu và chất lượng giao tiếp (tiếng Anh rõ ràng, đặt câu hỏi kỹ thuật, không bán quá mức). Chọn 2 người lọt vào vòng chung kết."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ngày 15–30: Đánh giá mẫu"
+    },
+    {
+      "type": "image",
+      "src": "/blog/switch-playbook-timeline-inline.png",
+      "alt": "Ảnh từ trên xuống của bàn lập kế hoạch mua sắm với lịch treo tường 3 tháng, ghi chú dính được mã hóa màu cho các mốc quan trọng mẫu/PO/lô hàng, sổ tay màu hải quân với mũi tên dòng thời gian vẽ tay và một hộp mẫu sóng duy nhất ở cạnh",
+      "caption": "In lịch này và dán lên tường. Hầu hết các công tắc không thành công xảy ra do ai đó đã bỏ qua một cột mốc khi cố gắng tiết kiệm 10 ngày, sau đó mất 30 ngày để làm lại."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Đặt hàng mẫu trả phí từ cả hai người lọt vào vòng chung kết. Trả phí mẫu - $ 300 – $ 800 cho mỗi nhà máy là bình thường - và đừng tranh cãi về điều đó. Mẫu miễn phí có nghĩa là nhà máy cắt giảm các góc trên mẫu (giấy khác nhau, mực chung) và bạn không thấy sản xuất thực sự sẽ như thế nào.",
+        "Cung cấp bằng chứng phù hợp với màu sắc tương tự mà bạn cung cấp cho nhà cung cấp Trung Quốc của mình. Yêu cầu mẫu bằng vật liệu thông số kỹ thuật sản xuất, không phải cổ phiếu chung. Chỉ định tham chiếu Pantone một cách rõ ràng.",
+        "Thực hiện đánh giá QC song song khi mẫu đến. So sánh với mẫu hiện có của Trung Quốc về: đăng ký in, kết hợp màu sắc (sử dụng máy đo quang phổ nếu bạn có, hoặc trực quan dưới ánh sáng D65), kết cấu phù hợp, độ bền keo, bề mặt hoàn thiện.",
+        "Nếu cả hai mẫu đều đạt, hãy chạy thử nghiệm rơi/rung ISTA-3A trên mẫu Việt Nam. Hầu hết các nhà máy uy tín của Việt Nam đều có phòng thí nghiệm được chứng nhận ISTA tại chỗ; yêu cầu báo cáo."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ngày 31–45: Tuân thủ file + thăm nhà máy"
+    },
+    {
+      "type": "text",
+      "text": "Trong khi các mẫu đang được đánh giá, hãy chuẩn bị sẵn tài liệu tuân thủ. Đây cũng là khi bạn trực tiếp đến thăm nhà máy."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Yêu cầu gói tuân thủ đầy đủ từ người lọt vào vòng chung kết đã chọn: Chứng chỉ Chuỗi hành trình FSC (xác minh trên info.fsc.org), chứng chỉ ISO 9001: 2015 với cơ quan đăng ký, đánh giá SMETA / Sedex (gần đây nhất, với CAPR), tuyên bố dự luật 65 nếu bạn bán vào California, tuyên bố REACH nếu bạn cũng xuất khẩu sang EU.",
+        "Ghé thăm nhà máy. Hai giờ trên sàn cho bạn biết trong 20 phút liệu chuyển đổi thực sự có đang xảy ra hay không. Xem chạy máy ép offset, đi qua cắt bế và dán, xem trạm QC, yêu cầu xem hàng tồn kho giấy và hóa đơn của nhà cung cấp.",
+        "Yêu cầu nhà môi giới hải quan của bạn phê duyệt trước quy trình tài liệu của nhà cung cấp - định dạng COO, mẫu hóa đơn thương mại, danh sách đóng gói - để lô hàng đầu tiên không bị giữ tại cảng vì các vấn đề về định dạng thủ tục giấy tờ.",
+        "Đàm phán Incoterms, điều khoản thanh toán và giao thức chất lượng bằng văn bản. Kết hợp những gì bạn có với nhà cung cấp Trung Quốc của bạn để so sánh chi phí giữa các quả táo được giữ nguyên."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ngày 46–60: Đơn đặt hàng sản xuất đầu tiên"
+    },
+    {
+      "type": "text",
+      "text": "Đặt PO sản xuất đầu tiên với khối lượng thận trọng có chủ ý - 25–40% kích thước đặt hàng lại điển hình của bạn. Đây là thử nghiệm phiên bản hoạt động của bạn, không phải là quá trình chuyển đổi đầy đủ."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Đừng hủy đơn đặt hàng lại tiếp theo của Trung Quốc. Giữ cho nhà cung cấp hiện tại đúng lịch trình đầy đủ. Nhà cung cấp mới của Việt Nam đang trong chế độ thử nghiệm, chưa thay thế.",
+        "Gửi cùng một tác phẩm nghệ thuật, dieline và bằng chứng bạn sẽ gửi cho nhà cung cấp Trung Quốc. Đừng \"dọn dẹp\" hoặc thay đổi bất cứ điều gì cho cuộc chạy Việt Nam - bạn muốn so sánh những người giống nhau.",
+        "Yêu cầu ảnh giữa quá trình sản xuất và báo cáo kiểm tra trước khi giao hàng (hoặc thuê thanh tra bên thứ ba - SGS, Bureau Veritas, Asia Inspection - với giá ~ $ 300).",
+        "Xem thời gian giao hàng so với báo giá. Một cú trượt nhỏ trong lần chạy đầu tiên là bình thường; Trượt 3 tuần là một dấu hiệu cảnh báo."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ngày 61–75: Nhận + QC + trạng thái đủ điều kiện"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Khi container đầu tiên của Việt Nam đến, hãy kiểm tra đầy đủ việc tiếp nhận: số lượng, kích thước, chất lượng in, tính toàn vẹn cấu trúc, tính toàn vẹn của bao bì. Sử dụng cùng một giao thức bạn sử dụng cho các lô hàng Trung Quốc.",
+        "Lấy mẫu thống kê (ví dụ: 1,5% AQL) để so sánh chi tiết với đường cơ sở của Trung Quốc. Nếu bạn có một mô-đun ERP chất lượng, hãy ghi lại các lỗi theo danh mục.",
+        "Nếu lô hàng đầu tiên vượt qua QC, nhà cung cấp sẽ chuyển sang trạng thái \"đủ điều kiện\". Ghi lại điều này trong nội bộ - hầu hết các công ty yêu cầu ký kết từ QA, mua sắm và tài chính.",
+        "Chạy số chi phí thực tế từ tóm tắt mục nhập và hóa đơn môi giới. Xác nhận mô hình tiết kiệm. Lưu ý bất kỳ bất ngờ nào (ví dụ: cao hơn phí cổng được niêm yết) cho vòng tiếp theo."
+      ]
+    },
+    {
+      "type": "cta",
+      "href": "/blog/vietnam-vs-china-landed-cost-worked-example/",
+      "title": "Xác nhận toán học trước khi bạn cam kết",
+      "body": "Ví dụ chi phí cập bến đã làm việc cho SKU thùng carton gấp 50K cho thấy lợi thế Việt Nam 21,5% theo từng dòng. Sử dụng nó như một mẫu cho mô hình của riêng bạn."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ngày 76–90: Chuyển đổi"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Đặt PO toàn bộ khối lượng tiếp theo với nhà cung cấp Việt Nam. Hủy bỏ hoặc kết thúc đơn đặt hàng lại theo kế hoạch tiếp theo của Trung Quốc.",
+        "Giữ cho mối quan hệ Trung Quốc ấm áp nhưng không hoạt động - khoảng cách 6 tháng trước khi bạn gọi lại cho họ là tốt; Khoảng cách 2 năm có nghĩa là giới thiệu lại từ đầu nếu bạn muốn sử dụng nguồn kép. Một email lịch sự ngắn nói rằng bạn đang chuyển chương trình là chuyên nghiệp.",
+        "Cập nhật hồ sơ nhà cung cấp chính, bảng nhà cung cấp ERP và hệ thống chất lượng của bạn để phản ánh nguồn chính mới.",
+        "Đặt đánh giá 90 ngày trên lịch - tại thời điểm đó đánh giá tỷ lệ lấp đầy, tỷ lệ lỗi và tổng hiệu suất chi phí cập bến so với đường cơ sở trước khi chuyển đổi."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Những cách phổ biến của playbook"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bỏ qua chuyến thăm nhà máy. Tiết kiệm một chuyến đi 1.500 đô la khiến bạn phải trả giá 50.000 đô la khi giao hàng trong tháng thứ ba không khớp với mẫu.",
+        "Cố gắng chuyển đổi trong mùa cao điểm. Việc chuyển đổi nên rơi trong quý chậm nhất của bạn, không phải bận rộn nhất của bạn. Nếu đỉnh của bạn là Q4, hãy chuyển đổi trong Q2.",
+        "Đàm phán giá nhà cung cấp Việt Nam với báo giá của Trung Quốc một cách công khai. Nhà cung cấp Trung Quốc phát hiện ra và lặng lẽ bỏ ưu tiên của bạn. Giữ cho giai đoạn khám phá yên tĩnh.",
+        "Xác định thiếu trình độ. \"Gửi cho tôi một báo giá và một mẫu\" là không đủ - bạn cần một thông số kỹ thuật bằng văn bản, tham chiếu màu sắc và kỳ vọng của ISTA.",
+        "Coi PO đầu tiên là sản xuất đầy đủ. PO đầu tiên là thử nghiệm trực tiếp ở 25–40% thể tích; Chỉ sau khi nó trôi qua, nó mới trở thành một quá trình chuyển đổi thực sự."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Xác minh trước khi hành động",
+      "body": "Thời gian giao hàng, MOQ và giá cả trong bài viết này phản ánh các nhà xuất khẩu bìa cứng tầm trung điển hình của Việt Nam tính đến đầu năm 2026. Thông số kỹ thuật, khối lượng và yêu cầu hoàn thiện cụ thể của bạn sẽ di chuyển tất cả những điều này. Hãy coi đây là cấu trúc của playbook, không phải thời gian cụ thể của bạn."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Chi phí chuyển đổi toàn bộ từ Trung Quốc sang Việt Nam là bao nhiêu?",
+      "a": "Đối với một chương trình SKU duy nhất với khối lượng vừa phải (50K – 200 nghìn đơn vị / năm), chi phí chuyển đổi điển hình là $ 8K - $ 25K. Phân tích: $ 1.5K - $ 3K chuyến thăm nhà máy, $ 1K - $ 2K mẫu và vận chuyển hàng hóa, $ 300 - $ 800 kiểm tra của bên thứ ba trong lô hàng đầu tiên, $ 4K - $ 15K chi phí chạy kép trong thời gian đủ điều kiện (mang hàng tồn kho từ cả hai nhà cung cấp trong thời gian ngắn) và $ 1K - $ 2K tái giới thiệu nhà môi giới hải quan. Thu hồi trong vòng 1-2 đơn đặt hàng sản xuất đầu tiên từ khoản tiết kiệm chi phí cập bến."
+    },
+    {
+      "q": "Tôi có nên sử dụng nguồn kép thay vì chuyển đổi hoàn toàn không?",
+      "a": "Đối với các chương trình số lượng lớn, quan trọng (bao bì y tế, mỹ phẩm theo quy định), có - giữ cho cả nhà cung cấp đủ điều kiện và chia khối lượng 70/30 hoặc 60/40 có lợi cho Việt Nam. Đối với bao bì B2B tiêu chuẩn, chi phí nguồn kép (quản lý hai tệp QC, hai vấn đề trôi khớp màu, hai cam kết đơn hàng tối thiểu) thường lớn hơn lợi ích về khả năng phục hồi. Hầu hết khách hàng của chúng tôi hoàn toàn chuyển đổi với mối quan hệ \"ấm áp\" 6 tháng với nhà cung cấp Trung Quốc ban đầu để dự phòng."
+    },
+    {
+      "q": "Điều gì sẽ xảy ra nếu lô hàng đầu tiên của nhà cung cấp Việt Nam không đạt QC?",
+      "a": "Nó xảy ra. Biện pháp khắc phục tiêu chuẩn: làm lại hoặc thay thế với chi phí của nhà cung cấp (điều này phải có trong hợp đồng), với nhà cung cấp chi trả phí kiểm tra lại. Nếu lỗi là có hệ thống (nhiều lô hàng thất bại), nhà cung cấp không đạt trạng thái đủ điều kiện và bạn ở lại với nguồn Trung Quốc trong khi mua sắm một người lọt vào vòng chung kết mới. Đừng ngụy biện về chi phí theo cách của bạn thông qua một nhà cung cấp Việt Nam tồi chỉ vì bạn đã chi tiêu cho các mẫu."
+    },
+    {
+      "q": "Tôi có cần cập nhật tác phẩm nghệ thuật thương hiệu hoặc dấu hiệu tuân thủ khi chuyển đổi không?",
+      "a": "Nói chung là không. Dòng dầu dieline, tham chiếu màu sắc và nhãn hiệu tuân thủ trên bao bì của bạn (nhãn tái chế, nhãn FSC, nhãn quốc gia xuất xứ) có thể chuyển nhượng. Nhãn quốc gia xuất xứ trên bao bì, nếu bạn có, sẽ cần cập nhật từ \"Made in China\" thành \"Made in Vietnam\" - đây là một thay đổi nhỏ về tác phẩm nghệ thuật nhưng hãy lên kế hoạch cho nó. Một số thương hiệu sử dụng quá trình chuyển đổi này làm yếu tố kích hoạt để làm mới gói rộng hơn."
+    }
+  ],
+  "related": [
+    {
+      "slug": "vietnam-vs-china-landed-cost-worked-example",
+      "label": "Ví dụ về chi phí nhập kho giữa Việt Nam và Trung Quốc",
+      "kind": "blog"
+    },
+    {
+      "slug": "made-in-vietnam-verification-substantial-transformation",
+      "label": "Xác minh sản xuất tại Việt Nam - chuyển đổi đáng kể",
+      "kind": "blog"
+    },
+    {
+      "slug": "section-301-packaging-tariffs-hts-codes",
+      "label": "Mục 301 thuế bao bì theo mã HTS",
+      "kind": "blog"
+    },
+    {
+      "slug": "hai-duong-factory",
+      "label": "Nhà máy Hải Dương – năng lực và năng lực",
+      "kind": "page"
+    }
+  ]
+}

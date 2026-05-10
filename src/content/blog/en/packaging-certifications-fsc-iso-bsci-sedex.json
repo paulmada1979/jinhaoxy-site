@@ -1,0 +1,201 @@
+{
+  "slug": "packaging-certifications-fsc-iso-bsci-sedex",
+  "title": "Packaging Certifications Decoded: FSC, ISO 9001, BSCI, Sedex (2026)",
+  "description": "What each major packaging supplier certification actually proves, what it doesn't, and how to verify the certificate is real before signing a PO. A working glossary for procurement teams new to global packaging sourcing.",
+  "publishedAt": "2026-05-20",
+  "updatedAt": "2026-05-20",
+  "readingMin": 8,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Compliance",
+  "cluster": "compliance",
+  "draft": true,
+  "coverImage": "/blog/certifications-primer-hero.png",
+  "coverAlt": "Top-down photograph of a wooden conference-table corner with a stack of four formal A4 certificate documents fanned out, embossed seals visible, a steel pen and reading glasses on top, lit by warm side light",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "Four certifications cover ~90% of B2B packaging due diligence: FSC for paper traceability, ISO 9001 for quality management, SMETA/Sedex for ethical/social compliance, and BSCI as a SMETA-equivalent in many EU buyer programs. Each one verifies a different layer — none of them substitutes for any other. A factory with FSC but no SMETA is fine on paper sourcing but unaudited on labor; the reverse is fine on labor but unaudited on paper. Always ask which certs the factory has, ask for the registration numbers, and verify them on the issuer's public registry before placing the first PO."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why certifications matter (and where they don't)"
+    },
+    {
+      "type": "text",
+      "text": "Certifications are evidence, not insurance. They prove that on the day of the audit, the factory met a defined standard. They don't prove the factory is meeting it today, and they don't prove the certified entity is the same as the entity actually producing your goods. Used as a starting point for due diligence, they're invaluable. Used as the ENTIRE due diligence file, they fail."
+    },
+    {
+      "type": "image",
+      "src": "/blog/factory-cert-wall-inline.png",
+      "alt": "Photograph of a factory office reception wall with four to six framed certifications hung in a tidy grid showing formal certificate layouts and embossed seals, warm office light from a window with polished concrete floor visible",
+      "caption": "A wall of certificates in the lobby is a signal, not proof. Always ask for the registration numbers and verify on the issuing body's public registry — most have one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "FSC (Forest Stewardship Council) — paper traceability"
+    },
+    {
+      "type": "text",
+      "text": "FSC certifies that the paper or paperboard came from responsibly managed forests, with chain-of-custody tracking through every stage from forest to finished product. For packaging, the relevant certificate is FSC Chain-of-Custody (CoC) — meaning the converter can prove the paper they used in your job came from FSC-certified mills."
+    },
+    {
+      "type": "text",
+      "text": "Three sub-claims you'll see on FSC labels: FSC 100% (all virgin fiber from FSC forests), FSC Mix (a controlled mix of FSC and recycled), FSC Recycled (post-consumer recycled content). Mix is the most common for packaging — it allows the converter flexibility while still guaranteeing minimum FSC content."
+    },
+    {
+      "type": "text",
+      "text": "Verify at: info.fsc.org. Search by certificate number or company name. The registry returns the certificate's status (Valid, Suspended, Expired) and scope (which products and operations are covered)."
+    },
+    {
+      "type": "text",
+      "text": "What it doesn't prove: that any specific shipment of yours used FSC paper. The CoC system requires per-job documentation — a real audit trail from receipt of paper to despatch of finished goods — that auditors review periodically but isn't visible to buyers. To use the FSC mark on your retail packaging, you need the converter to issue an FSC invoice for that job specifically."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ISO 9001:2015 — quality management system"
+    },
+    {
+      "type": "text",
+      "text": "ISO 9001 is the most common quality-management-system standard globally. It doesn't certify that the products are good — it certifies that the factory has a documented system for managing quality, with defined processes for production, inspection, defect handling, customer complaints, and continuous improvement. Annual third-party audits verify the system is in place and being followed."
+    },
+    {
+      "type": "text",
+      "text": "Practically, ISO 9001 means: the factory has a quality manual, has documented work instructions for each operation, runs incoming-material checks, runs in-process and final inspections, logs defects, and has a corrective-action process. None of which is glamorous, but the absence of any of it is a red flag. A converter without ISO 9001 may still produce good output, but you have no structural assurance they'll catch problems consistently."
+    },
+    {
+      "type": "text",
+      "text": "Verify at: the certifying body's website (e.g., SGS, Bureau Veritas, TÜV, BSI). The certificate names the issuing body — search there using the certificate number. ISO doesn't run a global central registry; the issuing bodies hold them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "SMETA / Sedex — ethical and social compliance"
+    },
+    {
+      "type": "text",
+      "text": "SMETA (Sedex Members Ethical Trade Audit) is the most widely accepted social-compliance audit format globally. It's run by Sedex (Supplier Ethical Data Exchange) — a membership organization where buyers and suppliers share audit results. The audit covers labor standards (wages, hours, child labor, forced labor), health and safety, environment, and business ethics."
+    },
+    {
+      "type": "text",
+      "text": "SMETA comes in two versions: 2-Pillar (labor + health/safety only) and 4-Pillar (adds environment + business ethics). Most US and UK buyers expect 4-Pillar for new supplier qualification. Audits run every 1–3 years depending on findings; non-compliances generate a CAPR (Corrective Action Plan Report) that the supplier must close before re-audit."
+    },
+    {
+      "type": "text",
+      "text": "What buyers ask for: the SMETA audit summary (aka SAQ — Self-Assessment Questionnaire) plus the most recent CAPR with closure status. A factory that hands you only the SAQ but won't share the CAPR is hiding something. A clean CAPR with all findings closed is the gold standard."
+    },
+    {
+      "type": "text",
+      "text": "Verify at: sedex.com. Sedex itself only allows verification through the membership portal, but most reputable factories will let you view the audit through their account or send a redacted summary directly. If they refuse both, that's a red flag."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "BSCI (amfori BSCI) — European-buyer ethical equivalent"
+    },
+    {
+      "type": "text",
+      "text": "BSCI (Business Social Compliance Initiative, run by amfori) is to European buyers roughly what SMETA is to US/UK buyers — a standardized social-compliance audit accepted across most EU retail buyer programs (Carrefour, Tchibo, Otto, Aldi, etc.). The criteria overlap heavily with SMETA but are not identical."
+    },
+    {
+      "type": "text",
+      "text": "BSCI audits produce a graded result (A through E, with A being best). Most large EU buyers won't onboard a supplier rated below C. Audits are valid 1–2 years depending on grade."
+    },
+    {
+      "type": "text",
+      "text": "Most factories serving global B2B markets carry both SMETA and BSCI now. If a factory has only one, ask which buyers requested it — that tells you about their existing customer mix and which markets they're set up for."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Other certifications worth knowing"
+    },
+    {
+      "type": "list",
+      "items": [
+        "ISO 14001 — environmental management system. Common, similar in form to ISO 9001 but for environmental impact (waste, emissions, water).",
+        "ISO 45001 — occupational health and safety management system. Replaces older OHSAS 18001.",
+        "GMI / G7 — color management certification for print quality. G7 Master Qualification means the press meets specified color reproduction standards. Useful for premium retail print, but not strictly necessary for most B2B.",
+        "ISTA (International Safe Transit Association) — package performance testing. ISTA-3A is the standard for parcel-shipped packaging; ISTA-6 is for Amazon-specific testing. Most reputable factories have an in-house ISTA-certified lab.",
+        "FSSC 22000 / BRC — food safety standards. Required for primary food packaging; not relevant for most retail box programs unless food contact is involved.",
+        "Disney FAMA / Walmart audits — buyer-specific audits. Some major buyers run their own social-compliance programs separate from SMETA/BSCI; if you're aiming to sell into one of these, the factory will need their specific audit on file."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to actually verify a certificate"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Ask for a copy of the certificate (PDF). Confirm the certified entity's legal name matches the supplier you're contracting with — common gotcha is the holding company is certified but the operating subsidiary that ships your goods isn't.",
+        "Note the certificate number, the issuing body, and the validity dates.",
+        "Look up the certificate on the issuing body's public registry (FSC, SGS, Bureau Veritas, etc.). Confirm Valid status and check the scope covers the operations you'll use.",
+        "If the registry shows Suspended or Expired, ask for an explanation. Sometimes there's a legitimate gap during re-certification; sometimes it's a serious compliance failure.",
+        "For SMETA/BSCI specifically, ask for the audit report or CAPR — not just confirmation that an audit was done. The detail matters."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What good looks like for a Vietnamese packaging factory"
+    },
+    {
+      "type": "text",
+      "text": "Mid-tier Vietnamese exporters serving US and EU brands typically carry: FSC CoC, ISO 9001:2015, ISO 14001 (environmental), SMETA 4-Pillar, BSCI audit. Higher-tier factories add G7 print certification and ISTA-certified test labs. Lower-tier factories may have only FSC and ISO 9001 — usable for commodity work but a question mark for any program where social compliance audits are part of the buyer's brand protection."
+    },
+    {
+      "type": "cta",
+      "href": "/blog/made-in-vietnam-verification-substantial-transformation/",
+      "title": "Origin verification — the other half of due diligence",
+      "body": "Certifications cover quality, paper, and ethics. Origin verification covers the substantial transformation rule that determines whether your packaging qualifies as Vietnam-origin under US Customs."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Don't accept photos of certificates as proof",
+      "body": "It is trivial to mock up a fake certificate as a JPG. Always require either the original PDF directly from the issuing body, or independently verify on the public registry using the certificate number. \"Here's a photo of our ISO 9001\" is the lowest tier of evidence and shouldn't pass procurement diligence."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which certification matters most for procurement decisions?",
+      "a": "It depends on what risk you're managing. For paper-traceability and sustainability claims on retail packaging — FSC. For overall quality system reliability — ISO 9001. For brand-protection against social-compliance scandals — SMETA or BSCI. For most US B2B buyers, the package is FSC + ISO 9001 + SMETA (4-Pillar). EU buyers often substitute BSCI for SMETA. Don't pick one — require the relevant set."
+    },
+    {
+      "q": "What if my supplier has SMETA but not BSCI, and I sell to EU?",
+      "a": "Most large EU retailers accept SMETA in lieu of BSCI as long as it's 4-Pillar with a recent valid audit. A few specific buyers (Tchibo, Otto, sometimes Aldi) may explicitly require BSCI in their supplier onboarding paperwork. Ask the buyer directly. If BSCI is required, your supplier can typically request a BSCI audit on top of their existing SMETA — they're additive, not exclusive, and overlap heavily."
+    },
+    {
+      "q": "How often do certifications need to be renewed?",
+      "a": "FSC: annual surveillance audits, full re-certification every 5 years. ISO 9001/14001: annual surveillance, full re-cert every 3 years. SMETA: depends on findings — typically every 1–3 years. BSCI: 1–2 years depending on grade. A factory whose major certs all expired within the last 6 months and haven't been renewed is running a risk; verify the renewal is in progress before placing a long-term contract."
+    },
+    {
+      "q": "Are buyer-specific audits (Walmart, Disney FAMA) interchangeable with SMETA?",
+      "a": "No. They're parallel, not equivalent. If you sell to Walmart, you need a Walmart-recognized audit (currently SMETA, ICTI, or amfori BSCI all qualify under their program). If you sell to Disney for licensed merchandise, you need Disney's ILS audit specifically. Most large factories carry several to cover their customer base. When you onboard a new buyer, ask which audits they accept and forward the list to your supplier — they'll tell you which ones they have on file."
+    }
+  ],
+  "related": [
+    {
+      "slug": "made-in-vietnam-verification-substantial-transformation",
+      "label": "Made-in-Vietnam verification — substantial transformation",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Vietnam packaging — full buyer's guide",
+      "kind": "blog"
+    },
+    {
+      "slug": "certifications",
+      "label": "Our certifications and audit reports",
+      "kind": "page"
+    }
+  ]
+}
