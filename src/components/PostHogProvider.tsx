@@ -1,32 +1,42 @@
 "use client";
 
 // PostHog analytics provider for the Next.js App Router.
-// Reads NEXT_PUBLIC_POSTHOG_KEY and NEXT_PUBLIC_POSTHOG_HOST from env.
-// If the key is missing (e.g., local dev), this no-ops cleanly — no events
-// are sent and the rest of the app keeps working.
+//
+// Required env vars (set in Vercel → Production + Preview):
+//   NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN  — phc_… token from PostHog Project Settings
+//   NEXT_PUBLIC_POSTHOG_HOST           — https://us.i.posthog.com (or eu)
+//
+// (Legacy NEXT_PUBLIC_POSTHOG_KEY is also accepted as a fallback in case the
+// older name is already provisioned somewhere.)
+//
+// If the token is missing this no-ops cleanly — no events sent, no errors.
 
 import { useEffect, Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import posthog from "posthog-js";
 import { PostHogProvider as PHProvider } from "posthog-js/react";
 
-const POSTHOG_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY;
-const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
+const POSTHOG_TOKEN =
+  process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN ||
+  process.env.NEXT_PUBLIC_POSTHOG_KEY;
+const POSTHOG_HOST =
+  process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
 
 let initialized = false;
 
 function ensureInitialized() {
   if (initialized) return;
   if (typeof window === "undefined") return;
-  if (!POSTHOG_KEY) return; // No key → silent no-op
-  posthog.init(POSTHOG_KEY, {
+  if (!POSTHOG_TOKEN) return; // No token → silent no-op
+  posthog.init(POSTHOG_TOKEN, {
     api_host: POSTHOG_HOST,
-    // Capture pageviews manually via the tracker below so we can include
-    // the full URL with query params in App Router.
+    // Pin to 2026-01-30 default semantics so PostHog's evolving config
+    // defaults don't silently shift behavior on us. See:
+    // https://posthog.com/docs/libraries/js/config#defaults
+    defaults: "2026-01-30",
+    // We capture pageviews ourselves below so App Router route changes
+    // (including search-param changes) get tracked correctly.
     capture_pageview: false,
-    capture_pageleave: true,
-    person_profiles: "identified_only",
-    // Respect Do Not Track and avoid local dev noise.
     respect_dnt: true,
     loaded: (ph) => {
       if (process.env.NODE_ENV !== "production") {
@@ -42,7 +52,7 @@ function PageviewTracker() {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    if (!POSTHOG_KEY) return;
+    if (!POSTHOG_TOKEN) return;
     if (!pathname) return;
     const search = searchParams?.toString();
     const url = search ? `${pathname}?${search}` : pathname;
@@ -55,8 +65,8 @@ function PageviewTracker() {
 export default function PostHogProvider({ children }: { children: React.ReactNode }) {
   ensureInitialized();
 
-  // If no key, just pass children through — don't mount the provider.
-  if (!POSTHOG_KEY) return <>{children}</>;
+  // If no token, just pass children through — don't mount the provider.
+  if (!POSTHOG_TOKEN) return <>{children}</>;
 
   return (
     <PHProvider client={posthog}>
