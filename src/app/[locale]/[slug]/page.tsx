@@ -107,12 +107,17 @@ export async function generateMetadata({
   const page = await loadPage(locale, slug);
   if (!page) return { title: "Not Found", robots: { index: false, follow: false } };
 
-  const description = extractDescription(page) ?? FALLBACK_DESCRIPTION;
+  // Per-page SEO overrides win over the auto-derived title/description.
+  // This is how we rescue specific high-impression / low-CTR pages without
+  // rewriting body copy — set page.seo.title and page.seo.description in
+  // the content JSON.
+  const metaTitle = page.seo?.title ?? page.title;
+  const description = page.seo?.description ?? extractDescription(page) ?? FALLBACK_DESCRIPTION;
   const canonicalPath = pathFor(locale, slug);
 
   return {
     // Layout sets template "%s | Jinhao Xinyuan Group" — pass the bare title.
-    title: page.title,
+    title: metaTitle,
     description,
     alternates: {
       canonical: `${SITE_URL}${canonicalPath}`,
@@ -126,15 +131,15 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       url: `${SITE_URL}${canonicalPath}`,
-      title: page.title,
+      title: metaTitle,
       description,
       locale: locale === "en" ? "en_US" : locale === "vi" ? "vi_VN" : "zh_CN",
       siteName: "Jinhao Xinyuan Group",
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: page.title }],
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: metaTitle }],
     },
     twitter: {
       card: "summary_large_image",
-      title: page.title,
+      title: metaTitle,
       description,
       images: ["/og-image.png"],
     },

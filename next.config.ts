@@ -66,6 +66,21 @@ const nextConfig: NextConfig = {
       r.push({ source: `/vi/${vi}/`, destination: `/vi/${en}/`, permanent: true });
     }
 
+    // Cornerstone tariff guide is EN-only TSX — but VI/ZH spoke posts
+    // internal-link to it and external sources may have crawled the
+    // non-existent localized URLs. 301 those to the EN canonical until
+    // the cornerstone gets JSON-ified and translated.
+    r.push({
+      source: "/vi/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      destination: "/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      permanent: true,
+    });
+    r.push({
+      source: "/zh/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      destination: "/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      permanent: true,
+    });
+
     return r;
   },
 };
