@@ -18,6 +18,14 @@ export interface FAQItem {
 export interface PageData {
   slug: string;
   title: string;
+  // Optional explicit SEO overrides. When set, take precedence over the
+  // bare `title` and the auto-extracted description in generateMetadata.
+  // Use this to rescue underperforming pages (low CTR, weak default
+  // descriptions) without rewriting body copy.
+  seo?: {
+    title?: string;
+    description?: string;
+  };
   blocks: Block[];
   faqs?: FAQItem[];
 }
