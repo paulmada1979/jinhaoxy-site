@@ -1,4 +1,6 @@
 import { NextResponse } from "next/server";
+import { createPosthogServer } from "@/lib/posthog-server";
+import crypto from "node:crypto";
 
 interface ContactPayload {
   name?: string;
@@ -121,6 +123,41 @@ export async function POST(req: Request) {
     if (!res.ok) {
       console.error("Resend error:", res.status, data);
       return NextResponse.json({ error: "Failed to send email" }, { status: 502 });
+    }
+
+    // Server-side PostHog capture for the conversion event. Runs only after
+    // Resend succeeds, so we don't count submissions that failed to deliver.
+    // Ad-blocker-resistant (server-side) and the source of truth for the
+    // contact_form_submit metric.
+    const ph = createPosthogServer();
+    if (ph) {
+      // Stable per-visitor identifier — hash the email so we can correlate
+      // a repeat submitter without storing PII as the distinctId. If a
+      // client-side distinctId existed we'd ideally prefer that, but the
+      // contact form doesn't currently forward it; this gets us cohorting.
+      const distinctId =
+        "lead_" +
+        crypto.createHash("sha256").update(email.toLowerCase()).digest("hex").slice(0, 16);
+      try {
+        ph.capture({
+          distinctId,
+          event: "contact_form_submit",
+          properties: {
+            page: body.pageContext?.trim() || null,
+            locale: body.locale?.trim() || null,
+            lead_source: "website_contact_form",
+            has_company: !!body.company?.trim(),
+            has_volume: !!body.volume?.trim(),
+            has_selection: !!body.selectValue?.trim(),
+            page_url: body.pageUrl?.trim() || null,
+            email_domain: email.split("@")[1] || null,
+          },
+        });
+        await ph.shutdown();
+      } catch (e) {
+        // Never let an analytics failure break the user-facing response.
+        console.error("PostHog capture failed:", e);
+      }
     }
 
     return NextResponse.json({ ok: true, id: data?.id });
