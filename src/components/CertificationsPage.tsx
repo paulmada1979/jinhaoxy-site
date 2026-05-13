@@ -190,7 +190,7 @@ export default function CertificationsPage() {
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <Link
-              href={`${prefix}/conctact-us`}
+              href={`${prefix}/contact-us`}
               className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
             >
               <FileText size={14} />

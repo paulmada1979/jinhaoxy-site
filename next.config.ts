@@ -37,7 +37,7 @@ const VI_SLUG_MAP: Record<string, string> = {
     "collapsible-gift-boxes-for-e-commerce-retail",
   "hop-qua-trang-suc-tuy-chinh": "custom-jewelry-gift-boxes",
   "hop-qua-tang-my-pham": "cosmetic-gift-boxes",
-  "lien-he-voi-chung-toi": "conctact-us",
+  "lien-he-voi-chung-toi": "contact-us",
 };
 
 // Note: Chinese (zh) localized slug redirects live in src/middleware.ts because
@@ -60,6 +60,13 @@ const nextConfig: NextConfig = {
     // Drop draft pages that shouldn't have been indexed on WP
     r.push({ source: "/button-draft/", destination: "/", permanent: true });
     r.push({ source: "/vi/ban-nhap-nut/", destination: "/vi/", permanent: true });
+
+    // WP-inherited "conctact-us" slug was a typo carried over during
+    // cutover. Renamed to "contact-us" 2026-05-13 — these 301s preserve
+    // the SEO juice from any indexed/linked old URLs.
+    r.push({ source: "/conctact-us/", destination: "/contact-us/", permanent: true });
+    r.push({ source: "/vi/conctact-us/", destination: "/vi/contact-us/", permanent: true });
+    r.push({ source: "/zh/conctact-us/", destination: "/zh/contact-us/", permanent: true });
 
     // Vietnamese localized WP slugs → English slugs under /vi/
     for (const [vi, en] of Object.entries(VI_SLUG_MAP)) {

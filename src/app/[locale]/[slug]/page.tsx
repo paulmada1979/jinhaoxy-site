@@ -155,7 +155,7 @@ export default async function Page({
   const page = await loadPage(locale, slug);
   if (!page) notFound();
 
-  if (slug === "conctact-us") return <ContactPage page={page} />;
+  if (slug === "contact-us") return <ContactPage page={page} />;
   if (slug === "about-us") return <AboutPage />;
   if (slug === "certifications") return <CertificationsPage />;
   if (slug === "shipping-boxes-export-cartons") return <ShippingBoxesPage />;

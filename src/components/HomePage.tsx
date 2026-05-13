@@ -102,7 +102,7 @@ export default function HomePage({ page }: { page: PageData }) {
                 {t("home.heroCtaDiscover")}
               </Link>
               <Link
-                href={`${prefix}/conctact-us`}
+                href={`${prefix}/contact-us`}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
               >
                 {t("home.heroCtaQuote")}
@@ -342,7 +342,7 @@ export default function HomePage({ page }: { page: PageData }) {
               {t("home.partnerCta1")}
             </Link>
             <Link
-              href={`${prefix}/conctact-us`}
+              href={`${prefix}/contact-us`}
               className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur border border-white/30 hover:bg-white/20 text-white rounded-md text-sm font-semibold transition-colors"
             >
               {t("home.partnerCta2")}
@@ -367,7 +367,7 @@ export default function HomePage({ page }: { page: PageData }) {
             </p>
           </div>
           <Link
-            href={`${prefix}/conctact-us`}
+            href={`${prefix}/contact-us`}
             className="inline-flex items-center gap-2 px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold shrink-0 transition-colors"
           >
             {t("home.heroCtaQuote")}
