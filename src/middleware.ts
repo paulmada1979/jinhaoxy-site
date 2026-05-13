@@ -39,7 +39,7 @@ const ZH_SLUG_MAP: Record<string, string> = {
     "collapsible-gift-boxes-for-e-commerce-retail",
   "定制珠宝礼盒": "custom-jewelry-gift-boxes",
   "化妆品礼盒": "cosmetic-gift-boxes",
-  "联系我们": "conctact-us",
+  "联系我们": "contact-us",
   "按钮草稿": "", // dropped — was a draft on WP
 };
 

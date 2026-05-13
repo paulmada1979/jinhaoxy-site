@@ -158,7 +158,7 @@ export default function Footer() {
             <h4 className="font-bold text-gray-900 text-sm mb-4">{t("footer.support")}</h4>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link href={`${prefix}/conctact-us`} className="flex items-center gap-2 text-gray-600 hover:text-orange-600 transition-colors">
+                <Link href={`${prefix}/contact-us`} className="flex items-center gap-2 text-gray-600 hover:text-orange-600 transition-colors">
                   <span className="w-3 h-3 rounded-full border-2 border-orange-500 flex items-center justify-center shrink-0">
                     <span className="w-1 h-1 rounded-full bg-orange-500" />
                   </span>

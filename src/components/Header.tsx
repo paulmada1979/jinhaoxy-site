@@ -113,7 +113,7 @@ export default function Header() {
               <Mail size={12} />
               info@jinhaoxy.com
             </a>
-            <Link href={`${prefix}/conctact-us`} className="hidden sm:flex items-center gap-1.5 hover:text-orange-400 transition-colors">
+            <Link href={`${prefix}/contact-us`} className="hidden sm:flex items-center gap-1.5 hover:text-orange-400 transition-colors">
               <Phone size={12} />
               {t("topbar.contactUs")}
             </Link>
@@ -408,7 +408,7 @@ export default function Header() {
             )}
 
             <Link
-              href={`${prefix}/conctact-us`}
+              href={`${prefix}/contact-us`}
               className="ml-1 px-5 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-md text-sm font-semibold transition-colors"
             >
               {t("nav.contact")}
@@ -456,7 +456,7 @@ export default function Header() {
               ))}
               <Link href={`${prefix}/blog`} onClick={() => setMenuOpen(false)} className="block px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50 rounded-md">{t("nav.blog")}</Link>
 
-              <Link href={`${prefix}/conctact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("nav.contact")}</Link>
+              <Link href={`${prefix}/contact-us`} onClick={() => setMenuOpen(false)} className="block mx-3 mt-2 px-4 py-2 bg-orange-500 text-white text-sm font-semibold text-center rounded-md">{t("nav.contact")}</Link>
 
               {/* Language switcher in mobile menu */}
               {SHOW_LANGUAGE_SWITCHER && (
