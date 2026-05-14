@@ -114,6 +114,12 @@
       "caption": "Your customs broker classifies every shipment under a specific HTS code on the entry summary — start there when verifying your Section 301 exposure."
     },
     {
+      "type": "cta",
+      "href": "/cardboard-trays-inserts/",
+      "title": "Cardboard trays & inserts (HTS 4819.40)",
+      "body": "Custom paperboard trays and inserts manufactured in Vietnam — same HTS classification family, tariff-free for US buyers."
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "Exclusions: most have expired"
@@ -219,6 +225,16 @@
     {
       "slug": "hai-duong-factory",
       "label": "Hai Duong Factory — Capacity and Capabilities",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "Vietnam Xinyuanjia — our Vietnam operations",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "Cardboard trays & inserts",
       "kind": "page"
     }
   ]

@@ -102,6 +102,12 @@
       "caption": "The Form B Certificate of Origin from VCCI is the baseline document — but on its own, it's not enough to survive a tough audit. Treat it as the cover page on a thicker file."
     },
     {
+      "type": "cta",
+      "href": "/vietnam-xinyuanjia/",
+      "title": "Vietnam Xinyuanjia — where the substantial transformation happens",
+      "body": "Our Vietnam operations entity. Paperboard converting, offset printing, finishing, ISTA testing — all in-country, all documented to CBP's evidentiary standard."
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "How to actually verify origin yourself"
@@ -211,6 +217,21 @@
     {
       "slug": "hai-duong-factory",
       "label": "Hai Duong Factory — Capacity and Capabilities",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "Vietnam Xinyuanjia — our Vietnam operations",
+      "kind": "page"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Vietnam corrugated packaging manufacturing",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "Cardboard trays & inserts",
       "kind": "page"
     }
   ]

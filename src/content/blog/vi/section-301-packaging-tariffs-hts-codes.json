@@ -114,6 +114,12 @@
       "caption": "Đại lý hải quan của bạn phân loại mọi lô hàng theo mã HTS cụ thể trên bản tóm tắt nhập cảnh - bắt đầu từ đó khi xác minh mức độ phơi nhiễm theo Mục 301 của bạn."
     },
     {
+      "type": "cta",
+      "href": "/cardboard-trays-inserts/",
+      "title": "Khay và miếng chèn carton (HTS 4819.40)",
+      "body": "Khay và miếng chèn bằng bìa cứng sản xuất tại Việt Nam — cùng nhóm phân loại HTS, miễn thuế cho người mua Mỹ."
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "Loại trừ: hầu hết đã hết hạn"
@@ -219,6 +225,16 @@
     {
       "slug": "hai-duong-factory",
       "label": "Nhà máy Hải Dương – Năng lực và Năng lực",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "Vietnam Xinyuanjia — hoạt động Việt Nam của chúng tôi",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "Khay và miếng chèn carton",
       "kind": "page"
     }
   ]
