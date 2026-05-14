@@ -102,6 +102,12 @@
       "caption": "Giấy chứng nhận xuất xứ Mẫu B của VCCI là tài liệu cơ sở - nhưng bản thân nó không đủ để tồn tại qua một cuộc kiểm toán khắc nghiệt. Hãy coi nó như trang bìa trên một tệp dày hơn."
     },
     {
+      "type": "cta",
+      "href": "/vietnam-xinyuanjia/",
+      "title": "Vietnam Xinyuanjia — nơi diễn ra sự chuyển đổi đáng kể",
+      "body": "Đơn vị hoạt động tại Việt Nam của chúng tôi. Chuyển đổi bìa cứng, in offset, hoàn thiện, kiểm tra ISTA — tất cả tại Việt Nam, tất cả có hồ sơ đạt tiêu chuẩn bằng chứng của CBP."
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "Làm thế nào để thực sự tự xác minh nguồn gốc"
@@ -211,6 +217,21 @@
     {
       "slug": "hai-duong-factory",
       "label": "Nhà máy Hải Dương – Năng lực và Năng lực",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "Vietnam Xinyuanjia — hoạt động Việt Nam của chúng tôi",
+      "kind": "page"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Sản xuất bao bì sóng tại Việt Nam",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "Khay và miếng chèn carton",
       "kind": "page"
     }
   ]

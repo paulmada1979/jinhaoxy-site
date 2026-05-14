@@ -128,6 +128,12 @@
       "caption": "Build your version in a spreadsheet — one column per origin, one row per cost component. The deltas reveal themselves immediately."
     },
     {
+      "type": "cta",
+      "href": "/corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group/",
+      "title": "Vietnam corrugated packaging — the production side of this math",
+      "body": "Where the worked example actually gets manufactured: B-flute, E-flute, BC double-wall corrugated production at our Hai Duong factory."
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "Why Vietnam wins by default"
@@ -234,6 +240,21 @@
     {
       "slug": "hai-duong-factory",
       "label": "Hai Duong Factory — Capacity and Capabilities",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "Vietnam Xinyuanjia — our Vietnam operations",
+      "kind": "page"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Vietnam corrugated packaging manufacturing",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "Cardboard trays & inserts",
       "kind": "page"
     }
   ]

@@ -128,6 +128,12 @@
       "caption": "在电子表格中构建你的版本——每个产地一列，每个成本组成部分一行。差异立刻显现。"
     },
     {
+      "type": "cta",
+      "href": "/corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group/",
+      "title": "越南瓦楞包装 — 这套计算背后的生产端",
+      "body": "上述案例的实际生产地：在我们的海阳工厂生产B型、E型、BC双壁瓦楞产品。"
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "为什么越南会默认获胜"
@@ -234,6 +240,21 @@
     {
       "slug": "hai-duong-factory",
       "label": "海阳工厂——产能与能力",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "越南新源家 — 我们的越南运营",
+      "kind": "page"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "越南瓦楞包装制造",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "纸板托盘和内衬",
       "kind": "page"
     }
   ]

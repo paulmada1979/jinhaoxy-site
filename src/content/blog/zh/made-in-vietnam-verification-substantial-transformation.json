@@ -102,6 +102,12 @@
       "caption": "VCCI的B表格原产地证书是基础文件——但单凭它不足以通过严格的审计。把它当作厚文件的封面页。"
     },
     {
+      "type": "cta",
+      "href": "/vietnam-xinyuanjia/",
+      "title": "越南新源家 — 实质性转变发生的地方",
+      "body": "我们的越南运营实体。纸板转换、胶印、整理、ISTA测试 — 全部在国内完成，全部按CBP证据标准记录。"
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "如何自己验证来源"
@@ -211,6 +217,21 @@
     {
       "slug": "hai-duong-factory",
       "label": "海阳工厂——产能与能力",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "越南新源家 — 我们的越南运营",
+      "kind": "page"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "越南瓦楞包装制造",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "纸板托盘和内衬",
       "kind": "page"
     }
   ]

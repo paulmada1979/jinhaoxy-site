@@ -114,6 +114,12 @@
       "caption": "你的海关代理会在入境摘要中将每批货物归类为特定的HTS代码——从这里开始核实你的301条款暴露。"
     },
     {
+      "type": "cta",
+      "href": "/cardboard-trays-inserts/",
+      "title": "纸板托盘和内衬（HTS 4819.40）",
+      "body": "在越南制造的定制纸板托盘和内衬 — 相同的HTS分类系列，对美国买家免征关税。"
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "排除条款：大多数已经过期"
@@ -219,6 +225,16 @@
     {
       "slug": "hai-duong-factory",
       "label": "海阳工厂——产能与能力",
+      "kind": "page"
+    },
+    {
+      "slug": "vietnam-xinyuanjia",
+      "label": "越南新源家 — 我们的越南运营",
+      "kind": "page"
+    },
+    {
+      "slug": "cardboard-trays-inserts",
+      "label": "纸板托盘和内衬",
       "kind": "page"
     }
   ]
