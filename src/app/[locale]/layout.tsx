@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: DEFAULT_TITLE,
-    template: "%s | Jinhao Xinyuan Group",
+    template: "%s",
   },
   description: DEFAULT_DESC,
   applicationName: SITE_NAME,
