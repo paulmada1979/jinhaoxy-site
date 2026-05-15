@@ -1,0 +1,32 @@
+# URLs to verify after any title/meta trim PR. Lines starting with # are comments.
+# Run with:  node scripts/verify-titles-and-metas.mjs --file scripts/seo-verify-urls.txt
+#
+# The 20 URLs flagged in the 2026-05-15 Ahrefs Site Audit recrawl as
+# title-too-long and/or meta-too-long, plus the 2 rank-cluster pages
+# (collapsible / large-gift-boxes) that the title-trim PR targeted.
+
+# --- 2026-05-15 batch: title-too-long URLs ---
+https://jinhaoxy.com/blog/vietnam-packaging-manufacturers-us-tariff-guide/
+https://jinhaoxy.com/vi/blog/made-in-vietnam-verification-substantial-transformation/
+https://jinhaoxy.com/blog/made-in-vietnam-verification-substantial-transformation/
+https://jinhaoxy.com/vi/blog/section-301-packaging-tariffs-hts-codes/
+https://jinhaoxy.com/blog/section-301-packaging-tariffs-hts-codes/
+https://jinhaoxy.com/vi/blog/rigid-gift-box-buyers-guide/
+https://jinhaoxy.com/vi/blog/china-to-vietnam-supplier-switch-playbook/
+https://jinhaoxy.com/vi/blog/vietnam-vs-china-landed-cost-worked-example/
+https://jinhaoxy.com/custom-jewelry-gift-boxes/
+https://jinhaoxy.com/luxury-rigid-gift-boxes/
+https://jinhaoxy.com/corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group/
+https://jinhaoxy.com/blog/vietnam-vs-china-landed-cost-worked-example/
+https://jinhaoxy.com/blog/rigid-gift-box-buyers-guide/
+https://jinhaoxy.com/vi/corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group/
+https://jinhaoxy.com/vi/cosmetic-gift-boxes/
+https://jinhaoxy.com/blog/china-to-vietnam-supplier-switch-playbook/
+https://jinhaoxy.com/cosmetic-gift-boxes/
+https://jinhaoxy.com/dongguan-xinyuan-printing-factory/
+https://jinhaoxy.com/vi/custom-jewelry-gift-boxes/
+https://jinhaoxy.com/vi/collapsible-gift-boxes-for-e-commerce-retail/
+
+# --- 4-keyword rank-drop cluster pages targeted by the title trim ---
+https://jinhaoxy.com/collapsible-gift-boxes-for-e-commerce-retail/
+https://jinhaoxy.com/large-gift-boxes/
