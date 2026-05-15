@@ -22,7 +22,7 @@ const AUTHOR = "Jinhao Xinyuan Group editorial team";
 export const articleMeta = {
   slug: "vietnam-packaging-manufacturers-us-tariff-guide",
   title:
-    "Vietnam Packaging Manufacturers: Tariff-Free Alternative to China for US Importers (2026 Guide)",
+    "Vietnam Packaging Manufacturers: US Tariff-Free Guide (2026)",
   description:
     "How US importers are saving 25–30% on packaging by sourcing from Vietnam instead of China. Tariff math, certifications, lead times, and a vetting checklist.",
   publishedAt: PUBLISHED_AT,
