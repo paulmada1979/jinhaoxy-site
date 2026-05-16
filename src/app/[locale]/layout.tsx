@@ -16,7 +16,7 @@ const SITE_URL = "https://jinhaoxy.com";
 const SITE_NAME = "Jinhao Xinyuan Group";
 const DEFAULT_TITLE = "Jinhao Xinyuan Group — Premium Packaging Manufacturer";
 const DEFAULT_DESC =
-  "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam & China.";
+  "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Vietnam & China factories.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

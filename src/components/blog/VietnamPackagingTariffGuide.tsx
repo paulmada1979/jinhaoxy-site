@@ -24,7 +24,7 @@ export const articleMeta = {
   title:
     "Vietnam Packaging Manufacturers: US Tariff-Free Guide (2026)",
   description:
-    "How US importers are saving 25–30% on packaging by sourcing from Vietnam instead of China. Tariff math, certifications, lead times, and a vetting checklist.",
+    "How US importers save 25–30% on packaging by sourcing from Vietnam instead of China. Tariff math, certifications, lead times, and a vetting checklist.",
   publishedAt: PUBLISHED_AT,
   updatedAt: UPDATED_AT,
   readingMin: READING_MIN,

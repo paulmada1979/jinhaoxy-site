@@ -71,8 +71,10 @@ function isThinFragment(s: string): boolean {
 }
 
 function extractDescription(page: PageData): string | null {
-  // Walk text blocks and concat substantive prose until we have ~120-160 chars.
+  // Walk text blocks and concat substantive prose until we have ~120-155 chars.
   // This avoids the "first text block was just a date" failure mode.
+  // Cap is 155 to match the Google meta-description preview budget; all return
+  // paths produce ≤155 chars (including the trailing ellipsis).
   const parts: string[] = [];
   let total = 0;
   for (const block of page.blocks) {
@@ -86,17 +88,17 @@ function extractDescription(page: PageData): string | null {
   }
   if (parts.length === 0) return null;
   const joined = parts.join(" ");
-  if (joined.length <= 160) return joined;
+  if (joined.length <= 155) return joined;
   // Cut at a sentence boundary if possible
-  const truncated = joined.slice(0, 157);
+  const truncated = joined.slice(0, 152);
   const lastPeriod = truncated.lastIndexOf(".");
   if (lastPeriod > 100) return joined.slice(0, lastPeriod + 1);
   const lastSpace = truncated.lastIndexOf(" ");
-  return joined.slice(0, lastSpace > 100 ? lastSpace : 157) + "…";
+  return joined.slice(0, lastSpace > 100 ? lastSpace : 152) + "…";
 }
 
 const FALLBACK_DESCRIPTION =
-  "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam & China.";
+  "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Vietnam & China factories.";
 
 export async function generateMetadata({
   params,
