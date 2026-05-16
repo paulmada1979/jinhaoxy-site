@@ -37,7 +37,7 @@ export default function ContactPage({ page }: { page: PageData }) {
             {t("contact.badge")}
           </span>
           <h1 className="text-4xl md:text-5xl font-bold mt-3 mb-4">
-            {page.title.replace("Conctact", "Contact")}
+            {page.title}
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             {t("contact.heroDesc")}
