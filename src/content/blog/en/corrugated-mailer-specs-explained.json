@@ -1,14 +1,14 @@
 {
   "slug": "corrugated-mailer-specs-explained",
-  "title": "Corrugated Mailer Specs That Actually Matter: Flute, ECT, BCT, Burst (2026)",
-  "description": "A procurement-focused breakdown of corrugated mailer specifications — what each test measures, when to use which flute profile, and the spec sheet that survives a 1,000-mile trans-Pacific shipment.",
+  "title": "Corrugated Mailer Specs: Flute, ECT, BCT, Burst (2026)",
+  "description": "A procurement-focused breakdown of corrugated mailer specs — what each test measures, when to use which flute profile, and the spec sheet that ships.",
   "publishedAt": "2026-05-16",
   "updatedAt": "2026-05-16",
   "readingMin": 8,
   "author": "Jinhao Xinyuan Group editorial team",
   "category": "Buyer's guide",
   "cluster": "products",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/corrugated-mailer-specs-hero.png",
   "coverAlt": "Macro photograph of a corrugated kraft mailer at an angle showing the flute structure between two paper liners, natural kraft brown color with real fiber texture",
   "blocks": [
