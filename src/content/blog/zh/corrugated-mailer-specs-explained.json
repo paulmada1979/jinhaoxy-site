@@ -8,7 +8,7 @@
   "author": "金昊新元集团编辑团队",
   "category": "买家指南",
   "cluster": "products",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/corrugated-mailer-specs-hero.png",
   "coverAlt": "一封波纹牛皮纸邮寄件的微距照片，角度显示两张纸衬之间的长笛结构，天然牛皮纸棕色，带有真实纤维质感",
   "blocks": [

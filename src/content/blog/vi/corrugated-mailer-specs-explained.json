@@ -1,14 +1,14 @@
 {
   "slug": "corrugated-mailer-specs-explained",
-  "title": "Thông số kỹ thuật của Mailer sóng thực sự quan trọng: Sáo, ECT, BCT, Burst (2026)",
-  "description": "Phân tích tập trung vào mua sắm về các thông số kỹ thuật của bưu phẩm sóng - mỗi thử nghiệm đo lường những gì, khi nào sử dụng cấu hình sáo nào và bảng thông số kỹ thuật tồn tại sau một chuyến hàng xuyên Thái Bình Dương dài 1.000 dặm.",
+  "title": "Thông số Mailer sóng: Sáo, ECT, BCT, Burst (2026)",
+  "description": "Phân tích mua sắm về thông số bưu phẩm sóng — mỗi thử nghiệm đo gì, khi nào dùng cấu hình sáo nào, và bảng thông số sống sót khi vận chuyển xa.",
   "publishedAt": "2026-05-16",
   "updatedAt": "2026-05-16",
   "readingMin": 8,
   "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
   "category": "Hướng dẫn người mua",
   "cluster": "products",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/corrugated-mailer-specs-hero.png",
   "coverAlt": "Ảnh macro của một bưu phẩm kraft sóng ở một góc cho thấy cấu trúc sáo giữa hai lớp lót giấy, màu nâu kraft tự nhiên với kết cấu sợi thật",
   "blocks": [
