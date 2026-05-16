@@ -14,7 +14,7 @@ export async function generateMetadata({
   const localePath = locale === "en" ? "/" : `/${locale}/`;
 
   const description =
-    "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Factories in Vietnam & China.";
+    "FSC® and ISO-certified packaging manufacturer. Corrugated boxes, folding cartons, rigid & gift boxes, labels and eco packaging. Vietnam & China factories.";
 
   return {
     // `absolute` opts out of the layout's "%s | Jinhao Xinyuan Group" template
