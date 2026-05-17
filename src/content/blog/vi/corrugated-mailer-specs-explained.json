@@ -1,7 +1,7 @@
 {
   "slug": "corrugated-mailer-specs-explained",
-  "title": "Thông số Mailer sóng: Sáo, ECT, BCT, Burst (2026)",
-  "description": "Phân tích mua sắm về thông số bưu phẩm sóng — mỗi thử nghiệm đo gì, khi nào dùng cấu hình sáo nào, và bảng thông số sống sót khi vận chuyển xa.",
+  "title": "Thông số Mailer sóng: Sóng, ECT, BCT, Burst (2026)",
+  "description": "Phân tích mua sắm về thông số bưu phẩm sóng — mỗi thử nghiệm đo gì, khi nào dùng cấu hình sóng nào, và bảng thông số sống sót khi vận chuyển xa.",
   "publishedAt": "2026-05-16",
   "updatedAt": "2026-05-16",
   "readingMin": 8,
@@ -10,13 +10,13 @@
   "cluster": "products",
   "draft": false,
   "coverImage": "/blog/corrugated-mailer-specs-hero.png",
-  "coverAlt": "Ảnh macro của một bưu phẩm kraft sóng ở một góc cho thấy cấu trúc sáo giữa hai lớp lót giấy, màu nâu kraft tự nhiên với kết cấu sợi thật",
+  "coverAlt": "Ảnh macro của một bưu phẩm kraft sóng ở một góc cho thấy cấu trúc sóng giữa hai lớp lót giấy, màu nâu kraft tự nhiên với kết cấu sợi thật",
   "blocks": [
     {
       "type": "callout",
       "variant": "stat",
       "title": "Phiên bản 90 giây",
-      "body": "Ba số chạy bảng thông số kỹ thuật sóng: ECT (cường độ nghiền cạnh của bảng), BCT (cường độ nén của hộp lắp ráp) và nổ (khả năng chống đâm thủng của lớp lót). Chọn cấu hình sáo từ yêu cầu bảo vệ và chiều cao ngăn xếp của bạn, không phải từ giá cả. Đối với những người gửi thư thương mại điện tử điển hình, Sáo B hoặc Sáo điện tử đánh 32 ECT là điểm ngọt ngào; để xếp chồng pallet xuất khẩu, tường đôi BC ở 44+ ECT là thông số kỹ thuật duy nhất tồn tại xuyên Thái Bình Dương."
+      "body": "Ba số chạy bảng thông số kỹ thuật sóng: ECT (cường độ nghiền cạnh của bảng), BCT (cường độ nén của hộp lắp ráp) và nổ (khả năng chống đâm thủng của lớp lót). Chọn cấu hình sóng từ yêu cầu bảo vệ và chiều cao ngăn xếp của bạn, không phải từ giá cả. Đối với những người gửi thư thương mại điện tử điển hình, Sóng B hoặc Sóng điện tử đánh 32 ECT là điểm ngọt ngào; để xếp chồng pallet xuất khẩu, tường đôi BC ở 44+ ECT là thông số kỹ thuật duy nhất tồn tại xuyên Thái Bình Dương."
     },
     {
       "type": "heading",
@@ -25,25 +25,25 @@
     },
     {
       "type": "text",
-      "text": "Mỗi tấm tôn đều có cấu trúc ba lớp giống nhau: một lớp lót bên ngoài (mặt có thể in đối diện với khách hàng), một phương tiện có rãnh (giấy lượn sóng được kẹp ở giữa) và một lớp lót bên trong (mặt đối diện với nội dung). Các biến thể là trọng lượng của mỗi giấy, chiều cao và tần suất của sáo cũng như số lớp (một vách, hai vách, ba vách)."
+      "text": "Mỗi tấm tôn đều có cấu trúc ba lớp giống nhau: một lớp lót bên ngoài (mặt có thể in đối diện với khách hàng), một phương tiện có rãnh (giấy lượn sóng được kẹp ở giữa) và một lớp lót bên trong (mặt đối diện với nội dung). Các biến thể là trọng lượng của mỗi giấy, chiều cao và tần suất của sóng cũng như số lớp (một vách, hai vách, ba vách)."
     },
     {
       "type": "image",
       "src": "/blog/flute-comparison-inline.png",
-      "alt": "Ảnh macro của ba mặt cắt ngang tấm tôn xếp cạnh cho thấy chiều cao sáo khác nhau rõ rệt - sáo B bên trái sóng trung bình 3mm, sáo E trung tâm chặt chẽ 1,5mm, bên phải BC hai bức xếp chồng lên nhau 6mm - màu kraft tự nhiên với kết cấu sợi thật",
-      "caption": "Từ trái sang phải: Sáo B (3mm), Sáo E (1.5mm), vách đôi BC (6mm). Chiều cao ống sáo quyết định độ cứng, đệm và khả năng in. Đừng chọn theo giá cả - hãy chọn theo những gì người gửi thư thực sự phải làm."
+      "alt": "Ảnh macro của ba mặt cắt ngang tấm tôn xếp cạnh cho thấy chiều cao sóng khác nhau rõ rệt - sóng B bên trái sóng trung bình 3mm, sóng E trung tâm chặt chẽ 1,5mm, bên phải BC hai bức xếp chồng lên nhau 6mm - màu kraft tự nhiên với kết cấu sợi thật",
+      "caption": "Từ trái sang phải: Sóng B (3mm), Sóng E (1.5mm), vách đôi BC (6mm). Chiều cao ống sóng quyết định độ cứng, đệm và khả năng in. Đừng chọn theo giá cả - hãy chọn theo những gì người gửi thư thực sự phải làm."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Hồ sơ sáo: sử dụng khi nào"
+      "text": "Hồ sơ sóng: sử dụng khi nào"
     },
     {
       "type": "table",
       "headers": [
-        "Sáo",
+        "Sóng",
         "Chiều cao",
-        "Sáo / chân",
+        "Sóng / chân",
         "Tốt nhất cho",
         "Chi phí so với C"
       ],
@@ -91,11 +91,11 @@
           "+40%"
         ]
       ],
-      "caption": "Chiều cao và mật độ ống sáo thay đổi một chút tùy theo nhà máy giấy - đây là những phạm vi điển hình cho các nhà máy chuyển đổi Việt Nam và Trung Quốc, đầu năm 2026."
+      "caption": "Chiều cao và mật độ ống sóng thay đổi một chút tùy theo nhà máy giấy - đây là những phạm vi điển hình cho các nhà máy chuyển đổi Việt Nam và Trung Quốc, đầu năm 2026."
     },
     {
       "type": "text",
-      "text": "Hướng dẫn thực tế: Sáo B là con ngựa làm việc cho các bưu phẩm thương mại điện tử Bắc Mỹ - đủ đệm cho cú sốc vận chuyển điển hình, cao độ sáo đủ mịn để in offset hoặc flexo chất lượng, chi phí thấp. Sáo chữ C là mặc định toàn cầu để vận chuyển thùng carton và hộp chính. Sáo E và F dành cho bao bì bán lẻ cao cấp, nơi chất lượng in quan trọng hơn đệm. Cần có vách đôi BC cho bất kỳ sản phẩm nào được xếp lên pallet và xếp chồng lên nhau cao 4+ trong container đường biển."
+      "text": "Hướng dẫn thực tế: Sóng B là con ngựa làm việc cho các bưu phẩm thương mại điện tử Bắc Mỹ - đủ đệm cho cú sốc vận chuyển điển hình, cao độ sóng đủ mịn để in offset hoặc flexo chất lượng, chi phí thấp. Sóng chữ C là mặc định toàn cầu để vận chuyển thùng carton và hộp chính. Sóng E và F dành cho bao bì bán lẻ cao cấp, nơi chất lượng in quan trọng hơn đệm. Cần có vách đôi BC cho bất kỳ sản phẩm nào được xếp lên pallet và xếp chồng lên nhau cao 4+ trong container đường biển."
     },
     {
       "type": "heading",
@@ -137,7 +137,7 @@
     },
     {
       "type": "text",
-      "text": "Quy tắc chung: BCT ≈ 5,87 × ECT × √ (chu vi × độ dày bảng). Đối với mục đích mua sắm, bạn thường yêu cầu BCT mục tiêu (ví dụ: \"tối thiểu 600 lb BCT cho một bưu phẩm 12×9×3\") và để bộ chuyển đổi quay trở lại ECT và thông số kỹ thuật sáo để đánh nó."
+      "text": "Quy tắc chung: BCT ≈ 5,87 × ECT × √ (chu vi × độ dày bảng). Đối với mục đích mua sắm, bạn thường yêu cầu BCT mục tiêu (ví dụ: \"tối thiểu 600 lb BCT cho một bưu phẩm 12×9×3\") và để bộ chuyển đổi quay trở lại ECT và thông số kỹ thuật sóng để đánh nó."
     },
     {
       "type": "heading",
@@ -166,7 +166,7 @@
       "ordered": true,
       "items": [
         "Kích thước bên trong (L × W × H, tính bằng mm và inch)",
-        "Hồ sơ sáo và tổng độ dày bảng",
+        "Hồ sơ sóng và tổng độ dày bảng",
         "Giấy lót - bên ngoài và bên trong - có trọng lượng (g / m²) và cấp độ (kraft, mặt trắng, trắng đốm)",
         "Mục tiêu ECT có dung sai (ví dụ: 32 ECT ±10%)",
         "Mục tiêu BCT cho hộp lắp ráp ở điều kiện ASTM tiêu chuẩn",
@@ -202,13 +202,13 @@
       "type": "callout",
       "variant": "warning",
       "title": "Xác định những gì bạn đo lường, không phải những gì bạn nghĩ",
-      "body": "Hầu hết các khiếu nại về sóng mà chúng tôi thấy đến từ những người mua đã chỉ định cấu hình sáo (\"cho tôi sáo B\") thay vì mục tiêu hiệu suất (\"cho tôi 32 ECT, 600 BCT, ISTA-3A còn sót lại\"). Chỉ định hiệu suất cho phép bộ chuyển đổi tối ưu hóa chi phí — chúng có thể đạt được thông số kỹ thuật với loại sáo hoặc giấy khác với bạn mong đợi, thường rẻ hơn. Chỉ định sáo khóa chúng vào một giải pháp, thường không phải là rẻ nhất."
+      "body": "Hầu hết các khiếu nại về sóng mà chúng tôi thấy đến từ những người mua đã chỉ định cấu hình sóng (\"cho tôi sóng B\") thay vì mục tiêu hiệu suất (\"cho tôi 32 ECT, 600 BCT, ISTA-3A còn sót lại\"). Chỉ định hiệu suất cho phép bộ chuyển đổi tối ưu hóa chi phí — chúng có thể đạt được thông số kỹ thuật với loại sóng hoặc giấy khác với bạn mong đợi, thường rẻ hơn. Chỉ định sóng khóa chúng vào một giải pháp, thường không phải là rẻ nhất."
     }
   ],
   "faqs": [
     {
-      "q": "Tôi có thể hạ cấp từ sáo C xuống sáo B để tiết kiệm chi phí không?",
-      "a": "Đôi khi. Sáo B sử dụng ít giấy hơn một chút trên mỗi foot vuông so với sáo C, vì vậy nó rẻ hơn một chút ở cùng một thông số kỹ thuật lót. Nhưng sáo B ngắn hơn (3.2mm so với 4.0mm), vì vậy nó có ít đệm hơn và độ bền xếp chồng ít hơn. Đối với các bưu phẩm thương mại điện tử nhẹ (dưới 10 lb), hoán đổi thường hoạt động. Đối với các thùng carton vận chuyển được xếp lên pallet, sự sụt giảm BCT là quá đáng kể - bạn cần nâng cấp giấy lót để bù đắp và điều đó sẽ xóa sạch khoản tiết kiệm. Chạy phép toán trên SKU cụ thể của bạn trước khi cam kết."
+      "q": "Tôi có thể hạ cấp từ sóng C xuống sóng B để tiết kiệm chi phí không?",
+      "a": "Đôi khi. Sóng B sử dụng ít giấy hơn một chút trên mỗi foot vuông so với sóng C, vì vậy nó rẻ hơn một chút ở cùng một thông số kỹ thuật lót. Nhưng sóng B ngắn hơn (3.2mm so với 4.0mm), vì vậy nó có ít đệm hơn và độ bền xếp chồng ít hơn. Đối với các bưu phẩm thương mại điện tử nhẹ (dưới 10 lb), hoán đổi thường hoạt động. Đối với các thùng carton vận chuyển được xếp lên pallet, sự sụt giảm BCT là quá đáng kể - bạn cần nâng cấp giấy lót để bù đắp và điều đó sẽ xóa sạch khoản tiết kiệm. Chạy phép toán trên SKU cụ thể của bạn trước khi cam kết."
     },
     {
       "q": "Tiêu chuẩn nổ 32 ECT / 200 lb có còn hiệu lực vào năm 2026 không?",

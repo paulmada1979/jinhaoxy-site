@@ -19,10 +19,14 @@ const viReplacements = [
 
 // ZH: "土地成本" / "登陆成本" = literal land cost; correct customs term is "到岸成本".
 // "越南战争优势" = Vietnam War advantage; should be 成本优势 (cost advantage).
+// "长笛" = musical flute (instrument); for corrugated profile use 楞型 (léngxíng).
+// "电击训练" = electric shock training; ECT (Edge Crush Test) → ECT 边压测试.
 const zhReplacements = [
   ["土地成本", "到岸成本"],
   ["登陆成本", "到岸成本"],
   ["越南战争优势", "越南成本优势"],
+  ["长笛", "楞型"],
+  ["电击训练", "ECT 边压测试"],
 ];
 
 function processDir(dir, replacements, label) {
