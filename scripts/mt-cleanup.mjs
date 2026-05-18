@@ -21,12 +21,21 @@ const viReplacements = [
 // "越南战争优势" = Vietnam War advantage; should be 成本优势 (cost advantage).
 // "长笛" = musical flute (instrument); for corrugated profile use 楞型 (léngxíng).
 // "电击训练" = electric shock training; ECT (Edge Crush Test) → ECT 边压测试.
+// Azure also cycles ECT into "电磁力" (electromagnetic force), "电击" (electric shock),
+// "电休克" (electroconvulsive therapy), "电磁训练" (electromagnetic training), "电疗"
+// (electrotherapy) — all should be bare ECT in body prose.
+// ORDER NOTE: "电击" must come AFTER "电击训练" so the longer match wins first.
 const zhReplacements = [
   ["土地成本", "到岸成本"],
   ["登陆成本", "到岸成本"],
   ["越南战争优势", "越南成本优势"],
   ["长笛", "楞型"],
   ["电击训练", "ECT 边压测试"],
+  ["电磁力", "ECT"],
+  ["电休克", "ECT"],
+  ["电磁训练", "ECT"],
+  ["电疗", "ECT"],
+  ["电击", "ECT"],
 ];
 
 function processDir(dir, replacements, label) {
