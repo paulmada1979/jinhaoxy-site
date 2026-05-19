@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
-import { getArticlesForLocale, type Locale } from "@/lib/blog";
+import { getArticleData, getArticlesForLocale, type Locale } from "@/lib/blog";
 
 const SITE_URL = "https://jinhaoxy.com";
 const SITE_NAME = "Jinhao Xinyuan Group";
@@ -98,7 +98,19 @@ export default async function BlogIndex({
         <div className="max-w-5xl mx-auto px-4 lg:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {articles.map((entry) => {
-              const article = entry.meta;
+              // Prefer per-locale title/description/coverAlt (translated)
+              // over the EN meta. TSX cornerstone articles only have EN
+              // content, so they fall back to entry.meta automatically.
+              const localeData =
+                entry.kind === "json"
+                  ? getArticleData(entry, locale as Locale)
+                  : null;
+              const article = {
+                ...entry.meta,
+                title: localeData?.title ?? entry.meta.title,
+                description: localeData?.description ?? entry.meta.description,
+                coverAlt: localeData?.coverAlt ?? entry.meta.coverAlt,
+              };
               const date = new Date(article.publishedAt).toLocaleDateString(
                 dateLocale,
                 { year: "numeric", month: "long", day: "numeric" },
