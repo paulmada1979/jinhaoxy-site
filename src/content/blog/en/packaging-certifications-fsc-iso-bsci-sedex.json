@@ -8,7 +8,7 @@
   "author": "Jinhao Xinyuan Group editorial team",
   "category": "Compliance",
   "cluster": "compliance",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/certifications-primer-hero.png",
   "coverAlt": "Top-down photograph of a wooden conference-table corner with a stack of four formal A4 certificate documents fanned out, embossed seals visible, a steel pen and reading glasses on top, lit by warm side light",
   "blocks": [

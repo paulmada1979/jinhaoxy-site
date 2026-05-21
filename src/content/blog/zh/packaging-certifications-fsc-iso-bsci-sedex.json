@@ -8,7 +8,7 @@
   "author": "金昊新元集团编辑团队",
   "category": "合规",
   "cluster": "compliance",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/certifications-primer-hero.png",
   "coverAlt": "一张俯视照片，展示一个木制会议桌角落，桌上堆放着四份正式的A4证书文件，浮雕印章清晰可见，顶部放着一支钢笔和一副老花镜，由温暖的侧光照亮",
   "blocks": [
