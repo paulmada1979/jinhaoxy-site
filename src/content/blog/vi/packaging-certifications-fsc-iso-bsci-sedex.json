@@ -8,7 +8,7 @@
   "author": "Nhóm biên tập Tập đoàn Jinhao Xinyuan",
   "category": "Tuân thủ",
   "cluster": "compliance",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/certifications-primer-hero.png",
   "coverAlt": "Bức ảnh từ trên xuống của một góc bàn hội nghị bằng gỗ với một chồng bốn tài liệu chứng chỉ A4 chính thức được quạt ra, có thể nhìn thấy các con dấu dập nổi, một cây bút thép và kính đọc sách ở trên, được chiếu sáng bởi ánh sáng bên ấm áp",
   "blocks": [
