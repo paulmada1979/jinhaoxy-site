@@ -22,8 +22,15 @@ export async function generateMetadata({
         ? "金浩鑫源集团为您提供采购指南、供应商情报和包装行业简报。"
         : "Buyer's guides, supplier intelligence, and packaging industry briefs from Jinhao Xinyuan Group.";
 
+  const title =
+    locale === "vi"
+      ? "Blog — Hướng dẫn người mua bao bì | Jinhao Xinyuan"
+      : locale === "zh"
+        ? "博客 — 采购指南与行业简报 | 金浩鑫源集团"
+        : "Blog — Packaging Industry Insights | Jinhao Xinyuan";
+
   return {
-    title: "Blog",
+    title,
     description,
     alternates: {
       canonical: `${SITE_URL}${localePath}`,
