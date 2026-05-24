@@ -362,6 +362,23 @@ export default function LuxuryRigidPage() {
         </div>
       </section>
 
+      {/* Rigid box manufacturing cornerstone cross-link */}
+      <section className="py-10 bg-orange-50 border-y border-orange-100">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6 text-center">
+          <Link
+            href={`${prefix}/rigid-boxes`}
+            className="inline-flex items-center gap-2 text-orange-700 hover:text-orange-800 font-semibold text-sm"
+          >
+            {locale === "vi"
+              ? "Xem toàn bộ dải sản xuất hộp cứng của chúng tôi"
+              : locale === "zh"
+                ? "查看我们完整的硬盒制造系列"
+                : "See our full rigid box manufacturing range"}
+            <ArrowRight size={16} />
+          </Link>
+        </div>
+      </section>
+
       {/* Quote form */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 lg:px-6">

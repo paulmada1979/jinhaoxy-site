@@ -393,6 +393,23 @@ export default function MagneticClosurePage() {
         </div>
       </section>
 
+      {/* Rigid box manufacturing cornerstone cross-link */}
+      <section className="py-10 bg-orange-50 border-y border-orange-100">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6 text-center">
+          <Link
+            href={`${prefix}/rigid-boxes`}
+            className="inline-flex items-center gap-2 text-orange-700 hover:text-orange-800 font-semibold text-sm"
+          >
+            {locale === "vi"
+              ? "Hộp đóng nam châm dựa trên quy trình sản xuất hộp cứng cốt lõi — xem toàn bộ dải hộp cứng"
+              : locale === "zh"
+                ? "磁性封闭盒基于核心硬盒制造工艺——查看完整硬盒系列"
+                : "Built on our core rigid box manufacturing process — see the full rigid box range"}
+            <ArrowRight size={16} />
+          </Link>
+        </div>
+      </section>
+
       {/* Quote form */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 lg:px-6">

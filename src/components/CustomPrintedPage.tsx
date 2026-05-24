@@ -357,6 +357,23 @@ export default function CustomPrintedPage() {
         </div>
       </section>
 
+      {/* Rigid box manufacturing cornerstone cross-link */}
+      <section className="py-10 bg-orange-50 border-y border-orange-100">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6 text-center">
+          <Link
+            href={`${prefix}/rigid-boxes`}
+            className="inline-flex items-center gap-2 text-orange-700 hover:text-orange-800 font-semibold text-sm"
+          >
+            {locale === "vi"
+              ? "Tùy chọn dành riêng cho hộp cứng — xem trang sản xuất hộp cứng"
+              : locale === "zh"
+                ? "如需硬盒专属选项——查看专属硬盒制造页面"
+                : "For rigid-box-specific options, see our rigid box manufacturing page"}
+            <ArrowRight size={16} />
+          </Link>
+        </div>
+      </section>
+
       {/* Quote form */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 lg:px-6">

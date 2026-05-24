@@ -402,6 +402,23 @@ export default function CollapsiblePage() {
         </div>
       </section>
 
+      {/* Rigid box manufacturing cornerstone cross-link */}
+      <section className="py-10 bg-orange-50 border-y border-orange-100">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6 text-center">
+          <Link
+            href={`${prefix}/rigid-boxes`}
+            className="inline-flex items-center gap-2 text-orange-700 hover:text-orange-800 font-semibold text-sm"
+          >
+            {locale === "vi"
+              ? "Hộp cứng có thể thu gọn — xem toàn bộ khả năng sản xuất hộp cứng"
+              : locale === "zh"
+                ? "可折叠硬盒——查看我们完整的硬盒制造能力"
+                : "Collapsible rigid box — see our full rigid box manufacturing capabilities"}
+            <ArrowRight size={16} />
+          </Link>
+        </div>
+      </section>
+
       {/* Quote form */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 lg:px-6">
