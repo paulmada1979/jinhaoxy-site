@@ -326,6 +326,23 @@ export default function LargeGiftBoxesPage() {
         </div>
       </section>
 
+      {/* Rigid box manufacturing cornerstone cross-link */}
+      <section className="py-10 bg-orange-50 border-y border-orange-100">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6 text-center">
+          <Link
+            href={`${prefix}/rigid-boxes`}
+            className="inline-flex items-center gap-2 text-orange-700 hover:text-orange-800 font-semibold text-sm"
+          >
+            {locale === "vi"
+              ? "Đối với sản xuất hộp cứng chính — xem trang chuyên dụng"
+              : locale === "zh"
+                ? "如需主要硬盒制造——请参阅专属页面"
+                : "For primary rigid box manufacturing — see our dedicated page"}
+            <ArrowRight size={16} />
+          </Link>
+        </div>
+      </section>
+
       {/* Quote form */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 lg:px-6">
