@@ -175,6 +175,11 @@
       "slug": "certifications",
       "label": "我们的认证与审计报告",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "越南硬盒制造",
+      "kind": "page"
     }
   ]
 }

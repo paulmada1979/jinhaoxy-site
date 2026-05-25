@@ -255,6 +255,11 @@
       "slug": "luxury-rigid-gift-boxes",
       "label": "豪华刚性礼盒",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "越南硬盒制造",
+      "kind": "page"
     }
   ]
 }

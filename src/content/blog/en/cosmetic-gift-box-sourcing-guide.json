@@ -46,10 +46,34 @@
         "Lead time"
       ],
       "rows": [
-        ["Magnetic", "1,000", "300–500", "+30–40%", "30–45 days"],
-        ["Lift-off", "500", "200–300", "baseline", "20–30 days"],
-        ["Drawer", "1,000–1,500", "300–500", "+15–25%", "30–40 days"],
-        ["Book-style with foam well", "1,500", "500", "+40–50%", "35–45 days"]
+        [
+          "Magnetic",
+          "1,000",
+          "300–500",
+          "+30–40%",
+          "30–45 days"
+        ],
+        [
+          "Lift-off",
+          "500",
+          "200–300",
+          "baseline",
+          "20–30 days"
+        ],
+        [
+          "Drawer",
+          "1,000–1,500",
+          "300–500",
+          "+15–25%",
+          "30–40 days"
+        ],
+        [
+          "Book-style with foam well",
+          "1,500",
+          "500",
+          "+40–50%",
+          "35–45 days"
+        ]
       ],
       "caption": "Mid-tier Vietnamese factory ranges, early 2026. Specialty paper or foiling can push minimums up 30%."
     },
@@ -230,6 +254,11 @@
     {
       "slug": "luxury-rigid-gift-boxes",
       "label": "Luxury rigid gift boxes",
+      "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Rigid box manufacturing in Vietnam",
       "kind": "page"
     }
   ]

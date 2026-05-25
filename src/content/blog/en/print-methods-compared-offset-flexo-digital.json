@@ -99,14 +99,54 @@
         "Digital"
       ],
       "rows": [
-        ["Best run size", "5,000+", "2,000+", "1–1,500"],
-        ["Plate cost (per color)", "$30–$60", "$30–$50", "none"],
-        ["Per-unit cost at 10K", "lowest", "low (corrugated)", "highest"],
-        ["Color gamut", "widest", "narrower", "narrower"],
-        ["Halftone fineness", "best", "softer", "good"],
-        ["Substrate range", "widest", "rough/absorbent", "smooth/coated mainly"],
-        ["Variable data", "no", "no", "yes"],
-        ["Sample lead time", "7–10 days", "5–7 days", "2–4 days"]
+        [
+          "Best run size",
+          "5,000+",
+          "2,000+",
+          "1–1,500"
+        ],
+        [
+          "Plate cost (per color)",
+          "$30–$60",
+          "$30–$50",
+          "none"
+        ],
+        [
+          "Per-unit cost at 10K",
+          "lowest",
+          "low (corrugated)",
+          "highest"
+        ],
+        [
+          "Color gamut",
+          "widest",
+          "narrower",
+          "narrower"
+        ],
+        [
+          "Halftone fineness",
+          "best",
+          "softer",
+          "good"
+        ],
+        [
+          "Substrate range",
+          "widest",
+          "rough/absorbent",
+          "smooth/coated mainly"
+        ],
+        [
+          "Variable data",
+          "no",
+          "no",
+          "yes"
+        ],
+        [
+          "Sample lead time",
+          "7–10 days",
+          "5–7 days",
+          "2–4 days"
+        ]
       ],
       "caption": "Approximate ranges for typical mid-tier converters. Real numbers vary with press generation and finishing requirements."
     },
@@ -204,6 +244,11 @@
     {
       "slug": "custom-printed-gift-boxes",
       "label": "Custom printed gift boxes",
+      "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Rigid box manufacturing in Vietnam",
       "kind": "page"
     }
   ]

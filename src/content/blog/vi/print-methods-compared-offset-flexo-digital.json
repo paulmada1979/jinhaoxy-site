@@ -245,6 +245,11 @@
       "slug": "custom-printed-gift-boxes",
       "label": "Hộp quà in tùy chỉnh",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Sản xuất hộp cứng tại Việt Nam",
+      "kind": "page"
     }
   ]
 }

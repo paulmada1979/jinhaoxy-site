@@ -196,6 +196,11 @@
       "slug": "certifications",
       "label": "Chứng nhận và báo cáo đánh giá của chúng tôi",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Sản xuất hộp cứng tại Việt Nam",
+      "kind": "page"
     }
   ]
 }

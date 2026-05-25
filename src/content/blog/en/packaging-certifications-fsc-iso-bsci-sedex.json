@@ -196,6 +196,11 @@
       "slug": "certifications",
       "label": "Our certifications and audit reports",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Rigid box manufacturing in Vietnam",
+      "kind": "page"
     }
   ]
 }

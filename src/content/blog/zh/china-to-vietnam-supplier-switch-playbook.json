@@ -199,6 +199,11 @@
       "slug": "hai-duong-factory",
       "label": "海阳工厂——产能与能力",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "越南硬盒制造",
+      "kind": "page"
     }
   ]
 }

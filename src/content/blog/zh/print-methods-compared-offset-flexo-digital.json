@@ -245,6 +245,11 @@
       "slug": "custom-printed-gift-boxes",
       "label": "定制印刷礼品盒",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "越南硬盒制造",
+      "kind": "page"
     }
   ]
 }
