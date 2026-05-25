@@ -111,13 +111,48 @@
         "Drawer"
       ],
       "rows": [
-        ["Unit cost vs lift-off", "+25–40%", "baseline", "+15–30%"],
-        ["Production speed", "slowest", "fastest", "slow"],
-        ["Premium feel", "highest", "medium", "high"],
-        ["Drop-test resilience", "high", "high", "lower"],
-        ["Best for", "single hero product", "high-volume sets", "multi-piece reveals"],
-        ["Typical MOQ (Vietnam)", "1,000–3,000", "500–2,000", "1,000–3,000"],
-        ["Lead time", "30–45 days", "20–30 days", "30–40 days"]
+        [
+          "Unit cost vs lift-off",
+          "+25–40%",
+          "baseline",
+          "+15–30%"
+        ],
+        [
+          "Production speed",
+          "slowest",
+          "fastest",
+          "slow"
+        ],
+        [
+          "Premium feel",
+          "highest",
+          "medium",
+          "high"
+        ],
+        [
+          "Drop-test resilience",
+          "high",
+          "high",
+          "lower"
+        ],
+        [
+          "Best for",
+          "single hero product",
+          "high-volume sets",
+          "multi-piece reveals"
+        ],
+        [
+          "Typical MOQ (Vietnam)",
+          "1,000–3,000",
+          "500–2,000",
+          "1,000–3,000"
+        ],
+        [
+          "Lead time",
+          "30–45 days",
+          "20–30 days",
+          "30–40 days"
+        ]
       ],
       "caption": "Approximate ranges for mid-tier Vietnamese factories, early 2026. Specific specs and finishing requirements move all of these."
     },
@@ -204,6 +239,11 @@
     {
       "slug": "custom-jewelry-gift-boxes",
       "label": "Custom jewelry gift boxes",
+      "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Rigid box manufacturing in Vietnam",
       "kind": "page"
     }
   ]

@@ -48,12 +48,48 @@
         "Cost vs C"
       ],
       "rows": [
-        ["A", "4.8mm", "33", "Heavy bulk shipments, stacking", "+5%"],
-        ["B", "3.2mm", "47", "Retail-ready, e-commerce mailers, displays", "baseline"],
-        ["C", "4.0mm", "39", "Standard shipping cartons (most common globally)", "baseline"],
-        ["E", "1.5mm", "90", "Premium mailers, retail boxes, fine print quality", "+15%"],
-        ["F", "0.8mm", "128", "Folding-carton-like high-end mailers, jewelry, cosmetics", "+25%"],
-        ["BC double", "7.0mm", "stacked", "Export pallets, heavy product, long-haul ocean freight", "+40%"]
+        [
+          "A",
+          "4.8mm",
+          "33",
+          "Heavy bulk shipments, stacking",
+          "+5%"
+        ],
+        [
+          "B",
+          "3.2mm",
+          "47",
+          "Retail-ready, e-commerce mailers, displays",
+          "baseline"
+        ],
+        [
+          "C",
+          "4.0mm",
+          "39",
+          "Standard shipping cartons (most common globally)",
+          "baseline"
+        ],
+        [
+          "E",
+          "1.5mm",
+          "90",
+          "Premium mailers, retail boxes, fine print quality",
+          "+15%"
+        ],
+        [
+          "F",
+          "0.8mm",
+          "128",
+          "Folding-carton-like high-end mailers, jewelry, cosmetics",
+          "+25%"
+        ],
+        [
+          "BC double",
+          "7.0mm",
+          "stacked",
+          "Export pallets, heavy product, long-haul ocean freight",
+          "+40%"
+        ]
       ],
       "caption": "Flute height and density vary slightly by paper mill — these are typical ranges for Vietnamese and Chinese converters, early 2026."
     },
@@ -206,6 +242,11 @@
     {
       "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
       "label": "Corrugated packaging in Vietnam — capabilities",
+      "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Rigid box manufacturing in Vietnam",
       "kind": "page"
     }
   ]

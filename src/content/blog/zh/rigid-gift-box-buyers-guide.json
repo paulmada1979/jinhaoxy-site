@@ -240,6 +240,11 @@
       "slug": "custom-jewelry-gift-boxes",
       "label": "定制珠宝礼盒",
       "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "越南硬盒制造",
+      "kind": "page"
     }
   ]
 }
