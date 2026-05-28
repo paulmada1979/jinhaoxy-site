@@ -260,6 +260,11 @@
       "slug": "rigid-boxes",
       "label": "Sản xuất hộp cứng tại Việt Nam",
       "kind": "page"
+    },
+    {
+      "slug": "folding-cartons",
+      "label": "Nhà sản xuất hộp carton gấp Việt Nam",
+      "kind": "page"
     }
   ]
 }

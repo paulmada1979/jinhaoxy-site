@@ -261,6 +261,11 @@
       "slug": "rigid-boxes",
       "label": "越南硬盒制造",
       "kind": "page"
+    },
+    {
+      "slug": "folding-cartons",
+      "label": "越南折叠纸盒制造",
+      "kind": "page"
     }
   ]
 }
