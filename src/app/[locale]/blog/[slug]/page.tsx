@@ -40,8 +40,18 @@ export async function generateMetadata({
   // over the EN meta.
   const localeData =
     entry.kind === "json" ? getArticleData(entry, locale as Locale) : null;
-  const title = localeData?.title ?? entry.meta.title;
-  const description = localeData?.description ?? entry.meta.description;
+  // The full, verbose title/description (used for OG/Twitter social shares
+  // and the visible <h1>). Articles often carry a long-form descriptive title
+  // here for on-page SEO + reader clarity.
+  const articleTitle = localeData?.title ?? entry.meta.title;
+  const articleDescription =
+    localeData?.description ?? entry.meta.description;
+  // Optional `seo.title` / `seo.description` overrides — used ONLY for the
+  // HTML <title> and <meta name="description"> tags, which Google truncates
+  // to ~60 chars / ~155 chars in SERP. Falls back to the verbose
+  // article-level title/description when no override is set.
+  const metaTitle = localeData?.seo?.title ?? articleTitle;
+  const metaDescription = localeData?.seo?.description ?? articleDescription;
   const updatedAt = localeData?.updatedAt ?? entry.meta.updatedAt;
   const publishedAt = localeData?.publishedAt ?? entry.meta.publishedAt;
   const coverImage = entry.meta.coverImage;
@@ -60,8 +70,8 @@ export async function generateMetadata({
   }
 
   return {
-    title,
-    description,
+    title: metaTitle,
+    description: metaDescription,
     alternates: {
       canonical: `${SITE_URL}${canonicalPath}`,
       languages,
@@ -69,8 +79,8 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       url: `${SITE_URL}${canonicalPath}`,
-      title,
-      description,
+      title: articleTitle,
+      description: articleDescription,
       locale: locale === "en" ? "en_US" : locale === "vi" ? "vi_VN" : "zh_CN",
       siteName: "Jinhao Xinyuan Group",
       publishedTime: publishedAt,
@@ -80,8 +90,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title,
-      description,
+      title: articleTitle,
+      description: articleDescription,
       images: [coverImage],
     },
   };

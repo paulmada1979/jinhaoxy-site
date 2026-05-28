@@ -58,6 +58,15 @@ export interface BlogArticle {
   // flipping this to false (or removing it). Use this to queue up future
   // posts that aren't ready to publish yet.
   draft?: boolean;
+  // Optional SEO overrides applied ONLY to the HTML <title> and
+  // <meta name="description"> tags. The verbose `title` / `description`
+  // above continue to drive the visible <h1>, OpenGraph, and Twitter
+  // social-share metadata. Use this when the natural article title is too
+  // long for Google's ~60-char SERP truncation (or description >155 chars).
+  seo?: {
+    title?: string;
+    description?: string;
+  };
   blocks: BlogBlock[];
   faqs?: BlogFAQ[];
   related?: BlogRelated[];

@@ -17,10 +17,10 @@ export async function generateMetadata({
 
   const description =
     locale === "vi"
-      ? "Hướng dẫn người mua, thông tin nhà cung cấp và bản tin ngành bao bì từ Jinhao Xinyuan Group."
+      ? "Hướng dẫn người mua, thông tin nhà cung cấp, phân tích thuế quan và bản tin ngành bao bì cho thương hiệu nhập khẩu từ Việt Nam — bởi Jinhao Xinyuan Group."
       : locale === "zh"
-        ? "金浩鑫源集团为您提供采购指南、供应商情报和包装行业简报。"
-        : "Buyer's guides, supplier intelligence, and packaging industry briefs from Jinhao Xinyuan Group.";
+        ? "金昊新源集团提供包装采购指南、供应商情报、关税分析和行业简报——为从越南采购包装的全球品牌提供决策支持。"
+        : "Buyer's guides, supplier intelligence, tariff analysis, and packaging industry briefs from Jinhao Xinyuan Group — for brands importing packaging from Vietnam.";
 
   const title =
     locale === "vi"
