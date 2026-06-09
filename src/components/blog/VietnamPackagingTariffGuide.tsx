@@ -202,7 +202,7 @@ export default function VietnamPackagingTariffGuide() {
         <div className="prose prose-lg max-w-none prose-headings:scroll-mt-20">
           {/* Section 1 */}
           <h2 className="text-3xl font-bold text-gray-900 mt-0 mb-5">
-            Why US packaging buyers are looking at Vietnam in 2026
+            Why are US packaging buyers switching to Vietnam in 2026?
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             For most of the last two decades, &ldquo;packaging supplier&rdquo;
