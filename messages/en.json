@@ -1544,7 +1544,7 @@
     "heroDesc": "Folding cartons that combine structure, sustainability, and standout shelf appeal — engineered for retail, cosmetics, food, electronics, and FMCG brands worldwide.",
     "heroCta": "Request a Quote",
     "introEyebrow": "Engineered for retail",
-    "introTitle": "Built for strength, precision, and automation",
+    "introTitle": "Where do you source folding cartons in Vietnam for export?",
     "introDesc1": "XinYuan produces folding cartons that combine structure, sustainability, and standout shelf appeal. Our Vietnam and China production facilities deliver high-quality printed cartons for retail, cosmetics, food, electronics, and FMCG brands worldwide.",
     "introDesc2": "Every box is designed for strength, precision, and automated efficiency, ensuring your product arrives safely and looks exceptional at point of sale.",
     "introImageAlt": "Custom-printed folding carton mockup",
@@ -1604,7 +1604,16 @@
     "formProjectDetails": "Project Details *",
     "formProjectDetailsPlaceholder": "Box dimensions, board grade, print colors, finish (matte/gloss/soft-touch), foil/embossing, timeline...",
     "formSubmit": "Submit",
-    "formResponseNote": "We'll respond within 1 business day."
+    "formResponseNote": "We'll respond within 1 business day.",
+    "specEyebrow": "Sourcing checklist",
+    "specTitle": "What to send a folding-carton factory for an accurate quote",
+    "specDesc": "Six details that turn a vague RFQ into a quote you can compare apples-to-apples across Vietnamese suppliers:",
+    "spec1": "Board grade & caliper — SBS, FBB, or recycled, with target gsm/pt",
+    "spec2": "Structure & dieline — carton style plus closed dimensions (L×W×H)",
+    "spec3": "Print — number of colors, CMYK vs Pantone, and ink coverage",
+    "spec4": "Finish — matte/gloss lamination, spot UV, foil, or emboss",
+    "spec5": "MOQ & lead time — order quantity and the date you need stock in hand",
+    "spec6": "Certifications & origin — FSC, ISO, and made-in-Vietnam for tariff treatment"
   },
   "vietnamXinyuanjia": {
     "heroEyebrow": "Vietnam Xinyuanjia",

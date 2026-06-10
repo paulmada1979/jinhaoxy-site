@@ -1544,7 +1544,7 @@
     "heroDesc": "Thùng carton gấp kết hợp cấu trúc, tính bền vững và sức hấp dẫn trên kệ nổi bật - được thiết kế cho các thương hiệu bán lẻ, mỹ phẩm, thực phẩm, điện tử và FMCG trên toàn thế giới.",
     "heroCta": "Yêu cầu báo giá",
     "introEyebrow": "Được thiết kế cho bán lẻ",
-    "introTitle": "Được xây dựng cho sức mạnh, độ chính xác và tự động hóa",
+    "introTitle": "Tìm nguồn hộp carton gấp tại Việt Nam để xuất khẩu ở đâu?",
     "introDesc1": "XinYuan sản xuất thùng carton gấp kết hợp cấu trúc, tính bền vững và sức hấp dẫn trên kệ nổi bật. Các cơ sở sản xuất của chúng tôi tại Việt Nam và Trung Quốc cung cấp thùng carton in chất lượng cao cho các thương hiệu bán lẻ, mỹ phẩm, thực phẩm, điện tử và FMCG trên toàn thế giới.",
     "introDesc2": "Mỗi hộp đều được thiết kế để có độ bền, độ chính xác và hiệu quả tự động, đảm bảo sản phẩm của bạn đến nơi an toàn và trông đặc biệt tại điểm bán hàng.",
     "introImageAlt": "Mô hình thùng carton gấp in tùy chỉnh",
@@ -1604,7 +1604,16 @@
     "formProjectDetails": "Chi tiết dự án *",
     "formProjectDetailsPlaceholder": "Kích thước hộp, cấp bảng, màu in, hoàn thiện (mờ / bóng / cảm ứng mềm), giấy bạc / dập nổi, dòng thời gian ...",
     "formSubmit": "Gửi",
-    "formResponseNote": "Chúng tôi sẽ trả lời trong vòng 1 ngày làm việc."
+    "formResponseNote": "Chúng tôi sẽ trả lời trong vòng 1 ngày làm việc.",
+    "specEyebrow": "Danh sách kiểm tra khi tìm nguồn",
+    "specTitle": "Cần gửi gì cho nhà máy hộp carton gấp để có báo giá chính xác",
+    "specDesc": "Sáu chi tiết biến một yêu cầu báo giá mơ hồ thành báo giá có thể so sánh trực tiếp giữa các nhà cung cấp Việt Nam:",
+    "spec1": "Loại giấy & độ dày — SBS, FBB hoặc giấy tái chế, kèm gsm/pt mục tiêu",
+    "spec2": "Cấu trúc & khuôn bế — kiểu hộp cùng kích thước khi đóng (D×R×C)",
+    "spec3": "In ấn — số màu, CMYK hay Pantone, và độ phủ mực",
+    "spec4": "Hoàn thiện — cán mờ/bóng, UV định hình, ép kim hoặc dập nổi",
+    "spec5": "MOQ & thời gian giao — số lượng đặt và ngày cần có hàng",
+    "spec6": "Chứng nhận & xuất xứ — FSC, ISO và xuất xứ Việt Nam để hưởng ưu đãi thuế"
   },
   "vietnamXinyuanjia": {
     "heroEyebrow": "Vietnam Xinyuanjia",
