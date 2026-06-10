@@ -92,6 +92,15 @@ export default function FoldingCartonsPage() {
     t("foldingCartons.sustainability6"),
   ];
 
+  const specChecklist = [
+    t("foldingCartons.spec1"),
+    t("foldingCartons.spec2"),
+    t("foldingCartons.spec3"),
+    t("foldingCartons.spec4"),
+    t("foldingCartons.spec5"),
+    t("foldingCartons.spec6"),
+  ];
+
   return (
     <div>
       {/* Hero banner — centered text */}
@@ -243,6 +252,34 @@ export default function FoldingCartonsPage() {
                   <h3 className="font-bold text-gray-900 mb-2">{app.title}</h3>
                   <p className="text-sm text-gray-600 leading-relaxed">{app.desc}</p>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Sourcing checklist — concrete deliverable for export buyers */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
+              {t("foldingCartons.specEyebrow")}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-3">
+              {t("foldingCartons.specTitle")}
+            </h2>
+            <p className="text-gray-600">{t("foldingCartons.specDesc")}</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {specChecklist.map((s, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-3 bg-gray-50 rounded-lg p-4 border border-gray-200"
+              >
+                <div className="w-5 h-5 rounded-full bg-orange-500 text-white flex items-center justify-center shrink-0 mt-0.5">
+                  <Check size={12} strokeWidth={3} />
+                </div>
+                <p className="text-sm text-gray-700 leading-snug">{s}</p>
               </div>
             ))}
           </div>
