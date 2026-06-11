@@ -88,6 +88,14 @@ export default function CustomPrintedPage() {
     t("customPrinted.sustain4"),
   ];
 
+  const faqList = [
+    { q: t("customPrinted.faq1Q"), a: t("customPrinted.faq1A") },
+    { q: t("customPrinted.faq2Q"), a: t("customPrinted.faq2A") },
+    { q: t("customPrinted.faq3Q"), a: t("customPrinted.faq3A") },
+    { q: t("customPrinted.faq4Q"), a: t("customPrinted.faq4A") },
+    { q: t("customPrinted.faq5Q"), a: t("customPrinted.faq5A") },
+  ];
+
   return (
     <div>
       {/* Hero banner */}
@@ -353,6 +361,28 @@ export default function CustomPrintedPage() {
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Common follow-up questions (FAQ) — AI-search gate item 3 */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 lg:px-6">
+          <div className="text-center mb-10">
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
+              {t("customPrinted.faqEyebrow")}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
+              {t("customPrinted.faqTitle")}
+            </h2>
+          </div>
+          <div className="space-y-4">
+            {faqList.map((f, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-bold text-gray-900 mb-2">{f.q}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

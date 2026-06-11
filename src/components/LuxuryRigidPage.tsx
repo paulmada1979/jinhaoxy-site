@@ -86,6 +86,23 @@ export default function LuxuryRigidPage() {
     { icon: Factory, title: t("luxuryRigid.process4Title"), desc: t("luxuryRigid.process4Desc") },
   ];
 
+  const specChecklist = [
+    t("luxuryRigid.spec1"),
+    t("luxuryRigid.spec2"),
+    t("luxuryRigid.spec3"),
+    t("luxuryRigid.spec4"),
+    t("luxuryRigid.spec5"),
+    t("luxuryRigid.spec6"),
+  ];
+
+  const faqList = [
+    { q: t("luxuryRigid.faq1Q"), a: t("luxuryRigid.faq1A") },
+    { q: t("luxuryRigid.faq2Q"), a: t("luxuryRigid.faq2A") },
+    { q: t("luxuryRigid.faq3Q"), a: t("luxuryRigid.faq3A") },
+    { q: t("luxuryRigid.faq4Q"), a: t("luxuryRigid.faq4A") },
+    { q: t("luxuryRigid.faq5Q"), a: t("luxuryRigid.faq5A") },
+  ];
+
   return (
     <div>
       {/* Hero banner */}
@@ -358,6 +375,56 @@ export default function LuxuryRigidPage() {
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* What to send for a quote — concrete deliverable (AI-search gate item 2) */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 lg:px-6">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
+              {t("luxuryRigid.specEyebrow")}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-3">
+              {t("luxuryRigid.specTitle")}
+            </h2>
+            <p className="text-gray-600">{t("luxuryRigid.specDesc")}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {specChecklist.map((s, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-3 bg-gray-50 rounded-lg p-4 border border-gray-100"
+              >
+                <div className="w-6 h-6 rounded-full bg-orange-500 text-white flex items-center justify-center shrink-0 mt-0.5">
+                  <Check size={13} strokeWidth={3} />
+                </div>
+                <p className="text-sm text-gray-700 leading-snug">{s}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Common follow-up questions (FAQ) — AI-search gate item 3 */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 lg:px-6">
+          <div className="text-center mb-10">
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
+              {t("luxuryRigid.faqEyebrow")}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
+              {t("luxuryRigid.faqTitle")}
+            </h2>
+          </div>
+          <div className="space-y-4">
+            {faqList.map((f, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-bold text-gray-900 mb-2">{f.q}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
