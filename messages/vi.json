@@ -1613,7 +1613,19 @@
     "spec3": "In ấn — số màu, CMYK hay Pantone, và độ phủ mực",
     "spec4": "Hoàn thiện — cán mờ/bóng, UV định hình, ép kim hoặc dập nổi",
     "spec5": "MOQ & thời gian giao — số lượng đặt và ngày cần có hàng",
-    "spec6": "Chứng nhận & xuất xứ — FSC, ISO và xuất xứ Việt Nam để hưởng ưu đãi thuế"
+    "spec6": "Chứng nhận & xuất xứ — FSC, ISO và xuất xứ Việt Nam để hưởng ưu đãi thuế",
+    "faqEyebrow": "Câu hỏi của người mua",
+    "faqTitle": "Các câu hỏi thường gặp tiếp theo",
+    "faq1Q": "MOQ cho hộp carton gấp tùy chỉnh tại Việt Nam là bao nhiêu?",
+    "faq1A": "MOQ điển hình là 3.000–5.000 chiếc cho hộp in offset, và thấp hơn với in kỹ thuật số số lượng nhỏ. MOQ chính xác tùy theo loại giấy, kích thước và hoàn thiện — gửi thông số của bạn để nhận báo giá MOQ thực tế.",
+    "faq2Q": "Bạn cung cấp những loại giấy nào — SBS, FBB hay tái chế?",
+    "faq2A": "Cả ba: SBS (trắng cao cấp, an toàn thực phẩm), FBB (chi phí hợp lý, độ cứng tốt) và giấy tái chế/kraft cho thương hiệu thân thiện môi trường. Định lượng thường 250–450 gsm, điều chỉnh theo trọng lượng sản phẩm.",
+    "faq3Q": "Thời gian giao hàng từ thiết kế đến nhận hàng là bao lâu?",
+    "faq3A": "Khoảng 12–16 tuần từ PO đến giao tại Mỹ cho chương trình mới có vòng lấy mẫu, và 8–10 tuần cho đơn đặt lại. Cộng thêm thời gian vận chuyển đường biển (Hải Phòng → Bờ Đông Mỹ, ~30 ngày).",
+    "faq4Q": "Hộp carton gấp của bạn có được hưởng ưu đãi thuế xuất xứ Việt Nam không?",
+    "faq4A": "Có — hộp được chuyển đổi cơ bản tại nhà máy Việt Nam của chúng tôi sẽ kèm giấy chứng nhận xuất xứ Việt Nam và tránh thuế Mục 301 của Mỹ áp cho bao bì xuất xứ Trung Quốc. Chúng tôi cung cấp COO và hồ sơ hỗ trợ.",
+    "faq5Q": "Bạn có thể khớp màu Pantone qua các lần in lại không?",
+    "faq5A": "Có. Chúng tôi làm việc theo tham chiếu Pantone với quản lý màu chuẩn GMI và lưu bản in mẫu đã duyệt, nên đơn in lại sau sáu tháng vẫn khớp với lần sản xuất đầu tiên."
   },
   "vietnamXinyuanjia": {
     "heroEyebrow": "Vietnam Xinyuanjia",

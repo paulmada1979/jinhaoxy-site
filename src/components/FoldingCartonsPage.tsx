@@ -101,6 +101,14 @@ export default function FoldingCartonsPage() {
     t("foldingCartons.spec6"),
   ];
 
+  const faqList = [
+    { q: t("foldingCartons.faq1Q"), a: t("foldingCartons.faq1A") },
+    { q: t("foldingCartons.faq2Q"), a: t("foldingCartons.faq2A") },
+    { q: t("foldingCartons.faq3Q"), a: t("foldingCartons.faq3A") },
+    { q: t("foldingCartons.faq4Q"), a: t("foldingCartons.faq4A") },
+    { q: t("foldingCartons.faq5Q"), a: t("foldingCartons.faq5A") },
+  ];
+
   return (
     <div>
       {/* Hero banner — centered text */}
@@ -332,6 +340,28 @@ export default function FoldingCartonsPage() {
           <p className="text-gray-300 text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
             {t("foldingCartons.supportDesc")}
           </p>
+        </div>
+      </section>
+
+      {/* Common follow-up questions (FAQ) — AI-search gate item 3 */}
+      <section className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4 lg:px-6">
+          <div className="text-center mb-10">
+            <span className="text-xs font-semibold text-orange-600 uppercase tracking-widest">
+              {t("foldingCartons.faqEyebrow")}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
+              {t("foldingCartons.faqTitle")}
+            </h2>
+          </div>
+          <div className="space-y-4">
+            {faqList.map((f, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <h3 className="font-bold text-gray-900 mb-2">{f.q}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

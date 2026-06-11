@@ -1613,7 +1613,19 @@
     "spec3": "Print — number of colors, CMYK vs Pantone, and ink coverage",
     "spec4": "Finish — matte/gloss lamination, spot UV, foil, or emboss",
     "spec5": "MOQ & lead time — order quantity and the date you need stock in hand",
-    "spec6": "Certifications & origin — FSC, ISO, and made-in-Vietnam for tariff treatment"
+    "spec6": "Certifications & origin — FSC, ISO, and made-in-Vietnam for tariff treatment",
+    "faqEyebrow": "Buyer FAQ",
+    "faqTitle": "Common follow-up questions",
+    "faq1Q": "What's the MOQ for custom folding cartons in Vietnam?",
+    "faq1A": "Typical MOQ is 3,000–5,000 units for offset-printed folding cartons, and lower for digital short runs. Exact MOQ depends on board grade, size, and finishing — send your spec and we'll quote your real minimum.",
+    "faq2Q": "What board grades do you offer — SBS, FBB, or recycled?",
+    "faq2A": "All three: SBS (premium white, food-safe), FBB (cost-effective with good stiffness), and recycled/kraft for eco-led brands. Caliper is typically 250–450 gsm, tuned to product weight and shelf presence.",
+    "faq3Q": "How long is the lead time from artwork to delivery?",
+    "faq3A": "Roughly 12–16 weeks PO-to-US-delivery for a new program with sample rounds, and 8–10 weeks for a re-order. Add ocean transit (Hai Phong → US East Coast, ~30 days) to the production window.",
+    "faq4Q": "Do your folding cartons qualify for made-in-Vietnam tariff treatment?",
+    "faq4A": "Yes — cartons substantially transformed in our Vietnam facilities ship with a Vietnam certificate of origin and avoid the US Section 301 tariffs that apply to Chinese-origin packaging. We provide the COO and supporting documents.",
+    "faq5Q": "Can you match Pantone colors across reruns?",
+    "faq5A": "Yes. We work to Pantone references with GMI-controlled color management and keep approved drawdowns on file, so a rerun six months later still matches your first production run."
   },
   "vietnamXinyuanjia": {
     "heroEyebrow": "Vietnam Xinyuanjia",
