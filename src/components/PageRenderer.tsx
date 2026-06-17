@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import type { ReactNode } from "react";
 
 export interface Block {
   type: "heading" | "text" | "image";
@@ -44,17 +46,53 @@ function Heading({ level, text }: { level: number; text: string }) {
   return <Tag className={cls}>{text}</Tag>;
 }
 
+// Inline markdown-style links: [anchor](href). Internal hrefs (starting with
+// "/") render as Next <Link> for client-side nav + crawlable internal links;
+// external hrefs render as <a rel="noopener noreferrer">. Text without the
+// pattern renders unchanged (no content currently uses it), so this is
+// backward-compatible with every existing block.
+const LINK_RE = /\[([^\]]+)\]\(([^)]+)\)/g;
+
+function renderInline(text: string): ReactNode {
+  if (!text.includes("](")) return text;
+  const nodes: ReactNode[] = [];
+  let last = 0;
+  let key = 0;
+  let m: RegExpExecArray | null;
+  LINK_RE.lastIndex = 0;
+  while ((m = LINK_RE.exec(text)) !== null) {
+    if (m.index > last) nodes.push(text.slice(last, m.index));
+    const [, label, href] = m;
+    if (href.startsWith("/")) {
+      nodes.push(
+        <Link key={key++} href={href} className="text-blue-600 underline hover:text-blue-700 font-medium">
+          {label}
+        </Link>
+      );
+    } else {
+      nodes.push(
+        <a key={key++} href={href} className="text-blue-600 underline hover:text-blue-700 font-medium" rel="noopener noreferrer">
+          {label}
+        </a>
+      );
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) nodes.push(text.slice(last));
+  return nodes;
+}
+
 function TextBlock({ text }: { text: string }) {
   if (text.startsWith("• ")) {
     return (
       <p className="text-base text-gray-700 leading-relaxed mb-2 pl-4 relative before:content-['•'] before:absolute before:left-0 before:text-blue-500">
-        {text.slice(2)}
+        {renderInline(text.slice(2))}
       </p>
     );
   }
   return (
     <p className="text-base text-gray-700 leading-relaxed mb-4">
-      {text}
+      {renderInline(text)}
     </p>
   );
 }
