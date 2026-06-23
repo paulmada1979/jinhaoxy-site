@@ -130,6 +130,20 @@ export default async function LocaleLayout({
           data-key="90IQaAy5Zroo9hFcpVbL8A"
           strategy="afterInteractive"
         />
+        {/*
+          Apollo.io website-visitor tracking (B2B de-anonymization → company-level).
+          Gated on NEXT_PUBLIC_APOLLO_APP_ID (set in Vercel → Production). If unset
+          this renders nothing — silent no-op, exactly like the PostHog token gate.
+          The appId is a public client-side identifier (same class as the Ahrefs
+          data-key / PostHog token above), so env-injection keeps it out of git and
+          lets it go live on the next deploy without a code change.
+          Get the appId from Apollo → Settings → Integrations → Website Visitors.
+        */}
+        {process.env.NEXT_PUBLIC_APOLLO_APP_ID && (
+          <Script id="apollo-website-tracker" strategy="afterInteractive">
+            {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"${process.env.NEXT_PUBLIC_APOLLO_APP_ID}"})},document.head.appendChild(o)}initApollo();`}
+          </Script>
+        )}
       </body>
     </html>
   );
