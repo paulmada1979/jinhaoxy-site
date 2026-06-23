@@ -132,16 +132,15 @@ export default async function LocaleLayout({
         />
         {/*
           Apollo.io website-visitor tracking (B2B de-anonymization → company-level).
-          Gated on NEXT_PUBLIC_APOLLO_APP_ID (set in Vercel → Production). If unset
-          this renders nothing — silent no-op, exactly like the PostHog token gate.
-          The appId is a public client-side identifier (same class as the Ahrefs
-          data-key / PostHog token above), so env-injection keeps it out of git and
-          lets it go live on the next deploy without a code change.
-          Get the appId from Apollo → Settings → Integrations → Website Visitors.
+          appId is a PUBLIC client-side identifier (same class as the Ahrefs
+          data-key hardcoded above), so it's baked in here — the pixel goes live on
+          deploy with no env step. NEXT_PUBLIC_APOLLO_APP_ID can override the default
+          (e.g. to swap accounts or disable by setting it empty) without a code change.
+          Source: Apollo → Website Visitors → install tracking code.
         */}
-        {process.env.NEXT_PUBLIC_APOLLO_APP_ID && (
+        {(process.env.NEXT_PUBLIC_APOLLO_APP_ID ?? "69e751b0fe4cf7001de2638c") && (
           <Script id="apollo-website-tracker" strategy="afterInteractive">
-            {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"${process.env.NEXT_PUBLIC_APOLLO_APP_ID}"})},document.head.appendChild(o)}initApollo();`}
+            {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"${process.env.NEXT_PUBLIC_APOLLO_APP_ID ?? "69e751b0fe4cf7001de2638c"}"})},document.head.appendChild(o)}initApollo();`}
           </Script>
         )}
       </body>
