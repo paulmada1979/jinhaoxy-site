@@ -3,6 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { useState, type FormEvent } from "react";
+import { usePostHog } from "posthog-js/react";
 import { Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 
 export interface ContactFormProps {
@@ -30,6 +31,7 @@ export default function ContactForm({
   const t = useTranslations();
   const locale = useLocale();
   const pathname = usePathname();
+  const posthog = usePostHog();
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState<string>("");
 
@@ -65,6 +67,24 @@ export default function ContactForm({
       if (!res.ok) {
         const j = await res.json().catch(() => ({}));
         throw new Error(j?.error || `Status ${res.status}`);
+      }
+      // Stitch this anonymous browsing session to the person's email so the
+      // form lead is fully attributed in PostHog (turns "visit -> inquiry" into
+      // a provable, person-level record and lets later direct-email inquiries
+      // be cross-checked against prior sessions on the same device).
+      if (posthog && payload.email) {
+        posthog.identify(payload.email, {
+          email: payload.email,
+          name: payload.name || undefined,
+          company: payload.company || undefined,
+          last_inquiry_product: payload.selectValue || pageContext,
+          last_inquiry_page: payload.pageUrl,
+        });
+        posthog.capture("contact_form_submitted", {
+          product: payload.selectValue || pageContext,
+          page: payload.pageUrl,
+          locale,
+        });
       }
       setStatus("success");
       form.reset();
