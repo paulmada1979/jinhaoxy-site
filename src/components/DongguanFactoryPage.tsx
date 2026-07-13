@@ -94,6 +94,14 @@ export default function DongguanFactoryPage() {
     t("dongguanFactory.sustainability5"),
   ];
 
+  const faqs = [
+    { q: t("dongguanFactory.faq1Q"), a: t("dongguanFactory.faq1A") },
+    { q: t("dongguanFactory.faq2Q"), a: t("dongguanFactory.faq2A") },
+    { q: t("dongguanFactory.faq3Q"), a: t("dongguanFactory.faq3A") },
+    { q: t("dongguanFactory.faq4Q"), a: t("dongguanFactory.faq4A") },
+    { q: t("dongguanFactory.faq5Q"), a: t("dongguanFactory.faq5A") },
+  ];
+
   return (
     <div>
       {/* Hero banner — left-aligned */}
@@ -380,6 +388,23 @@ export default function DongguanFactoryPage() {
           <div>
             <p className="text-3xl font-bold text-orange-600">G7®</p>
             <p className="text-xs text-gray-500 uppercase tracking-wider mt-1">{t("dongguanFactory.stat4Label")}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Common follow-up questions (AI-search gate) */}
+      <section className="py-20 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto px-4 lg:px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
+            {t("dongguanFactory.faqTitle")}
+          </h2>
+          <div className="space-y-6">
+            {faqs.map((f, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6 last:border-0">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{f.q}</h3>
+                <p className="text-gray-600 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
