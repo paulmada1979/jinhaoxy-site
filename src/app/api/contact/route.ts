@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import { createPosthogServer } from "@/lib/posthog-server";
-import crypto from "node:crypto";
 
 interface ContactPayload {
   name?: string;
@@ -13,6 +12,9 @@ interface ContactPayload {
   pageContext?: string;
   pageUrl?: string;
   locale?: string;
+  /** Browser's PostHog distinct_id, forwarded so we can merge the anonymous
+   *  browsing session onto the identified lead. Absent if PostHog was blocked. */
+  distinctId?: string;
 }
 
 function isEmail(s: string) {
@@ -127,21 +129,35 @@ export async function POST(req: Request) {
 
     // Server-side PostHog capture for the conversion event. Runs only after
     // Resend succeeds, so we don't count submissions that failed to deliver.
-    // Ad-blocker-resistant (server-side) and the source of truth for the
-    // contact_form_submit metric.
+    // Ad-blocker-resistant, and the SOURCE OF TRUTH for `contact_form_submitted`:
+    // the browser-side capture added in #60 never landed because requests to the
+    // PostHog host are strippable by tracker-blockers. The browser still calls
+    // identify() best-effort, but the event and the person are established here.
     const ph = createPosthogServer();
     if (ph) {
-      // Stable per-visitor identifier — hash the email so we can correlate
-      // a repeat submitter without storing PII as the distinctId. If a
-      // client-side distinctId existed we'd ideally prefer that, but the
-      // contact form doesn't currently forward it; this gets us cohorting.
-      const distinctId =
-        "lead_" +
-        crypto.createHash("sha256").update(email.toLowerCase()).digest("hex").slice(0, 16);
+      const anonId = (body.distinctId || "").trim();
       try {
+        // Identify by email so the lead exists as a person carrying an `email`
+        // property — the visitor ledger's attribution key. (Previously this used
+        // a sha256 "lead_…" distinctId, which is why 0 persons had an email.)
+        ph.identify({
+          distinctId: email,
+          properties: {
+            email,
+            name: name || undefined,
+            company: body.company?.trim() || undefined,
+            last_inquiry_product: body.selectValue?.trim() || body.pageContext?.trim(),
+            last_inquiry_page: body.pageUrl?.trim(),
+          },
+        });
+        // Merge the pre-inquiry anonymous browsing session onto the lead, so the
+        // visit → inquiry path is provable per person.
+        if (anonId && anonId !== email) {
+          ph.alias({ distinctId: email, alias: anonId });
+        }
         ph.capture({
-          distinctId,
-          event: "contact_form_submit",
+          distinctId: email,
+          event: "contact_form_submitted",
           properties: {
             page: body.pageContext?.trim() || null,
             locale: body.locale?.trim() || null,
