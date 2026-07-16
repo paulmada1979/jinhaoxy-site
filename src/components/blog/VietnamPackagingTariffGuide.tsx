@@ -176,7 +176,7 @@ export default function VietnamPackagingTariffGuide() {
             </div>
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-2">
-                The 90-second version
+                Are Vietnam packaging manufacturers tariff-free for US importers?
               </h2>
               <p className="text-gray-700 leading-relaxed mb-3">
                 US Section 301 tariffs add 7.5–25% to packaging imported from
