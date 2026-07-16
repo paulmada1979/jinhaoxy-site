@@ -53,6 +53,12 @@ export default function ContactForm({
       pageContext,
       pageUrl: typeof window !== "undefined" ? window.location.href : "",
       locale,
+      // Forward this browser's PostHog distinct_id so the server-side capture
+      // can merge the anonymous browsing session onto the identified lead.
+      // The browser cannot be trusted to deliver the conversion event itself —
+      // tracker-blockers strip requests to the PostHog host — so /api/contact
+      // owns `contact_form_submitted`. See route.ts.
+      distinctId: posthog?.get_distinct_id?.() || "",
     };
 
     setStatus("submitting");
@@ -68,10 +74,11 @@ export default function ContactForm({
         const j = await res.json().catch(() => ({}));
         throw new Error(j?.error || `Status ${res.status}`);
       }
-      // Stitch this anonymous browsing session to the person's email so the
-      // form lead is fully attributed in PostHog (turns "visit -> inquiry" into
-      // a provable, person-level record and lets later direct-email inquiries
-      // be cross-checked against prior sessions on the same device).
+      // Identify the live browser session against the lead's email so any
+      // further in-session events attach to the person. Best-effort only: this
+      // call is strippable by tracker-blockers, so it is NOT the source of
+      // truth — /api/contact captures `contact_form_submitted` server-side and
+      // performs the same identify there, using the distinctId forwarded above.
       if (posthog && payload.email) {
         posthog.identify(payload.email, {
           email: payload.email,
@@ -79,11 +86,6 @@ export default function ContactForm({
           company: payload.company || undefined,
           last_inquiry_product: payload.selectValue || pageContext,
           last_inquiry_page: payload.pageUrl,
-        });
-        posthog.capture("contact_form_submitted", {
-          product: payload.selectValue || pageContext,
-          page: payload.pageUrl,
-          locale,
         });
       }
       setStatus("success");
