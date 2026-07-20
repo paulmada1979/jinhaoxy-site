@@ -145,8 +145,8 @@ export default function CertificationsPage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/media/new.jpg"
-              alt="Chain of Custody certification"
+              src="/media/sustainability-banner.jpg"
+              alt="Vietnam Xinyuanjia — sustainable manufacturing"
               width={1058}
               height={567}
               className="w-full h-auto"
