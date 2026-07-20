@@ -145,8 +145,8 @@ export default function CertificationsPage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/media/fsc image.jpg"
-              alt="FSC® Chain of Custody Certification"
+              src="/media/new.jpg"
+              alt="Chain of Custody certification"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
