@@ -143,12 +143,13 @@ export default function CertificationsPage() {
       {/* Sustainability */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
             <Image
               src="/media/new.jpg"
               alt="Chain of Custody certification"
-              fill
-              className="object-cover"
+              width={1058}
+              height={567}
+              className="w-full h-auto"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
