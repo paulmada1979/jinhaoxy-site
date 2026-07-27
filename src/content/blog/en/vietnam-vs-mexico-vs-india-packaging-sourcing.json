@@ -1,0 +1,286 @@
+{
+  "slug": "vietnam-vs-mexico-vs-india-packaging-sourcing",
+  "title": "Vietnam vs Mexico vs India: Where US Importers Should Source Packaging in 2026",
+  "description": "US procurement teams moving packaging off China have three serious alternatives. A practical comparison of Vietnam, Mexico and India on duty exposure, landed cost, lead time, MOQ and print capability — with a worked example and a 6-point selection checklist.",
+  "publishedAt": "2026-07-27",
+  "updatedAt": "2026-07-27",
+  "readingMin": 9,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Sourcing comparison",
+  "cluster": "tariff",
+  "draft": true,
+  "coverImage": "/blog/vietnam-mexico-india-sourcing-hero.png",
+  "coverAlt": "Three shipping routes converging on a US distribution centre, illustrated as a clean flat-lay map with packaging cartons marked Vietnam, Mexico and India, photographed in neutral daylight",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "None of the three carries the China Section 301 tariff, so duty is rarely the deciding factor between them — landed cost, transit time and print capability are. Vietnam usually wins on premium print and rigid-box capability at container volumes. Mexico wins when speed matters more than unit price: 3–6 day trucking instead of 25–35 day ocean, at a higher per-unit cost. India competes hardest on labour-intensive work at large volumes but carries the longest and least predictable transit. Most US importers moving off China for retail-facing packaging land in Vietnam; the exception is short-cycle replenishment, where Mexico's proximity outweighs its price."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Should US importers source packaging from Vietnam, Mexico, or India?"
+    },
+    {
+      "type": "text",
+      "text": "Once a procurement team accepts that Section 301 has permanently changed the maths on China-made packaging, the question stops being \"should we move?\" and becomes \"move where?\". Vietnam, Mexico and India are the three alternatives that show up on almost every shortlist, and they are genuinely different propositions — not interchangeable low-cost origins."
+    },
+    {
+      "type": "text",
+      "text": "The mistake we see most often is comparing them on unit price alone. Unit price is the smallest of the three variables that actually decide the outcome. Transit time drives your working capital and your ability to react to a demand swing. Print and finishing capability decides whether the box is retail-acceptable at all. Unit price only matters once both of those are satisfied."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The tariff picture: none of the three carries Section 301"
+    },
+    {
+      "type": "text",
+      "text": "Section 301 is a China-specific measure. It does not apply to goods of Vietnamese, Mexican or Indian origin, so all three sit outside the 7.5–25% additional duty that applies to most Chinese-origin paper packaging. That is the single biggest reason any of them appear on your shortlist."
+    },
+    {
+      "type": "text",
+      "text": "Base (MFN) duty on most paper and paperboard packaging entering the US under HTS heading 4819 is low — frequently free — so for many packaging lines the duty difference between these three origins is small or nil. Mexico can additionally qualify for USMCA preferential treatment where the origin rules are met. The practical implication: stop optimising the duty line and start optimising landed cost and lead time. Confirm your specific HTS classification and current rates with your customs broker before you model anything — rates and trade measures change, and classification is product-specific."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Factor",
+        "Vietnam",
+        "Mexico",
+        "India"
+      ],
+      "rows": [
+        [
+          "Section 301 exposure",
+          "None",
+          "None",
+          "None"
+        ],
+        [
+          "Preferential programme",
+          "None needed (low MFN)",
+          "USMCA, if origin rules met",
+          "None (GSP lapsed)"
+        ],
+        [
+          "Typical transit to US",
+          "25–35 days ocean (USWC)",
+          "3–6 days road",
+          "30–40 days ocean"
+        ],
+        [
+          "Rigid / premium print depth",
+          "Strong, China-adjacent equipment",
+          "Moderate, improving",
+          "Moderate, variable by supplier"
+        ],
+        [
+          "Comfortable MOQ band",
+          "500–1,000 units",
+          "1,000–2,500 units",
+          "2,000–5,000 units"
+        ],
+        [
+          "Best fit",
+          "Retail + gift packaging at container volume",
+          "Fast replenishment, short cycles",
+          "High-volume, labour-intensive runs"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Landed-cost comparison: a worked example"
+    },
+    {
+      "type": "text",
+      "text": "Take a recurring program of 20,000 printed folding cartons a year, offset CMYK with matte lamination, shipped to a US East Coast distribution centre. The figures below are indicative planning ranges, not quotes — your own numbers will move with board spec, finishing, freight market and order size."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Line",
+        "China (baseline)",
+        "Vietnam",
+        "Mexico",
+        "India"
+      ],
+      "rows": [
+        [
+          "Ex-works unit price",
+          "$0.42",
+          "$0.44",
+          "$0.55",
+          "$0.41"
+        ],
+        [
+          "Section 301 additive",
+          "+7.5–25%",
+          "none",
+          "none",
+          "none"
+        ],
+        [
+          "Freight + inland per unit",
+          "$0.06",
+          "$0.06",
+          "$0.03",
+          "$0.07"
+        ],
+        [
+          "Indicative landed unit",
+          "$0.52–$0.59",
+          "$0.50",
+          "$0.58",
+          "$0.48"
+        ],
+        [
+          "Order-to-dock",
+          "~45 days",
+          "~45 days",
+          "~18 days",
+          "~55 days"
+        ],
+        [
+          "Inventory implication",
+          "high safety stock",
+          "high safety stock",
+          "low safety stock",
+          "highest safety stock"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Read the last two rows before the price rows. India shows the lowest indicative landed unit here and the worst cash-conversion cycle — roughly eight weeks of pipeline inventory you have to finance. Mexico is the most expensive per unit and the cheapest to hold, because you can reorder in under three weeks and carry far less safety stock. Vietnam sits where most retail packaging programs settle: close to China's price and print capability, without the 301 additive."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lead time and the reorder cycle"
+    },
+    {
+      "type": "text",
+      "text": "Lead time is where these three origins separate most sharply, and it is the variable procurement teams under-weight most consistently."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vietnam — 20–30 days production plus 25–35 days ocean to USWC. A new program with sample rounds realistically runs 10–14 weeks from PO to dock; a repeat order runs 8–10 weeks.",
+        "Mexico — 15–25 days production plus 3–6 days road. New programs commonly land in 6–8 weeks, repeats in 3–4 weeks. This is the only one of the three where a mid-season reorder is genuinely practical.",
+        "India — 25–35 days production plus 30–40 days ocean, with more variance around port handling. Plan 12–16 weeks for a new program and treat any tighter commitment sceptically."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If your category has seasonal peaks — holiday gift sets, back-to-school, promotional inserts — that reorder column decides more than the unit price does. A program that saves four cents a unit and cannot be replenished inside a season is not a cheaper program."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Where each origin actually wins"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vietnam wins on retail-facing print and rigid-box work — magnetic and lift-off gift boxes, foil and emboss finishing, tight Pantone control — at MOQs a mid-size brand can actually commit to. The equipment base and operator skill migrated from Guangdong, so specifications written for a Chinese supplier usually transfer with minimal rework.",
+        "Mexico wins on speed and on programs where the packaging is a component of a US assembly operation. Nearshoring makes sense when a week of delay costs more than several cents a unit — and when USMCA origin rules are satisfied, it is duty-advantaged as well.",
+        "India wins on labour-intensive, high-volume work: hand-assembled structures, large corrugated runs, and secondary packaging where transit time is not commercially sensitive. It is the weakest of the three for tightly-specified premium rigid boxes, where supplier-to-supplier variance is widest."
+      ]
+    },
+    {
+      "type": "cta",
+      "href": "/blog/vietnam-packaging-manufacturers-us-tariff-guide/",
+      "title": "The full Vietnam sourcing guide",
+      "body": "Tariff maths, certification standards, MOQ realities and a 10-point vetting checklist for first-time Vietnam buyers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A 6-point origin-selection checklist"
+    },
+    {
+      "type": "text",
+      "text": "Run every shortlisted origin through the same six questions before you request a single quote. Answering these first prevents the most common outcome: a cheap quote from a supplier who cannot hold your spec."
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. Classification — what is your actual HTS code, and what is the current MFN rate for it? Confirm with your broker; do not assume the rate from a similar product.",
+        "2. Reorder window — what is the shortest interval in which you might realistically need more stock? If that is under six weeks, ocean-freight origins are structurally disqualified.",
+        "3. Spec transferability — can the supplier work from your existing dielines, Pantone references and board specs without a redesign? Rework cost is invisible in a unit price.",
+        "4. Certification match — does the factory hold the certifications your customer actually audits against (FSC chain-of-custody, ISO 9001, social-compliance audits)? Ask for job-specific documentation, not a lobby-wall display.",
+        "5. Sample discipline — how many physical sample rounds are included, and what is the turnaround per round? Two rounds at ten days each is a three-week hidden lead time.",
+        "6. Total landed cost — model ex-works price, freight, duty, inland and the cost of the inventory you must hold. Rank on that number, never on ex-works."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Dual-source before you switch outright",
+      "body": "The lowest-risk migration is rarely a clean switch. Move one SKU family to the new origin, run it in parallel with the incumbent for two order cycles, and compare on the metrics that matter — defect rate, on-time delivery, artwork-approval turnaround — before you shift the rest. It costs a little margin for two cycles and it removes almost all the downside of getting the origin decision wrong."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Vietnam, Mexico or India pay the Section 301 tariff on packaging?",
+      "a": "No. Section 301 is a China-specific trade measure and applies to goods of Chinese origin, so packaging of Vietnamese, Mexican or Indian origin is outside it. Base MFN duty on most paper packaging under HTS heading 4819 entering the US is low and frequently free, and Mexican-origin goods may additionally qualify for USMCA preferential treatment where the origin rules are met. Always confirm your specific HTS classification and current rates with your customs broker before modelling landed cost."
+    },
+    {
+      "q": "Which origin is cheapest overall for printed packaging?",
+      "a": "On ex-works unit price, India and Vietnam are usually within a few percent of each other and both undercut Mexico. On total landed cost including the inventory you have to finance, the ranking often changes: Mexico's 3–6 day transit means far less safety stock, which can close most of its unit-price gap for programs that reorder frequently. For annual container-volume programs with stable demand, Vietnam typically lands lowest all-in."
+    },
+    {
+      "q": "How long does it take to move a packaging program from China to Vietnam?",
+      "a": "Plan 10–14 weeks from purchase order to US dock for a first production run, including two sample rounds. Repeat orders on an established program run 8–10 weeks. The supplier-qualification and artwork-transfer work happens before that clock starts — most teams should allow a full quarter end-to-end for a considered switch rather than an emergency one."
+    },
+    {
+      "q": "Is Mexico worth the higher unit price?",
+      "a": "It is when replenishment speed has commercial value. If you sell into a season, run promotions, or carry SKUs with volatile demand, the ability to reorder and receive inside three weeks reduces both stockout risk and the working capital tied up in pipeline inventory. If your demand is stable and you order in annual container volumes, that advantage is worth much less and Vietnam or India will usually win on cost."
+    },
+    {
+      "q": "Can one supplier handle both rigid gift boxes and corrugated shipping cartons?",
+      "a": "Some can, but verify it rather than assume it. Rigid box assembly and corrugated conversion use different equipment and different operator skills, and many factories are genuinely strong at one and mediocre at the other. Ask to see recent physical samples of both from that specific plant, and ask which processes are done in-house versus subcontracted — subcontracted work is where quality and lead-time control most often break down."
+    }
+  ],
+  "related": [
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Vietnam packaging — full buyer's guide",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-vs-china-landed-cost-worked-example",
+      "label": "Vietnam vs China: landed-cost worked example",
+      "kind": "blog"
+    },
+    {
+      "slug": "section-301-packaging-tariffs-hts-codes",
+      "label": "Section 301 tariffs and HTS codes",
+      "kind": "blog"
+    },
+    {
+      "slug": "china-to-vietnam-supplier-switch-playbook",
+      "label": "China-to-Vietnam supplier switch playbook",
+      "kind": "blog"
+    },
+    {
+      "slug": "folding-cartons",
+      "label": "Folding cartons manufacturer Vietnam",
+      "kind": "page"
+    },
+    {
+      "slug": "rigid-boxes",
+      "label": "Rigid box manufacturing in Vietnam",
+      "kind": "page"
+    }
+  ],
+  "seo": {
+    "title": "Vietnam vs Mexico vs India — Packaging Sourcing for US Importers",
+    "description": "Comparing Vietnam, Mexico and India for US packaging sourcing in 2026: duty exposure, landed cost, lead time, MOQ and print capability, with a worked example."
+  }
+}

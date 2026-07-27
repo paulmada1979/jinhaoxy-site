@@ -8,7 +8,10 @@
   "images": [
     {
       "filename": "section-301-hts-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "tariff",
       "post": 2,
       "role": "hero",
@@ -17,7 +20,10 @@
     },
     {
       "filename": "hts-classification-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "tariff",
       "post": 2,
       "role": "inline",
@@ -26,7 +32,10 @@
     },
     {
       "filename": "landed-cost-comparison-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "tariff",
       "post": 3,
       "role": "hero",
@@ -35,7 +44,10 @@
     },
     {
       "filename": "landed-cost-spreadsheet-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "tariff",
       "post": 3,
       "role": "inline",
@@ -44,7 +56,10 @@
     },
     {
       "filename": "made-in-vietnam-verification-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "tariff",
       "post": 4,
       "role": "hero",
@@ -53,7 +68,10 @@
     },
     {
       "filename": "certificate-of-origin-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "tariff",
       "post": 4,
       "role": "inline",
@@ -62,7 +80,10 @@
     },
     {
       "filename": "supplier-switch-playbook-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "tariff",
       "post": 5,
       "role": "hero",
@@ -71,7 +92,10 @@
     },
     {
       "filename": "switch-playbook-timeline-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "tariff",
       "post": 5,
       "role": "inline",
@@ -80,7 +104,10 @@
     },
     {
       "filename": "rigid-gift-boxes-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "products",
       "post": 6,
       "role": "hero",
@@ -89,7 +116,10 @@
     },
     {
       "filename": "magnetic-closure-construction-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "products",
       "post": 6,
       "role": "inline",
@@ -98,7 +128,10 @@
     },
     {
       "filename": "drawer-box-mechanism-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "products",
       "post": 6,
       "role": "inline",
@@ -107,7 +140,10 @@
     },
     {
       "filename": "corrugated-mailer-specs-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "products",
       "post": 7,
       "role": "hero",
@@ -116,7 +152,10 @@
     },
     {
       "filename": "flute-comparison-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "products",
       "post": 7,
       "role": "inline",
@@ -125,7 +164,10 @@
     },
     {
       "filename": "box-compression-test-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "products",
       "post": 7,
       "role": "inline",
@@ -134,7 +176,10 @@
     },
     {
       "filename": "print-methods-compared-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "products",
       "post": 8,
       "role": "hero",
@@ -143,7 +188,10 @@
     },
     {
       "filename": "offset-press-running-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "products",
       "post": 8,
       "role": "inline",
@@ -152,7 +200,10 @@
     },
     {
       "filename": "print-quality-macro-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "products",
       "post": 8,
       "role": "inline",
@@ -161,7 +212,10 @@
     },
     {
       "filename": "certifications-primer-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "compliance",
       "post": 9,
       "role": "hero",
@@ -170,7 +224,10 @@
     },
     {
       "filename": "factory-cert-wall-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "compliance",
       "post": 9,
       "role": "inline",
@@ -179,7 +236,10 @@
     },
     {
       "filename": "eu-ppwr-2026-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "compliance",
       "post": 10,
       "role": "hero",
@@ -188,7 +248,10 @@
     },
     {
       "filename": "recyclability-marking-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "compliance",
       "post": 10,
       "role": "inline",
@@ -197,7 +260,10 @@
     },
     {
       "filename": "cosmetic-gift-box-sourcing-hero.png",
-      "size": [1920, 1080],
+      "size": [
+        1920,
+        1080
+      ],
       "cluster": "sectors",
       "post": 11,
       "role": "hero",
@@ -206,7 +272,10 @@
     },
     {
       "filename": "cosmetic-foil-stamping-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "sectors",
       "post": 11,
       "role": "inline",
@@ -215,12 +284,27 @@
     },
     {
       "filename": "cosmetic-box-production-inline.png",
-      "size": [1600, 900],
+      "size": [
+        1600,
+        900
+      ],
       "cluster": "sectors",
       "post": 11,
       "role": "inline",
       "quality": "medium",
       "prompt": "Photograph of a clean factory production line with rows of premium black cosmetic gift boxes moving along a conveyor in soft focus, with one box in the foreground in sharp focus being inspected by gloved hands (no face, no full body). Bright clean industrial lighting, white floor, neutral palette."
+    },
+    {
+      "filename": "vietnam-mexico-india-sourcing-hero.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "cluster": "tariff",
+      "post": 12,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Overhead flat-lay on a matte charcoal surface: a folded world-map chart with three shipping lanes drawn in thin white ink converging on a US East Coast port marker, three small unlabeled kraft carton samples arranged at the origin points, a steel ruler, and a procurement notepad with a pen. Soft directional daylight from upper-left, shallow depth of field, slightly desaturated cinematic color grading, no text, no logos, no flags."
     }
   ]
 }
