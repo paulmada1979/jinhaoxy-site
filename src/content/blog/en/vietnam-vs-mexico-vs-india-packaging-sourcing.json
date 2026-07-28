@@ -8,9 +8,9 @@
   "author": "Jinhao Xinyuan Group editorial team",
   "category": "Sourcing comparison",
   "cluster": "tariff",
-  "draft": true,
-  "coverImage": "/blog/vietnam-mexico-india-sourcing-hero.png",
-  "coverAlt": "Three shipping routes converging on a US distribution centre, illustrated as a clean flat-lay map with packaging cartons marked Vietnam, Mexico and India, photographed in neutral daylight",
+  "draft": false,
+  "coverImage": "/blog/vietnam-mexico-india-sourcing-hero.webp",
+  "coverAlt": "Overhead flat-lay of a folded world map on a dark desk, with three small kraft cartons placed at separate origin points and thin white shipping lanes converging on a single marker in North America, beside a notepad, pen and steel ruler",
   "blocks": [
     {
       "type": "callout",
