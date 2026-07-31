@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import type { PageData } from "./PageRenderer";
 import FAQ from "./FAQ";
-import FactoryMap from "./FactoryMapLoader";
+import GoogleFactoryMaps from "./GoogleFactoryMaps";
 
 export default function HomePage({ page }: { page: PageData }) {
   const t = useTranslations();
@@ -212,7 +212,7 @@ export default function HomePage({ page }: { page: PageData }) {
               {t("home.networkDesc")}
             </p>
           </div>
-          <FactoryMap height="520px" />
+          <GoogleFactoryMaps height="340px" />
         </div>
       </section>
 
