@@ -1,0 +1,263 @@
+{
+  "slug": "hai-duong-corrugated-factory-tour",
+  "title": "Inside a Hai Duong Corrugated Factory: What a Plant Tour Actually Proves",
+  "description": "A buyer's walkthrough of a Vietnamese corrugated plant: the eight stations to inspect in order, what each one proves about a supplier, the documents to request before you fly, and the corrugated-specific checks most procurement teams miss.",
+  "publishedAt": "2026-08-09",
+  "updatedAt": "2026-08-09",
+  "readingMin": 10,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Factory tour",
+  "cluster": "products",
+  "draft": true,
+  "coverImage": "/blog/hai-duong-factory-tour-hero.png",
+  "coverAlt": "Wide interior view of a corrugated packaging plant in Hai Duong, Vietnam, with a corrugator line running board through the heated section and stacked bundles of B-flute sheets waiting at the dry end",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "A factory tour is not a sales visit — it is a verification exercise, and most buyers waste it by walking the route the supplier chooses. Three things can only be checked on site: whether the plant actually owns the process it quotes (rather than subcontracting it), whether quality control is a habit or a display, and whether the claimed capacity is real at your board grade. Everything else — certificates, price, lead time — is verifiable from your desk and should be settled before you fly. Walk the line backwards, from despatch to the corrugator, and ask to see the last three rejected jobs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What does a Vietnam corrugated factory tour actually tell you about a supplier?"
+    },
+    {
+      "type": "text",
+      "text": "It tells you three things you genuinely cannot learn any other way, and a great many things you could have learned without buying a plane ticket. Knowing the difference is what separates a useful audit from an expensive handshake."
+    },
+    {
+      "type": "text",
+      "text": "The three that require your physical presence: whether the factory owns the processes it quotes, whether its quality control is habitual or performed for visitors, and whether its stated capacity holds at your specific board grade and print method. A supplier can hold an ISO 9001 certificate and still run a plant where the control plan lives in a binder nobody opens. You cannot see that from a video call."
+    },
+    {
+      "type": "text",
+      "text": "Everything else belongs to the pre-visit stage. Certification validity, HTS classification, MOQ, lead times, references — all of it can be requested, verified and negotiated remotely. Buyers who arrive without settling those spend their site time re-asking questions instead of watching a corrugator run."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Before you fly: the five documents to request"
+    },
+    {
+      "type": "text",
+      "text": "Send this list two weeks ahead. A supplier who cannot produce these before the visit is unlikely to produce them after the order."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Certification pack with certificate numbers — FSC chain-of-custody and ISO 9001 at minimum. Verify the numbers against the issuing body's public register yourself; do not accept a PDF as proof.",
+        "Equipment list with working widths and machine ages, separated into owned and subcontracted. The split matters more than the list.",
+        "A control plan or QC procedure for one product family close to yours, showing what is measured, how often, and what happens when it fails.",
+        "Three recent test reports — box compression (BCT), edge crush (ECT) and a drop or transit test — on real production, not on a sample made for the certificate.",
+        "A capacity statement expressed in your units: not \"tonnes per month\" but sheets or finished cartons per shift at your flute and print method."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Ask for the reject log, not the sample shelf",
+      "body": "Every factory keeps a shelf of its best work for visitors. Far more informative is the non-conformance log: what failed in the last quarter, why, and what changed as a result. A supplier who shows you that without flinching is telling you their process is real. A supplier who cannot find it is telling you something too."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The walk-the-floor sequence: eight stations, in order"
+    },
+    {
+      "type": "text",
+      "text": "Walk the line in reverse — from despatch back to the corrugator. Suppliers rehearse the forward route because it builds narrative momentum, ending on the impressive machine. Reversing it puts you at the finished goods first, where the truth about quality already exists in physical form, and means every claim you hear afterwards is one you can check against something you have already seen."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Despatch and finished-goods store — look at pallet patterns, stretch-wrap tension, label accuracy and how long stock has been sitting. Damp or crushed bottom cartons in the rack tell you about the warehouse before anyone speaks.",
+        "Packing and palletising — count how many people are handling each carton and whether the count is verified mechanically or by eye. Manual counting is the single most common source of short shipments.",
+        "Gluing and folding — watch a full job changeover if you can. Setup time is where quoted capacity is either won or quietly lost.",
+        "Die-cutting — check the die storage area. Dies stacked on the floor, unlabelled, or visibly worn are a direct predictor of dimensional drift on repeat orders.",
+        "Printing — for offset, look at the ink kitchen and the density-control routine; for flexo, look at anilox roll condition and storage. Ask to see a colour approval against a physical proof, not a screen.",
+        "Sheet store and board conditioning — this is the station buyers skip and the one that decides whether your carton passes BCT. Board must be conditioned; sheets stored in a humid open bay behave differently from the sample you approved.",
+        "Corrugator dry end — watch warp and delamination checks on live board. Ask what the operator does when warp appears, and who has authority to stop the line.",
+        "Corrugator wet end and paper store — reel identification, supplier traceability and moisture management. If reels are unlabelled, chain of custody claims cannot be substantiated regardless of what the certificate says."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What each station proves"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Station",
+        "What you are verifying",
+        "Red flag"
+      ],
+      "rows": [
+        [
+          "Despatch / FG store",
+          "Real output volume and storage discipline",
+          "Crushed bottom cartons; stock with no visible date or job identity"
+        ],
+        [
+          "Packing",
+          "Count accuracy and short-shipment risk",
+          "Counting entirely by eye with no verification step"
+        ],
+        [
+          "Gluing / folding",
+          "Changeover speed, i.e. whether quoted capacity survives a mixed schedule",
+          "Long setups nobody times; glue skips accepted as normal"
+        ],
+        [
+          "Die-cutting",
+          "Dimensional consistency across repeat orders",
+          "Unlabelled dies on the floor; no die maintenance record"
+        ],
+        [
+          "Printing",
+          "Colour repeatability against a physical standard",
+          "Approvals signed off on a monitor; no density or anilox records"
+        ],
+        [
+          "Sheet store",
+          "Board conditioning — the hidden driver of compression failure",
+          "Sheets stored in open humid bays; no conditioning window"
+        ],
+        [
+          "Corrugator dry end",
+          "Warp control and who may stop the line",
+          "Only management can stop production"
+        ],
+        [
+          "Corrugator wet end",
+          "Fibre traceability behind the FSC claim",
+          "Unlabelled reels; no link from reel to job"
+        ]
+      ],
+      "caption": "Walk the sequence in reverse — despatch first, corrugator last."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Corrugated-specific checks most buyers miss"
+    },
+    {
+      "type": "text",
+      "text": "Buyers who have audited rigid-box or folding-carton plants tend to apply the same checklist to corrugated. Three things are genuinely different."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Moisture is a specification, not a housekeeping matter. Corrugated board loses a substantial share of its compression strength as relative humidity rises. A carton that passes BCT in an air-conditioned lab can fail in a Hai Phong container yard in July. Ask what humidity the test lab runs at and whether it matches your destination conditions.",
+        "Flute selection is a transit decision, not a cost decision. B, E and BC each behave differently under stacking, vibration and impact. A supplier who lets you choose flute purely on price is not engineering your box.",
+        "Print method constrains board choice, and the constraint runs in both directions. High-end offset graphics and heavy-duty flexo shipping cartons make different demands on liner quality — a plant that runs only one of the two will quietly steer your spec toward what it owns."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What our Hai Duong plant runs"
+    },
+    {
+      "type": "text",
+      "text": "For transparency, the same disclosure we ask buyers to demand of any supplier. Our Hai Duong facility produces B, E and BC-flute corrugated board and export cartons, and holds FSC chain-of-custody and ISO 9001 certification. On the equipment side it runs 2,500 mm corrugation lines, direct offset printing for high-end retail graphics, and heavy-duty flexo for shipping cartons — a combination that is uncommon among Vietnamese corrugated manufacturers, and the reason we can hold both retail-facing and transit-facing work in the same plant. Vietnamese origin also places the output outside the China Section 301 measure."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Verify this too",
+      "body": "Everything in the paragraph above is a supplier claim, including when we make it. Ask us for the certificate numbers and check them on the issuing register, exactly as you would with any other supplier. A company that objects to being audited on its own published claims has told you what the audit would find."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "If you cannot travel: the remote-audit substitute"
+    },
+    {
+      "type": "text",
+      "text": "A live video walk is a weak substitute for a visit, but it is far better than a document review — provided you control the route. The failure mode is accepting a pre-recorded or heavily staged tour."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Insist the call is live and that you choose the direction of travel. Ask the operator to walk backwards through the sequence above.",
+        "Ask for something unplanned to be shown — the reject area, the die store, a specific reel label read aloud — so the footage cannot have been staged.",
+        "Commission a third-party inspection for the first production run, and specify the AQL and the test methods in the purchase order rather than agreeing them afterwards.",
+        "Run a paid sample order at real production settings, not a handmade sample. A handmade sample proves the factory has skilled hands, not that it has a repeatable process."
+      ]
+    },
+    {
+      "type": "cta",
+      "href": "/contact-us/",
+      "title": "Planning a Vietnam factory visit?",
+      "body": "Send us the checklist above and we will answer it in writing before you book anything — certificate numbers, equipment split, and a capacity statement in your units."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should a corrugated factory tour take?",
+      "a": "Budget half a day per plant for a serious audit, and do not schedule two factories in one day. A full walk of the eight stations with real questions takes two to three hours, and the value comes from the conversations that follow the walk. A one-hour tour is a sales visit."
+    },
+    {
+      "q": "What should I ask to see that suppliers do not usually offer?",
+      "a": "The non-conformance or reject log for the last quarter, the die storage area, and the sheet conditioning store. None of these appear on a standard tour route, and each one predicts a specific failure you would otherwise discover on your third order."
+    },
+    {
+      "q": "Does an FSC or ISO 9001 certificate mean the factory has been physically audited?",
+      "a": "It means an audit took place at certification and at surveillance intervals, not that the system is followed daily. Verify the certificate number on the issuing body's public register to confirm it is current and covers the site and scope you are buying from — certificates are sometimes held by a group entity rather than the plant producing your order."
+    },
+    {
+      "q": "Can I verify Vietnamese origin during a factory visit?",
+      "a": "Partially. You can confirm that substantial transformation physically happens on site — that board is corrugated, printed and converted there rather than imported finished and relabelled. Formal origin determination is a customs matter that depends on your specific product and applicable rules, so confirm the position with your customs broker and request the certificate of origin documentation separately."
+    },
+    {
+      "q": "Is a Vietnam factory tour worth it if my order volume is small?",
+      "a": "Usually not for a first order. Run a paid sample at production settings, commission a third-party inspection on the first full run, and reserve the visit for the point at which the program becomes strategically important — typically when a single SKU family goes to regular replenishment, or when you are consolidating several suppliers into one."
+    }
+  ],
+  "related": [
+    {
+      "slug": "china-to-vietnam-supplier-switch-playbook",
+      "label": "China-to-Vietnam supplier switch playbook",
+      "kind": "blog"
+    },
+    {
+      "slug": "made-in-vietnam-verification-substantial-transformation",
+      "label": "Made-in-Vietnam verification: substantial transformation",
+      "kind": "blog"
+    },
+    {
+      "slug": "packaging-certifications-fsc-iso-bsci-sedex",
+      "label": "Packaging certifications: FSC, ISO, BSCI, Sedex",
+      "kind": "blog"
+    },
+    {
+      "slug": "corrugated-mailer-specs-explained",
+      "label": "Corrugated mailer specs explained",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-vs-mexico-vs-india-packaging-sourcing",
+      "label": "Vietnam vs Mexico vs India: where to source",
+      "kind": "blog"
+    },
+    {
+      "slug": "corrugated-packaging-box-manufacturer-in-vietnam-jinhao-xinyuan-group",
+      "label": "Corrugated packaging box manufacturer in Vietnam",
+      "kind": "page"
+    },
+    {
+      "slug": "folding-cartons",
+      "label": "Folding cartons manufacturer Vietnam",
+      "kind": "page"
+    }
+  ],
+  "seo": {
+    "title": "Hai Duong Corrugated Factory Tour — A Buyer's Inspection Guide",
+    "description": "What a Vietnamese corrugated plant tour proves: eight inspection stations in order, documents to request before you fly, and the corrugated-specific checks buyers miss."
+  }
+}
