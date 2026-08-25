@@ -8,7 +8,7 @@
   "author": "Jinhao Xinyuan Group editorial team",
   "category": "Factory tour",
   "cluster": "products",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/hai-duong-factory-tour-hero.png",
   "coverAlt": "Wide interior view of a corrugated packaging plant in Hai Duong, Vietnam, with a corrugator line running board through the heated section and stacked bundles of B-flute sheets waiting at the dry end",
   "blocks": [
@@ -164,7 +164,7 @@
     },
     {
       "type": "text",
-      "text": "For transparency, the same disclosure we ask buyers to demand of any supplier. Our Hai Duong facility produces B, E and BC-flute corrugated board and export cartons, and holds FSC chain-of-custody and ISO 9001 certification. On the equipment side it runs 2,500 mm corrugation lines, direct offset printing for high-end retail graphics, and heavy-duty flexo for shipping cartons — a combination that is uncommon among Vietnamese corrugated manufacturers, and the reason we can hold both retail-facing and transit-facing work in the same plant. Vietnamese origin also places the output outside the China Section 301 measure."
+      "text": "For transparency, the same disclosure we ask buyers to demand of any supplier. Our Hai Duong facility produces B, E and BC-flute corrugated board and export cartons. On the equipment side it runs 2,500 mm corrugation lines, direct offset printing for high-end retail graphics, and heavy-duty flexo for shipping cartons — a combination that is uncommon among Vietnamese corrugated manufacturers, and the reason we can hold both retail-facing and transit-facing work in the same plant. Vietnamese origin also places the output outside the China Section 301 measure."
     },
     {
       "type": "callout",
