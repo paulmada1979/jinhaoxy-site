@@ -40,4 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# local agent/editor state (machine-specific, not shared)
+.claude/settings.local.json
+
 .vercel

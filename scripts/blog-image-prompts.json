@@ -305,6 +305,18 @@
       "role": "hero",
       "quality": "high",
       "prompt": "Overhead flat-lay on a matte charcoal surface: a folded world-map chart with three shipping lanes drawn in thin white ink converging on a US East Coast port marker, three small unlabeled kraft carton samples arranged at the origin points, a steel ruler, and a procurement notepad with a pen. Soft directional daylight from upper-left, shallow depth of field, slightly desaturated cinematic color grading, no text, no logos, no flags."
+    },
+    {
+      "filename": "hai-duong-factory-tour-hero.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "cluster": "products",
+      "post": 13,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Wide interior photograph of a Vietnamese corrugated packaging plant floor, viewed from a slight elevation down the length of a running corrugator line. Board travels through the heated section on the left, and at the dry end on the right sit neatly stacked bundles of brown B-flute sheets on wooden pallets. One operator in a plain work polo checks a sheet at the stacker, seen from behind. Warm overhead industrial lighting with a faint haze of paper dust in the air, natural kraft browns and pale steel greys, slightly desaturated. Real working plant, documentary rather than staged, no on-image text, no logos, no signage."
     }
   ]
 }
