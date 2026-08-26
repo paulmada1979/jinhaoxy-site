@@ -140,6 +140,76 @@ async function fitToTarget(buffer, targetW, targetH) {
 
 // ---------- Replicate call ------------------------------------------------
 
+// Replicate prediction lifecycle. `Prefer: wait` only holds the connection for
+// ~60s; a slower generation comes back 201 with a non-terminal status and no
+// `output` field. Treating that as fatal is a FALSE NEGATIVE — the prediction
+// usually succeeds a minute or two later (this is exactly what misread the #13
+// hero as a hard failure on 2026-08-25). So: if there is no output but there IS
+// an id and a non-terminal status, poll the prediction until it settles.
+const TERMINAL_STATUSES = new Set(["succeeded", "failed", "canceled"]);
+const POLL_INTERVAL_MS = 5000;
+const POLL_TIMEOUT_MS = 10 * 60 * 1000; // 10 min cap
+
+function outputUrlOf(json) {
+  if (!json || !json.output) return null;
+  return Array.isArray(json.output) ? json.output[0] : json.output;
+}
+
+// GET https://api.replicate.com/v1/predictions/{id} → parsed JSON
+function getPrediction(id) {
+  return new Promise((resolve, reject) => {
+    const req = https.request(
+      {
+        hostname: REPLICATE_HOST,
+        path: `/v1/predictions/${id}`,
+        method: "GET",
+        headers: { Authorization: `Bearer ${REPLICATE_TOKEN}` },
+      },
+      (res) => {
+        let data = "";
+        res.on("data", (c) => (data += c));
+        res.on("end", () => {
+          try {
+            resolve(JSON.parse(data));
+          } catch (e) {
+            reject(new Error(`Poll parse error: ${e.message} :: ${data.slice(0, 200)}`));
+          }
+        });
+      },
+    );
+    req.on("error", reject);
+    req.end();
+  });
+}
+
+async function pollPrediction(id, startedAt = Date.now()) {
+  let last = "unknown";
+  while (Date.now() - startedAt < POLL_TIMEOUT_MS) {
+    await sleep(POLL_INTERVAL_MS);
+    let json;
+    try {
+      json = await getPrediction(id);
+    } catch (e) {
+      // Transient poll failure — keep trying until the cap.
+      console.log(`  … poll ${id} transient: ${e.message}`);
+      continue;
+    }
+    last = json.status || "unknown";
+    if (!TERMINAL_STATUSES.has(last)) {
+      console.log(`  … ${id} ${last} (${Math.round((Date.now() - startedAt) / 1000)}s)`);
+      continue;
+    }
+    if (last === "succeeded") {
+      const url = outputUrlOf(json);
+      if (url) return url;
+      throw new Error(`Prediction ${id} succeeded with no output: ${JSON.stringify(json).slice(0, 300)}`);
+    }
+    // failed / canceled — surface the REAL error field, not a generic message.
+    throw new Error(`Prediction ${id} ${last}: ${json.error || "(no error field)"}`);
+  }
+  throw new Error(`Prediction ${id} still ${last} after ${POLL_TIMEOUT_MS / 1000}s — gave up polling`);
+}
+
 function gptImagePredict({ prompt, aspectRatio, quality }) {
   const body = JSON.stringify({
     input: {
@@ -173,11 +243,15 @@ function gptImagePredict({ prompt, aspectRatio, quality }) {
         res.on("end", () => {
           try {
             const json = JSON.parse(data);
-            if (json.output) {
-              const url = Array.isArray(json.output) ? json.output[0] : json.output;
-              return resolve(url);
-            }
+            const url = outputUrlOf(json);
+            if (url) return resolve(url);
             if (json.error) return reject(new Error(`Replicate: ${json.error}`));
+            // No output yet — if we have an id and the prediction has not
+            // reached a terminal state, it is still running. Poll it.
+            if (json.id && !TERMINAL_STATUSES.has(json.status)) {
+              console.log(`  … queued as ${json.id} (status=${json.status || "unknown"}), polling`);
+              return pollPrediction(json.id).then(resolve, reject);
+            }
             reject(new Error(`No output: ${data.slice(0, 300)}`));
           } catch (e) {
             reject(new Error(`Parse error: ${e.message} :: ${data.slice(0, 200)}`));
