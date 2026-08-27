@@ -1,0 +1,272 @@
+{
+  "slug": "offset-vs-digital-moq-run-length",
+  "title": "MOQ Math: Working Out Whether Offset or Digital Is Cheaper for Your Run Length",
+  "description": "Packaging MOQs are a cost structure, not a rule. How to calculate your own offset-versus-digital break-even quantity from a supplier quote, the five variables that move it, and why the quoted minimum is rarely the real break-even.",
+  "publishedAt": "2026-08-27",
+  "updatedAt": "2026-08-27",
+  "readingMin": 9,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Procurement",
+  "cluster": "products",
+  "draft": true,
+  "coverImage": "/blog/offset-vs-digital-moq-hero.png",
+  "coverAlt": "Overhead view of a procurement desk with a printed cost worksheet, a stack of unprinted folding carton blanks, an offset printing plate and a short stack of digitally printed sample cartons arranged side by side",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "Your break-even between offset and digital is one division: the difference in setup cost divided by the difference in cost per unit. Below that quantity digital is cheaper; above it offset is cheaper. Every other consideration - colour count, finishing, SKU count, reorder cadence - moves one of those two numbers rather than replacing the calculation. A supplier's quoted MOQ is a commercial floor, not the output of this sum, so the two rarely land in the same place."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How do you work out whether offset or digital is cheaper for your packaging run?"
+    },
+    {
+      "type": "text",
+      "text": "Take the setup cost of the offset job and subtract the setup cost of the digital job. Take the digital cost per unit and subtract the offset cost per unit. Divide the first number by the second. The answer is the quantity at which the two methods cost the same - your break-even. Order fewer than that and digital wins; order more and offset wins. That is the whole decision, and you can run it on the back of a quote in under a minute."
+    },
+    {
+      "type": "text",
+      "text": "The reason this feels harder than it is comes down to how packaging is quoted. Suppliers usually return a single all-in price per unit at one or two quantities, which buries the setup cost inside the unit price and makes the two methods look like they are on the same footing. They are not. Offset carries a large fixed cost and a small variable cost; digital carries almost no fixed cost and a larger variable cost. Once you separate those two components, the comparison stops being a matter of opinion."
+    },
+    {
+      "type": "text",
+      "text": "This piece is the cost-structure companion to our comparison of the print methods themselves. If you are still deciding which process suits the job on quality, substrate and finishing grounds, start with that one and come back here to price it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why MOQ exists at all: fixed cost against variable cost"
+    },
+    {
+      "type": "text",
+      "text": "A minimum order quantity is not an arbitrary gate. It is the point below which a supplier cannot recover the work that happens before the first good sheet comes off the press, and it is created almost entirely by fixed costs."
+    },
+    {
+      "type": "text",
+      "text": "On an offset job, the fixed side includes prepress and proofing, one plate per colour, press makeready and colour matching, a cutting die and a stripping tool for the carton shape, and the waste sheets consumed while the operator brings colour and register into tolerance. None of that scales with the order. Printing five thousand cartons and printing fifty thousand cartons consume the same plates and roughly the same makeready. Spread across five thousand units, that fixed block is heavy. Spread across fifty thousand, it becomes rounding."
+    },
+    {
+      "type": "text",
+      "text": "Digital inverts the shape. There are no plates, makeready is short, and a shape can often be cut on a digital cutting table without a hard tool. The fixed block shrinks to prepress and a proof. What replaces it is a higher cost per printed sheet, because you are paying a per-impression or per-click charge on every unit rather than amortising a plate across all of them. Digital does not get meaningfully cheaper as the run grows - which is precisely why it loses at volume and wins at the bottom."
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "title": "Flexo sits on the same spectrum",
+      "body": "This article compares offset and digital because that is where most folding-carton and rigid-box buyers actually have a choice. Flexo follows the same fixed-versus-variable logic with its own tooling - printing plates and an anilox setup - and is usually the relevant comparison for corrugated shippers and mailers rather than retail cartons."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The break-even formula, and the four numbers you need"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Break-even quantity",
+      "body": "Break-even units = (offset setup cost - digital setup cost) / (digital cost per unit - offset cost per unit). If the second bracket is zero or negative, there is no crossover and digital wins at every quantity - which usually means the offset quote has been priced for a different specification."
+    },
+    {
+      "type": "text",
+      "text": "To fill it in you need four figures, and most quotes give you two. Ask for the other two explicitly:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Offset setup cost, itemised - prepress, plates by colour, die and stripping tool, makeready and makeready waste. Ask whether the die is a one-off charge or whether it is rebilled on reorders.",
+        "Offset running cost per unit, with setup excluded. This is the number that should barely move between quantities; if it drops steeply, setup is still buried in it.",
+        "Digital setup cost - typically prepress and proofing only, and sometimes a cutting-file charge.",
+        "Digital cost per unit, again with setup excluded, and quoted on the same substrate and the same finishing as the offset line."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "The last clause matters more than the arithmetic. A break-even calculated across two different board grades, two different coatings or one quote that includes lamination and one that does not is not a comparison at all. Send both quote requests with an identical specification and ask each supplier to price against it rather than against their own preferred build."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A worked example (illustrative figures - substitute your own quotes)"
+    },
+    {
+      "type": "text",
+      "text": "The numbers below are invented purely to demonstrate the mechanics. They are not our prices and should not be used as a benchmark for any supplier, including us. Replace every cell with figures from your own quotes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Cost component",
+        "Offset (illustrative)",
+        "Digital (illustrative)"
+      ],
+      "rows": [
+        [
+          "Prepress and proofing",
+          "A",
+          "A"
+        ],
+        [
+          "Plates and press makeready",
+          "B",
+          "none"
+        ],
+        [
+          "Cutting die and tooling",
+          "C",
+          "none or minimal"
+        ],
+        [
+          "Total setup (A + B + C)",
+          "S_offset",
+          "S_digital"
+        ],
+        [
+          "Running cost per unit",
+          "U_offset (lower)",
+          "U_digital (higher)"
+        ],
+        [
+          "Break-even quantity",
+          "(S_offset - S_digital) / (U_digital - U_offset)",
+          "same figure, read from the other side"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Work it in that order and two useful things fall out. First, the break-even quantity itself, which tells you which method to specify. Second, the shape of the curve either side of it: if your forecast sits close to the crossover, the decision is nearly cost-neutral and you should choose on lead time, reprint flexibility or obsolescence risk instead of on price. If your forecast sits far from it, price should decide and the rest is noise."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Check the sensitivity before you commit",
+      "body": "Re-run the division with the offset setup twenty per cent higher and the digital unit cost ten per cent lower. If the answer moves the decision, your break-even is not robust and the numbers deserve a second quote rather than a purchase order."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Five variables that move the break-even point"
+    },
+    {
+      "type": "text",
+      "text": "The formula does not change. What changes is which side of it a given job lands on, and these are the levers that decide it."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Colour count and specials. Offset setup scales with the number of plates, so a four-colour process job and a job with two spot colours plus a varnish carry very different fixed blocks. Every added colour pushes the break-even higher and hands more ground to digital.",
+        "Number of SKUs or versions. This is the variable buyers most often get wrong. Ten versions of one carton is not one run of ten thousand - on offset it is ten setups. Digital absorbs versioning almost for free, so a multi-SKU launch can favour digital at a total volume where a single-SKU job would clearly favour offset.",
+        "Substrate and finishing. Foil stamping, embossing and specialist coatings usually bring their own tooling and their own fixed cost, and they may only be available on one of the two routes. Where a finish is offset-only, the comparison collapses and the question becomes whether the finish is worth the setup.",
+        "Reorder cadence. A die and a set of plates paid for once and reused across four reorders a year amortise very differently from a one-off. Calculate the break-even across the annual programme, not the first purchase order, whenever the artwork is stable enough to survive the year.",
+        "Waste and makeready allowance. Offset quotes normally carry an overs-and-unders tolerance because makeready consumes board. On a short run that allowance is a large fraction of the order; on a long run it is trivial. Ask for it as a percentage and fold it into the unit cost before comparing."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why the quoted MOQ is rarely the real break-even"
+    },
+    {
+      "type": "text",
+      "text": "A supplier's stated minimum is a commercial number, not a mathematical one. It is set by scheduling economics - the smallest job worth stopping a press for - by minimum sheet counts from the board mill, by the practical minimum for a die-cutter to run in register, and by the margin the supplier needs to justify the floor space. Those constraints are real, but none of them is the crossover point you just calculated."
+    },
+    {
+      "type": "text",
+      "text": "The practical consequence is that a quoted MOQ can sit well above your break-even, which means offset is genuinely cheaper for you but the supplier will not run it at your volume, and you should be shopping the job rather than accepting digital by default. It can equally sit below it, which means you are being offered a run length at which offset is not actually the cheaper method - the minimum is achievable but not advisable. Knowing your own break-even is what lets you tell those two situations apart."
+    },
+    {
+      "type": "text",
+      "text": "It also changes the negotiation. Asking a supplier to lower an MOQ is asking them to absorb a fixed cost. Asking them to itemise the setup so you can decide whether to pay it, or to hold tooling for a scheduled reorder programme, is a conversation about the same money with a far higher hit rate."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When run length is the wrong question entirely"
+    },
+    {
+      "type": "text",
+      "text": "Four situations override the arithmetic, and in each of them the cheaper method on paper is the more expensive decision in practice."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Unstable artwork. If regulatory text, ingredient panels or claims are still moving, a long offset run locks a version you may have to write off. The value of not committing usually exceeds the unit-cost saving.",
+        "Launch and test volumes. Where the purpose of the run is to learn whether the product sells, the correct quantity is the smallest one that produces a real answer, and that is a digital job almost by definition.",
+        "Variable or serialised data. Regionalised packs, per-batch codes and per-unit identifiers are not an offset problem at any volume.",
+        "Cash flow and obsolescence. A long run converts working capital into stock that ages. Where shelf life, seasonality or a planned redesign puts a clock on the inventory, the write-off risk belongs in the comparison alongside the unit price."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "For buyers evaluating this alongside a sourcing change, the same discipline applies to the landed-cost side of the file: setup, freight, duty and inventory carry all have to sit in one model before a unit price means anything."
+    },
+    {
+      "type": "cta",
+      "href": "/contact-us/",
+      "title": "Want your own break-even worked out?",
+      "body": "Send us the specification - board grade, colour build, finishing, SKU count and your expected annual volume - and we will quote setup and running cost as separate lines so you can run the calculation yourself against any supplier."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the break-even formula for offset versus digital printing?",
+      "a": "Break-even quantity equals the difference in setup cost divided by the difference in cost per unit: (offset setup - digital setup) / (digital unit cost - offset unit cost). Order below that quantity and digital is cheaper; order above it and offset is cheaper. The figures must come from quotes written against an identical specification, otherwise the result is meaningless."
+    },
+    {
+      "q": "Why do packaging suppliers set a minimum order quantity?",
+      "a": "Because a large part of the cost of an offset job happens before the first saleable unit is produced - prepress, plates, a cutting die, press makeready and makeready waste. None of that scales down with the order. The MOQ is the point below which a supplier cannot recover that fixed block, combined with practical constraints like minimum board-mill sheet counts and press scheduling."
+    },
+    {
+      "q": "Is a supplier's MOQ the same as my break-even quantity?",
+      "a": "No, and treating them as the same is a common and expensive error. The MOQ is a commercial floor set by the supplier's scheduling and tooling economics. The break-even is a number specific to your job, your colour build and your volume. They can land far apart in either direction, which is why it is worth calculating your own before you accept or challenge a stated minimum."
+    },
+    {
+      "q": "Does having several SKUs change whether digital or offset is cheaper?",
+      "a": "Substantially. On offset, each version is a separate setup, so ten versions of one carton means ten fixed blocks rather than one. Digital absorbs versioning at close to no additional fixed cost. A multi-SKU programme can therefore favour digital at a total volume where a single-SKU job of the same size would clearly favour offset."
+    },
+    {
+      "q": "What should I ask a supplier for so I can compare quotes properly?",
+      "a": "Ask for setup and running cost as separate line items rather than a single blended unit price, with setup itemised by prepress, plates, tooling and makeready. Ask whether the die is a one-off or rebilled on reorders, and ask for the overs-and-unders allowance as a percentage. Then send the identical specification to every supplier so the comparison is like for like."
+    }
+  ],
+  "related": [
+    {
+      "slug": "print-methods-compared-offset-flexo-digital",
+      "label": "Offset vs flexo vs digital print: when each wins",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-vs-china-landed-cost-worked-example",
+      "label": "Vietnam vs China packaging: a landed-cost worked example",
+      "kind": "blog"
+    },
+    {
+      "slug": "corrugated-mailer-specs-explained",
+      "label": "Corrugated mailer specs explained",
+      "kind": "blog"
+    },
+    {
+      "slug": "vietnam-packaging-manufacturers-us-tariff-guide",
+      "label": "Vietnam packaging manufacturers: the tariff-free guide",
+      "kind": "blog"
+    },
+    {
+      "slug": "folding-cartons",
+      "label": "Folding cartons",
+      "kind": "page"
+    },
+    {
+      "slug": "custom-printed-gift-boxes",
+      "label": "Custom printed gift boxes",
+      "kind": "page"
+    }
+  ],
+  "seo": {
+    "title": "Offset vs Digital MOQ Math: Find Your Print Run Break-Even",
+    "description": "Calculate your own offset-versus-digital break-even quantity from a supplier quote, the five variables that move it, and why a quoted MOQ is rarely the real break-even."
+  }
+}

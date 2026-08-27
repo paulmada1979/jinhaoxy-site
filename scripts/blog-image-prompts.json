@@ -317,6 +317,18 @@
       "role": "hero",
       "quality": "high",
       "prompt": "Wide interior photograph of a Vietnamese corrugated packaging plant floor, viewed from a slight elevation down the length of a running corrugator line. Board travels through the heated section on the left, and at the dry end on the right sit neatly stacked bundles of brown B-flute sheets on wooden pallets. One operator in a plain work polo checks a sheet at the stacker, seen from behind. Warm overhead industrial lighting with a faint haze of paper dust in the air, natural kraft browns and pale steel greys, slightly desaturated. Real working plant, documentary rather than staged, no on-image text, no logos, no signage."
+    },
+    {
+      "filename": "offset-vs-digital-moq-hero.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "cluster": "products",
+      "post": 14,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Overhead flat-lay on a matte charcoal desk surface: on the left a small stack of unprinted folding carton blanks in pale board next to a used aluminium offset printing plate showing faint halftone texture; on the right a short stack of four brightly printed carton samples with slightly different artwork versions fanned out; between them a printed cost worksheet with hand-ruled columns, a mechanical pencil and a pocket calculator. Soft directional daylight from the upper left, shallow depth of field, slightly desaturated cinematic colour grading, no readable text, no numbers, no logos, no brand marks."
     }
   ]
 }
