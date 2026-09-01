@@ -8,7 +8,7 @@
   "author": "Jinhao Xinyuan Group editorial team",
   "category": "Procurement",
   "cluster": "products",
-  "draft": true,
+  "draft": false,
   "coverImage": "/blog/offset-vs-digital-moq-hero.png",
   "coverAlt": "Overhead view of a procurement desk with a printed cost worksheet, a stack of unprinted folding carton blanks, an offset printing plate and a short stack of digitally printed sample cartons arranged side by side",
   "blocks": [
