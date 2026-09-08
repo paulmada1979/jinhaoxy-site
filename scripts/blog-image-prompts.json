@@ -329,6 +329,18 @@
       "role": "hero",
       "quality": "high",
       "prompt": "Overhead flat-lay on a matte charcoal desk surface: on the left a small stack of unprinted folding carton blanks in pale board next to a used aluminium offset printing plate showing faint halftone texture; on the right a short stack of four brightly printed carton samples with slightly different artwork versions fanned out; between them a printed cost worksheet with hand-ruled columns, a mechanical pencil and a pocket calculator. Soft directional daylight from the upper left, shallow depth of field, slightly desaturated cinematic colour grading, no readable text, no numbers, no logos, no brand marks."
+    },
+    {
+      "filename": "folding-carton-styles-hero.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "cluster": "products",
+      "post": 15,
+      "role": "hero",
+      "quality": "high",
+      "prompt": "Overhead flat-lay on a pale birch workbench: four unglued folding carton blanks in plain uncoated board laid flat in a row, each with visible crease lines and die-cut tabs, and behind them the same four cartons shown assembled - a slim reverse tuck-end carton, a squarer seal-end carton, a taller auto-lock-bottom carton standing upright, and a wedge-shaped five-panel hanger carton with a punched euro-slot at the top. A steel rule and a bone folder rest along the lower edge. Soft even daylight from the upper left, shallow depth of field, natural warm board tones against neutral grey, slightly desaturated cinematic colour grading, no printed artwork, no readable text, no logos, no brand marks."
     }
   ]
 }

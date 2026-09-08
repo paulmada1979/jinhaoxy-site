@@ -1,0 +1,227 @@
+{
+  "slug": "folding-carton-styles-guide",
+  "title": "Folding Carton Styles: Choosing Between Tuck-End, Seal-End, Auto-Lock and Hanger Cartons",
+  "description": "A buyer's guide to the four folding carton styles that cover most retail packaging, how to pick a board grade and caliper to match, and where a folding carton stops being the right structure and a rigid box takes over.",
+  "publishedAt": "2026-09-08",
+  "updatedAt": "2026-09-08",
+  "readingMin": 9,
+  "author": "Jinhao Xinyuan Group editorial team",
+  "category": "Product guides",
+  "cluster": "products",
+  "draft": true,
+  "coverImage": "/blog/folding-carton-styles-hero.png",
+  "coverAlt": "Four unglued folding carton blanks laid flat on a workbench beside their assembled forms - a reverse tuck-end carton, a seal-end carton, an auto-lock-bottom carton and a five-panel hanger carton",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "stat",
+      "title": "The 90-second version",
+      "body": "Four styles cover most retail folding cartons. Tuck-end is the cheapest and the easiest to hand-pack. Seal-end trades reusability for a stronger, tamper-evident closure and suits high-speed filling. Auto-lock bottom is the answer when the product is heavy enough to fall through a tucked base. Five-panel hanger exists for one reason: the pack has to hang on a peg. Board grade and caliper are a separate decision from style, and the two only meet at one question - how much load the base and the closure have to carry."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Which folding carton style should you choose?"
+    },
+    {
+      "type": "text",
+      "text": "Start with how the carton is filled and what it has to survive. If it is hand-packed, light and needs to be opened and reclosed, a reverse tuck-end carton is almost always the right answer and the cheapest to make. If it runs on an automatic filling line and must arrive sealed, specify a seal-end. If the contents are heavy enough that a tucked base could pop open under load, move to an auto-lock bottom. If the pack has to hang from a retail peg, you are in five-panel hanger territory whether or not the other criteria point there. Everything after that - board grade, caliper, coating, window, finishing - is specification detail layered on top of a structure you have already chosen."
+    },
+    {
+      "type": "text",
+      "text": "The reason buyers get this wrong is that style is usually presented as an aesthetic choice on a supplier's sample board, when it is really a mechanical one. A carton style determines how the blank is die-cut, how much board area each unit consumes, whether the base can be assembled by hand or needs a machine, and how the pack behaves in a shipper. Those consequences show up in unit cost, in line speed and in damage rates long after the artwork has been signed off."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The four styles, and what each one is actually for"
+    },
+    {
+      "type": "text",
+      "text": "Folding carton catalogues run to dozens of style codes, but the overwhelming majority of retail packaging resolves to four families. Learning what separates them is enough to hold a specification conversation with any converter."
+    },
+    {
+      "type": "text",
+      "text": "Tuck-end cartons close with a flap that folds into the carton body at one or both ends. In a straight tuck-end, both flaps tuck from the same direction; in a reverse tuck-end, they tuck from opposite directions, which is more board-efficient to nest on the sheet and is the more common of the two. The style is glued on one side seam only, ships flat, sets up by hand in seconds and can be reopened without destroying the pack. It is the default for cosmetics, supplements, small electronics accessories and anything a customer is expected to open gently."
+    },
+    {
+      "type": "text",
+      "text": "Seal-end cartons replace the tuck flaps with panels that are glued shut at fill. They are designed to be closed by machine, which is why they dominate categories that fill at speed - food, personal care, pharmaceuticals. The closure is stronger and inherently tamper-evident, and because there are no tuck slots the printed face is uninterrupted. The trade-off is that opening it damages it, so a seal-end is the wrong choice where the pack doubles as storage."
+    },
+    {
+      "type": "text",
+      "text": "Auto-lock bottom cartons - also called crash-lock or 1-2-3 bottom - use pre-glued base panels that lock into a flat, load-bearing floor as the carton is squared up. They arrive flat, need no base assembly and no tape, and hold weight a tucked base would not. The blank uses more board than an equivalent tuck-end and the gluing is more involved, so the unit cost is higher; you buy that back in packing labour and in products that do not end up on the floor."
+    },
+    {
+      "type": "text",
+      "text": "Five-panel hanger cartons add a fifth panel that extends above the carton body and carries a hang hole, most often a euro-slot or a round punch. The extra panel also gives the pack a triangular or wedge cross-section that stands up on its own. This is a merchandising structure first: if the retailer has specified peg display, the style is decided for you, and your remaining choices are how the hole is reinforced and whether the pack also needs to sit on a shelf."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Style",
+        "Closure",
+        "Typical use",
+        "Main trade-off"
+      ],
+      "rows": [
+        [
+          "Reverse / straight tuck-end",
+          "Tucked flaps, no glue at fill",
+          "Light hand-packed retail goods",
+          "Lowest cost; weakest base under load"
+        ],
+        [
+          "Seal-end",
+          "Glued closed on the filling line",
+          "High-speed food, personal care, pharma",
+          "Tamper-evident and fast; not reclosable"
+        ],
+        [
+          "Auto-lock bottom",
+          "Pre-glued locking base, tucked or sealed top",
+          "Heavier or denser products",
+          "Carries weight; more board and more glue per unit"
+        ],
+        [
+          "Five-panel hanger",
+          "Tuck or seal, plus a hanging panel",
+          "Peg-displayed retail",
+          "Solves display; larger blank and a reinforced hole to specify"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How do you choose the board grade and caliper?"
+    },
+    {
+      "type": "text",
+      "text": "Board is chosen on three axes: the surface you print on, the stiffness you need, and whether the pack touches food. Folding cartonboard is usually specified both by grade name and by a weight in grams per square metre or a caliper in microns or points, and a converter will quote against either."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Solid bleached board (SBS/GZ) is white through the full thickness with a coated print surface. It is the premium choice for cosmetics, confectionery and anything where a clean white interior is visible when the carton is open.",
+        "Folding boxboard (FBB/GC) has a bleached top liner over a mechanical middle, which makes it lighter and stiffer for a given weight than a fully solid board. It is the workhorse of European retail cartons.",
+        "Coated recycled board (CCNB/GD) is built from recovered fibre with a coated white top. It is the value option and the sustainability-led one, with a grey back and slightly lower stiffness for the same weight.",
+        "Kraft-back and uncoated grades are chosen for a deliberately unbleached look, and they change how the artwork must be built - ink sits differently on an uncoated surface and colours read warmer."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "For caliper, work backwards from failure rather than forwards from a spec sheet. The questions that decide it are how much the panel spans without support, how much weight the base carries, whether the carton is shipped as a unit or inside a corrugated shipper, and whether the pack has to survive being stacked. Small unit cartons for light goods sit at the thin end of the folding-carton range; larger panels, heavier contents and any carton that ships on its own move up. Rather than committing on a number, ask your converter to run the specification on two adjacent calipers and send you samples to load-test with the real product - the difference in unit cost is usually small next to the cost of a damaged shipment."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Ask for the blank, not just the carton",
+      "body": "Request the die-line and the blank dimensions alongside the quote. The blank tells you how much board each unit consumes and how efficiently it nests on the press sheet, which is often where a style change quietly adds or removes several per cent of material cost. It is also what your co-packer needs to confirm the carton will run on their equipment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Folding carton or rigid box: where the line sits"
+    },
+    {
+      "type": "text",
+      "text": "A folding carton is die-cut and creased from a single sheet of cartonboard, ships flat and is erected at fill. A rigid box is built from a thick greyboard chipboard core wrapped in a printed or specialty paper, arrives assembled and does not fold down. They are different manufacturing processes with different tooling, different cost curves and different freight profiles, and the choice between them is rarely close once you know which factors dominate."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Choose a folding carton when unit cost, freight efficiency and line speed matter most. Flat shipping means far more units per pallet, and the tooling is a cutting die rather than a set of moulds and wraps.",
+        "Choose a rigid box when the unbox is part of the product - premium spirits, jewellery, electronics flagship packs, gift sets - or when the structure must protect a heavy or fragile item without an outer.",
+        "Watch the freight maths on volume. A rigid box occupies its full volume from the factory onwards; a folding carton occupies almost none until it is erected. On a long international lane that gap can matter more than the difference in unit price.",
+        "Do not use finishing to decide. Foil, embossing, soft-touch lamination and spot UV are available on both routes; they are a decoration decision layered on whichever structure the product actually needs."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If you are weighing the two for a gift or premium line, our rigid gift box buyer's guide covers the rigid side of that comparison in detail, including wrap materials and closure types."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What to send a converter so the quotes come back comparable"
+    },
+    {
+      "type": "text",
+      "text": "Most of the variance between folding-carton quotes is not price competitiveness - it is suppliers pricing against different assumptions. Send the same brief to everyone and the comparison becomes real."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Product dimensions and weight, and whether the product is rigid, flexible or loose fill. This is what actually determines the style and the caliper.",
+        "The style you believe you need, stated as a name or a die-line, plus a note that you will consider an alternative if the converter sees a better structural fit.",
+        "Board grade family and any sustainability or food-contact requirement, rather than a single mill brand - this lets each supplier quote the equivalent grade they run.",
+        "How the carton is filled: by hand, semi-automatic or on a specific machine. If there is a co-packer, name the equipment.",
+        "Print build and finishing, quantity per SKU, number of SKUs, and expected reorder cadence - these move the cost per unit far more than the style does."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "That last point is worth sitting with. Once the structure is settled, the biggest lever on what a folding carton costs is run length and setup, not style - which is a separate calculation and one we have written up in full."
+    },
+    {
+      "type": "cta",
+      "href": "/contact-us/",
+      "title": "Want a structure recommendation before you commit to a die?",
+      "body": "Send us the product dimensions, weight, fill method and expected annual volume, and we will come back with a suggested carton style, a board grade range and a die-line to review - so you are approving a structure rather than inheriting one."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a straight tuck-end and a reverse tuck-end carton?",
+      "a": "Both close with flaps that tuck into the carton body. On a straight tuck-end, the top and bottom flaps tuck from the same direction, so the carton has a consistent front face at both ends. On a reverse tuck-end, they tuck from opposite directions, which lets the blanks nest more efficiently on the press sheet and therefore usually costs slightly less in board. Reverse tuck-end is the more common of the two for general retail."
+    },
+    {
+      "q": "When do I need an auto-lock bottom instead of a tuck-end?",
+      "a": "When the base has to carry weight. A tucked bottom relies on friction and a small flap, and a dense or heavy product can push it open in handling. An auto-lock bottom arrives pre-glued and locks into a flat load-bearing floor as the carton is squared up, so it holds more and assembles faster by hand. It uses more board and more glue per unit, so it costs more - the trade is material cost against packing labour and damage risk."
+    },
+    {
+      "q": "What is a five-panel hanger carton used for?",
+      "a": "It is a merchandising structure for peg display. A fifth panel extends above the carton body and carries a hang hole - typically a euro-slot or a round punch - so the pack can hang on a retail hook. The extra panel also gives the carton a self-supporting wedge or triangular cross-section. If a retailer has specified peg display, this style is effectively decided for you."
+    },
+    {
+      "q": "Which cartonboard grade should I specify?",
+      "a": "Choose on print surface, stiffness and any food-contact requirement. Solid bleached board is white through the full thickness and suits premium packs where the interior is seen. Folding boxboard gives good stiffness for its weight and is the general retail workhorse. Coated recycled board is the value and recycled-content option with a grey back. Uncoated and kraft-back grades are chosen for a deliberately unbleached look and change how artwork must be built."
+    },
+    {
+      "q": "Should I use a folding carton or a rigid box?",
+      "a": "Use a folding carton when unit cost, freight efficiency and filling speed matter most - it ships flat and is erected at fill, so far more units fit on a pallet. Use a rigid box when the structure itself is part of the product experience or must protect a heavy or fragile item without an outer carton. Finishing options like foil and embossing are available on both, so they should not decide the structure."
+    },
+    {
+      "q": "What information does a converter need to quote a folding carton accurately?",
+      "a": "Product dimensions and weight, the carton style or die-line, the board grade family and any food-contact or sustainability requirement, how the carton will be filled and on what equipment, the print and finishing build, and the quantity per SKU with the number of SKUs and reorder cadence. Sending the identical brief to every supplier is what makes the quotes comparable."
+    }
+  ],
+  "related": [
+    {
+      "slug": "folding-cartons",
+      "label": "Folding cartons manufacturer Vietnam",
+      "kind": "page"
+    },
+    {
+      "slug": "rigid-gift-box-buyers-guide",
+      "label": "Rigid gift box buyer's guide",
+      "kind": "blog"
+    },
+    {
+      "slug": "print-methods-compared-offset-flexo-digital",
+      "label": "Offset vs flexo vs digital print: when each wins",
+      "kind": "blog"
+    },
+    {
+      "slug": "offset-vs-digital-moq-run-length",
+      "label": "MOQ math: offset vs digital by run length",
+      "kind": "blog"
+    }
+  ],
+  "seo": {
+    "title": "Folding Carton Styles Guide: Tuck-End vs Seal-End vs Auto-Lock",
+    "description": "How to choose between tuck-end, seal-end, auto-lock-bottom and five-panel hanger folding cartons, pick a board grade and caliper, and know when a rigid box is the better structure."
+  }
+}
