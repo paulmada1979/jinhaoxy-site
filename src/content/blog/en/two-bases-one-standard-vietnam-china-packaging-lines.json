@@ -1,0 +1,388 @@
+{
+  "seo": {
+    "title": "Two Bases, One Standard: Vietnam and China Packaging",
+    "description": "How Jinhao Xinyuan's Bac Ninh and Dongguan plants run to one standard, and how buyers route SKUs and document materials for PPWR and EPR."
+  },
+  "faqs": [
+    {
+      "a": "The group's certification page lists FSC chain-of-custody, ISO 9001:2015, SMETA, GMI, G7 and ISTA credentials across its factories, and cites SMETA-4P audits across all sites. Certificate scope differs by site and product, so ask for the pack for the specific factory that will make your job, and verify the numbers on the issuers' registers.",
+      "q": "Is the same certification pack available for both bases?"
+    },
+    {
+      "a": "Not automatically. The supplier's certificate shows it operates a controlled chain of custody. Your job needs an invoice that carries the correct claim, and the FSC trademark has to be applied under a valid license. The group's FSC scope is described as covering FSC Mix and recycled paper-based packaging, so confirm any other claim in writing first.",
+      "q": "Does FSC certification mean my carton can carry the FSC label?"
+    },
+    {
+      "a": "ISTA protocols simulate transit hazards such as drops, vibration and compression, and show whether a specific pack survives distribution. GMI concerns print quality and color reproduction against a measurable standard. One is about durability, the other about appearance. Neither addresses recyclability or fiber origin.",
+      "q": "What is the difference between ISTA testing and GMI certification?"
+    },
+    {
+      "a": "Ask for a material composition statement per SKU, the FSC claim and certificate code, details of inks, coatings and any non-paper components, food-contact declarations where relevant, current ISO 9001 and SMETA evidence, transit-test reports, and a declaration that names the manufacturing site. Rules and thresholds differ by market and are still being defined in places, so confirm requirements with your compliance team.",
+      "q": "What packaging documents should I request to prepare for EU PPWR or North American EPR?"
+    }
+  ],
+  "slug": "two-bases-one-standard-vietnam-china-packaging-lines",
+  "draft": false,
+  "title": "Two Manufacturing Bases, One Packaging Partner: Inside Jinhao Xinyuan's Vietnam and China Lines",
+  "author": "Jinhao Xinyuan Group editorial team",
+  "blocks": [
+    {
+      "body": "Packaging buyers now have to document what is in the box, not just what it looks like. Under the EU's PPWR and the extended producer responsibility (EPR) schemes spreading across North America, the brand owner carries the paperwork, and the paperwork starts at the converter. That is the case for a supplier with two bases that run one quality system: Bac Ninh in Vietnam and Changping, Dongguan in China. The useful question is which base fits which SKU, on run length, finishing complexity, lead time and landed cost.",
+      "type": "callout",
+      "title": "The 90-second version",
+      "variant": "stat"
+    },
+    {
+      "text": "Why do packaging buyers need a document trail, not just a good-looking box?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "A packaging specification used to be a dieline, a board grade, a Pantone reference and a finish. If the sample looked right and the drop test passed, the file was complete. Regulators in the EU and a growing number of North American jurisdictions now treat packaging as a regulated material stream. The brand that places it on the market is expected to know what it is made of, how recyclable it is, and who produced it.",
+      "type": "text"
+    },
+    {
+      "text": "The effect shows up as a retailer's supplier questionnaire, a compliance team's request for a material declaration, or a contract line asking for chain-of-custody evidence. Each lands on the buyer, and each can only be answered with information the converter holds: which board, from which mill, with which inks and coatings, made in which plant, audited by whom.",
+      "type": "text"
+    },
+    {
+      "text": "Who is Jinhao Xinyuan, and what are the two bases?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Jinhao Xinyuan Group manufactures packaging from two production bases. The first is in Bac Ninh Province, in northern Vietnam. The second, Dongguan Xinyuan Printing, is in Changping, Dongguan, in Guangdong, China. The group describes the two as a dual-hub network serving brands in retail, electronics, food and beverage, and cosmetics, and cites more than 25,000 brands served worldwide. It offers OEM and ODM support, meaning it can produce to your finished design or develop the structure and artwork with you.",
+      "type": "text"
+    },
+    {
+      "text": "The range covers corrugated boxes, rigid and gift boxes, folding cartons, labels and inserts. Not every product is made at both sites in equal depth, and that is the point of having two of them.",
+      "type": "text"
+    },
+    {
+      "text": "Bac Ninh, Vietnam: volume, corrugation and labels",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "The Bac Ninh site is the group's main production hub, serving clients across North America, Europe and Asia-Pacific. According to the group's about page it runs 8 semi-automatic and 10 fully automatic production lines and produces around one million gift boxes and ten million labels a month. It offers offset printing on Heidelberg and KBA presses, corrugated board in B, E and BC flute, folding and gluing lines, a dedicated rigid-box workshop and an on-site ISTA-certified test laboratory. Water-based ink printing is part of the standard set-up, and Hai Phong Port is close by.",
+      "type": "text"
+    },
+    {
+      "text": "Changping, Dongguan: premium color boxes and precision finishing",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Dongguan Xinyuan Printing is the China production center. It specialises in premium printed cartons, rigid boxes and instruction manuals for electronics, cosmetics, home appliance and fast-moving consumer goods brands. The factory page lists Heidelberg six-color presses with inline coating, Bobst and MK die-cutting, high-speed folder-gluers, hot-stamping and UV finishing systems for luxury effects, and a semi-automatic assembly line for magnetic and collapsible rigid boxes. It reports more than 400 trained technicians and G7 color-management certification. The Shenzhen and Guangzhou ports are nearby.",
+      "type": "text"
+    },
+    {
+      "body": "Floor-area figures for the sites vary across the group's own pages, so we leave them out here. If a number matters to your qualification file, ask for it in writing.",
+      "type": "callout",
+      "title": "A note on figures",
+      "variant": "note"
+    },
+    {
+      "text": "What does one standard across two factories actually mean?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Any supplier can say its factories are equivalent. A buyer needs to know what has to be identical for that to be true. There are five layers, and it is worth checking each one separately.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Management system: the same quality manual, inspection points and corrective-action process at both sites. The group's ISO 9001:2015 certification is stated for color boxes, color cartons and flexo cartons.",
+        "Color: a shared way of measuring and approving color. The group cites GMI certification in both lithographic and flexographic printing, and G7 color management, so a Pantone reference is judged against the same tolerance in either building.",
+        "Materials: the same FSC-certified paperboard sourcing policy and the same ink and coating choices, so the material declaration you receive does not depend on which site produced the run.",
+        "Testing: transit testing to a recognised protocol at either site. The group reports ISTA-certified laboratory capability and ISTA-certified packaging staff, with drop, vibration, compression and environmental conditioning tests.",
+        "Social compliance: audits under the same framework. The group cites SMETA-4P audits across its factories."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "The group also describes unified digital proofing across its network and a 72-hour design-to-production coordination window between sites. Test that in your own sample round. The real proof of one standard is two samples of the same SKU, made in two countries, that are indistinguishable on your bench.",
+      "type": "text"
+    },
+    {
+      "text": "How to decide which base a SKU belongs on",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Routing is a per-SKU decision. One brand often has a product that belongs in Vietnam, another in Dongguan, and a third that should be split. Four variables drive the answer.",
+      "type": "text"
+    },
+    {
+      "text": "1. Run length and repeatability",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Long, repeating runs favour lines with high automation and short changeover: shipping cartons, mailer boxes, folding cartons for consumer goods, labels. Per-unit cost there is dominated by machine time, and a fully automatic line pays back. Our article on offset versus digital MOQs covers how run length changes the print method.",
+      "type": "text"
+    },
+    {
+      "text": "2. Finishing complexity and handwork",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Some products are defined by what is done after printing: hot foil, embossing, spot UV, magnetic closures, wrapped chipboard rigid boxes with fitted inserts. These jobs depend on skilled hand assembly and tight tolerances more than on line speed. For a cosmetics gift box or a premium electronics presentation box, start the conversation with the finishing spec, not the price.",
+      "type": "text"
+    },
+    {
+      "text": "3. Lead time and freight route",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Lead time is production time plus the route. Ask each site for a written production lead time against your actual quantity and finish, then add the freight leg from the relevant port. We do not publish generic lead times here, because they depend on your spec, board availability and the season.",
+      "type": "text"
+    },
+    {
+      "text": "4. Landed cost and tariff treatment",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Unit price is only part of landed cost. Duties depend on the country of origin, the product classification and the destination market, and those rules change. The group's own guidance is that many US, UK and Australian shipments now route through Bac Ninh for tariff reasons. Our landed-cost article walks through the mechanics; take the numbers to your customs broker before you commit.",
+      "type": "text"
+    },
+    {
+      "text": "The routing table",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "rows": [
+        [
+          "Typical product",
+          "Corrugated boxes, mailers, folding cartons, labels, volume gift boxes",
+          "Premium color boxes, rigid gift boxes, magnetic and collapsible boxes, instruction manuals"
+        ],
+        [
+          "Run profile",
+          "Long, repeating runs with stable artwork",
+          "Shorter, finish-driven runs where craftsmanship sets the price"
+        ],
+        [
+          "Finishing",
+          "Standard coatings, water-based varnish, straightforward lamination alternatives",
+          "Hot foil, UV effects, complex assembly, fitted inserts"
+        ],
+        [
+          "Freight",
+          "Hai Phong Port access",
+          "Shenzhen and Guangzhou ports nearby"
+        ],
+        [
+          "Documentation",
+          "FSC, ISO 9001, SMETA, ISTA lab on site",
+          "FSC, ISO 9001, SMETA, G7, GMI, ISTA testing"
+        ]
+      ],
+      "type": "table",
+      "caption": "A starting point for discussion, not a rule. Every SKU should be confirmed against a written quote from each site.",
+      "headers": [
+        "Question",
+        "Points toward Bac Ninh, Vietnam",
+        "Points toward Changping, Dongguan"
+      ]
+    },
+    {
+      "text": "What to ask a packaging supplier to document for PPWR and EPR",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Regulatory detail will keep shifting, and some implementing rules under PPWR are still being defined. A documentation set built around materials and processes stays useful whichever way those details land. Ask every supplier, at either base, for the following before the first production order.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A material composition statement for each SKU: board type and grammage, coatings, laminates, inks, adhesives, and any non-paper components such as windows, ribbons, magnets or plastic trays.",
+        "The FSC claim and certificate code that apply to the paperboard, plus the claim that will appear on the invoice. Ask which claims the facility is certified to make.",
+        "A statement on coatings and inks, including whether coatings are water-based and whether any barrier coatings or films are present that could affect recyclability.",
+        "A declaration for food-contact packaging where relevant, covering the substances your customer or market restricts. Our PPWR brief discusses PFAS in this context.",
+        "The audit trail: current ISO 9001 and FSC certificates with numbers you can check on the issuer's public register, and the most recent SMETA report.",
+        "Transit-test reports for the specific pack design, not a generic lab certificate.",
+        "Manufacturing site named on each document. If one SKU could be made at either base, the declaration should say which one made it."
+      ],
+      "ordered": true
+    },
+    {
+      "text": "The last item is the one most often missed with multi-site suppliers. A declaration that names the group but not the plant is weak evidence.",
+      "type": "text"
+    },
+    {
+      "text": "How FSC chain-of-custody works at the carton level",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "FSC certification is easy to misread. A certificate on a factory wall proves the converter has a controlled system for tracking FSC-certified material. It does not prove that your specific carton contains FSC fiber. That link is made job by job.",
+      "type": "text"
+    },
+    {
+      "text": "The chain works like this. A certified mill sells board with an invoice that carries its certificate code and the FSC claim for that material. The converter receives the board, records it in its system, and keeps FSC and non-FSC material separately identified through production. When your job ships, the converter issues an invoice that carries its own certificate code and the claim that applies. If you want the FSC label on your retail carton, the trademark has to be applied under a valid license.",
+      "type": "text"
+    },
+    {
+      "text": "The claims you will see are FSC 100 percent, FSC Mix and FSC Recycled. The group's certification page describes its chain-of-custody as verified for FSC Mix and recycled paper-based packaging, so confirm scope in writing before planning a pack around any other claim. Check the code on your supplier's invoice against the FSC public database.",
+      "type": "text"
+    },
+    {
+      "text": "What ISTA and GMI actually tell you",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "ISTA, the International Safe Transit Association, publishes test protocols that simulate what happens to a package in distribution: drops, vibration, compression and environmental conditioning. A pack passing an ISTA procedure means it survived that defined simulation, in that configuration, with that product. Parcel-delivery protocols such as ISTA 3A are common in e-commerce work. Check that the report names your product and pack design, and that the procedure matches your distribution channel. The group reports an ISTA-certified laboratory and ISTA-certified packaging professionals.",
+      "type": "text"
+    },
+    {
+      "text": "GMI is a print-quality and color-management certification. The group cites certification in lithographic printing, covering process and spot color, and in flexographic printing, covering direct-print corrugate and spot color. It gives you a defined way of measuring color, so the blue on your carton is judged the same way on every job. It says nothing about strength or recyclability.",
+      "type": "text"
+    },
+    {
+      "text": "Eco-friendly inks and coatings: what to specify",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "The group states that its materials are FSC-certified, recyclable and responsibly sourced, and that it invests in eco-friendly inks, water-based coatings and recyclable paperboard. For a buyer, the practical step is to turn that into a specification line, so it is enforceable on every order.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Name the ink system in the spec (for example water-based or soy-based inks where the job allows) rather than leaving it to the supplier's default.",
+        "Prefer water-based dispersion coatings over plastic film lamination where the product design allows. Plastic film bonded to paperboard is the most common reason a carton loses recyclability in assessment.",
+        "Treat heavy foil coverage as a design decision with a recyclability cost.",
+        "Keep windows and inserts single-material and easy to separate, or design them out."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "From sample to production: a workflow that works across two sites",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "A multi-site supplier works best with a disciplined workflow. This sequence qualifies both bases without doubling your workload.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Write the spec once. One dieline, one artwork set, one color reference, one finishing brief, one list of compliance documents required. Do not adapt it for each site.",
+        "Request quotes from the relevant base, or from both. Ask for a written lead time and the certificates in scope.",
+        "Approve a pre-production sample made on the intended equipment and materials.",
+        "Run the transit test on the approved sample, using the procedure your customer or channel expects, and file the report against the SKU.",
+        "Receive the document pack, with the site named, and check the certificate numbers on the issuers' public registers.",
+        "Place a first production order sized to be a real test, and inspect on arrival against the approved sample and the specification.",
+        "Once the SKU is qualified, document the routing decision and the reason."
+      ],
+      "ordered": true
+    },
+    {
+      "text": "Because the spec and document pack are site-neutral, moving a SKU between bases later is a new sample round rather than a new project.",
+      "type": "text"
+    },
+    {
+      "text": "Splitting one program across both bases",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Some programs are a natural fit for a split. A premium cosmetic or electronics launch might use a rigid presentation box with heavy finishing from Dongguan and a folding carton or shipping carton from Bac Ninh. The group describes this arrangement itself: bulk volume from Vietnam, the specialty run from Dongguan, consolidated into one shipment.",
+      "type": "text"
+    },
+    {
+      "text": "The risk in a split is color mismatch between components. Use one approved color reference, approve the components side by side at sample stage, and ask for one document pack that names the site for each component.",
+      "type": "text"
+    },
+    {
+      "text": "A buyer's checklist for a two-base supplier",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "type": "list",
+      "items": [
+        "Have I decided, per SKU, which base it belongs on and written down why?",
+        "Do I have current certificate numbers for FSC, ISO 9001 and SMETA, checked on the issuers' registers?",
+        "Does the FSC claim on my invoices match the claim I want on my label?",
+        "Does every declaration name the site that made the product?",
+        "Is there a material composition statement for every SKU, including non-paper components?",
+        "Is there a transit-test report for the exact pack design?",
+        "Has my customs broker confirmed origin and classification for each routing option?"
+      ],
+      "ordered": false
+    },
+    {
+      "text": "A two-base supplier is not a shortcut around compliance. Certificates prove a system existed at the time of audit, and the technical details behind PPWR and the North American EPR programs will keep evolving. What a good supplier can do is hold the underlying information, make it available quickly, and run the same process in every building.",
+      "type": "text"
+    },
+    {
+      "body": "Send your dieline, quantities, finishing brief and destination market. We will recommend which base fits the SKU, list the certificates and documents available for it, and quote from the right site or from both.",
+      "href": "/contact-us/",
+      "type": "cta",
+      "title": "Tell us about your SKU and your market"
+    }
+  ],
+  "cluster": "compliance",
+  "related": [
+    {
+      "kind": "blog",
+      "slug": "eu-ppwr-2026-brief-for-non-eu-exporters",
+      "label": "EU PPWR brief for non-EU exporters"
+    },
+    {
+      "kind": "blog",
+      "slug": "packaging-certifications-fsc-iso-bsci-sedex",
+      "label": "Packaging certifications decoded"
+    },
+    {
+      "kind": "blog",
+      "slug": "vietnam-vs-china-landed-cost-worked-example",
+      "label": "Vietnam vs China landed-cost worked example"
+    },
+    {
+      "kind": "blog",
+      "slug": "offset-vs-digital-moq-run-length",
+      "label": "Offset vs digital: MOQ and run length"
+    },
+    {
+      "kind": "blog",
+      "slug": "china-to-vietnam-supplier-switch-playbook",
+      "label": "China to Vietnam supplier switch playbook"
+    },
+    {
+      "kind": "page",
+      "slug": "certifications",
+      "label": "Our certifications and audit reports"
+    },
+    {
+      "kind": "page",
+      "slug": "vietnam-xinyuanjia",
+      "label": "Bac Ninh, Vietnam factory"
+    },
+    {
+      "kind": "page",
+      "slug": "dongguan-xinyuan-printing-factory",
+      "label": "Dongguan, China factory"
+    }
+  ],
+  "category": "Factory network",
+  "coverAlt": "Wide view of a packaging factory floor with printed carton sheets stacked on pallets beside an offset press and a folder-gluer line, with workers inspecting finished boxes under bright overhead lighting",
+  "updatedAt": "2026-09-29",
+  "coverImage": "/blog/two-bases-one-standard-vietnam-china-packaging-lines-hero.jpg",
+  "readingMin": 11,
+  "description": "How one packaging supplier runs Bac Ninh, Vietnam and Dongguan, China to one standard, and how buyers pick a base per SKU and document materials.",
+  "publishedAt": "2026-09-29"
+}
