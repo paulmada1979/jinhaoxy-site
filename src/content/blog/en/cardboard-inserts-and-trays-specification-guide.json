@@ -1,0 +1,394 @@
+{
+  "seo": {
+    "title": "Cardboard Inserts and Trays: A Specification Guide",
+    "description": "How to specify paper packaging inserts and trays: insert types, B, E and BC flute, fit, transit testing, sector needs and replacing foam."
+  },
+  "faqs": [
+    {
+      "a": "For most consumer products, yes, but it is a redesign rather than a swap. Paper inserts protect through geometry, folds and air gaps instead of a soft material, so the design has to be developed and transit-tested with the real product. Very heavy or extremely fragile items may still need a combination of solutions.",
+      "q": "Can a cardboard insert really replace foam?"
+    },
+    {
+      "a": "Start with B-flute when cushioning and puncture resistance matter, E-flute when the insert is visible and needs a fine cut and clean print, and BC double wall when the insert carries real load. Confirm the choice with a sample and a transit test, because board calliper varies by mill and grade.",
+      "q": "Which flute should I use for an insert?"
+    },
+    {
+      "a": "An insert made from a single paper-based material is usually easy to recycle. Recyclability can be affected by plastic windows, film lamination, heavy coatings and some adhesives, so list every component and finish in the specification and ask the supplier to confirm the material composition.",
+      "q": "Are paper inserts recyclable?"
+    },
+    {
+      "a": "They should be tested as part of the complete pack: the real product, the insert and the outer box together, packed the way they will ship. Testing the insert on its own does not show how the product behaves inside the box during drops and vibration.",
+      "q": "Do inserts need their own transit test?"
+    }
+  ],
+  "slug": "cardboard-inserts-and-trays-specification-guide",
+  "draft": false,
+  "title": "Cardboard Inserts and Trays: How to Specify a Paper Insert That Protects the Product",
+  "author": "Jinhao Xinyuan Group editorial team",
+  "blocks": [
+    {
+      "body": "An insert decides whether a product arrives intact and whether the unboxing looks deliberate or improvised. Paper-based inserts (die-cut corrugated, folded paperboard, partitions and trays) can replace most foam and plastic in consumer packaging, but only if they are specified properly: the right board and flute, a fit tolerance that suits the product, a design that survives the transit test, and a material list your compliance team can sign off. This guide walks through the choices in the order a buyer has to make them.",
+      "type": "callout",
+      "title": "The 90-second version",
+      "variant": "stat"
+    },
+    {
+      "text": "What does a packaging insert actually have to do?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "An insert has three jobs, and most specification mistakes come from optimising for one and forgetting the others. It has to hold the product still, so it does not move inside the outer box. It has to absorb or spread the energy of a drop, so a corner hit on the carton does not become a crack in the product. And it has to present the product, because in retail and e-commerce the insert is the first thing the customer sees when the lid comes off.",
+      "type": "text"
+    },
+    {
+      "text": "A fourth job has arrived more recently: the insert has to be explainable. Retailers and regulators increasingly ask what packaging is made of and whether it can be recycled. A foam cavity glued into a paper box is easy to make and hard to defend. A single-material paper insert is usually easier to document, as long as the coatings, adhesives and any windows are chosen with the same care.",
+      "type": "text"
+    },
+    {
+      "text": "The main types of paper-based insert",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Paper-based inserts are not one thing. The family below covers almost every consumer and industrial use, and each type has a typical strength and a typical weakness.",
+      "type": "text"
+    },
+    {
+      "text": "Die-cut corrugated inserts",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "A flat sheet of corrugated board is cut and creased into a shape that folds up around the product, often with cut-outs that cradle it. Corrugated gives real cushioning because of the fluted middle layer, which is why it is the default for electronics, small appliances, glass and anything heavy. Die-cut inserts can be designed to assemble without glue, which keeps them single-material and quick to pack.",
+      "type": "text"
+    },
+    {
+      "text": "Folded paperboard inserts",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Solid paperboard (sometimes called carton board) is thinner and smoother than corrugated, and it prints well. It is the usual choice for cosmetics, small accessories and premium presentation where the product is light and the insert is visible. It holds position well but cushions less, so it works best inside a stronger outer box.",
+      "type": "text"
+    },
+    {
+      "text": "Partitions and dividers",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Interlocking slotted strips divide a box into cells, one product per cell. They are the classic solution for bottles, jars and multi-unit packs because they stop items knocking into each other. The board thickness and cell size decide how much side impact they absorb.",
+      "type": "text"
+    },
+    {
+      "text": "Trays",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "A tray is a shallow, open box that carries products, either as an inner component of a pack or as a shipping and display unit on its own. Trays are common in food and beverage logistics, in retail-ready display, and in electronics where a component needs a fixed position for automated assembly.",
+      "type": "text"
+    },
+    {
+      "text": "Wrapped chipboard inserts in rigid boxes",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Luxury rigid boxes often use a chipboard insert wrapped in printed or textured paper, with a cut-out for the product. It looks finished and holds shape, but it is heavier and slower to make by hand. It is chosen for presentation rather than cushioning, so the outer shipping protection still matters.",
+      "type": "text"
+    },
+    {
+      "rows": [
+        [
+          "Die-cut corrugated",
+          "Cushioning and holding heavier products",
+          "Visible flute edges; needs a clean cut for a premium look",
+          "Electronics, small appliances, glass, kitchenware"
+        ],
+        [
+          "Folded paperboard",
+          "Print quality and a neat presentation",
+          "Limited cushioning on its own",
+          "Cosmetics, accessories, light retail goods"
+        ],
+        [
+          "Partitions / dividers",
+          "Separating multiple items",
+          "Cell size must match the item closely",
+          "Bottles, jars, multi-packs, spare parts"
+        ],
+        [
+          "Trays",
+          "Carrying, stacking and display",
+          "Wall height and corner strength",
+          "Food and beverage, retail-ready, component handling"
+        ],
+        [
+          "Wrapped chipboard",
+          "Premium unboxing",
+          "Weight, cost and hand assembly time",
+          "Luxury gift and rigid boxes"
+        ]
+      ],
+      "type": "table",
+      "caption": "A starting point. The right choice depends on product weight, fragility, distribution route and how the pack is presented.",
+      "headers": [
+        "Insert type",
+        "Best at",
+        "Watch out for",
+        "Typical uses"
+      ]
+    },
+    {
+      "text": "How do you choose the board and the flute?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Once the insert type is chosen, the material decides most of the performance. For corrugated inserts the flute profile is the main lever. Flute names describe the size of the wave in the middle layer: smaller flutes give a thinner, flatter board that cuts and prints cleanly; larger flutes give more cushioning and stacking strength.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "E-flute is a fine flute, roughly 1.5 mm thick. It folds tightly, takes detailed die-cutting and prints well, so it suits retail inserts, cosmetics and small electronics where the insert is seen.",
+        "B-flute is a medium flute, roughly 3 mm thick. It gives noticeably more cushioning and puncture resistance and is the workhorse for inserts that protect heavier or more fragile products in transit.",
+        "BC double wall combines two flutes for stacking and compression strength. It is used for heavy products, large trays and inserts that have to carry load, at the cost of bulk and a less refined edge."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "These thicknesses are typical values rather than a specification: real board varies by mill and grade, so confirm the calliper on the sample. Jinhao XinYuan's Vietnam factory runs B, E and BC-flute corrugation lines, so the same three profiles are available for inserts as for the outer cartons, which helps when the insert and the box need to be developed together.",
+      "type": "text"
+    },
+    {
+      "text": "The liner (the flat paper on each side of the flute) matters too. Kraft liners are brown and strong; white-top liners give a cleaner look and better print contrast; coated grades are used where the insert is printed with high detail or needs a smoother surface. For solid paperboard inserts, the grade and grammage set stiffness and print quality. XinYuan supplies kraft liners, white-top liners and specialty coated boards, and describes its paperboard as FSC-certified with recyclable liners.",
+      "type": "text"
+    },
+    {
+      "body": "If the product is heavy or fragile, start with B-flute corrugated and refine downwards. If the product is light and the insert is on show, start with E-flute or paperboard and test upwards. It is cheaper to remove material after a passed test than to add it after a failed one.",
+      "type": "callout",
+      "title": "A simple rule for the first sample",
+      "variant": "tip"
+    },
+    {
+      "text": "Fit: the tolerance that makes or breaks an insert",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "An insert that is too loose lets the product rattle, and rattling is where scuffs, broken seals and cracked corners come from. An insert that is too tight makes packing slow, tears the board and frustrates the customer trying to lift the product out. The right fit depends on the product surface: a hard, smooth product wants a firmer fit than a soft or coated one that marks easily.",
+      "type": "text"
+    },
+    {
+      "text": "Fit is controlled by three things: the accuracy of the dieline, the consistency of the board, and the accuracy of the cutting. XinYuan states that each tray and insert is cut on automated precision equipment for dimensional accuracy and consistent fit at scale, which matters most on long runs where hand-trimmed variation would show up as packing problems on the line.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Send a physical product sample, not only a drawing. Real products have draft angles, rounded edges and tolerances that a CAD outline hides.",
+        "Say how the product is lifted out. A thumb notch, a ribbon pull or a lift tab changes the insert design and is easy to add at sample stage.",
+        "Say whether packing is by hand or by machine. Inserts for automated assembly need consistent fold-up behaviour and fixed positions; XinYuan designs custom-fit inserts, dividers and trays for automated assembly.",
+        "Include accessories. Cables, manuals and small parts need their own cells, or they will move and damage the main product."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "Designing for the drop, not just the desk",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Most inserts look fine on a desk. The question is what happens on a conveyor, in a truck and on the doorstep. Transit testing simulates that journey: drops on faces, edges and corners, vibration, and compression from stacking. A design that passes on the bench can still fail in distribution if the product is allowed to travel a few millimetres before the insert stops it.",
+      "type": "text"
+    },
+    {
+      "text": "The useful habit is to test the insert inside the real outer box, with the real product, filled the way it will ship. XinYuan states that its projects follow ISO 9001 and ISTA testing standards, and its Bac Ninh site has an on-site ISTA-certified test laboratory, so the insert and the outer pack can be tested together before a production order. Ask for the report to name the pack design and the test procedure used, and keep it with the SKU file.",
+      "type": "text"
+    },
+    {
+      "body": "A heavy product in a light insert passes the face drops and fails the corner drops. Corners concentrate the energy. If a sample fails, look first at how close the product sits to the corners of the outer box and whether the insert holds it away from them.",
+      "type": "callout",
+      "title": "The common failure",
+      "variant": "warning"
+    },
+    {
+      "text": "Sector by sector: what changes",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Electronics and devices",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Electronics need a secure, fixed position and protection for screens and connectors. Some components also need protection from static. XinYuan lists anti-static and secure-fit inserts for electronics and device packaging. If static protection is a requirement, state it in the specification and ask which material or treatment provides it, rather than assuming a standard board does.",
+      "type": "text"
+    },
+    {
+      "text": "Food and beverage",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "Trays and inserts for food and drink often meet moisture, chilled storage or condensation. XinYuan lists moisture-resistant and recyclable trays for food and beverage logistics. Moisture resistance usually comes from the board grade or a coating, and coatings affect recyclability, so ask what provides the resistance and whether it changes how the pack is classified. If an insert touches food directly, a food-contact declaration for the specific material is required.",
+      "type": "text"
+    },
+    {
+      "text": "Retail display",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "In retail, the insert or tray is part of the shelf presentation. Printed finishes and die-cut windows help the product show. XinYuan offers customizable print finishes and die-cut windows for retail displays. Keep windows single-material where possible, or design them so the customer can separate them easily.",
+      "type": "text"
+    },
+    {
+      "text": "E-commerce",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "E-commerce packs travel alone through parcel networks, with more handling and more drops than a palletised retail shipment. The goal is light construction that still resists load. XinYuan describes its e-commerce inserts as lightweight with strong load resistance. A good e-commerce insert often lets you use a smaller outer box, which saves on board and on dimensional-weight freight.",
+      "type": "text"
+    },
+    {
+      "text": "Replacing foam and plastic: what to check",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Many buyers come to paper inserts because they want to remove expanded polystyrene, polyethylene foam or vacuum-formed plastic. A paper insert can usually do the same protective job, but it achieves it differently: by geometry, folds and air gaps rather than by a soft material. That means the switch is a redesign, not a material swap.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Start from the failure you are protecting against: shock, scratching, crushing or movement. Each one is solved by a different paper structure.",
+        "Expect the insert to take a little more space than foam for the same protection, or expect to add folds and ribs rather than thickness.",
+        "Re-test. A paper insert that replaces foam must pass the same transit test the foam pack passed.",
+        "Check the whole pack, not just the insert. A paper insert glued into a box with a plastic window and a laminated finish may still not be a mono-material pack."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "Under the EU's Packaging and Packaging Waste Regulation and the extended producer responsibility schemes spreading across North America, recyclability and material declarations are becoming routine requests. Many implementing details are still being defined, so treat this as a direction of travel rather than a list of fixed rules, and confirm specific requirements with your compliance team. Our PPWR brief for non-EU exporters covers the background.",
+      "type": "text"
+    },
+    {
+      "text": "What to send a supplier for an accurate insert quote",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Insert quotes vary widely because inserts vary widely. The more of the following you send with the first enquiry, the closer the first sample will be to the final design.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The product itself, or two or three samples if there is any size variation between units.",
+        "Product weight and the most fragile part (a screen, a glass neck, a corner).",
+        "The outer box: dimensions, board and whether it is already fixed or can change with the insert.",
+        "How it ships: parcel, palletised retail, or both, and the destination markets.",
+        "How it is packed: by hand or on an automated line, and the target packing speed if automated.",
+        "Presentation: whether the insert is visible, printed colours, and any window or lift feature.",
+        "Material requirements: FSC claim, no plastic, food contact, static protection, recycled content.",
+        "Quantities: first order and expected annual volume, which affects tooling and the cutting method."
+      ],
+      "ordered": true
+    },
+    {
+      "text": "XinYuan's factories in Vietnam and China produce both standard and custom-fit trays and inserts, with die-cut, laminated and printed options. For a programme where the insert and the outer box are developed together, sending the full brief at once lets one team optimise both.",
+      "type": "text"
+    },
+    {
+      "text": "From sample to production",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "type": "list",
+      "items": [
+        "Agree the brief and the test standard before the first dieline is drawn.",
+        "Approve a structural sample with the real product, checking fit, packing time and the lift-out.",
+        "Run the transit test on the complete pack and file the report against the SKU.",
+        "Approve a printed pre-production sample if the insert is printed or visible.",
+        "Collect the document pack: material composition, FSC claim and certificate code, coatings and adhesives, and the producing site.",
+        "Inspect the first production delivery against the approved sample, especially fit and fold-up behaviour."
+      ],
+      "ordered": true
+    },
+    {
+      "text": "Because inserts are cut on dies, design changes after tooling cost time and money. A slightly longer sample stage almost always costs less than a second die.",
+      "type": "text"
+    },
+    {
+      "text": "A buyer's checklist for paper inserts",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "type": "list",
+      "items": [
+        "Is the insert type matched to the product's weight, fragility and presentation?",
+        "Is the board and flute confirmed on a real sample, not only on a datasheet?",
+        "Does the insert hold the product away from the corners of the outer box?",
+        "Has the complete pack passed a transit test for the real distribution route?",
+        "Are coatings, adhesives and windows listed, and is the pack still easy to separate and recycle?",
+        "Do the documents name the material, the FSC claim and the site that made it?"
+      ],
+      "ordered": false
+    },
+    {
+      "body": "Share the product, its weight, the outer box and how it ships. We will suggest an insert type and board, make a structural sample, and test the complete pack before you commit to production.",
+      "href": "/contact-us/",
+      "type": "cta",
+      "title": "Send us the product and the box"
+    }
+  ],
+  "cluster": "inserts",
+  "related": [
+    {
+      "kind": "page",
+      "slug": "cardboard-trays-inserts",
+      "label": "Cardboard trays and inserts"
+    },
+    {
+      "kind": "page",
+      "slug": "e-commerce-mailer-boxes",
+      "label": "E-commerce mailer boxes"
+    },
+    {
+      "kind": "blog",
+      "slug": "corrugated-mailer-specs-explained",
+      "label": "Corrugated mailer specs explained"
+    },
+    {
+      "kind": "blog",
+      "slug": "rigid-gift-box-buyers-guide",
+      "label": "Rigid gift box buyer's guide"
+    },
+    {
+      "kind": "blog",
+      "slug": "eu-ppwr-2026-brief-for-non-eu-exporters",
+      "label": "EU PPWR brief for non-EU exporters"
+    },
+    {
+      "kind": "blog",
+      "slug": "packaging-certifications-fsc-iso-bsci-sedex",
+      "label": "Packaging certifications decoded"
+    }
+  ],
+  "category": "Buyer's guide",
+  "coverAlt": "Die-cut corrugated inserts and cardboard trays stacked beside a packaging production line in a carton factory",
+  "updatedAt": "2026-10-06",
+  "coverImage": "/blog/cardboard-inserts-and-trays-specification-guide-hero.jpg",
+  "readingMin": 10,
+  "description": "A buyer's guide to paper-based packaging inserts: insert types, board and flute choice, fit tolerance, transit testing, sector needs and replacing foam.",
+  "publishedAt": "2026-10-06"
+}
