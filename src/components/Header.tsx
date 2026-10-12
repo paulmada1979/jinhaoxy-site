@@ -253,8 +253,8 @@ export default function Header({
                 {t("nav.products")}
                 <ChevronDown size={14} />
               </button>
-              {packagingOpen && (
-                <div className="absolute right-0 top-full pt-2 w-[1100px]">
+              {/* Always rendered (hidden until hover) so the links are in the crawlable HTML. */}
+                <div className={`absolute right-0 top-full pt-2 w-[1100px] ${packagingOpen ? "" : "hidden"}`}>
                   <div className="bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden">
                     <div className="grid grid-cols-[1fr_2.5fr]">
                       {/* Featured image panel */}
@@ -308,7 +308,6 @@ export default function Header({
                     </div>
                   </div>
                 </div>
-              )}
             </div>
 
             {/* Factories mega menu */}
@@ -321,8 +320,8 @@ export default function Header({
                 {t("nav.factories")}
                 <ChevronDown size={14} />
               </button>
-              {factoriesOpen && (
-                <div className="absolute right-0 top-full pt-2 w-[720px]">
+              {/* Always rendered (hidden until hover) so the links are in the crawlable HTML. */}
+                <div className={`absolute right-0 top-full pt-2 w-[720px] ${factoriesOpen ? "" : "hidden"}`}>
                   <div className="bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden">
                     <div className="px-5 pt-4 pb-2">
                       <span className="text-[10px] font-bold uppercase tracking-widest text-orange-600">
@@ -373,7 +372,6 @@ export default function Header({
                     </div>
                   </div>
                 </div>
-              )}
             </div>
 
             {/* Blog */}
