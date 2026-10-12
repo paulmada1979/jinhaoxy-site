@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import {
   getAllArticles,
@@ -31,6 +32,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const entry = getArticle(slug);
   if (!entry || !entry.availableLocales.includes(locale as Locale)) {
     return { title: "Not Found", robots: { index: false, follow: false } };

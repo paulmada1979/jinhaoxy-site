@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
@@ -59,6 +60,7 @@ export default async function BlogIndex({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const prefix = locale === "en" ? "" : `/${locale}`;
   const articles = getArticlesForLocale(locale as Locale);
 

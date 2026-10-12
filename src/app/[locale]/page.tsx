@@ -1,4 +1,5 @@
 import HomePage from "@/components/HomePage";
+import { setRequestLocale } from "next-intl/server";
 import type { PageData } from "@/components/PageRenderer";
 import type { Metadata } from "next";
 
@@ -54,6 +55,7 @@ export default async function Home({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const mod = await import(`@/content/${locale}/home.json`);
   const page = mod.default as PageData;
   return <HomePage page={page} />;

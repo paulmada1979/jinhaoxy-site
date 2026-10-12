@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import PageRenderer, { type PageData } from "@/components/PageRenderer";
 import ContactPage from "@/components/ContactPage";
@@ -106,6 +107,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const page = await loadPage(locale, slug);
   if (!page) return { title: "Not Found", robots: { index: false, follow: false } };
 
