@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import Script from "next/script";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
+import { getAllArticles } from "@/lib/blog";
 import Footer from "@/components/Footer";
 import PostHogProvider from "@/components/PostHogProvider";
 import "../globals.css";
@@ -85,6 +86,12 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
 
+  // Which locales each blog article exists in, so the header language
+  // switcher never links to a /vi/ or /zh/ article that doesn't exist (404).
+  const blogLocales: Record<string, string[]> = Object.fromEntries(
+    getAllArticles().map((a) => [a.meta.slug, [...a.availableLocales]]),
+  );
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -116,7 +123,7 @@ export default async function LocaleLayout({
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <PostHogProvider>
           <NextIntlClientProvider messages={messages}>
-            <Header />
+            <Header blogLocales={blogLocales} />
             <main className="flex-1">{children}</main>
             <Footer />
           </NextIntlClientProvider>

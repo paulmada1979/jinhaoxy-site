@@ -79,7 +79,11 @@ function buildFactories(t: (key: string) => string) {
   ];
 }
 
-export default function Header() {
+export default function Header({
+  blogLocales = {},
+}: {
+  blogLocales?: Record<string, string[]>;
+} = {}) {
   const t = useTranslations();
   const locale = useLocale();
   const pathname = usePathname();
@@ -96,6 +100,14 @@ export default function Header() {
   const prefix = locale === "en" ? "" : `/${locale}`;
 
   function localePath(href: string, newLocale: string) {
+    // Blog articles are not all translated. If this article has no version in
+    // the target language, send the switcher to that language's blog index
+    // instead of a URL that 404s.
+    const blogMatch = href.match(/^\/blog\/([^/]+)\/?$/);
+    if (blogMatch) {
+      const available = blogLocales[blogMatch[1]];
+      if (available && !available.includes(newLocale)) href = "/blog/";
+    }
     if (newLocale === "en") return href;
     return `/${newLocale}${href}`;
   }
