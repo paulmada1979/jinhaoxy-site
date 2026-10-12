@@ -50,7 +50,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       entries.push({
         url: urlFor(locale, slug),
-        lastModified: new Date(),
+        // No lastModified: static pages have no per-page edit date, and
+        // `new Date()` stamped every URL "modified now" on every build,
+        // which teaches Google to ignore lastmod for the whole site.
         changeFrequency: slug === "home" ? "weekly" : "monthly",
         priority: slug === "home" ? 1.0 : slug === "about-us" || slug === "products" ? 0.9 : 0.7,
         alternates: { languages },
@@ -58,11 +60,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Blog index per locale
+  // Blog index per locale: lastmod = newest article update (a real date).
+  const latestArticleUpdate = getAllArticles()
+    .map((a) => new Date(a.meta.updatedAt))
+    .reduce((a, b) => (a > b ? a : b), new Date(0));
   for (const locale of LOCALES) {
     entries.push({
       url: blogIndexUrl(locale),
-      lastModified: new Date(),
+      lastModified: latestArticleUpdate,
       changeFrequency: "weekly",
       priority: 0.6,
       alternates: {
