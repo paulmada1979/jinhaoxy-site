@@ -255,6 +255,11 @@
       "slug": "cosmetic-gift-boxes",
       "label": "Cosmetic Gift Boxes – Perfume, Skincare & Makeup Packaging",
       "kind": "page"
+    },
+    {
+      "slug": "custom-printed-gift-boxes",
+      "label": "Custom Printed Gift Boxes",
+      "kind": "page"
     }
   ]
 }
