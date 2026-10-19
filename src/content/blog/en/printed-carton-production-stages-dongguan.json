@@ -1,0 +1,371 @@
+{
+  "seo": {
+    "title": "How a Printed Carton Is Made: Inside Our Dongguan Factory",
+    "description": "Follow a premium printed carton through Jinhao Xinyuan's Dongguan plant: pre-press, six-color printing, finishing, die-cutting, folding and inspection."
+  },
+  "faqs": [
+    {
+      "a": "Heidelberg CX102 and XL105 six-color offset presses with inline coating, installed in a fully enclosed, dust-free printing hall. Six print units allow the four process colors plus up to two spot colors in one pass, with a coating applied in the same pass.",
+      "q": "What presses does the Dongguan factory use to print cartons?"
+    },
+    {
+      "a": "Yes. The group lists hot foil stamping, spot UV, embossing and debossing, and matte or gloss lamination, and the Dongguan factory runs KURZ and Sakurai hot stamping and UV systems. Supply each effect as its own artwork layer and confirm the order of operations on a finished, folded sample.",
+      "q": "Can one carton combine foil, spot UV and embossing?"
+    },
+    {
+      "a": "The factory lists G7 certified color management and GMI color proofing, and the group describes spectrophotometer-based Delta-E measurement against a reference. On your side, name spot colors rather than building them from CMYK, agree a physical color standard, and keep an approved press sheet or sample as the master for repeats.",
+      "q": "How is color kept consistent between repeat orders?"
+    },
+    {
+      "a": "Usually because the fold runs against the grain of the board, the board is too stiff for the crease, or a laminate or heavy dark solid sits across the fold. Decide the board and dieline together, so grain direction can be planned, and check creases on a sample made with the final board and finish.",
+      "q": "Why do creases crack on some printed cartons?"
+    },
+    {
+      "a": "FSC chain-of-custody certification is listed for the Dongguan factory. Whether your specific carton carries an FSC claim depends on the board ordered for your job and the claim on the invoice. Ask for the certificate pack for the producing factory and confirm the claim you need in writing before artwork is final.",
+      "q": "Is the carton board FSC certified?"
+    },
+    {
+      "a": "Both depend on the board, finishes, quantity and season, so ask for them in writing against your specification. Include sample lead time, production lead time from proof approval, the shipping port and the trade terms.",
+      "q": "What is the MOQ and lead time for a printed carton?"
+    }
+  ],
+  "slug": "printed-carton-production-stages-dongguan",
+  "draft": false,
+  "short": "How a printed carton is made in Dongguan",
+  "title": "Inside Jinhao Xinyuan's Dongguan Factory: How a Premium Printed Carton Is Printed, Coated, Cut and Folded",
+  "author": "Jinhao Xinyuan Group editorial team",
+  "blocks": [
+    {
+      "body": "A premium printed carton passes through seven stages at Jinhao Xinyuan's Dongguan plant: pre-press and proofing, printing on Heidelberg CX102 and XL105 six-color presses with inline coating, surface finishing, hot stamping and UV effects, die-cutting on Bobst and MK lines, folding and gluing on Vega and Jagenberg folder-gluers, then inspection and packing. Each stage carries decisions that belong to the buyer, and most faults on a finished carton trace back to one left open earlier. Below, we walk one carton down the line.",
+      "type": "callout",
+      "title": "The short version",
+      "variant": "stat"
+    },
+    {
+      "text": "A buyer sees the finished carton. The factory sees a sequence of operations, each fixing something the next cannot change: a color wrong on the press sheet cannot be rescued by the coating, and a crease against the grain will crack however well the folder-gluer is set. Knowing the order helps you make each decision at the right moment.",
+      "type": "text"
+    },
+    {
+      "text": "Dongguan Xinyuan Printing Co., Ltd. is Jinhao Xinyuan Group's production center in Dongguan, Guangdong Province. It specializes in premium printed cartons, rigid boxes and instruction manuals for electronics, cosmetics, home appliance and fast-moving consumer goods brands. The factory page describes pre-press, offset printing, surface finishing, die-cutting, lamination, folding and assembly run in one facility, under ISO 9001:2015 quality management and FSC chain-of-custody systems. The group's other production base is in Bac Ninh, Vietnam. This article stays with the Dongguan line.",
+      "type": "text"
+    },
+    {
+      "text": "What happens to a printed carton before it reaches the press?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Every carton starts as a structural drawing, the dieline. It sets the panels, flaps, glue area, crease lines and any windows, and it is built outwards from the product's dimensions. The group's in-house design team assists with structural engineering, dieline creation and visual artwork, and accepts artwork as Adobe Illustrator (.AI), print-ready PDF at 300 DPI minimum, or CDR files. Once artwork sits on the approved dieline, a color proof is made. The factory lists GMI color proofing and G7 certified color management, which give proof and press a shared, measurable target.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The product's dimensions and weight, or a physical sample, so the dieline is built from the inside out.",
+        "The carton style you want, with a photo or sketch of how it opens and closes.",
+        "Artwork placed on the factory's approved dieline, with bleed, and with spot colors named rather than built from CMYK.",
+        "Pantone references for brand colors, with a physical swatch or a previously printed carton as the visual standard.",
+        "The board type and grammage, and the FSC claim you need on the invoice, if any."
+      ],
+      "ordered": false
+    },
+    {
+      "body": "Artwork built on an old dieline, or on a generic template from another supplier, is the most common source of trouble later in the line: text that runs into a crease, a logo split by a glue flap, a window that misses the product. Ask for the dieline version number on every proof and do not approve a proof that shows a different one.",
+      "type": "callout",
+      "title": "Where pre-press goes wrong",
+      "variant": "warning"
+    },
+    {
+      "text": "Board and paper",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "text": "The board decides how the carton prints, folds and stands up on shelf. Specify the board type and its grammage or caliper, the side you print on, and whether the product's weight calls for a stiffer grade. If you need an FSC claim on the pack, say so at this stage, because certified board has to be ordered and tracked from receipt. The group's certification information describes its chain of custody as covering FSC Mix and recycled paper-based packaging, so confirm any other claim in writing before you plan artwork around it.",
+      "type": "text"
+    },
+    {
+      "text": "How is the carton printed on the Heidelberg six-color presses?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Cartons in Dongguan are printed offset on Heidelberg CX102 and XL105 six-color presses with inline coating, in a fully enclosed, dust-free printing hall. Six print units allow the four process colors plus up to two spot colors in a single pass, and the inline coating unit applies a protective or decorative coat in the same pass, before the sheet is stacked. The enclosed hall matters most on large solids and dark backgrounds, where a speck of dust on the plate or blanket shows up as a visible spot on the printed sheet.",
+      "type": "text"
+    },
+    {
+      "text": "Color is controlled against the approved proof. The factory lists G7 certified color management, and the group describes a color management system with spectrophotometer-based Delta-E measurement, so color is judged by instrument as well as by eye, and repeat orders are measured against the same reference.",
+      "type": "text"
+    },
+    {
+      "text": "What to specify at the press",
+      "type": "heading",
+      "level": 3
+    },
+    {
+      "type": "list",
+      "items": [
+        "Which elements must print as spot colors and which can be built from CMYK. A brand color built from process inks will shift more between runs than a mixed spot ink.",
+        "The color standard and how approval works: a signed proof, a press check, or an approved press sheet kept as the master for repeat orders.",
+        "The ink system, for example water-based or soy-based inks where the job allows, written into the specification rather than left to default.",
+        "Large solid areas and heavy ink coverage, flagged so drying and coating can be planned for them."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "What tends to go wrong here: color drift between the first run and a repeat order, dust spots on solids, and fine or reversed-out type that fills in. A clear color standard and artwork built for offset prevent most of these.",
+      "type": "text"
+    },
+    {
+      "text": "Which coatings and finishes are applied, and in what order?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "After printing, the sheet moves to surface finishing. The group lists offset and UV printing, hot foil stamping in gold and silver, embossing and debossing, matte and gloss lamination, and spot UV. In Dongguan, hot stamping and UV coating run on KURZ and Sakurai systems, and the factory page also lists efficient LED curing systems and low-VOC coatings.",
+      "type": "text"
+    },
+    {
+      "text": "The order of operations shapes the result. Typically the protective coating or laminate goes on first, and foil and spot UV are registered on top of it, with embossing applied before the sheet is cut. Confirm the sequence for your design, because it changes how the foil adheres, how sharp an emboss looks and how the surface resists scuffing in transit.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The finish for each area of the carton: overall coating or lamination, and matte or gloss.",
+        "Foil color and the exact foil area, supplied as a separate artwork layer.",
+        "Spot UV and embossing areas, each on their own artwork layer, so they register to the print."
+      ],
+      "ordered": false
+    },
+    {
+      "body": "Plastic film laminated to board, heavy foil coverage and some coatings can affect how a carton is assessed for recyclability. Where the design allows, a water-based dispersion coating can protect the print without a film layer. Treat large foil areas as a design decision with a recyclability cost, and list every finish in the specification so the supplier can confirm the material composition.",
+      "type": "callout",
+      "title": "Finishes and recyclability",
+      "variant": "tip"
+    },
+    {
+      "text": "What tends to go wrong here: foil that does not bond well to a particular coating, foil or spot UV that drifts out of register with the print, cracking along creases on laminated dark solids, and an emboss that is flattened by later handling. A finished, folded sample shows these faults; a flat proof does not.",
+      "type": "text"
+    },
+    {
+      "text": "How is the carton die-cut and creased?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Die-cutting turns a printed sheet into flat carton blanks. Dongguan runs Bobst and MK automatic precision die-cutting lines. A cutting die made from the approved dieline cuts the outline and any windows, and scores the crease lines, in one stroke. Waste is then stripped away. The factory page lists closed-loop recycling of paper waste and offcuts, which is where that trim goes.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The approved dieline version, and the dimensions that are critical to fit, so they can be checked first.",
+        "Windows, hang holes, tear strips or perforations, drawn on the dieline rather than described in an email.",
+        "Bleed on all cut edges, so a small variation between cut and print does not leave a white edge."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "What tends to go wrong here: creases that crack, especially when the fold runs against the grain or across a heavy laminate, cut lines that wander from the print, and nick marks on a front panel. Grain direction is set when the board is laid out on the press sheet, so decide board and dieline together.",
+      "type": "text"
+    },
+    {
+      "text": "How is the carton folded and glued?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Folding and gluing runs on Vega and Jagenberg high-speed folder-gluers. The machine pre-breaks the creases, applies glue to the side seam (and to the bottom panels for styles that lock or seal at the base), folds the blank and compresses the seam until the glue sets. The cartons leave the line flat, ready to be erected by hand or on a packing machine.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The carton style, such as a tuck-end or a lock-bottom construction, with a reference sample if you have one.",
+        "Whether your packers erect cartons by hand or on an automatic cartoner. If by machine, send the machine's carton requirements with the brief.",
+        "Any requirement on the glue, for example for food or cosmetic products, written into the specification.",
+        "How many flat cartons go into each shipping carton, and how the bundles should be banded or separated."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "What tends to go wrong here: a side seam that opens because glue landed on a coated area, out-of-square cartons that jam a cartoner, and glue marks on the print. Running production cartons on your own packing line before the main order is the most reliable check.",
+      "type": "text"
+    },
+    {
+      "body": "Equipment, certifications and the full production set-up of Dongguan Xinyuan Printing Co., Ltd.",
+      "href": "/dongguan-xinyuan-printing-factory/",
+      "type": "cta",
+      "title": "See the Dongguan factory"
+    },
+    {
+      "text": "Where do rigid boxes leave the carton route?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Rigid gift boxes share the first half of the line: their wrap sheets are printed, coated and finished like carton sheets. The box itself is greyboard that is cut, grooved, formed and wrapped. The group describes its Dongguan factory as combining automated precision grooving and die-cutting with skilled manual wrapping teams, and the factory page lists a semi-automatic assembly line for magnetic and collapsible rigid boxes. For a rigid box, add board thickness, wrap paper and closure to the specification.",
+      "type": "text"
+    },
+    {
+      "text": "How is quality checked, and what records can a buyer ask for?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "The factory lists GMI color proofing, ISTA transit testing and barcode traceability under quality control, with integrated ERP production tracking. The group describes incoming, in-process and outgoing quality control (IQC, IPQC, OQC), combining automated vision inspection with manual sampling, with third-party inspection support on request.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Delta-E readings for your key colors against the approved reference.",
+        "The outgoing inspection report for your batch, against the approved sample and specification.",
+        "An ISTA transit-test report that names your product and pack design, if the pack ships through parcel or long-haul freight.",
+        "Batch identification on each shipping carton, so a fault found at your warehouse can be traced back to its run."
+      ],
+      "ordered": false
+    },
+    {
+      "text": "Stage by stage: equipment, what to specify, what can go wrong",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "rows": [
+        [
+          "Pre-press and proofing",
+          "In-house structural and artwork design; GMI color proofing; G7 color management",
+          "Product size, carton style, artwork on the approved dieline, Pantone references, board and FSC claim",
+          "Artwork on an outdated dieline; color approved on screen only"
+        ],
+        [
+          "Offset printing",
+          "Heidelberg CX102 and XL105 six-color presses with inline coating, enclosed dust-free hall",
+          "Spot versus process colors, color standard and approval method, ink system",
+          "Color drift between runs; dust spots on solids; fine type filling in"
+        ],
+        [
+          "Coating and lamination",
+          "Inline coating on press; matte and gloss lamination; UV coating",
+          "Finish per area, matte or gloss, scuff resistance, recyclability needs",
+          "Scuffing in transit; film lamination affecting recyclability"
+        ],
+        [
+          "Foil, spot UV, embossing",
+          "KURZ and Sakurai hot stamping and UV systems",
+          "Foil color and area, spot UV and emboss layers, order of operations",
+          "Foil not bonding; effects out of register with print"
+        ],
+        [
+          "Die-cutting and creasing",
+          "Bobst and MK automatic die-cutting lines",
+          "Dieline version, critical dimensions, windows and perforations, bleed",
+          "Cracked creases; cut drifting from print; visible nicks"
+        ],
+        [
+          "Folding and gluing",
+          "Vega and Jagenberg high-speed folder-gluers",
+          "Carton style, hand or machine erecting, glue requirements, pack count",
+          "Seams opening; out-of-square cartons jamming a cartoner"
+        ],
+        [
+          "Inspection and dispatch",
+          "IQC, IPQC and OQC with vision inspection; ISTA testing; barcode traceability; ERP tracking",
+          "Reports and test results required, batch labelling, trade terms",
+          "Faults found only at the buyer's warehouse, with no batch trace"
+        ]
+      ],
+      "type": "table",
+      "caption": "Equipment as listed on the Dongguan factory page and the group's site. Failure points reflect general carton practice; confirm each on a folded sample.",
+      "headers": [
+        "Stage",
+        "Equipment in Dongguan",
+        "What the buyer should specify",
+        "What can go wrong"
+      ]
+    },
+    {
+      "text": "What does the plant do on inks, coatings and waste?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "The factory page lists water-based and soy-based inks, low-VOC coatings, closed-loop recycling of paper waste and offcuts, and solar power supplementation with efficient LED curing systems. Turn these into specification lines: name the ink system, name the coating, and state whether film lamination is allowed. A written requirement applies to every order; a general policy does not.",
+      "type": "text"
+    },
+    {
+      "body": "The Dongguan factory page lists FSC chain-of-custody, ISO 9001:2015, SMETA (Sedex) and G7 certification. An FSC certificate shows the converter runs a controlled system for tracking certified material; it does not by itself prove your carton contains FSC fiber. That link is made job by job, through the claim on the invoice. Scope differs by site and product, so ask for the certificate pack for the factory producing your job and check the numbers on each issuer's public register.",
+      "type": "callout",
+      "title": "About FSC and the certificate pack",
+      "variant": "note"
+    },
+    {
+      "text": "What should you ask about MOQ, lead time and shipping?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "This article does not quote minimum order quantities or lead times. Both depend on the board, the finishes, the quantity and the season. The factory page lists 24-hour operation capacity for urgent projects, which helps on a tight schedule but does not replace a written lead time for your specification. Dongguan sits close to the Shenzhen and Guangzhou ports, and the group supports FOB, CIF and DDP trade terms, with the option of split shipments from its China or Vietnam facilities. Ask for the following in writing:",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The MOQ for your carton style, board and finish combination.",
+        "Sample lead time, and whether the sample is printed and finished or structure only.",
+        "Production lead time from proof approval, plus the port and the freight leg.",
+        "The certificates in scope for the producing site and product.",
+        "Which reports come with each shipment: inspection, color readings, transit test."
+      ],
+      "ordered": false
+    },
+    {
+      "body": "Share your product size, carton style, board, colors, finishes and target quantity. We will review the dieline, recommend the finishing sequence, and confirm MOQ, lead time and the certificates in scope in writing for your specification.",
+      "href": "/contact-us/",
+      "type": "cta",
+      "title": "Send us your carton brief"
+    }
+  ],
+  "cluster": "factories",
+  "related": [
+    {
+      "kind": "blog",
+      "slug": "two-bases-one-standard-vietnam-china-packaging-lines",
+      "label": "Two bases, one standard: inside our Vietnam and China lines"
+    },
+    {
+      "kind": "blog",
+      "slug": "rigid-gift-box-buyers-guide",
+      "label": "Rigid gift box buyer's guide"
+    },
+    {
+      "kind": "blog",
+      "slug": "cardboard-inserts-and-trays-specification-guide",
+      "label": "Cardboard inserts and trays specification guide"
+    },
+    {
+      "kind": "blog",
+      "slug": "cosmetic-gift-box-sourcing-guide",
+      "label": "Cosmetic gift box sourcing guide"
+    }
+  ],
+  "category": "Factory tour",
+  "coverAlt": "Printed carton sheets leaving a six-color offset press in an enclosed printing hall, with die-cut and folded cartons stacked beside the delivery end",
+  "keywords": [
+    "printed carton manufacturing process",
+    "how folding cartons are made",
+    "carton printing factory china",
+    "dongguan packaging factory",
+    "heidelberg six-color offset carton printing",
+    "carton die-cutting and folder-gluing",
+    "hot stamping and spot uv cartons",
+    "premium printed carton supplier"
+  ],
+  "updatedAt": "2026-10-19",
+  "coverImage": "/blog/printed-carton-production-stages-dongguan-hero.jpg",
+  "readingMin": 12,
+  "description": "Jinhao Xinyuan's Dongguan plant: Heidelberg six-color presses with inline coating, Bobst and MK die-cutting, hot stamping, UV finishing and rigid boxes.",
+  "publishedAt": "2026-10-19"
+}
