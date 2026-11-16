@@ -117,5 +117,14 @@ export default async function BlogArticle({
 
   const data = getArticleData(entry, locale as Locale);
   if (!data) notFound();
-  return <BlogArticleRenderer article={data} locale={locale as Locale} />;
+  // Drop "related" blog links whose target is a draft or not built for this
+  // locale; linking to them produced a live 404 (folding-carton-styles-guide).
+  const related = data.related?.filter(
+    (r) =>
+      r.kind === "page" ||
+      Boolean(getArticle(r.slug)?.availableLocales.includes(locale as Locale)),
+  );
+  return (
+    <BlogArticleRenderer article={{ ...data, related }} locale={locale as Locale} />
+  );
 }
