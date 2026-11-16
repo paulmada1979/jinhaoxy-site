@@ -31,7 +31,7 @@
       "type": "image",
       "src": "/blog/flute-comparison-inline.png",
       "alt": "Macro photograph of three corrugated board cross-sections lined up edge-on showing visibly different flute heights — left B-flute medium wave 3mm, center E-flute fine tight 1.5mm, right BC double-wall stacked 6mm — natural kraft color with real fiber texture",
-      "caption": "Left to right: B-flute (3mm), E-flute (1.5mm), BC double-wall (6mm). The flute height determines stiffness, cushioning, and printability. Don't pick by price — pick by what the mailer actually has to do."
+      "caption": "Left to right: B-flute (about 3mm), E-flute (1.5mm), BC double-wall (6mm). The flute height determines stiffness, cushioning, and printability. Don't pick by price — pick by what the mailer actually has to do."
     },
     {
       "type": "heading",
@@ -57,7 +57,7 @@
         ],
         [
           "B",
-          "3.2mm",
+          "about 3mm",
           "47",
           "Retail-ready, e-commerce mailers, displays",
           "baseline"
@@ -208,7 +208,7 @@
   "faqs": [
     {
       "q": "Can I downgrade from C-flute to B-flute to save cost?",
-      "a": "Sometimes. B-flute uses slightly less paper per square foot than C-flute, so it's marginally cheaper at the same liner spec. But B-flute is shorter (3.2mm vs 4.0mm), so it has less cushioning and less stack strength. For lightweight e-commerce mailers (under 10 lb) the swap usually works. For shipping cartons getting palletized, the BCT drop is too significant — you'd need to upgrade the liner paper to compensate, and that wipes out the saving. Run the math on your specific SKU before committing."
+      "a": "Sometimes. B-flute uses slightly less paper per square foot than C-flute, so it's marginally cheaper at the same liner spec. But B-flute is shorter (about 3mm vs 4.0mm), so it has less cushioning and less stack strength. For lightweight e-commerce mailers (under 10 lb) the swap usually works. For shipping cartons getting palletized, the BCT drop is too significant — you'd need to upgrade the liner paper to compensate, and that wipes out the saving. Run the math on your specific SKU before committing."
     },
     {
       "q": "Is the 32 ECT / 200 lb burst standard still valid in 2026?",

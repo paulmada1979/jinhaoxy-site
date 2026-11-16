@@ -221,7 +221,7 @@
     "use6Title": "Promotional & Gift Sets",
     "use6Desc": "Seasonal campaigns and branded gift programs",
     "sustainTitle": "Less Freight. Less Waste. Lower Impact.",
-    "sustainDesc": "Collapsible boxes are sustainable by design. When you reduce shipping volume by 70%, you reduce trucks, fuel, and container space — plus every box is FSC-certified, recyclable, and built to be reused by the customer.",
+    "sustainDesc": "Collapsible boxes are sustainable by design. When you reduce shipping volume by up to 70%, you reduce trucks, fuel, and container space — plus every box is FSC-certified, recyclable, and built to be reused by the customer.",
     "sustain1": "Up to 70% less freight volume",
     "sustain2": "FSC-certified boards and papers",
     "sustain3": "Water-based inks and coatings",
@@ -305,7 +305,7 @@
     "hubsBadge": "Production Hubs",
     "hubsTitle": "Vietnam & China production hubs",
     "hub1Title": "Vietnam Xinyuanjia",
-    "hub1Location": "Bac Ninh / Bac Giang — 20,000–30,000 m²",
+    "hub1Location": "Bac Ninh — 20,000–30,000 m²",
     "hub1Desc": "Offset, corrugation, die-cutting, folding-gluing. Export-oriented cosmetic cartons and rigid boxes.",
     "hub2Title": "Dongguan Xinyuan Printing",
     "hub2Location": "Guangdong, China — 30,000 m²",
@@ -557,7 +557,7 @@
     "hub2Title": "China (Dongguan)",
     "hub2Desc": "Premium finishing — hot foil, embossing, holograms, combination presses",
     "formTitle": "Request a Label Quote",
-    "formDesc": "Share your label specs — artwork, substrate, finish, adhesive type, quantity, and destination market. We'll respond with sample options and pricing within 1 business day."
+    "formDesc": "Share your label specs — artwork, substrate, finish, adhesive type, quantity, and destination market. We'll respond with sample options and pricing within 24–48 hours."
   },
   "plastic": {
     "badge": "Plastic Crates & Containers",
@@ -668,7 +668,7 @@
     "hub2Title": "China (Dongguan)",
     "hub2Desc": "Precision tooling, custom mold development, specialty compounds including ESD and food-grade",
     "formTitle": "Request a Plastic Container Quote",
-    "formDesc": "Share your application — load weight, environment (warehouse / cold-chain / retail / food), quantity, and any existing dimensions to match. We'll respond with product options and pricing within 1 business day."
+    "formDesc": "Share your application — load weight, environment (warehouse / cold-chain / retail / food), quantity, and any existing dimensions to match. We'll respond with product options and pricing within 24–48 hours."
   },
   "magnetic": {
     "badge": "Magnetic Closure Gift Boxes",
@@ -757,7 +757,7 @@
     "sustain3": "Recyclable kraft liners",
     "sustain4": "Designed for reuse — lower lifecycle impact",
     "formTitle": "Request a Quote for Magnetic Gift Boxes",
-    "formDesc": "Share your product, volume, box style, and closure feel preference — our engineering team will send a sample design and quote within 1 business day."
+    "formDesc": "Share your product, volume, box style, and closure feel preference — our engineering team will send a sample design and quote within 24–48 hours."
   },
   "jewelry": {
     "badge": "Jewelry Gift Boxes",
@@ -1080,7 +1080,7 @@
     "process4Title": "Mass Production",
     "process4Desc": "Full run on semi-automatic or automated assembly lines",
     "formTitle": "Request a Quote for Luxury Rigid Gift Boxes",
-    "formDesc": "Share your brand, product category, and target unboxing experience — our design team will send a concept direction and quote within 1 business day.",
+    "formDesc": "Share your brand, product category, and target unboxing experience — our design team will send a concept direction and quote within 24–48 hours.",
     "specEyebrow": "Get an accurate quote",
     "specTitle": "What to send a rigid-box factory for an accurate quote",
     "specDesc": "The six things that let us price your luxury rigid gift box on the first pass — no back-and-forth.",
@@ -1389,7 +1389,7 @@
     "cap7": "ISTA-certified testing",
     "cap8": "FSC & ISO 9001 certifications",
     "formTitle": "Get Pricing for Shipping Boxes & Export Cartons",
-    "formDesc": "Tell us about your product, volume, and destination — we'll respond with a tailored quote within 1 business day."
+    "formDesc": "Tell us about your product, volume, and destination — we'll respond with a tailored quote within 24–48 hours."
   },
   "certifications": {
     "badge": "Trust & Compliance",
@@ -1750,13 +1750,13 @@
     "aboutTitle": "What is the Dongguan Xinyuan printing factory?",
     "faqTitle": "Common follow-up questions",
     "faq1Q": "Is the Dongguan factory part of Jinhao Xinyuan Group?",
-    "faq1A": "Yes — Dongguan Xinyuan Printing Co., Ltd is Jinhao Xinyuan Group's China production centre, operating alongside the group's Vietnam factory in Bac Giang.",
+    "faq1A": "Yes — Dongguan Xinyuan Printing Co., Ltd is Jinhao Xinyuan Group's China production centre, operating alongside the group's Vietnam factory in Bac Ninh.",
     "faq2Q": "What products does the Dongguan factory make?",
     "faq2A": "Rigid boxes, folding cartons, printed gift boxes and instruction manuals for electronics, cosmetics, home-appliance and FMCG brands.",
     "faq3Q": "What certifications does the factory hold?",
     "faq3A": "FSC® chain-of-custody, ISO 9001:2015, SMETA (Sedex) and G7® colour-management certification.",
     "faq4Q": "Can you also produce in Vietnam?",
-    "faq4A": "Yes — the group runs a parallel FSC® and ISO 9001 factory in Bac Giang, Vietnam, so orders can be placed in either country with matched standards.",
+    "faq4A": "Yes — the group runs a parallel FSC® and ISO 9001 factory in Bac Ninh, Vietnam, so orders can be placed in either country with matched standards.",
     "faq5Q": "How do I request a quote or factory visit?",
     "faq5A": "Use the contact form on this page or email info@jinhaoxy.com with your product, quantity and target market; the China operations team replies with specs and pricing.",
     "aboutDesc1Pre": "Located in the heart of China's manufacturing hub, the facility covers over ",

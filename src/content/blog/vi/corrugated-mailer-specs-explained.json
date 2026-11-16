@@ -31,7 +31,7 @@
       "type": "image",
       "src": "/blog/flute-comparison-inline.png",
       "alt": "Ảnh macro của ba mặt cắt ngang tấm tôn xếp cạnh cho thấy chiều cao sóng khác nhau rõ rệt - sóng B bên trái sóng trung bình 3mm, sóng E trung tâm chặt chẽ 1,5mm, bên phải BC hai bức xếp chồng lên nhau 6mm - màu kraft tự nhiên với kết cấu sợi thật",
-      "caption": "Từ trái sang phải: Sóng B (3mm), Sóng E (1.5mm), vách đôi BC (6mm). Chiều cao ống sóng quyết định độ cứng, đệm và khả năng in. Đừng chọn theo giá cả - hãy chọn theo những gì người gửi thư thực sự phải làm."
+      "caption": "Từ trái sang phải: Sóng B (khoảng 3mm), Sóng E (1.5mm), vách đôi BC (6mm). Chiều cao ống sóng quyết định độ cứng, đệm và khả năng in. Đừng chọn theo giá cả - hãy chọn theo những gì người gửi thư thực sự phải làm."
     },
     {
       "type": "heading",
@@ -57,7 +57,7 @@
         ],
         [
           "B",
-          "3.2 mm",
+          "khoảng 3 mm",
           "47",
           "Bưu phẩm, màn hình thương mại điện tử, sẵn sàng bán lẻ",
           "Đường cơ sở"
@@ -208,7 +208,7 @@
   "faqs": [
     {
       "q": "Tôi có thể hạ cấp từ sóng C xuống sóng B để tiết kiệm chi phí không?",
-      "a": "Đôi khi. Sóng B sử dụng ít giấy hơn một chút trên mỗi foot vuông so với sóng C, vì vậy nó rẻ hơn một chút ở cùng một thông số kỹ thuật lót. Nhưng sóng B ngắn hơn (3.2mm so với 4.0mm), vì vậy nó có ít đệm hơn và độ bền xếp chồng ít hơn. Đối với các bưu phẩm thương mại điện tử nhẹ (dưới 10 lb), hoán đổi thường hoạt động. Đối với các thùng carton vận chuyển được xếp lên pallet, sự sụt giảm BCT là quá đáng kể - bạn cần nâng cấp giấy lót để bù đắp và điều đó sẽ xóa sạch khoản tiết kiệm. Chạy phép toán trên SKU cụ thể của bạn trước khi cam kết."
+      "a": "Đôi khi. Sóng B sử dụng ít giấy hơn một chút trên mỗi foot vuông so với sóng C, vì vậy nó rẻ hơn một chút ở cùng một thông số kỹ thuật lót. Nhưng sóng B ngắn hơn (khoảng 3mm so với 4.0mm), vì vậy nó có ít đệm hơn và độ bền xếp chồng ít hơn. Đối với các bưu phẩm thương mại điện tử nhẹ (dưới 10 lb), hoán đổi thường hoạt động. Đối với các thùng carton vận chuyển được xếp lên pallet, sự sụt giảm BCT là quá đáng kể - bạn cần nâng cấp giấy lót để bù đắp và điều đó sẽ xóa sạch khoản tiết kiệm. Chạy phép toán trên SKU cụ thể của bạn trước khi cam kết."
     },
     {
       "q": "Tiêu chuẩn nổ 32 ECT / 200 lb có còn hiệu lực vào năm 2026 không?",

@@ -1,6 +1,6 @@
 {
   "slug": "hai-duong-corrugated-factory-tour",
-  "title": "Inside a Hai Duong Corrugated Factory: What a Plant Tour Actually Proves",
+  "title": "Inside a Bac Ninh Corrugated Factory: What a Plant Tour Actually Proves",
   "description": "A buyer's walkthrough of a Vietnamese corrugated plant: the eight stations to inspect in order, what each one proves about a supplier, the documents to request before you fly, and the corrugated-specific checks most procurement teams miss.",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-09",
@@ -10,7 +10,7 @@
   "cluster": "products",
   "draft": false,
   "coverImage": "/blog/hai-duong-factory-tour-hero.png",
-  "coverAlt": "Wide interior view of a corrugated packaging plant in Hai Duong, Vietnam, with a corrugator line running board through the heated section and stacked bundles of B-flute sheets waiting at the dry end",
+  "coverAlt": "Wide interior view of a corrugated packaging plant in Bac Ninh, Vietnam, with a corrugator line running board through the heated section and stacked bundles of B-flute sheets waiting at the dry end",
   "blocks": [
     {
       "type": "callout",
@@ -160,11 +160,11 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "What our Hai Duong plant runs"
+      "text": "What our Bac Ninh plant runs"
     },
     {
       "type": "text",
-      "text": "For transparency, the same disclosure we ask buyers to demand of any supplier. Our Hai Duong facility produces B, E and BC-flute corrugated board and export cartons. On the equipment side it runs 2,500 mm corrugation lines, direct offset printing for high-end retail graphics, and heavy-duty flexo for shipping cartons — a combination that is uncommon among Vietnamese corrugated manufacturers, and the reason we can hold both retail-facing and transit-facing work in the same plant. Vietnamese origin also places the output outside the China Section 301 measure."
+      "text": "For transparency, the same disclosure we ask buyers to demand of any supplier. Our Bac Ninh facility produces B, E and BC-flute corrugated board and export cartons. On the equipment side it runs 2,500 mm corrugation lines, direct offset printing for high-end retail graphics, and heavy-duty flexo for shipping cartons — a combination that is uncommon among Vietnamese corrugated manufacturers, and the reason we can hold both retail-facing and transit-facing work in the same plant. Vietnamese origin also places the output outside the China Section 301 measure."
     },
     {
       "type": "callout",
@@ -257,7 +257,7 @@
     }
   ],
   "seo": {
-    "title": "Hai Duong Corrugated Factory Tour: What to Inspect",
+    "title": "Bac Ninh Corrugated Factory Tour: What to Inspect",
     "description": "A buyer's walkthrough of a Vietnamese corrugated plant: the eight stations to inspect, what each proves about a supplier, and what to request first."
   }
 }

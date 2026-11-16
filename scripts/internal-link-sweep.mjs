@@ -71,15 +71,15 @@ const INLINE_CTAS = {
     insertAfterImageSrc: "/blog/landed-cost-spreadsheet-inline.png",
     en: {
       title: "Vietnam corrugated packaging — the production side of this math",
-      body: "Where the worked example actually gets manufactured: B-flute, E-flute, BC double-wall corrugated production at our Hai Duong factory.",
+      body: "Where the worked example actually gets manufactured: B-flute, E-flute, BC double-wall corrugated production at our Bac Ninh factory.",
     },
     vi: {
       title: "Bao bì sóng Việt Nam — phía sản xuất của phép tính này",
-      body: "Nơi ví dụ trên thực sự được sản xuất: sản xuất sóng B, sóng E, BC hai lớp tại nhà máy Hải Dương của chúng tôi.",
+      body: "Nơi ví dụ trên thực sự được sản xuất: sản xuất sóng B, sóng E, BC hai lớp tại nhà máy Bắc Ninh của chúng tôi.",
     },
     zh: {
       title: "越南瓦楞包装 — 这套计算背后的生产端",
-      body: "上述案例的实际生产地：在我们的海阳工厂生产B型、E型、BC双壁瓦楞产品。",
+      body: "上述案例的实际生产地：在我们的北宁工厂生产B型、E型、BC双壁瓦楞产品。",
     },
   },
   // Post #4: CTA to vietnam-xinyuanjia after the certificate-of-origin image.

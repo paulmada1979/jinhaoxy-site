@@ -221,7 +221,7 @@
     "use6Title": "Bộ khuyến mại & quà tặng",
     "use6Desc": "Chiến dịch theo mùa và chương trình quà tặng có thương hiệu",
     "sustainTitle": "Vận chuyển hàng hóa ít hơn. Ít chất thải hơn. Tác động thấp hơn.",
-    "sustainDesc": "Hộp có thể thu gọn được thiết kế bền vững. Khi bạn giảm khối lượng vận chuyển xuống 70%, bạn sẽ giảm không gian xe tải, nhiên liệu và container — cộng với mỗi hộp đều được chứng nhận FSC, có thể tái chế và được chế tạo để khách hàng tái sử dụng.",
+    "sustainDesc": "Hộp có thể thu gọn được thiết kế bền vững. Khi bạn giảm khối lượng vận chuyển tới 70%, bạn sẽ giảm không gian xe tải, nhiên liệu và container — cộng với mỗi hộp đều được chứng nhận FSC, có thể tái chế và được chế tạo để khách hàng tái sử dụng.",
     "sustain1": "Khối lượng vận chuyển hàng hóa giảm tới 70%",
     "sustain2": "Bảng và giấy tờ được chứng nhận FSC",
     "sustain3": "Mực và lớp phủ gốc nước",
@@ -305,7 +305,7 @@
     "hubsBadge": "Trung tâm sản xuất",
     "hubsTitle": "Trung tâm sản xuất Việt Nam và Trung Quốc",
     "hub1Title": "Vietnam Xinyuanjia",
-    "hub1Location": "Bắc Ninh / Bắc Giang — 20.000–30.000 m²",
+    "hub1Location": "Bắc Ninh — 20.000–30.000 m²",
     "hub1Desc": "Bù đắp, gấp nếp, cắt bế, gấp-dán. Thùng carton mỹ phẩm định hướng xuất khẩu và hộp cứng.",
     "hub2Title": "In Đông Quan Xinyuan",
     "hub2Location": "Quảng Đông, Trung Quốc — 30.000 m²",
@@ -557,7 +557,7 @@
     "hub2Title": "Trung Quốc (Đông Quan)",
     "hub2Desc": "Hoàn thiện cao cấp - lá nóng, dập nổi, hình ba chiều, máy ép kết hợp",
     "formTitle": "Yêu cầu báo giá nhãn",
-    "formDesc": "Chia sẻ thông số kỹ thuật nhãn của bạn - tác phẩm nghệ thuật, chất nền, lớp hoàn thiện, loại chất kết dính, số lượng và thị trường đích. Chúng tôi sẽ trả lời các tùy chọn mẫu và giá cả trong vòng 1 ngày làm việc."
+    "formDesc": "Chia sẻ thông số kỹ thuật nhãn của bạn - tác phẩm nghệ thuật, chất nền, lớp hoàn thiện, loại chất kết dính, số lượng và thị trường đích. Chúng tôi sẽ trả lời các tùy chọn mẫu và giá cả trong vòng 24–48 giờ."
   },
   "plastic": {
     "badge": "Thùng nhựa & Hộp đựng",
@@ -668,7 +668,7 @@
     "hub2Title": "Trung Quốc (Đông Quan)",
     "hub2Desc": "Dụng cụ chính xác, phát triển khuôn tùy chỉnh, các hợp chất đặc biệt bao gồm ESD và cấp thực phẩm",
     "formTitle": "Yêu cầu báo giá hộp nhựa",
-    "formDesc": "Chia sẻ ứng dụng của bạn — trọng lượng tải, môi trường (nhà kho / dây chuyền lạnh / bán lẻ / thực phẩm), số lượng và bất kỳ kích thước hiện có nào để phù hợp. Chúng tôi sẽ trả lời các tùy chọn sản phẩm và giá cả trong vòng 1 ngày làm việc."
+    "formDesc": "Chia sẻ ứng dụng của bạn — trọng lượng tải, môi trường (nhà kho / dây chuyền lạnh / bán lẻ / thực phẩm), số lượng và bất kỳ kích thước hiện có nào để phù hợp. Chúng tôi sẽ trả lời các tùy chọn sản phẩm và giá cả trong vòng 24–48 giờ."
   },
   "magnetic": {
     "badge": "Hộp quà đóng từ tính",
@@ -757,7 +757,7 @@
     "sustain3": "Lớp lót kraft có thể tái chế",
     "sustain4": "Được thiết kế để tái sử dụng - tác động vòng đời thấp hơn",
     "formTitle": "Yêu cầu báo giá hộp quà từ tính",
-    "formDesc": "Chia sẻ sản phẩm, khối lượng, kiểu hộp và sở thích cảm giác đóng cửa của bạn - đội ngũ kỹ sư của chúng tôi sẽ gửi thiết kế mẫu và báo giá trong vòng 1 ngày làm việc."
+    "formDesc": "Chia sẻ sản phẩm, khối lượng, kiểu hộp và sở thích cảm giác đóng cửa của bạn - đội ngũ kỹ sư của chúng tôi sẽ gửi thiết kế mẫu và báo giá trong vòng 24–48 giờ."
   },
   "jewelry": {
     "badge": "Hộp quà tặng trang sức",
@@ -1080,7 +1080,7 @@
     "process4Title": "Sản xuất hàng loạt",
     "process4Desc": "Chạy đầy đủ trên dây chuyền lắp ráp bán tự động hoặc tự động",
     "formTitle": "Yêu cầu báo giá hộp quà cứng sang trọng",
-    "formDesc": "Chia sẻ thương hiệu, danh mục sản phẩm và trải nghiệm mở hộp mục tiêu của bạn - nhóm thiết kế của chúng tôi sẽ gửi định hướng ý tưởng và báo giá trong vòng 1 ngày làm việc.",
+    "formDesc": "Chia sẻ thương hiệu, danh mục sản phẩm và trải nghiệm mở hộp mục tiêu của bạn - nhóm thiết kế của chúng tôi sẽ gửi định hướng ý tưởng và báo giá trong vòng 24–48 giờ.",
     "specEyebrow": "Nhận báo giá chính xác",
     "specTitle": "Cần gửi gì cho nhà máy hộp cứng để có báo giá chính xác",
     "specDesc": "Sáu thông tin giúp chúng tôi báo giá hộp quà cứng cao cấp của bạn ngay lần đầu — không cần qua lại nhiều lần.",
@@ -1389,7 +1389,7 @@
     "cap7": "Thử nghiệm được chứng nhận ISTA",
     "cap8": "Chứng nhận FSC & ISO 9001",
     "formTitle": "Nhận giá cho hộp vận chuyển & thùng carton xuất khẩu",
-    "formDesc": "Hãy cho chúng tôi biết về sản phẩm, khối lượng và điểm đến của bạn — chúng tôi sẽ trả lời báo giá phù hợp trong vòng 1 ngày làm việc."
+    "formDesc": "Hãy cho chúng tôi biết về sản phẩm, khối lượng và điểm đến của bạn — chúng tôi sẽ trả lời báo giá phù hợp trong vòng 24–48 giờ."
   },
   "certifications": {
     "badge": "Tin cậy và tuân thủ",
@@ -1750,13 +1750,13 @@
     "aboutTitle": "Nhà máy in Đông Quan Xinyuan là gì?",
     "faqTitle": "Các câu hỏi thường gặp",
     "faq1Q": "Nhà máy Đông Quan có thuộc Tập đoàn Jinhao Xinyuan không?",
-    "faq1A": "Có — Công ty TNHH In Đông Quan Xinyuan là trung tâm sản xuất tại Trung Quốc của Tập đoàn Jinhao Xinyuan, hoạt động song song với nhà máy của tập đoàn tại Bắc Giang, Việt Nam.",
+    "faq1A": "Có — Công ty TNHH In Đông Quan Xinyuan là trung tâm sản xuất tại Trung Quốc của Tập đoàn Jinhao Xinyuan, hoạt động song song với nhà máy của tập đoàn tại Bắc Ninh, Việt Nam.",
     "faq2Q": "Nhà máy Đông Quan sản xuất những sản phẩm gì?",
     "faq2A": "Hộp cứng, hộp carton gấp, hộp quà in ấn và sách hướng dẫn cho các thương hiệu điện tử, mỹ phẩm, thiết bị gia dụng và FMCG.",
     "faq3Q": "Nhà máy có những chứng nhận nào?",
     "faq3A": "Chứng nhận chuỗi hành trình sản phẩm FSC®, ISO 9001:2015, SMETA (Sedex) và quản lý màu G7®.",
     "faq4Q": "Các bạn có sản xuất tại Việt Nam không?",
-    "faq4A": "Có — tập đoàn vận hành một nhà máy đạt chuẩn FSC® và ISO 9001 tại Bắc Giang, Việt Nam, nên đơn hàng có thể đặt ở cả hai quốc gia với tiêu chuẩn tương đương.",
+    "faq4A": "Có — tập đoàn vận hành một nhà máy đạt chuẩn FSC® và ISO 9001 tại Bắc Ninh, Việt Nam, nên đơn hàng có thể đặt ở cả hai quốc gia với tiêu chuẩn tương đương.",
     "faq5Q": "Làm thế nào để yêu cầu báo giá hoặc tham quan nhà máy?",
     "faq5A": "Sử dụng biểu mẫu liên hệ trên trang này hoặc gửi email tới info@jinhaoxy.com kèm sản phẩm, số lượng và thị trường mục tiêu; đội ngũ vận hành tại Trung Quốc sẽ phản hồi kèm thông số và báo giá.",
     "aboutDesc1Pre": "Nằm ở trung tâm của trung tâm sản xuất của Trung Quốc, cơ sở này bao gồm ",
