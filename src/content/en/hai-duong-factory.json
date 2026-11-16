@@ -1,13 +1,13 @@
 {
   "slug": "hai-duong-factory",
-  "title": "XinYuan Packing Donguan",
+  "title": "XinYuan Packing Dongguan",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "XinYuan Packing Donguan"
+      "text": "XinYuan Packing Dongguan"
     },
     {
       "type": "text",
@@ -15,7 +15,7 @@
     },
     {
       "type": "text",
-      "text": "Location:Zone B, Qifeng lndustrial Park, Qishi Town, Dongguan City, Guangdong Province, China"
+      "text": "Location:Zone B, Qifeng Industrial Park, Qishi Town, Dongguan City, Guangdong Province, China"
     },
     {
       "type": "text",
@@ -31,5 +31,9 @@
       "alt": "微信图片_2025-08-13_170101_120"
     }
   ],
-  "faqs": []
+  "faqs": [],
+  "seo": {
+    "title": "XinYuan Packing Dongguan — Factory in Qishi, Guangdong",
+    "description": "XinYuan Packing Dongguan, a Jinhao Xinyuan Group factory in Qifeng Industrial Park, Qishi Town, Dongguan, Guangdong, China. Established July 2024."
+  }
 }

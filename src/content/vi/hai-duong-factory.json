@@ -1,13 +1,13 @@
 {
   "slug": "hai-duong-factory",
-  "title": "XinYuan đóng gói Donguan",
+  "title": "XinYuan đóng gói Dongguan",
   "parent": 0,
   "menu_order": 0,
   "blocks": [
     {
       "type": "heading",
       "level": 2,
-      "text": "XinYuan đóng gói Donguan"
+      "text": "XinYuan đóng gói Dongguan"
     },
     {
       "type": "text",
