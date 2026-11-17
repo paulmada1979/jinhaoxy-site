@@ -1,0 +1,366 @@
+{
+  "seo": {
+    "title": "Shipping Box Dimensions: How to Measure and Specify",
+    "description": "Shipping box dimensions explained: L x W x D order, inside vs outside sizes, clearance, pallet fit and dimensional weight, plus what to send a factory."
+  },
+  "faqs": [
+    {
+      "a": "Length x width x depth. Length and width are the two sides of the opening, with length the longer one, and depth is the distance from the opening to the bottom. Keeping that order tells the factory which faces carry the flaps.",
+      "q": "What order are shipping box dimensions written in?"
+    },
+    {
+      "a": "Carton factories normally quote inside dimensions, because the inside has to fit the product. Carriers, pallets and containers use outside dimensions. Label every size you send as inside or outside, and ask for both on the drawing.",
+      "q": "Are box dimensions inside or outside measurements?"
+    },
+    {
+      "a": "It depends on the board. The outside is larger by the board thickness at each wall and fold, so a single-wall E-flute mailer changes very little and a BC double-wall export carton changes more. Ask the factory for the outside size of your exact carton and board.",
+      "q": "How much bigger is the outside of a box than the inside?"
+    },
+    {
+      "a": "Measure the largest points of the packed product, including its retail pack and anything that sticks out, then allow for the insert or cushioning and enough room for the packer to close the flaps without force. Where possible, send a physical sample.",
+      "q": "How do I measure a product for a shipping box?"
+    },
+    {
+      "a": "Carriers bill the greater of actual weight and dimensional weight, which is calculated from the outside size of the parcel. An oversized box makes a light product cost more to ship, and on pallets it reduces how many units fit in a container.",
+      "q": "Why does box size change my shipping cost?"
+    },
+    {
+      "a": "Yes. The company lists custom sizing and die-cut options for its corrugated shipping boxes and export cartons, including RSC, double-wall BC-flute and pallet-ready cartons, made at its Vietnam plant.",
+      "q": "Does Jinhao Xinyuan make custom-size shipping boxes?"
+    }
+  ],
+  "slug": "shipping-box-dimensions-guide",
+  "draft": false,
+  "short": "Shipping box dimensions: how to measure and specify",
+  "title": "Shipping Box Dimensions: How to Measure, Specify and Size a Corrugated Carton",
+  "author": "Jinhao Xinyuan Group editorial team",
+  "blocks": [
+    {
+      "body": "Shipping box dimensions are written length x width x depth. Length and width are the two sides of the opening, length being the longer one; depth is the distance from the opening to the bottom. A manufacturer quotes inside dimensions, because the inside is what has to fit the product. Carriers, pallets and containers only ever see the outside dimensions, which are larger by the thickness of the board. Get both on the drawing before anything is cut.",
+      "type": "callout",
+      "title": "The short version",
+      "variant": "stat"
+    },
+    {
+      "text": "Most problems with shipping cartons are not strength problems. They are size problems: a carton a few millimetres too tight that slows the packing line, one too loose that lets the product move until a corner breaks, or one that fits the product but leaves a gap in every pallet layer or pushes a parcel into a higher dimensional-weight band. All of these start with the way the dimensions were written down.",
+      "type": "text"
+    },
+    {
+      "text": "Jinhao Xinyuan Group makes corrugated shipping boxes, export cartons and die-cut mailers at its Vietnam plant, which runs in-house corrugation, flexo and offset printing, die-cutting and ISTA testing. This guide explains how a carton factory reads the size you send it, and what to decide before you ask for a quote. Strength specifications (flute, ECT, BCT and burst) are covered in a separate article; here the subject is size.",
+      "type": "text"
+    },
+    {
+      "text": "How are shipping box dimensions written?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "The convention used across the corrugated industry is length x width x depth, always in that order. Look down into the open box. The two sides of the opening are the length and the width, and the length is the longer of the two. The depth, sometimes called height, is the third measurement, at right angles to the opening. A carton written as 400 x 300 x 250 mm therefore has an opening of 400 by 300 mm and is 250 mm deep.",
+      "type": "text"
+    },
+    {
+      "text": "The order matters because it decides where the flaps are. A regular slotted carton (RSC) has its flaps on the length and width panels, so a 400 x 300 x 250 carton and a 400 x 250 x 300 carton hold the same volume but open on different faces, fold differently, stack differently and use a different amount of board. If you write the numbers in a casual order, a factory can make exactly what you asked for and still deliver the wrong box.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Length: the longer side of the opening.",
+        "Width: the shorter side of the opening.",
+        "Depth (height): from the opening to the bottom, at right angles to the other two.",
+        "Units: state millimetres or inches on every drawing and every email. A mixed-unit brief is one of the most common causes of a wrong first sample.",
+        "Which face opens: if the product has to go in from the end, as with long items packed on an end-loading line, say so; the opening defines length and width."
+      ]
+    },
+    {
+      "body": "A die-cut mailer box is usually described as length x width x depth too, where the depth is the shallow dimension under the lid. The lid opens along the length. If the product has to sit a particular way up for the unboxing, mark the top face on your sketch.",
+      "type": "callout",
+      "title": "Mailers read the same way",
+      "variant": "tip"
+    },
+    {
+      "text": "What is the difference between inside and outside dimensions?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "A corrugated sheet has thickness, so every box has two sets of dimensions. The inside dimensions are the space available for the product. The outside dimensions are what the box measures on a pallet, on a conveyor or on a carrier's scanner. The difference between them comes from the board caliper at each wall and at each fold, and from the manufacturer's joint where the box is glued or stitched.",
+      "type": "text"
+    },
+    {
+      "text": "That difference is small on a single-wall E-flute mailer and noticeably larger on a BC double-wall export carton, because a double-wall board is roughly twice as thick. The heavier the board, the more the outside grows for the same inside. It is one reason a carton that was fine in single wall can stop fitting a pallet pattern or a shelf when it is upgraded to double wall for a longer export lane.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Use inside dimensions to design product fit, inserts and void fill.",
+        "Use outside dimensions for pallet patterns, container loading, shelf space and carrier pricing.",
+        "When you send a size, label it: 'ID' for inside or 'OD' for outside. An unlabelled size is read as inside dimensions by most carton factories.",
+        "Ask the factory to show both sets on the carton drawing, with the board grade written next to them, and to confirm them on the first sample."
+      ]
+    },
+    {
+      "body": "Measuring the outside of an existing carton and sending the result as the new size adds the board thickness twice: once when you measured and again when the factory builds a box with that inside size. Measure the product, or measure the inside of the old box, and label which one it is.",
+      "type": "callout",
+      "title": "Do not measure an old box and send that size",
+      "variant": "warning"
+    },
+    {
+      "text": "How much clearance should the product have?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "The inside of the box has to fit the packed product, not the bare item. Start from the largest points of the product including its own retail pack, any bag, label or protective film, and any parts that stick out such as a handle, a nozzle or a cable. Then add what has to go round it: the insert, the cushioning and the space the packer needs to get the item in and the flaps closed without forcing them.",
+      "type": "text"
+    },
+    {
+      "text": "There is no single correct allowance. A rigid, square product packed by hand in a snug carton needs only a little room. A product that is packed on an automatic line, or that varies slightly from unit to unit, needs more. Fragile goods need room for a proper insert or cushioning, and the cleanest answer is often to design the insert first and size the carton around it. Jinhao Xinyuan's engineering team designs trays and inserts from the exact product dimensions, with consistent tolerances so that products do not shift or collide in transit.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Too tight: slow packing, bulging panels, split corners and lower stacking strength, because a bulging wall no longer carries load straight down.",
+        "Too loose: the product moves, hits the walls on every drop and needs extra void fill, which costs time and material at every pack.",
+        "Just right: the product and its insert go in without force, nothing moves when the box is shaken, and the flaps close flat."
+      ]
+    },
+    {
+      "text": "Does the box style change how the dimensions are read?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Yes, slightly. The L x W x D rule holds for all of them, but each style uses board and space in its own way, and a factory will draw each one differently. Jinhao Xinyuan lists regular slotted cartons, double-wall BC-flute shipping cartons, custom die-cut structures and pallet-ready export cartons among its shipping box types, and die-cut mailers for e-commerce.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Regular slotted carton (RSC): the most common export carton. All flaps are the same length, and the outer flaps meet in the middle when closed. Dimensions are straightforward inside sizes.",
+        "Double-wall carton (BC flute): same layout as an RSC in a thicker board, for heavy goods and long export routes. Expect the outside to grow more for the same inside.",
+        "Die-cut mailer: one cut-and-creased blank that folds into a box with an attached lid, often with tuck flaps, auto-lock or tear strips. The depth is usually shallow and the inside fit is tighter.",
+        "Custom die-cut structures: built around a specific product, so the drawing, not the three numbers, is the real specification.",
+        "Pallet-ready export cartons: sized from the outside in, so the case pattern fills the pallet footprint."
+      ]
+    },
+    {
+      "text": "How does board choice interact with box size?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Size and strength are linked. A bigger carton has longer, wider panels, and long panels buckle under load more easily than short ones. The stacking strength of an assembled box depends on the edge crush strength of the board and on the box perimeter, which is why a carton that has grown in size often needs a stronger board, not the same board in a bigger blank.",
+      "type": "text"
+    },
+    {
+      "text": "Jinhao Xinyuan makes its shipping cartons from in-house corrugated board in B, C, E, BE and BC profiles, with triple wall as an option for industrial export requirements, on kraft or white-top FSC-certified liners. As a rough guide from the company's product pages: E-flute for smaller protective boxes and inner packaging, B-flute for strong medium-weight cartons, C-flute for general-purpose export cartons, BE double wall for added shock absorption in e-commerce, and BC double wall for the heaviest loads.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If the box is getting larger, check the strength specification again rather than assuming the old board will do.",
+        "If the box is getting heavier, decide the board before you lock the outside dimensions, because a double-wall upgrade changes them.",
+        "If the cartons will be stacked high in a container, state the stack height and the gross weight per carton so the factory can size and spec together."
+      ]
+    },
+    {
+      "text": "How should cartons be sized for pallets and containers?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "For an export program, the outside dimensions of the shipping carton decide how much product fits on a pallet and in a container, and therefore the freight cost per unit. A carton sized only around the product can leave a gap at the edge of every pallet layer, or overhang the pallet edge, where corners are crushed and the cartons below lose strength.",
+      "type": "text"
+    },
+    {
+      "text": "The better order is to start from the pallet footprint used on your lane and work inward: decide how many cartons per layer and how many layers, then set the outside dimensions so the pattern fills the footprint without overhang, and only then confirm that the inside still fits the product and insert. Jinhao Xinyuan says its pallet-ready export cartons are optimised for container loading and Euro-pallet sizing, and that its engineers work with retail brands to standardise dimensions and improve pallet utilisation.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tell the factory which pallet you use: a Euro pallet (1200 x 800 mm), a 1200 x 1000 mm pallet, a 48 x 40 inch North American pallet, or floor-loaded cartons with no pallet.",
+        "Give the maximum pallet height allowed by your warehouse or the container door, including the pallet itself.",
+        "Ask for cartons per layer, layers per pallet and cartons per container on the quote, so two suppliers can be compared like for like.",
+        "Avoid overhang: cartons over the pallet edge lose stacking strength first."
+      ]
+    },
+    {
+      "text": "What is dimensional weight, and why does box size affect shipping cost?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Parcel carriers and air freight do not only charge by weight. They also calculate a dimensional (volumetric) weight from the outside length, width and height of the package, and bill whichever is greater: the actual weight or the dimensional weight. A light product in an oversized box is therefore billed as if it were heavier than it is.",
+      "type": "text"
+    },
+    {
+      "text": "The divisor used to convert volume into dimensional weight differs by carrier, by service and by country, and carriers change it from time to time, so check the current figure with your own carrier rather than relying on a number from an old article. The principle stays the same: every centimetre of empty space in the outside dimensions is paid for on every parcel, and the effect is largest on light, bulky products.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Measure the outside of the packed, sealed parcel, because that is what the carrier measures. Bulging panels count.",
+        "Right-size the carton to the packed product rather than using one large stock size for everything.",
+        "Use an insert to hold the product instead of filling a large box with void fill.",
+        "If you ship several products, a small family of standard sizes is usually cheaper overall than one size that fits everything."
+      ]
+    },
+    {
+      "text": "Standard box sizes or custom sizes?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "Stock carton sizes suit low volumes, mixed products and urgent orders: they are available off the shelf and need no tooling. Their weakness is fit, and the gap is paid for in void fill, damage and dimensional weight on every shipment.",
+      "type": "text"
+    },
+    {
+      "text": "A custom size is made to the product, the insert, the pallet pattern and the print. Jinhao Xinyuan lists custom sizing and die-cut options for its shipping boxes, with flexo printing for handling marks, barcodes and logistics symbols and offset printing where retail graphics are needed. For a product line with volume, a custom carton usually earns back its setup through better pallet use, less void fill and fewer damaged units. Many programs end up with both: a few custom sizes for the main products and stock sizes for everything else.",
+      "type": "text"
+    },
+    {
+      "text": "Inside vs outside dimensions: who uses which",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "rows": [
+        [
+          "Inside dimensions (ID)",
+          "The space available for the product, insert and cushioning",
+          "Product designers, packing line, insert designer, carton factory",
+          "Box too tight or too loose; insert does not fit"
+        ],
+        [
+          "Outside dimensions (OD)",
+          "The size of the finished box, including board thickness",
+          "Carriers, warehouses, pallet and container planners, retailers",
+          "Pallet overhang, wasted container space, higher dimensional weight"
+        ],
+        [
+          "Depth (height)",
+          "Distance from the opening to the bottom",
+          "Stacking and pallet height planning",
+          "Pallet over the height limit; flaps that do not close"
+        ],
+        [
+          "Board grade",
+          "Flute profile and liner, which set the wall thickness",
+          "Carton factory, quality team",
+          "Outside grows after a single-wall to double-wall upgrade"
+        ],
+        [
+          "Packed parcel size",
+          "Outside of the sealed box as the carrier measures it",
+          "Parcel carriers and air freight",
+          "Bulging panels push the parcel into a higher price band"
+        ]
+      ],
+      "type": "table",
+      "caption": "Write inside or outside next to every size you send, and ask for both on the carton drawing.",
+      "headers": [
+        "Measurement",
+        "What it describes",
+        "Who relies on it",
+        "When it goes wrong"
+      ]
+    },
+    {
+      "text": "Common mistakes when specifying box dimensions",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sending dimensions in a random order, so the flaps end up on the wrong faces.",
+        "Not saying whether a size is inside or outside.",
+        "Measuring the bare product and forgetting its retail pack, bag, handle or cable.",
+        "Measuring an old carton from the outside and sending that as the new inside size.",
+        "Mixing millimetres and inches in the same brief.",
+        "Upgrading to double wall without checking the new outside size against the pallet pattern.",
+        "Sizing the carton before the insert is designed.",
+        "Approving a drawing without a physical sample filled with real product."
+      ]
+    },
+    {
+      "text": "What should you send a factory for a shipping box quote?",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "text": "A complete brief gets an accurate quote and a sample that fits the first time. Jinhao Xinyuan asks for box dimensions as length x width x height, the material and finish, any artwork and the target quantity. The more of the list below you can add, the fewer rounds of samples it takes.",
+      "type": "text"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The product: a physical sample if possible, or its largest dimensions and weight, including its retail pack.",
+        "Box size: length x width x depth, labelled inside or outside, with units.",
+        "Box style: RSC, die-cut mailer, double wall, or a custom structure, and which face opens.",
+        "Insert: whether the product needs a tray or insert, and whether you want the factory to design it.",
+        "Strength: gross weight per carton, stack height, and the lane (parcel, pallet, sea or air).",
+        "Pallet and container: pallet type, maximum pallet height, and whether cartons are floor-loaded.",
+        "Print: logistics marks, barcodes, handling symbols, or retail graphics, and the number of colours.",
+        "Quantities: first order and a realistic annual volume, and how many different sizes are in the program.",
+        "Compliance: FSC labelling, ISTA test requirements and any customer audit requirements."
+      ]
+    },
+    {
+      "text": "Ask for the carton drawing with inside and outside dimensions, the board grade, cartons per layer and per pallet, and the test the cartons will pass. Jinhao Xinyuan's Vietnam plant runs compression and drop tests (flat, edge and corner) in its ISTA lab, so the size you approve can also be checked against the way it will travel.",
+      "type": "text"
+    },
+    {
+      "body": "Send the product size and weight, the pallet you ship on and your volumes, and ask for a carton drawing with inside and outside dimensions.",
+      "href": "/contact-us/",
+      "type": "cta",
+      "title": "Get your carton sized and quoted"
+    }
+  ],
+  "cluster": "products",
+  "related": [
+    {
+      "kind": "blog",
+      "slug": "corrugated-mailer-specs-explained",
+      "label": "Corrugated mailer specs: flute, ECT, BCT and burst"
+    },
+    {
+      "kind": "blog",
+      "slug": "cardboard-inserts-and-trays-specification-guide",
+      "label": "Cardboard inserts and trays specification guide"
+    },
+    {
+      "kind": "blog",
+      "slug": "hai-duong-corrugated-factory-tour",
+      "label": "Inside a Vietnam corrugated factory"
+    },
+    {
+      "kind": "blog",
+      "slug": "vietnam-vs-china-landed-cost-worked-example",
+      "label": "Vietnam vs China landed cost, worked example"
+    }
+  ],
+  "category": "Product guides",
+  "coverAlt": "A steel tape measure laid across the open top of a brown corrugated shipping carton on a factory inspection table, with a printed carton drawing beside it",
+  "keywords": [
+    "shipping box dimensions",
+    "cardboard box dimensions",
+    "how to measure a shipping box",
+    "inside vs outside box dimensions",
+    "corrugated box sizes",
+    "dimensional weight box size",
+    "corrugated box manufacturer vietnam",
+    "export carton pallet sizing"
+  ],
+  "updatedAt": "2026-11-17",
+  "coverImage": "/blog/shipping-box-dimensions-guide-hero.jpg",
+  "readingMin": 11,
+  "description": "How shipping box dimensions are written and measured: L x W x D order, inside vs outside sizes, product clearance, pallet and container fit, dimensional weight and what to send a factory.",
+  "publishedAt": "2026-11-17"
+}
