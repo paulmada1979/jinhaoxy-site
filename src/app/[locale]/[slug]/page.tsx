@@ -26,6 +26,7 @@ import VietnamXinyuanjiaPage from "@/components/VietnamXinyuanjiaPage";
 import DongguanFactoryPage from "@/components/DongguanFactoryPage";
 import type { Metadata } from "next";
 import manifest from "@/content/manifest.json";
+import { buildPageJsonLd, jsonLdString } from "@/lib/structured-data";
 
 interface Manifest {
   en: { slug: string; title: string; blocks: number }[];
@@ -159,6 +160,22 @@ export default async function Page({
   const page = await loadPage(locale, slug);
   if (!page) notFound();
 
+  const jsonLd = await buildPageJsonLd(locale, slug, page);
+  return (
+    <>
+      {jsonLd.map((data, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonLdString(data) }}
+        />
+      ))}
+      {renderPage(slug, page)}
+    </>
+  );
+}
+
+function renderPage(slug: string, page: PageData) {
   if (slug === "contact-us") return <ContactPage page={page} />;
   if (slug === "about-us") return <AboutPage />;
   if (slug === "certifications") return <CertificationsPage />;
